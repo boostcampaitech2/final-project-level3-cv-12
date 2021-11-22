@@ -20,7 +20,7 @@ class ResnetBlock(nn.Module):
         else:
             raise NotImplementedError(
                 ('padding [%s] is not implemented' % padding_type))
-        conv_block += [nn.Conv(dim, dim, 3, padding=p),
+        conv_block += [nn.Conv2d(dim, dim, 3, padding=p),
                        norm_layer(dim), activation]
         if use_dropout:
             conv_block += [nn.Dropout(0.5)]
@@ -35,7 +35,7 @@ class ResnetBlock(nn.Module):
         else:
             raise NotImplementedError(
                 ('padding [%s] is not implemented' % padding_type))
-        conv_block += [nn.Conv(dim, dim, 3, padding=p), norm_layer(dim)]
+        conv_block += [nn.Conv2d(dim, dim, 3, padding=p), norm_layer(dim)]
         return nn.Sequential(*conv_block)
 
     def forward(self, x):
@@ -50,7 +50,7 @@ def Conv2D_Block(in_channels, out_channels, kernel_size, padding, stride):
                                    stride=stride,
                                    padding=padding),
                          nn.BatchNorm2d(out_channels),
-                         nn.LeakyReLU
+                         nn.LeakyReLU()
                          )
 
 
@@ -61,5 +61,5 @@ def ConvTrans2D_Block(in_channels, out_channels, kernel_size, padding, stride):
                                             stride=stride,
                                             padding=padding),
                          nn.BatchNorm2d(out_channels),
-                         nn.LeakyReLU
+                         nn.LeakyReLU()
                          )

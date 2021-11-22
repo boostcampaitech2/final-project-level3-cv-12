@@ -1,7 +1,7 @@
 import torch
 import torch.nn as nn
-from Block import ResnetBlock, Conv2D_Block, ConvTrans2D_Block
-from utils import weight_init_normal
+from module_fold.Block import ResnetBlock, Conv2D_Block, ConvTrans2D_Block
+from module_fold.utils import weight_init_normal
 
 
 def define_part_encoder(model='mouth', norm='instance', input_nc=1, latent_dim=512):
@@ -61,7 +61,7 @@ class CE_EncoderGen_Res(nn.Module):
 
         activation = nn.ReLU()
         padding_type = 'reflect'
-        norm_layer = nn.BatchNorm
+        norm_layer = nn.BatchNorm2d
 
         # conv1
         self.conv1_1 = Conv2D_Block(self.input_nc, 32, 4, 1, 2)
@@ -113,7 +113,7 @@ class CE_EncoderGen_Res(nn.Module):
         return self.fc(h)
 
 
-class CE_DecoderGen_Res(nn.Moudule):
+class CE_DecoderGen_Res(nn.Module):
     def __init__(self, norm_layer, image_size, output_nc, latent_dim=512):
         super(CE_DecoderGen_Res, self).__init__()
         self.norm_layer = norm_layer
@@ -127,7 +127,7 @@ class CE_DecoderGen_Res(nn.Moudule):
 
         activation = nn.ReLU()
         padding_type = 'reflect'
-        norm_layer = nn.BatchNorm
+        norm_layer = nn.BatchNorm2d
 
         # fc
         self.fc = nn.Linear(in_features=latent_dim, out_features=longsize)
@@ -161,7 +161,8 @@ class CE_DecoderGen_Res(nn.Moudule):
         self.convtr6_1 = ResnetBlock(
             32, padding_type=padding_type, activation=activation, norm_layer=norm_layer)
         self.convtr6_2 = nn.ReflectionPad2d(2)
-        self.convtr6_3 = Conv2D_Block(32, output_nc, kernel_size=5, padding=0)
+        self.convtr6_3 = Conv2D_Block(
+            32, output_nc, kernel_size=5, padding=0, stride=1)
 
         for m in self.modules():
             weight_init_normal(m)

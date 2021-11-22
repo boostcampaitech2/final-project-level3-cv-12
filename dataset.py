@@ -18,7 +18,7 @@ class CustomDataset(Dataset):
         self.image_paths = []
         self.points = []
 
-        self.setup(part)
+        self.setup(part, mode)
 
     def __getitem__(self, index):
 
@@ -69,4 +69,4 @@ class CustomDataset(Dataset):
 
     def read_image(self, index):
         image_path = self.image_paths[index]
-        return Image.oepn(image_path).convert("RGB")
+        return Image.open(image_path).convert("RGB")

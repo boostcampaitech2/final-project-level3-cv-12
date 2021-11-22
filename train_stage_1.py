@@ -4,7 +4,7 @@ import torch.nn as nn
 from torch.utils.data import DataLoader
 import numpy as np
 import random
-from module import CEModule
+from module_fold import CEModule
 import argparse
 import os
 from dataset import CustomDataset
@@ -31,7 +31,7 @@ def train(encoder, decoder, args):
     seed_everything(args.seed)
 
     # -- settings
-    use_cuda = torch.cuda.in_available()
+    use_cuda = torch.cuda.is_available()
     device = torch.device("cuda" if use_cuda else "cpu")
 
     # -- dataset, data loader -> 각 part 에 맞는 sketch를 잘라서 받아온다.
@@ -115,8 +115,8 @@ if __name__ == "__main__":
     parser.add_argument("--batch_size", type=int,
                         default=8, help="Size of batch")
 
-    part = parser.part
     args = parser.parse_args()
+    part = args.part
 
     part_encoder = CEModule.define_part_encoder(
         model=part, norm='instance', input_nc=1, latent_dim=512)
