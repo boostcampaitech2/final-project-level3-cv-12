@@ -71,22 +71,22 @@ class CE_EncoderGen_Res(nn.Module):
         # conv2
         self.conv2_1 = Conv2D_Block(32, 64, 4, 1, 2)
         self.conv2_2 = ResnetBlock(
-            32, padding_type=padding_type, activation=activation, norm_layer=norm_layer)
+            64, padding_type=padding_type, activation=activation, norm_layer=norm_layer)
 
         # conv3
         self.conv3_1 = Conv2D_Block(64, 128, 4, 1, 2)
         self.conv3_2 = ResnetBlock(
-            32, padding_type=padding_type, activation=activation, norm_layer=norm_layer)
+            128, padding_type=padding_type, activation=activation, norm_layer=norm_layer)
 
         # conv4
         self.conv4_1 = Conv2D_Block(128, 256, 4, 1, 2)
         self.conv4_2 = ResnetBlock(
-            32, padding_type=padding_type, activation=activation, norm_layer=norm_layer)
+            256, padding_type=padding_type, activation=activation, norm_layer=norm_layer)
 
         # conv5
         self.conv5_1 = Conv2D_Block(256, 512, 4, 1, 2)
         self.conv5_2 = ResnetBlock(
-            32, padding_type=padding_type, activation=activation, norm_layer=norm_layer)
+            512, padding_type=padding_type, activation=activation, norm_layer=norm_layer)
 
         # Fully connected layer
         self.fc = nn.Linear(in_features=longsize, out_features=latent_dim)
@@ -110,6 +110,7 @@ class CE_EncoderGen_Res(nn.Module):
         h = self.conv5_1(h)
         h = self.conv5_2(h)
 
+        h = h.view(h.shape[0], -1)
         return self.fc(h)
 
 
@@ -168,7 +169,10 @@ class CE_DecoderGen_Res(nn.Module):
             weight_init_normal(m)
 
     def forward(self, x):
-        h = self.convtr1_1(x)
+        h = self.fc(x)
+        h = h.view(h.shape[0], 512, self.latent_size, self.latent_size)
+
+        h = self.convtr1_1(h)
         h = self.convtr1_2(h)
 
         h = self.convtr2_1(h)

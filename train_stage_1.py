@@ -55,17 +55,19 @@ def train(encoder, decoder, args):
     #--- Loss & optimizer & scheduler
     model = nn.Sequential(encoder, decoder)
     critetrion = nn.MSELoss()
-    optimizer = torch.optim.AdamW
-    shcheduler = torch.optim.lr_scheduler.CosineAnnealingLR
+    optimizer = torch.optim.AdamW(
+        params=model.parameters(), lr=0.001, weight_decay=0.01)
+    shcheduler = torch.optim.lr_scheduler.CosineAnnealingLR(
+        optimizer=optimizer, T_max=20)
 
     for epoch in range(argparse.epoch):
         model.train()
         loss_value = 0
 
         for results, inputs in train_loader:
+            inputs = inputs.unsqueeze(axis=1).float()
             inputs = inputs.to(device)
-            results = results.to(device)
-            optimizer.zero_grad()
+            results = results.float().to(device)
             outs = model(inputs)
 
             loss = critetrion(outs, results)
@@ -80,16 +82,14 @@ def train(encoder, decoder, args):
 
         with torch.no_grad():
             print("Calculating validation results...")
-            encoder.eval()
-            decoder.eval()
+            model.eval()
             total_loss = 0.0
             cnt = 0
 
             for results, inputs in val_loader:
                 inputs = inputs.to(device)
                 results = results.to(device)
-                outs = encoder(inputs)
-                outs = decoder(outs)
+                outs = model(inputs)
                 loss = critetrion(outs, results)
                 total_loss += loss
                 cnt += 1
