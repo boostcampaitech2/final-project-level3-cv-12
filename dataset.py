@@ -65,7 +65,7 @@ class CustomDataset(Dataset):
                 image_part_point.append(json_data[img]["right_eye"])
                 image_part_point.append(json_data[img]["mouth"])
                 image_part_point.append(json_data[img]["nose"])
-                image_part_point = [256, 256]
+                image_part_point.append([256, 256])
 
             self.image_paths.append(image_path)
             self.points.append(image_part_point)
