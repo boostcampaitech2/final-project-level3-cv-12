@@ -10,6 +10,7 @@ import os
 from dataset import CustomDataset
 import multiprocessing
 from albumentations.augmentations.transforms import GaussNoise
+import wandb
 
 
 def seed_everything(seed):
@@ -29,6 +30,7 @@ def save_model(model, saved_dir, file_name):
 
 def train(encoder, decoder, args):
     seed_everything(args.seed)
+    wandb.init(project="Deep-drawing", entity="bcaitech_cv2")
 
     # -- settings
     use_cuda = torch.cuda.is_available()
@@ -51,21 +53,20 @@ def train(encoder, decoder, args):
                             drop_last=True)
 
     #--- Loss & optimizer & scheduler
+    model = nn.Sequential(encoder, decoder)
     critetrion = nn.MSELoss()
     optimizer = torch.optim.AdamW
     shcheduler = torch.optim.lr_scheduler.CosineAnnealingLR
 
     for epoch in range(argparse.epoch):
-        encoder.train()
-        decoder.train()
+        model.train()
         loss_value = 0
 
         for results, inputs in train_loader:
             inputs = inputs.to(device)
             results = results.to(device)
             optimizer.zero_grad()
-            outs = encoder(inputs)
-            outs = decoder(outs)
+            outs = model(inputs)
 
             loss = critetrion(outs, results)
             optimizer.zero_grad()
@@ -73,6 +74,7 @@ def train(encoder, decoder, args):
             optimizer.step()
 
             loss_value += loss.item()
+            wandb.log({"Train/loss": loss})
 
         shcheduler.step()
 
@@ -95,6 +97,7 @@ def train(encoder, decoder, args):
             avrg_loss = total_loss / cnt
             print(
                 f"Validation #{epoch} Average Loss : {round(avrg_loss.item(),4)}")
+            wandb.log({"Val/Average loss": avrg_loss})
             save_model(encoder, saved_dir=args.save_dir,
                        file_name=f"encoder_{args.part}_latest")
             save_model(decoder, saved_dir=args.save_dir,

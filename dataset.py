@@ -23,6 +23,7 @@ class CustomDataset(Dataset):
     def __getitem__(self, index):
 
         image = self.read_image(index)
+        print(image.size())
         points = self.points[index]
         if self.part != "face":
             patch_image = image[points[0]-(self.patch_size)//2:points[0] +
@@ -46,13 +47,15 @@ class CustomDataset(Dataset):
 
         return patch_image, patch_image_trans
 
+    def __len__(self):
+        return len(self.image_paths)
+
     def setup(self, part, mode):
         json_path = os.path.join(self.data_dir, f"{mode}.json")
         with open(json_path, "r") as f:
             json_data = json.load(f)
 
-        image_list = json_data["file_name"]
-        for img in image_list:
+        for img in json_data:
             image_path = os.path.join(self.data_dir, img)
             if part != "face":
                 image_part_point = json_data[img][part]
@@ -69,4 +72,4 @@ class CustomDataset(Dataset):
 
     def read_image(self, index):
         image_path = self.image_paths[index]
-        return Image.open(image_path).convert("RGB")
+        return Image.open(image_path)
