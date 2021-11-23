@@ -30,7 +30,7 @@ def save_model(model, saved_dir, file_name):
 
 def train(encoder, decoder, args):
     seed_everything(args.seed)
-    wandb.init(project="Deep-drawing", entity="bcaitech_cv2")
+    run = wandb.init(project="Deep-drawing", entity="bcaitech_cv2")
 
     # -- settings
     use_cuda = torch.cuda.is_available()
@@ -60,6 +60,9 @@ def train(encoder, decoder, args):
     shcheduler = torch.optim.lr_scheduler.CosineAnnealingLR(
         optimizer=optimizer, T_max=20)
 
+    columns = ["epoch", "mode", "input", "input with noise", "output"]
+    test_table = wandb.Table(columns=columns)
+
     for epoch in range(argparse.epoch):
         model.train()
         loss_value = 0
@@ -74,6 +77,9 @@ def train(encoder, decoder, args):
             optimizer.zero_grad()
             loss.backward()
             optimizer.step()
+
+            test_table.add_data(epoch+1, "train", wandb.Image(results.squeeze(axis=1)[
+                                0]), wandb.Image(inputs.squeeze(axis=1)[0]), wandb.Image(outs.squeeze(axis=1)[0]))
 
             loss_value += loss.item()
             wandb.log({"Train/loss": loss})
@@ -97,6 +103,9 @@ def train(encoder, decoder, args):
                 loss = critetrion(outs, results)
                 total_loss += loss
                 cnt += 1
+
+                test_table.add_data(epoch+1, "val", wandb.Image(results.squeeze(axis=1)[0]), wandb.Image(
+                    inputs.squeeze(axis=1)[0]), wandb.Image(outs.squeeze(axis=1)[0]))
 
             avrg_loss = total_loss / cnt
             print(
