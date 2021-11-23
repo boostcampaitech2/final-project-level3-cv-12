@@ -65,9 +65,9 @@ def train(encoder, decoder, args):
         loss_value = 0
 
         for step, (results, inputs) in enumerate(train_loader):
-            inputs = inputs.unsqueeze(axis=1).float()
-            inputs = inputs.to(device)
-            results = results.float().to(device)
+            inputs = inputs.unsqueeze(axis=1).float().to(device)
+            results = results.unsqueeze(axis=1).float().to(device)
+            model = model.to(device)
             outs = model(inputs)
 
             loss = critetrion(outs, results)
@@ -79,7 +79,7 @@ def train(encoder, decoder, args):
             wandb.log({"Train/loss": loss})
             if (step + 1) % 25 == 0:
                 print(
-                    f'Epoch [{epoch+1}/{epoch}], Step [{step+1}/{len(train_loader)}], Loss: {round(loss,4)}')
+                    f'Epoch [{epoch+1}/{args.epoch}], Step [{step+1}/{len(train_loader)}], Loss: {round(loss.item(),4)}')
 
         shcheduler.step()
 
@@ -90,9 +90,10 @@ def train(encoder, decoder, args):
             cnt = 0
 
             for results, inputs in val_loader:
-                inputs = inputs.to(device)
-                results = results.to(device)
+                inputs = inputs.unsqueeze(axis=1).float().to(device)
+                results = results.unsqueeze(axis=1).float().to(device)
                 outs = model(inputs)
+
                 loss = critetrion(outs, results)
                 total_loss += loss
                 cnt += 1
