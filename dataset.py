@@ -40,18 +40,18 @@ class CustomDataset(Dataset):
             if ymax > 512:
                 ymin, ymax = 512 - self.patch_size, 512
 
-            patch_image = image[xmin:xmax, ymin:ymax]
+            patch_image = image[ymin:ymax, xmin:xmax]
             patch_image_trans = patch_image
 
         else:
-            image[point[0][0]-64:point[0][0]+64,
-                  point[0][1]-64:point[0][1]+64] = 0
-            image[point[1][0]-64:point[0][0]+64,
-                  point[1][1]-64:point[0][1]+64] = 0
-            image[point[2][0]-96:point[0][0]+96,
-                  point[2][1]-96:point[0][1]+96] = 0
-            image[point[3][0]-80:point[0][0]+80,
-                  point[3][1]-80:point[0][1]+80] = 0
+            image[point[0][1]-64:point[0][1]+64,
+                  point[0][0]-64:point[0][0]+64] = 1
+            image[point[1][1]-64:point[1][1]+64,
+                  point[1][0]-64:point[1][0]+64] = 1
+            image[point[2][1]-96:point[2][1]+96,
+                  point[2][0]-96:point[2][0]+96] = 1
+            image[point[3][1]-80:point[3][1]+80,
+                  point[3][0]-80:point[3][0]+80] = 1
 
             patch_image = image
             patch_image_trans = patch_image
