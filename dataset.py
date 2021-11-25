@@ -1,7 +1,6 @@
 from torch.utils.data import Dataset
 import json
 import os
-import numpy as np
 import cv2
 
 
@@ -24,10 +23,25 @@ class CustomDataset(Dataset):
     def __getitem__(self, index):
 
         image = self.read_image(index)
-        point = list(map(int, self.points[index]))
+        point = self.points[index]
+
         if self.part != "face":
-            patch_image = image[point[0]-(self.patch_size)//2:point[0] +
-                                (self.patch_size)//2, point[1]-(self.patch_size)//2:point[1]+(self.patch_size)//2]
+            xmin = point[0]-(self.patch_size)//2
+            xmax = point[0] + (self.patch_size)//2
+            ymin = point[1]-(self.patch_size)//2
+            ymax = point[1]+(self.patch_size)//2
+
+            if xmin < 0:
+                xmin, xmax = 0, self.patch_size
+            if xmax > 512:
+                xmin, xmax = 512 - self.patch_size, 512
+            if ymin < 0:
+                ymin, ymax = 0, self.patch_size
+            if ymax > 512:
+                ymin, ymax = 512 - self.patch_size, 512
+
+            patch_image = image[xmin:xmax, ymin:ymax]
+            patch_image_trans = patch_image
 
         else:
             image[point[0][0]-64:point[0][0]+64,
@@ -43,7 +57,8 @@ class CustomDataset(Dataset):
             patch_image_trans = patch_image
 
         if self.transform is not None:
-            patch_image_trans = self.transform(patch_image)
+            patch_image_trans = self.transform(image=patch_image)
+            patch_image_trans = patch_image_trans["image"]
 
         return patch_image, patch_image_trans
 
@@ -58,14 +73,16 @@ class CustomDataset(Dataset):
         for img in json_data:
             image_path = os.path.join(self.data_dir, img)
             if part != "face":
-                image_part_point = json_data[img][part]
+                image_part_point = list(map(int, json_data[img][part]))
             else:
                 image_part_point = []
-                image_part_point.append(json_data[img]["left_eye"])
-                image_part_point.append(json_data[img]["right_eye"])
-                image_part_point.append(json_data[img]["mouth"])
-                image_part_point.append(json_data[img]["nose"])
-                image_part_point.append([256, 256])
+                image_part_point.append(
+                    list(map(int, json_data[img]["left_eye"])))
+                image_part_point.append(
+                    list(map(int, json_data[img]["right_eye"])))
+                image_part_point.append(
+                    list(map(int, json_data[img]["mouth"])))
+                image_part_point.append(list(map(int, json_data[img]["nose"])))
 
             self.image_paths.append(image_path)
             self.points.append(image_part_point)
@@ -73,5 +90,5 @@ class CustomDataset(Dataset):
     def read_image(self, index):
         image_path = self.image_paths[index]
         image = cv2.imread(image_path, cv2.IMREAD_GRAYSCALE).astype(float)
-        image /= 256
+        image /= 255
         return image

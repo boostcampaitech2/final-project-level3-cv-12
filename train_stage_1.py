@@ -11,6 +11,7 @@ from dataset import CustomDataset
 import multiprocessing
 from albumentations.augmentations.transforms import GaussNoise
 import wandb
+import cv2
 
 
 def seed_everything(seed):
@@ -59,11 +60,11 @@ def train(encoder, decoder, args):
         params=model.parameters(), lr=0.001, weight_decay=0.01)
     shcheduler = torch.optim.lr_scheduler.CosineAnnealingLR(
         optimizer=optimizer, T_max=20)
-
     columns = ["epoch", "mode", "input", "input with noise", "output"]
-    test_table = wandb.Table(columns=columns)
 
-    for epoch in range(argparse.epoch):
+    for epoch in range(args.epoch):
+        test_table = wandb.Table(columns=columns)
+
         model.train()
         loss_value = 0
 
@@ -95,7 +96,7 @@ def train(encoder, decoder, args):
             total_loss = 0.0
             cnt = 0
 
-            for results, inputs in val_loader:
+            for i, (results, inputs) in enumerate(val_loader):
                 inputs = inputs.unsqueeze(axis=1).float().to(device)
                 results = results.unsqueeze(axis=1).float().to(device)
                 outs = model(inputs)
@@ -104,28 +105,47 @@ def train(encoder, decoder, args):
                 total_loss += loss
                 cnt += 1
 
+                if epoch == 0:
+                    if i % 4 == 0:
+                        os.makedirs(
+                            f'{args.sample_img_dir}/{args.part}', exist_ok=True)
+                        sample = (np.array(results.detach().cpu()).squeeze(
+                            axis=1)[0]*255).astype('uint8')
+                        cv2.imwrite(f"{args.sample_img_dir}/{args.part}/original_{i}.png",
+                                    sample)
+
+                if i % 4 == 0:
+                    sample = (np.array(outs.detach().cpu()).squeeze(
+                        axis=1)[0]*255).astype('uint8')
+                    cv2.imwrite(f"{args.sample_img_dir}/{args.part}/{epoch+1}epoch_{i}.png",
+                                sample)
+
                 test_table.add_data(epoch+1, "val", wandb.Image(results.squeeze(axis=1)[0]), wandb.Image(
                     inputs.squeeze(axis=1)[0]), wandb.Image(outs.squeeze(axis=1)[0]))
 
-            avrg_loss = total_loss / cnt
+            avrg_loss = (total_loss / cnt)
             print(
-                f"Validation #{epoch} Average Loss : {round(avrg_loss.item(),4)}")
+                f"Validation #{epoch+1} Average Loss : {round(avrg_loss.item(),4)}")
             wandb.log({"Val/Average loss": avrg_loss})
             save_model(encoder, saved_dir=args.save_dir,
                        file_name=f"encoder_{args.part}_latest")
             save_model(decoder, saved_dir=args.save_dir,
                        file_name=f"decoder_{args.part}_latest")
 
+        run.log({"table_key": test_table})
+
 
 if __name__ == "__main__":
     parser = argparse.ArgumentParser()
-    parser.add_argument('--part', type=str, default='mouth',
+    parser.add_argument('--part', type=str, default='face',
                         help="Choose part name to encode")
     parser.add_argument('--seed', type=int, default=21, help="Fixing seed")
     parser.add_argument("--sketch_dir", type=str,
-                        default="None", help="Loactaion of Sketch")
+                        default="/opt/ml/project/final-project-level3-cv-12/images/sketched_images", help="Loactaion of Sketch")
     parser.add_argument("--save_dir", type=str,
-                        default="None", help="Loactaion to save pth")
+                        default="/opt/ml/project/final-project-level3-cv-12/module_pth", help="Loactaion to save pth")
+    parser.add_argument("--sample_img_dir", type=str,
+                        default="/opt/ml/project/final-project-level3-cv-12/sample_img", help="Loactaion to save sample image")
     parser.add_argument("--epoch", type=int,
                         default=200, help="Number of epoch")
     parser.add_argument("--batch_size", type=int,
