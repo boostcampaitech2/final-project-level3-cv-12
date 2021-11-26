@@ -6,7 +6,7 @@ import random
 from module_fold import FMModule, ISModule
 import argparse
 import os
-from dataset import CustomDataset
+from dataset import CustomVectorset
 import multiprocessing
 import wandb
 
@@ -35,7 +35,12 @@ def train(encoder, decoder, args):
     device = torch.device("cuda" if use_cuda else "cpu")
 
     # -- dataset, data loader -> 각 part 에 맞는 sketch를 잘라서 받아온다.
+    train_dataset = CustomVectorset()
 
+    train_loader = DataLoader(train_dataset, batch_size=args.batch_size, num_workers=multiprocessing.cpu_count()//2,
+                              shuffle=True,
+                              pin_memory=use_cuda,
+                              drop_last=True)
     #--- Loss & optimizer & scheduler
     decoder_mouth = FMModule.FMModule(
         norm_layer, image_size=192, output_nc=32, latent_dim=512)

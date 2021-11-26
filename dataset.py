@@ -2,6 +2,8 @@ from torch.utils.data import Dataset
 import json
 import os
 import cv2
+from module_fold import CEModule
+import torch
 
 
 class CustomDataset(Dataset):
@@ -95,11 +97,44 @@ class CustomDataset(Dataset):
 
 
 class CustomVectorset(Dataset):
-    def __init__(self):
+    def __init__(self, img_dir, sketch_dir, pth_dir, mode):
         super().__init__()
+        self.img_dir = img_dir
+        self.sketch_dir = sketch_dir
+        self.pth_dir = pth_dir
+        self.part = ['mouth', 'left_eye', 'right_eye', 'nose', 'face']
+        self.mode = mode
 
     def __getitem__(self, index):
-        return
+        _, mouth_patch = self.get_part_patch("mouth", index)
+        _, l_eye_patch = self.get_part_patch("left_eye", index)
+        _, r_eye_patch = self.get_part_patch("right_eye", index)
+        _, nose_patch = self.get_part_patch("nose", index)
+        _, face_patch = self.get_part_patch("face", index)
+
+        part_encoder = {}
+        for part in self.part:
+            part_encoder[part] = CEModule.define_part_encoder(
+                model=part, norm='instance', input_nc=1, latent_dim=512)
+            checkpoint = torch.load(
+                os.join(self.pth_dir, f"encoder_{part}_latest.pth"))
+            state_dict = checkpoint.state_dict()
+            part_encoder[part].load_state_dict(state_dict)
+            part_encoder[part].eval()
+
+        mouth_v = part_encoder["mouth"](mouth_patch)
+        l_eye_v = part_encoder["left_eye"](l_eye_patch)
+        r_eye_v = part_encoder["right_eye"](r_eye_patch)
+        nose_v = part_encoder["nose"](nose_patch)
+        face_v = part_encoder["face"](face_patch)
+
+        real_img =
+        return mouth_v, l_eye_v, r_eye_v, nose_v, face_v, real_img
 
     def __len__(self):
         return
+
+    def get_part_patch(self, part, index):
+        PartDataset = CustomDataset(
+            self, self.sketch_dir, part, self.mode, transform=None)
+        return PartDataset[index]
