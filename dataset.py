@@ -92,3 +92,14 @@ class CustomDataset(Dataset):
         image = cv2.imread(image_path, cv2.IMREAD_GRAYSCALE).astype(float)
         image /= 255
         return image
+
+
+class CustomVectorset(Dataset):
+    def __init__(self):
+        super().__init__()
+
+    def __getitem__(self, index):
+        return
+
+    def __len__(self):
+        return

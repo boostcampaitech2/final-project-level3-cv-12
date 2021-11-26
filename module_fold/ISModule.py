@@ -36,5 +36,13 @@ class GlobalGenerator(nn.Module):
         for m in self.modules():
             weight_init_normal(m)
 
-    def execute(self, input):
+    def forward(self, input):
+        return self.model(input)
+
+
+class GlobalDiscriminator(nn.Module):
+    def __init__(self, dfd):
+        dfdf
+
+    def forward(self, input):
         return self.model(input)
