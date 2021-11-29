@@ -49,7 +49,7 @@ def train(encoder, decoder, args):
                               drop_last=True)
 
     val_loader = DataLoader(val_dataset, batch_size=args.batch_size, num_workers=multiprocessing.cpu_count()//2,
-                            shuffle=True,
+                            shuffle=False,
                             pin_memory=use_cuda,
                             drop_last=True)
 
@@ -128,9 +128,9 @@ def train(encoder, decoder, args):
                 f"Validation #{epoch+1} Average Loss : {round(avrg_loss.item(),4)}")
             wandb.log({"Val/Average loss": avrg_loss})
             save_model(encoder, saved_dir=args.save_dir,
-                       file_name=f"encoder_{args.part}_latest")
+                       file_name=f"encoder_{args.part}__{epoch}.pth")
             save_model(decoder, saved_dir=args.save_dir,
-                       file_name=f"decoder_{args.part}_latest")
+                       file_name=f"decoder_{args.part}_latest.pth")
 
         run.log({"table_key": test_table})
 
