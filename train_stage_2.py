@@ -69,6 +69,11 @@ def train(args):
 
     optimizer_G = torch.optim.AdamW(
         params=generator.parameters(), lr=0.001, weight_decay=0.01)
+    optimizer_G.add_param_group(decoder_mouth.parameters())
+    optimizer_G.add_param_group(decoder_l_eye.parameters())
+    optimizer_G.add_param_group(decoder_r_eye.parameters())
+    optimizer_G.add_param_group(decoder_nose.parameters())
+    optimizer_G.add_param_group(decoder_face.parameters())
     optimizer_D = torch.optim.AdamW(
         params=discriminator.parameters(), lr=0.001, weight_decay=0.01)
     shcheduler_G = torch.optim.lr_scheduler.CosineAnnealingLR(

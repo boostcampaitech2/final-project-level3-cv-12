@@ -40,9 +40,9 @@ def train(encoder, decoder, args):
     # -- dataset, data loader -> 각 part 에 맞는 sketch를 잘라서 받아온다.
     train_dataset = CustomDataset(
         data_dir=args.sketch_dir, part=args.part, mode="train", transform=GaussNoise(var_limit=(0, 1), mean=0.5, per_channel=True, always_apply=False, p=0.5))
-    val_dataset = CustomDataset(
-        data_dir=args.sketch_dir, part=args.part, mode="val")
 
+    val_dataset = CustomDataset(
+        data_dir=args.sketch_dir, part=args.part, mode="val", transform=None)
     train_loader = DataLoader(train_dataset, batch_size=args.batch_size, num_workers=multiprocessing.cpu_count()//2,
                               shuffle=True,
                               pin_memory=use_cuda,
@@ -113,12 +113,12 @@ def train(encoder, decoder, args):
                             axis=1)[0]*255).astype('uint8')
                         cv2.imwrite(f"{args.sample_img_dir}/{args.part}/original_{i}.png",
                                     sample)
-
-                if i % 4 == 0:
-                    sample = (np.array(outs.detach().cpu()).squeeze(
-                        axis=1)[0]*255).astype('uint8')
-                    cv2.imwrite(f"{args.sample_img_dir}/{args.part}/{epoch+1}epoch_{i}.png",
-                                sample)
+                if epoch % 20 == 19:
+                    if i % 4 == 0:
+                        sample = (np.array(outs.detach().cpu()).squeeze(
+                            axis=1)[0]*255).astype('uint8')
+                        cv2.imwrite(f"{args.sample_img_dir}/{args.part}/{epoch+1}epoch_{i}.png",
+                                    sample)
 
                 test_table.add_data(epoch+1, "val", wandb.Image(results.squeeze(axis=1)[0]), wandb.Image(
                     inputs.squeeze(axis=1)[0]), wandb.Image(outs.squeeze(axis=1)[0]))
@@ -127,10 +127,12 @@ def train(encoder, decoder, args):
             print(
                 f"Validation #{epoch+1} Average Loss : {round(avrg_loss.item(),4)}")
             wandb.log({"Val/Average loss": avrg_loss})
-            save_model(encoder, saved_dir=args.save_dir,
-                       file_name=f"encoder_{args.part}__{epoch}.pth")
-            save_model(decoder, saved_dir=args.save_dir,
-                       file_name=f"decoder_{args.part}_latest.pth")
+            os.makedirs(f'{args.save_dir}/{args.part}', exist_ok=True)
+            if epoch % 20 == 19:
+                save_model(encoder, saved_dir=os.path.join(args.save_dir, args.part),
+                           file_name=f"encoder_{epoch+1}.pth")
+                save_model(decoder, saved_dir=os.path.join(args.save_dir, args.part),
+                           file_name=f"decoder_{epoch+1}.pth")
 
         run.log({"table_key": test_table})
 
