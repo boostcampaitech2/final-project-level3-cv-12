@@ -97,6 +97,9 @@ def train(args):
         generator.train()
         discriminator.train()
 
+        loss_G_value = 0
+        loss_D_value = 0
+
         for step, (img, points, fvs) in enumerate(train_loader):
             img = img.to(device)
             whole_feature = decoder_remainder(fvs['remainder'])
@@ -134,8 +137,12 @@ def train(args):
             optimizer_D.zero_grad()
             loss_D.backward()
             optimizer_D.step()
+
+            loss_G_value += loss_G.item()
+            loss_D_value += loss_D.item()
+            wandb.log({"Train/loss_G": loss_G, "Train/loss_D": loss_D})
             print(
-                f"[Epoch {epoch}/{n_epochs}] [D loss: {loss_D.item():.6f}] [G pixel loss: {loss_pixel.item():.6f}]")
+                f"[Epoch {epoch+1}/{args.epochs}] , Step [{step+1}/{len(train_loader)}],[D loss: {loss_D.item():.6f}] [G loss: {loss_G.item():.6f}]")
 
         shcheduler_D.step()
         shcheduler_G.step()
@@ -170,9 +177,10 @@ def train(args):
 
                 sample_image = output[0]
                 sample_image = cv2.cvtColor(sample_image, cv2.COLOR_BGR2RGB)
-                cv2.imwrite(, sample_image)
-                print(f"Average PSNR is {round(total_psnr/(step+1),2)}")
+                cv2.imwrite(args.sample_img_dir, sample_image)
 
+            print(f"Average PSNR is {round(total_psnr/(step+1),2)}")
+            wandb.log({"Val/Average PSNR": round(total_psnr/(step+1), 2)})
             if epoch % 20 == 19:
                 save_model(decoder_mouth, saved_dir=args.save_dir+"/feature_decoder_mouth",
                            file_name=f"{epoch+1}.pth")
