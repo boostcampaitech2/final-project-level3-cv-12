@@ -15,8 +15,7 @@ def get_part_vector(part, patch):
 
 
 def inference(image):
-    parts = {"": (0, 0, 512),
-             'eye1': (108, 156, 128),
+    parts = {'eye1': (108, 156, 128),
              'eye2': (255, 156, 128),
              'nose': (182, 232, 160),
              'mouth': (169, 301, 192)}
@@ -26,6 +25,8 @@ def inference(image):
     for part in parts.keys():
         part_vector[part] = get_part_vector(
             part, image[parts[part][1]:parts[part][1]+parts[part][2], parts[part][0]:parts[part][0]+parts[part][2], :])
+
+    part_vector["remainder"] = get_part_vector("remainder", image)
 
     Decoder_model = {}
     for part in parts.keys():

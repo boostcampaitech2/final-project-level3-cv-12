@@ -10,6 +10,7 @@ from dataset import FEDataset
 import multiprocessing
 import wandb
 from math import log10
+import cv2
 
 
 def seed_everything(seed):
@@ -133,6 +134,8 @@ def train(args):
             optimizer_D.zero_grad()
             loss_D.backward()
             optimizer_D.step()
+            print(
+                f"[Epoch {epoch}/{n_epochs}] [D loss: {loss_D.item():.6f}] [G pixel loss: {loss_pixel.item():.6f}]")
 
         shcheduler_D.step()
         shcheduler_G.step()
@@ -147,7 +150,7 @@ def train(args):
             generator.eval()
             discriminator.eval()
 
-            total_psnr = 0
+            total_psnr = 0.0
             for step, (img, points, fvs) in enumerate(val_loader):
 
                 whole_feature = decoder_remainder(fvs['remainder'])
@@ -164,6 +167,10 @@ def train(args):
                 mse = criterion_GAN(output, img)
                 psnr = 10 * log10(1/mse.item())
                 total_psnr += psnr
+
+                sample_image = output[0]
+                sample_image = cv2.cvtColor(sample_image, cv2.COLOR_BGR2RGB)
+                cv2.imwrite(, sample_image)
                 print(f"Average PSNR is {round(total_psnr/(step+1),2)}")
 
             if epoch % 20 == 19:
