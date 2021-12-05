@@ -3,13 +3,13 @@ import torch.nn as nn
 from torch.utils.data import DataLoader
 import numpy as np
 import random
-from module_fold import FMModule, ISModule
+from module_fold import CEModule, ISModule
 import argparse
 import os
 from dataset import FEDataset
 import multiprocessing
 import wandb
-from math import log10
+from math import log10, remainder
 import cv2
 
 
@@ -24,6 +24,7 @@ def seed_everything(seed):
 
 def save_model(model, saved_dir, file_name):
     check_point = {'net': model.state_dict()}
+    os.makedirs(saved_dir, exist_ok=True)
     output_path = os.path.join(saved_dir, file_name)
     torch.save(model, output_path)
 
@@ -37,8 +38,10 @@ def train(args):
     device = torch.device("cuda" if use_cuda else "cpu")
 
     # -- dataset, data loader -> 각 part 에 맞는 sketch를 잘라서 받아온다.
-    train_dataset = FEDataset(json_path, fv_path)
-    val_dataset = FEDataset(json_path, fv_path)
+    train_dataset = FEDataset(json_path="/opt/ml/project/data/train.json",
+                              fv_path="/opt/ml/project/data/fv_train.json")
+    val_dataset = FEDataset(json_path="/opt/ml/project/data/val.json",
+                            fv_path="/opt/ml/project/data/fv_val.json")
 
     train_loader = DataLoader(train_dataset, batch_size=args.batch_size, num_workers=multiprocessing.cpu_count()//2,
                               shuffle=True,
@@ -49,90 +52,91 @@ def train(args):
                             pin_memory=use_cuda,
                             drop_last=True)
 
-    #--- Loss & optimizer & scheduler
-    decoder_mouth = FMModule.FMModule(
-        norm_layer="instance", image_size=192, output_nc2=32, latent_dim=512)
-    decoder_l_eye = FMModule.FMModule(
-        norm_layer='instance', image_size=128, output_nc=32, latent_dim=512)
-    decoder_r_eye = FMModule.FMModule(
-        norm_layer='instance', image_size=128, output_nc=32, latent_dim=512)
-    decoder_nose = FMModule.FMModule(
-        norm_layer='instance', image_size=160, output_nc=32, latent_dim=512)
-    decoder_remainder = FMModule.FMModule(
-        norm_layer='instance', image_size=512, output_nc=32, latent_dim=512)
+    # --- Loss & optimizer & scheduler
+    parts = ["mouth", "left_eye", "right_eye", "nose", "remainder"]
+    decoder_parts = {}
+    for part in parts:
+        decoder_parts[part] = CEModule.define_part_decoder(model=part)
+        check_point_part = torch.load(os.pth.join(args.pth_path, part+".pth")
+        state_dict=check_point_part.state_dict()
+        decoder_parts[part].load_state_dict(state_dict)
+        decoder_parts[part]=decoder_parts[part].to(device)
+        decoder_parts[part].eval()
 
-    generator = ISModule.Generator(input_nc=32, output_nc=3, ngf=56, n_downsampling=3,
-                                   n_blocks=9, norm_layer=nn.BatchNorm, padding_type='reflect')
-    discriminator = ISModule.Discriminator(input_nc=32)
 
-    criterion_GAN = torch.nn.MSELoss()
-    criterion_pixelwise = torch.nn.L1Loss()
-
-    optimizer_G = torch.optim.AdamW(
-        params=generator.parameters(), lr=0.001, weight_decay=0.01)
-    optimizer_G.add_param_group(decoder_mouth.parameters())
-    optimizer_G.add_param_group(decoder_l_eye.parameters())
-    optimizer_G.add_param_group(decoder_r_eye.parameters())
-    optimizer_G.add_param_group(decoder_nose.parameters())
-    optimizer_G.add_param_group(decoder_remainder.parameters())
-    optimizer_D = torch.optim.AdamW(
-        params=discriminator.parameters(), lr=0.001, weight_decay=0.01)
-    shcheduler_G = torch.optim.lr_scheduler.CosineAnnealingLR(
-        optimizer=optimizer_G, T_max=20)
-    shcheduler_D = torch.optim.lr_scheduler.CosineAnnealingLR(
-        optimizer=optimizer_D, T_max=20)
-
-    lambda_pixel = 100
-
-    decoder_mouth.to(device)
-    decoder_l_eye.to(device)
-    decoder_r_eye.to(device)
-    decoder_nose.to(device)
-    decoder_remainder.to(device)
+    generator=ISModule.Generator(input_nc=5, output_nc=3, ngf=56, n_downsampling=3,
+                                   n_blocks=9, norm_layer=nn.BatchNorm2d, padding_type='reflect')
+    discriminator=ISModule.Discriminator(input_nc=5)
     generator.to(device)
     discriminator.to(device)
+
+    criterion_GAN=torch.nn.MSELoss()
+    criterion_pixelwise=torch.nn.L1Loss()
+
+    optimizer_G=torch.optim.AdamW(
+        params=generator.parameters(), lr=0.001, weight_decay=0.01)
+    optimizer_D=torch.optim.AdamW(
+        params=discriminator.parameters(), lr=0.001, weight_decay=0.01)
+    shcheduler_G=torch.optim.lr_scheduler.CosineAnnealingLR(
+        optimizer=optimizer_G, T_max=20)
+    shcheduler_D=torch.optim.lr_scheduler.CosineAnnealingLR(
+        optimizer=optimizer_D, T_max=20)
+
+    lambda_pixel=100
 
     for epoch in range(args.epoch):
 
         generator.train()
         discriminator.train()
 
-        loss_G_value = 0
-        loss_D_value = 0
+        loss_G_value=0
+        loss_D_value=0
 
         for step, (img, points, fvs) in enumerate(train_loader):
-            img = img.to(device)
-            whole_feature = decoder_remainder(fvs['remainder'])
-            whole_feature[:, :, points['mouth'][1]-96: points['mouth'][1] + 96,
-                          points['mouth'][0]-96:points['mouth'][0] + 96] = decoder_mouth(fvs['mouth'])
-            whole_feature[:, :, points['nose'][1]-80: points['nose'][1] + 80,
-                          points['nose'][0]-80: points['nose'][1]+80] = decoder_nose(fvs['nose'])
-            whole_feature[:, :, points['left_eye'][1]-64: points['left_eye'][1] + 64,
-                          points['left_eye'][0]-64:points['left_eye'][0] + 64] = decoder_l_eye(fvs['left_eye'])
-            whole_feature[:, :, points['right_eye'][1]-64: points['right_eye'][1]+64,
-                          points['right_eye'][0]-64: + points['right_eye'][0]+64] = decoder_r_eye(fvs['right_eye'])
+            img=np.transpose(img, (0, 3, 1, 2))
+            img=img.float().to(device)
 
-            output = generator(whole_feature)
-            discrim_fake = discriminator(output, whole_feature)
+            fv_l_eye=fvs[:, 0, :].squeeze(axis=1).to(device)
+            fv_r_eye=fvs[:, 1, :].squeeze(axis=1).to(device)
+            fv_nose=fvs[:, 2, :].squeeze(axis=1).to(device)
+            fv_mouth=fvs[:, 3, :].squeeze(axis=1).to(device)
+            fv_remainder=fvs[:, 4, :].squeeze(
+                axis=1).to(device)  # (4, 1, 512, 512)
 
-            loss_gan = criterion_GAN(
+            whole_feature=torch.FloatTensor(
+                np.zeros((args.batch_size, 5, 512, 512))).to(device)
+            whole_feature[:, 0:1, :, :] += decoder_remainder(fv_remainder)
+            for i in range(args.batch_size):
+                whole_feature[i, 1:2, points[i, 3, 1]-96: points[i, 3, 1] + 96,
+                                points[i, 3, 0]-96:points[i, 3, 0] + 96] += decoder_parts[mouth](fv_mouth)[i, :, :, :]
+                whole_feature[i, 2:3, points[i, 2, 1]-80: points[i, 2, 1] + 80,
+                                points[i, 2, 0]-80: points[i, 2, 0]+80] += decoder_parts[nose](fv_nose)[i, :, :, :]
+                whole_feature[i, 3:4, points[i, 0, 1]-64: points[i, 0, 1] + 64,
+                                points[i, 0, 0]-64:points[i, 0, 0] + 64] += decoder_parts[l_eye](fv_l_eye)[i, :, :, :]
+                whole_feature[i, 4:5, points[i, 1, 1]-64: points[i, 1, 1]+64,
+                                points[i, 1, 0]-64: + points[i, 1, 0]+64] += decoder_parts[r_eye](fv_r_eye)[i, :, :, :]
+
+            output=generator(whole_feature)
+            discrim_fake=discriminator(output, whole_feature)
+
+            loss_gan=criterion_GAN(
                 discrim_fake, torch.ones_like(discrim_fake))
-            loss_pixel = criterion_pixelwise(output, img)
-            loss_G = loss_gan + loss_pixel*lambda_pixel
+            loss_pixel=criterion_pixelwise(output, img)
+            loss_G=loss_gan + loss_pixel*lambda_pixel
 
             optimizer_G.zero_grad()
-            loss_G.backward()
+            loss_G.backward(retain_graph=True)
             optimizer_G.step()
 
-            discrim_real = discriminator(img, whole_feature)
-            loss_real = criterion_GAN(
+            discrim_real=discriminator(img, whole_feature)
+            loss_real=criterion_GAN(
                 discrim_real, torch.ones_like(discrim_real))
 
-            discrim_fake = discriminator(output.detach(), whole_feature)
-            loss_fake = criterion_GAN(
+            discrim_fake=discriminator(output.detach(), whole_feature)
+            loss_fake=criterion_GAN(
                 discrim_fake, torch.zeros_like(discrim_fake))
 
-            loss_D = (loss_fake+loss_real)*0.5
+            loss_D=(loss_fake+loss_real)*0.5
 
             optimizer_D.zero_grad()
             loss_D.backward()
@@ -149,34 +153,36 @@ def train(args):
 
         with torch.no_grad():
             print("Calculating validation results...")
-            decoder_mouth.eval()
-            decoder_l_eye.eval()
-            decoder_r_eye.eval()
-            decoder_nose.eval()
-            decoder_remainder.eval()
             generator.eval()
             discriminator.eval()
 
-            total_psnr = 0.0
+            total_psnr=0.0
             for step, (img, points, fvs) in enumerate(val_loader):
+                img=img.to(device)
+                fv_l_eye=fvs[:, 0, :].squeeze(axis=1).to(device)
+                fv_r_eye=fvs[:, 1, :].squeeze(axis=1).to(device)
+                fv_nose=fvs[:, 2, :].squeeze(axis=1).to(device)
+                fv_mouth=fvs[:, 3, :].squeeze(axis=1).to(device)
+                fv_remainder=fvs[:, 4, :].squeeze(axis=1).to(device)
 
-                whole_feature = decoder_remainder(fvs['remainder'])
-                whole_feature[:, :, points['mouth'][1]-96: points['mouth'][1] + 96,
-                              points['mouth'][0]-96:points['mouth'][0] + 96] = decoder_mouth(fvs['mouth'])
-                whole_feature[:, :, points['nose'][1]-80: points['nose'][1] + 80,
-                              points['nose'][0]-80: points['nose'][1]+80] = decoder_nose(fvs['nose'])
-                whole_feature[:, :, points['left_eye'][1]-64: points['left_eye'][1] + 64,
-                              points['left_eye'][0]-64:points['left_eye'][0] + 64] = decoder_l_eye(fvs['left_eye'])
-                whole_feature[:, :, points['right_eye'][1]-64: points['right_eye'][1]+64,
-                              points['right_eye'][0]-64: + points['right_eye'][0]+64] = decoder_r_eye(fvs['right_eye'])
+                whole_feature=decoder_remainder(fv_remainder)
+                for i in range(args.batch_size):
+                    whole_feature[i, :, points[i, 3, 1]-96: points[i, 3, 1] + 96,
+                                  points[i, 3, 0]-96:points[i, 3, 0] + 96]=decoder_mouth(fv_mouth)[i, :, :, :]
+                    whole_feature[:, :, points[i, 2, 1]-80: points[i, 2, 1] + 80,
+                                  points[i, 2, 0]-80: points[i, 2, 0]+80]=decoder_nose(fv_nose)[i, :, :, :]
+                    whole_feature[:, :, points[i, 0, 1]-64: points[i, 0, 1] + 64,
+                                  points[i, 0, 0]-64:points[i, 0, 0] + 64]=decoder_l_eye(fv_l_eye)[i, :, :, :]
+                    whole_feature[:, :, points[i, 1, 1]-64: points[i, 1, 1]+64,
+                                  points[i, 1, 0]-64: + points[i, 1, 0]+64]=decoder_r_eye(fv_r_eye)[i, :, :, :]
 
-                output = generator(whole_feature)
-                mse = criterion_GAN(output, img)
-                psnr = 10 * log10(1/mse.item())
+                output=generator(whole_feature)
+                mse=criterion_GAN(output, img)
+                psnr=10 * log10(1/mse.item())
                 total_psnr += psnr
 
-                sample_image = output[0]
-                sample_image = cv2.cvtColor(sample_image, cv2.COLOR_BGR2RGB)
+                sample_image=output[0]
+                sample_image=cv2.cvtColor(sample_image, cv2.COLOR_BGR2RGB)
                 cv2.imwrite(args.sample_img_dir, sample_image)
 
             print(f"Average PSNR is {round(total_psnr/(step+1),2)}")
@@ -199,21 +205,19 @@ def train(args):
 
 
 if __name__ == "__main__":
-    parser = argparse.ArgumentParser()
+    parser=argparse.ArgumentParser()
     parser.add_argument('--seed', type=int, default=21, help="Fixing seed")
-    parser.add_argument("--img_dir", type=str,
-                        default="/opt/ml/project/final-project-level3-cv-12/images/images4x", help="Loactaion of Sketch")
-    parser.add_argument("--sketch_dir", type=str,
-                        default="/opt/ml/project/final-project-level3-cv-12/images/sketched_images", help="Loactaion of Sketch")
     parser.add_argument("--save_dir", type=str,
-                        default="/opt/ml/project/final-project-level3-cv-12/module_pth", help="Loactaion to save pth")
+                        default="/opt/ml/project/module_pth", help="Loactaion to save pth")
     parser.add_argument("--sample_img_dir", type=str,
-                        default="/opt/ml/project/final-project-level3-cv-12/sample_img", help="Loactaion to save sample image")
+                        default="/opt/ml/project/sample_img", help="Loactaion to save sample image")
     parser.add_argument("--epoch", type=int,
                         default=200, help="Number of epoch")
     parser.add_argument("--batch_size", type=int,
-                        default=8, help="Size of batch")
+                        default=4, help="Size of batch")
+    parser.add_argument("--pth_path", type=str,
+                        default="/opt/ml/project/decoder_pth", help="Location of decoder path")
 
-    args = parser.parse_args()
+    args=parser.parse_args()
 
     train(args)
