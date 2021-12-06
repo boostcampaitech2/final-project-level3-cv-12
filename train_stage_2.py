@@ -31,7 +31,7 @@ def save_model(model, saved_dir, file_name):
 
 def train(args):
     seed_everything(args.seed)
-    wandb.init(project="Deep-drawing", entity="bcaitech_cv2")
+    run = wandb.init(project="Deep-drawing", entity="bcaitech_cv2")
 
     # -- settings
     use_cuda = torch.cuda.is_available()
@@ -82,9 +82,10 @@ def train(args):
         optimizer=optimizer_D, T_max=20)
 
     lambda_pixel = 100
+    columns = ["epoch", "mode", "real", "output"]
 
     for epoch in range(args.epoch):
-
+        test_table = wandb.Table(columns=columns)
         generator.train()
         discriminator.train()
 
@@ -142,6 +143,15 @@ def train(args):
             loss_D.backward()
             optimizer_D.step()
 
+            sample_real = np.transpose(
+                np.array(img[0].detach().cpu()), (1, 2, 0))
+            sample_real = cv2.cvtColor(sample_real, cv2.COLOR_BGR2RGB)
+            sample_fake = np.transpose(
+                np.array(output[0].detach().cpu()), (1, 2, 0))
+            sample_fake = cv2.cvtColor(sample_fake, cv2.COLOR_BGR2RGB)
+            test_table.add_data(
+                epoch+1, "train", wandb.Image(sample_real), wandb.Image(sample_fake))
+
             loss_G_value += loss_G.item()
             loss_D_value += loss_D.item()
             wandb.log({"Train/loss_G": loss_G, "Train/loss_D": loss_D})
@@ -191,19 +201,27 @@ def train(args):
                 print(f"Average PSNR is {round(total_psnr/(step+1),2)}")
                 wandb.log({"Val/Average PSNR": round(total_psnr/(step+1), 2)})
 
-                if i % 4 == 0:
-                    sample = (np.array(output.detach().cpu())
-                              [0]*255).astype('uint8')
-                    sample = cv2.cvtColor(sample, cv2.COLOR_BGR2RGB)
+                sample_real = np.transpose(
+                    np.array(img[0].detach().cpu()), (1, 2, 0))
+                sample_real = cv2.cvtColor(sample_real, cv2.COLOR_BGR2RGB)
+                sample_fake = np.transpose(
+                    np.array(output[0].detach().cpu()), (1, 2, 0))
+                sample_fake = cv2.cvtColor(sample_fake, cv2.COLOR_BGR2RGB)
+                test_table.add_data(
+                    epoch+1, "val", wandb.Image(sample_real), wandb.Image(sample_fake))
+
+                if step % 4 == 0:
                     os.makedirs(f"{args.sample_img_dir}", exist_ok=True)
                     cv2.imwrite(f"{args.sample_img_dir}/{epoch+1}epoch_{i}.png",
-                                sample)
+                                sample_fake)
 
             if epoch % 20 == 19:
                 save_model(generator, saved_dir=args.save_dir+"/generator",
                            file_name=f"{epoch+1}.pth")
                 save_model(discriminator, saved_dir=args.save_dir+"/discriminator",
                            file_name=f"{epoch+1}.pth")
+
+        run.log({"table_key": test_table})
 
 
 if __name__ == "__main__":

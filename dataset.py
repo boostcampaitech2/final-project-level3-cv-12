@@ -1,9 +1,10 @@
-from torch.utils.data import Dataset, DataLoader
+import torch
+from torch.utils.data import Dataset
 from torchvision import transforms
 import json
 import cv2
 import os
-from data_loader.aug import InitTransform
+# from data_loader.aug import InitTransform
 
 
 class BaseDataset(Dataset):
@@ -77,7 +78,7 @@ class FEDataset(BaseDataset):
     def __init__(self, json_path, fv_path):
         super().__init__(json_path)
         self.fv = json.load(open(fv_path, 'r'))
-        self.init_transform = InitTransform(512)
+        # self.init_transform = InitTransform(512)
 
     def __len__(self, ):
         return len(self.info)
@@ -85,22 +86,20 @@ class FEDataset(BaseDataset):
     def __getitem__(self, idx):  # img(1), point(5), fv(5)
         img_path = self.info[str(idx)]['image_path']
         img = cv2.imread(img_path, cv2.IMREAD_COLOR).astype(float)
-        img = self.init_transform(img)
+        # img = self.init_transform(img)
         img = img / 255
 
-        x1, y1 = self._get_center('left_eye')
-        x2, y2 = self._get_center('right_eye')
-        x3, y3 = self._get_center('nose')
-        x4, y4 = self._get_center('mouth')
-        point = {'left_eye': [x1, y1], 'right_eye': [
-            x2, y2], 'nose': [x3, y3], 'mouth': [x4, y4]}
+        x1, y1 = self._get_center(idx, 'left_eye')
+        x2, y2 = self._get_center(idx, 'right_eye')
+        x3, y3 = self._get_center(idx, 'nose')
+        x4, y4 = self._get_center(idx, 'mouth')
+        point = torch.tensor([[x1, y1], [x2, y2], [x3, y3], [x4, y4]])
 
-        fv1 = self.fv[str(idx)]['left_eye']
-        fv2 = self.fv[str(idx)]['right_eye']
-        fv3 = self.fv[str(idx)]['nose']
-        fv4 = self.fv[str(idx)]['mouth']
-        fv5 = self.fv[str(idx)]['remainder']
-        fv = {'left_eye': fv1, 'right_eye': fv2,
-              'nose': fv3, 'mouth': fv4, 'remainder': fv5}
+        fv1 = torch.tensor(self.fv[str(idx)]['left_eye'])
+        fv2 = torch.tensor(self.fv[str(idx)]['right_eye'])
+        fv3 = torch.tensor(self.fv[str(idx)]['nose'])
+        fv4 = torch.tensor(self.fv[str(idx)]['mouth'])
+        fv5 = torch.tensor(self.fv[str(idx)]['remainder'])
+        fv = torch.stack([fv1, fv2, fv3, fv4, fv5], dim=0)
 
         return img, point, fv

@@ -7,7 +7,7 @@ import random
 from module_fold import CEModule
 import argparse
 import os
-from dataset import CustomDataset
+from dataset import CEDataset
 import multiprocessing
 from albumentations.augmentations.transforms import GaussNoise
 import wandb
@@ -38,10 +38,10 @@ def train(encoder, decoder, args):
     device = torch.device("cuda" if use_cuda else "cpu")
 
     # -- dataset, data loader -> 각 part 에 맞는 sketch를 잘라서 받아온다.
-    train_dataset = CustomDataset(
+    train_dataset = CEDataset(
         data_dir=args.sketch_dir, part=args.part, mode="train", transform=GaussNoise(var_limit=(0, 1), mean=0.5, per_channel=True, always_apply=False, p=0.5))
 
-    val_dataset = CustomDataset(
+    val_dataset = CEDataset(
         data_dir=args.sketch_dir, part=args.part, mode="val", transform=None)
     train_loader = DataLoader(train_dataset, batch_size=args.batch_size, num_workers=multiprocessing.cpu_count()//2,
                               shuffle=True,
