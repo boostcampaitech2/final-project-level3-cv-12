@@ -3,7 +3,7 @@ from torch.utils.data import Dataset
 from torchvision import transforms
 import json
 import cv2
-import os
+import numpy as np
 # from data_loader.aug import InitTransform
 
 
@@ -48,6 +48,7 @@ class CEDataset(BaseDataset):
         img = cv2.imread(img_path, cv2.IMREAD_GRAYSCALE).astype(float)
         # img      = self.init_transform(img)
         img = img / 255
+        img = np.ones(img.shape(), dtype=np.float32) - img
 
         # crop
         if self.part != 'remainder':
@@ -62,10 +63,10 @@ class CEDataset(BaseDataset):
             x3, y3, sz3 = self._get_center('nose'), self.part_size['nose'] // 2
             x4, y4, sz4 = self._get_center(
                 'mouth'), self.part_size['mouth'] // 2
-            img[y1-sz1:y1+sz1, x1-sz1:x1+sz1] = 1
-            img[y2-sz2:y2+sz2, x2-sz2:x2+sz2] = 1
-            img[y3-sz3:y3+sz3, x3-sz3:x3+sz3] = 1
-            img[y4-sz4:y4+sz4, x4-sz4:x4+sz4] = 1
+            img[y1-sz1:y1+sz1, x1-sz1:x1+sz1] = 0
+            img[y2-sz2:y2+sz2, x2-sz2:x2+sz2] = 0
+            img[y3-sz3:y3+sz3, x3-sz3:x3+sz3] = 0
+            img[y4-sz4:y4+sz4, x4-sz4:x4+sz4] = 0
 
         # apply transform (Denoising AE)
         img_trans = img

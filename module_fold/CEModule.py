@@ -1,7 +1,7 @@
 import torch
 import torch.nn as nn
 from module_fold.Block import ResnetBlock, Conv2D_Block, ConvTrans2D_Block
-from module_fold.utils import weight_init_normal
+from module_fold.utils import weight_init_kaiming
 
 
 def define_part_encoder(model='mouth', norm='instance', input_nc=1, latent_dim=512):
@@ -92,7 +92,7 @@ class CE_EncoderGen_Res(nn.Module):
         self.fc = nn.Linear(in_features=longsize, out_features=latent_dim)
 
         for m in self.modules():
-            weight_init_normal(m)
+            weight_init_kaiming(m)
 
     def forward(self, x):
         h = self.conv1_1(x)
@@ -166,7 +166,7 @@ class CE_DecoderGen_Res(nn.Module):
             32, output_nc, kernel_size=5, padding=0, stride=1)
 
         for m in self.modules():
-            weight_init_normal(m)
+            weight_init_kaiming(m)
 
     def forward(self, x):
         h = self.fc(x)

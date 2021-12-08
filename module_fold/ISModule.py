@@ -1,12 +1,12 @@
 from module_fold.Block import Conv2D_Block, ResnetBlock, ConvTrans2D_Block
 import torch
 import torch.nn as nn
-from module_fold.utils import weight_init_normal
+from module_fold.utils import weight_init_kaiming
 
 
 class Generator(nn.Module):
 
-    def __init__(self, input_nc, output_nc, ngf=56, n_downsampling=3, n_blocks=9, norm_layer=nn.BatchNorm2d, padding_type='reflect'):
+    def __init__(self, input_nc, output_nc, ngf=56, n_downsampling=3, n_blocks=9, norm_layer=nn.InstanceNorm2d, padding_type='reflect'):
         super(Generator, self).__init__()
         activation = nn.ReLU()
         layers_list = []
@@ -36,7 +36,7 @@ class Generator(nn.Module):
         self.conv = nn.Sequential(*layers_list)
 
         for m in self.modules():
-            weight_init_normal(m)
+            weight_init_kaiming(m)
 
     def forward(self, input):
         return self.conv(input)
@@ -56,6 +56,9 @@ class Discriminator(nn.Module):
             )
         self.input_nc = input_nc
         self.dis = Dis_unit(self.input_nc+3)
+
+        for m in self.modules():
+            weight_init_kaiming(m)
 
     def forward(self, img_A, img_B):
         img_input = torch.cat((img_A, img_B), 1)
