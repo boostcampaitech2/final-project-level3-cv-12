@@ -10,7 +10,7 @@ import numpy as np
 
 class BaseDataset(Dataset):
     part_size = {'left_eye': 128, 'right_eye': 128,
-                 'nose': 168, 'mouth': 192, 'remainder': 512}
+                 'nose': 160, 'mouth': 192, 'remainder': 512}
 
     def __init__(self, json_path):
         self.info = json.load(open(json_path, 'r'))
