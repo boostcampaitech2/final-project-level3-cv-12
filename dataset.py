@@ -3,6 +3,7 @@ from torch.utils.data import Dataset
 from torchvision import transforms
 import json
 import cv2
+import os
 import numpy as np
 # from data_loader.aug import InitTransform
 
@@ -48,7 +49,7 @@ class CEDataset(BaseDataset):
         img = cv2.imread(img_path, cv2.IMREAD_GRAYSCALE).astype(float)
         # img      = self.init_transform(img)
         img = img / 255
-        img = np.ones(img.shape(), dtype=np.float32) - img
+        img = np.ones(img.shape, dtype=np.float32) - img
 
         # crop
         if self.part != 'remainder':
@@ -56,13 +57,14 @@ class CEDataset(BaseDataset):
             sz = self.part_size[self.part] // 2
             img = img[y-sz:y+sz, x-sz:x+sz]
         else:
-            x1, y1, sz1 = self._get_center(
-                'left_eye'), self.part_size['left_eye'] // 2
-            x2, y2, sz2 = self._get_center(
-                'right_eye'), self.part_size['right_eye'] // 2
-            x3, y3, sz3 = self._get_center('nose'), self.part_size['nose'] // 2
-            x4, y4, sz4 = self._get_center(
-                'mouth'), self.part_size['mouth'] // 2
+            x1, y1 = self._get_center(idx, 'left_eye')
+            sz1 = self.part_size['left_eye'] // 2
+            x2, y2 = self._get_center(idx, 'right_eye')
+            sz2 = self.part_size['right_eye'] // 2
+            x3, y3 = self._get_center(idx, 'nose')
+            sz3 = self.part_size['nose'] // 2
+            x4, y4 = self._get_center(idx, 'mouth')
+            sz4 = self.part_size['mouth'] // 2
             img[y1-sz1:y1+sz1, x1-sz1:x1+sz1] = 0
             img[y2-sz2:y2+sz2, x2-sz2:x2+sz2] = 0
             img[y3-sz3:y3+sz3, x3-sz3:x3+sz3] = 0
@@ -71,7 +73,8 @@ class CEDataset(BaseDataset):
         # apply transform (Denoising AE)
         img_trans = img
         if self.transform is not None:
-            img_trans = self.transform(img)
+            img_trans = self.transform(image=img)
+            img_trans = img_trans['image']
         return img, img_trans
 
 
