@@ -72,7 +72,7 @@ def get_fv_array(fv_json, part):
     ret = []
     for i in fv_json:
         ret.append(np.array(fv_json[i][part], dtype=np.float32))
-    return ret;
+    return ret
 
 
 def apply_encoder(img, encoder, device):
