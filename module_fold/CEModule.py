@@ -61,7 +61,6 @@ class CE_EncoderGen_Res(nn.Module):
 
         activation = nn.ReLU()
         padding_type = 'reflect'
-        norm_layer = nn.BatchNorm2d
 
         # conv1
         self.conv1_1 = Conv2D_Block(self.input_nc, 32, 4, 1, 2)
@@ -128,7 +127,6 @@ class CE_DecoderGen_Res(nn.Module):
 
         activation = nn.ReLU()
         padding_type = 'reflect'
-        norm_layer = nn.BatchNorm2d
 
         # fc
         self.fc = nn.Linear(in_features=latent_dim, out_features=longsize)
