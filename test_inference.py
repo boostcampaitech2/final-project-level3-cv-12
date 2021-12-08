@@ -50,7 +50,7 @@ def get_decoder(decoder_file_path):
 
 
 def get_generator(generator_pth_path):
-    generator = Generator(input_nc=1, output_nc=3, ngf=56, n_downsampling=3,
+    generator = Generator(input_nc=5, output_nc=3, ngf=56, n_downsampling=3,
                           n_blocks=9, norm_layer=nn.BatchNorm2d, padding_type='reflect')
     checkpoint_generator = torch.load(generator_pth_path)
     statedict_generator  = checkpoint_generator.state_dict()
@@ -72,7 +72,7 @@ def get_fv_array(fv_json, part):
     ret = []
     for i in fv_json:
         ret.append(np.array(fv_json[i][part], dtype=np.float32))
-    return ret
+    return ret;
 
 
 def apply_encoder(img, encoder, device):
@@ -91,7 +91,6 @@ def apply_decoder(fv, decoder, device):
 
 
 def fv_proj(fv, knn, least_square):
-    fv   = fv.detach().cpu().view(-1)
     v_in = np.array(fv, dtype=np.float32)
     v_k  = knn(v_in)
     ret  = least_square(v_in, v_k)
@@ -112,14 +111,15 @@ def inference(img, encoder, decoder, generator, knn, least_square, device):
     part_img = [img[pos[part[i]][1]:pos[part[i]][1]+pos[part[i]][2],
                     pos[part[i]][0]:pos[part[i]][0]+pos[part[i]][2]] for i in range(5)]
     fv = [apply_encoder(part_img[i], encoder[i], device) for i in range(5)]
-    fv = [fv_proj(fv[i], knn[i], least_square) for i in range(5)]
+    fv = [fv[i].detach().cpu().view(-1) for i in range(5)]
+    # fv = [fv_proj(fv[i], knn[i], least_square) for i in range(5)]
 
     # FM Module
     fv = [apply_decoder(fv[i], decoder[i], device) for i in range(5)]
-    whole_feature = np.zeros((1, 1, 512, 512))
+    whole_feature = np.zeros((1, 5, 512, 512))
     whole_feature = torch.FloatTensor(whole_feature).to(device)
     for i in range(4, -1, -1):
-        whole_feature[:, 0:1,
+        whole_feature[:, i:i+1,
                       pos[part[i]][1]:pos[part[i]][1]+pos[part[i]][2],
                       pos[part[i]][0]:pos[part[i]][0]+pos[part[i]][2]] = fv[i]
 
@@ -142,6 +142,7 @@ def test(encoder, decoder, generator, knn, least_square, device):
         if 'png' not in img_name: continue
         img_path = os.path.join(load_img_path, img_name)
         img = cv2.imread(img_path, cv2.IMREAD_GRAYSCALE)
+        img = np.array(img, dtype=np.float32) / 255
 
         img, wft = inference(img, encoder, decoder, generator, knn, least_square, device)
         img = img.squeeze(axis=0) * 255
@@ -152,7 +153,7 @@ def test(encoder, decoder, generator, knn, least_square, device):
         wft = wft.squeeze(axis=0) * 255
         wft = wft.detach().cpu().numpy()
         wft = np.transpose(wft, (1, 2, 0))
-        cv2.imwrite(os.path.join(save_img_path, 'sketch'+img_name), wft)
+        # cv2.imwrite(os.path.join(save_img_path, 'sketch'+img_name), wft)
 
 
 def last_test(generator, device):
@@ -162,12 +163,13 @@ def last_test(generator, device):
         if 'png' not in img_name: continue
         img_path = os.path.join(load_img_path, img_name)
         img = cv2.imread(img_path, cv2.IMREAD_GRAYSCALE)
+        img = np.array(img, dtype=np.float32) / 255
 
         img = last_inference(img, generator, device)
         img = img.squeeze(axis=0) * 255
         img = img.detach().cpu().numpy()
         img = np.transpose(img, (1, 2, 0))
-        cv2.imwrite(os.path.join(save_img_path, img_name), img)
+        cv2.imwrite(os.path.join(save_img_path, 'raw'+img_name), img)
 
 
 if __name__ == "__main__":
@@ -179,7 +181,7 @@ if __name__ == "__main__":
     # file_path
     encoder_file_path  = '/opt/ml/project/encoder_pth'
     decoder_file_path  = '/opt/ml/project/decoder_pth'
-    generator_pth_path = '/opt/ml/project/model_save/generator/40.pth'
+    generator_pth_path = '/opt/ml/project/model_save/generator/generator_80.pth'
     fv_json_path       = '/opt/ml/project/data/fv_train.json'
 
     # encoder, decoder, generator, knn, least_square
@@ -194,5 +196,5 @@ if __name__ == "__main__":
     least_square = ConstrainedLeastSquareSolver()
 
     # inference
-    # test(encoder, decoder, generator, knn, least_square, device)
-    last_test(generator, device)
+    test(encoder, decoder, generator, knn, least_square, device)
+    # last_test(generator, device)
