@@ -107,3 +107,24 @@ class FEDataset(BaseDataset):
         fv = torch.stack([fv1, fv2, fv3, fv4, fv5], dim=0)
 
         return img, point, fv
+
+
+class FEDataset2(BaseDataset):
+    def __init__(self, json_path):
+        super().__init__(json_path)
+        # self.init_transform = InitTransform(512)
+
+    def __len__(self, ):
+        return len(self.info)
+
+    def __getitem__(self, idx):  # img(1), point(5), fv(5)
+        img_path = self.info[str(idx)]['image_path']
+        img = cv2.imread(img_path, cv2.IMREAD_COLOR).astype(float)
+        # img = self.init_transform(img)
+        img = img / 255
+
+        sketch_path = self.info[str(idx)]['sketch_path']
+        sketch = cv2.imread(sketch_path, cv2.IMREAD_GRAYSCALE).astype(float)
+        sketch = 1 - sketch/255
+
+        return img, sketch
