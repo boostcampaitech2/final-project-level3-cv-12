@@ -77,9 +77,6 @@ def train(args):
         generator.train()
         discriminator.train()
 
-        loss_G_value = 0
-        loss_D_value = 0
-
         for step, (img, sketch) in enumerate(train_loader):
             img = np.transpose(img, (0, 3, 1, 2))
             img, sketch = img.float().to(device), sketch.unsqueeze(axis=1).float().to(device)
@@ -119,8 +116,6 @@ def train(args):
             test_table.add_data(
                 epoch+1, "train", wandb.Image(sketch.squeeze(axis=1)[0]), wandb.Image(sample_real), wandb.Image(sample_fake))
 
-            loss_G_value += loss_G.item()
-            loss_D_value += loss_D.item()
             wandb.log({"Train/loss_G": loss_G, "Train/loss_D": loss_D})
             if (step + 1) % 25 == 0:
                 print(
@@ -143,9 +138,10 @@ def train(args):
                 psnr = 10 * log10(1/mse.item())
                 total_psnr += psnr
 
-                print(
-                    f"[Epoch {epoch+1}/{args.epoch}] , Step [{step+1}/{len(train_loader)}], Average PSNR [{round(total_psnr/(step+1),2)}]")
                 wandb.log({"Val/Average PSNR": round(total_psnr/(step+1), 2)})
+                if step % 25 == 0:
+                    print(
+                        f"[Epoch {epoch+1}/{args.epoch}] , Step [{step+1}/{len(val_loader)}], Average PSNR [{round(total_psnr/(step+1),2)}]")
 
                 sample_real = np.transpose(
                     np.array(img[0].detach().cpu()), (1, 2, 0))
