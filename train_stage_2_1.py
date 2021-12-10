@@ -70,7 +70,7 @@ def train(args):
         optimizer=optimizer_D, T_max=20)
 
     lambda_pixel = 100
-    columns = ["epoch", "mode", "real", "output"]
+    columns = ["epoch", "mode", "sketch", "real", "output"]
 
     for epoch in range(args.epoch):
         test_table = wandb.Table(columns=columns)
@@ -117,7 +117,7 @@ def train(args):
                 np.array(output[0].detach().cpu()), (1, 2, 0))
             sample_fake = cv2.cvtColor(sample_fake, cv2.COLOR_BGR2RGB)
             test_table.add_data(
-                epoch+1, "train", wandb.Image(sample_real), wandb.Image(sample_fake))
+                epoch+1, "train", wandb.Image(sketch.squeeze(axis=1)[0]), wandb.Image(sample_real), wandb.Image(sample_fake))
 
             loss_G_value += loss_G.item()
             loss_D_value += loss_D.item()
@@ -154,7 +154,7 @@ def train(args):
                     np.array(output[0].detach().cpu()), (1, 2, 0))
                 sample_fake = cv2.cvtColor(sample_fake, cv2.COLOR_BGR2RGB)
                 test_table.add_data(
-                    epoch+1, "val", wandb.Image(sample_real), wandb.Image(sample_fake))
+                    epoch+1, "val", wandb.Image(sketch.squeeze(axis=1)[0]), wandb.Image(sample_real), wandb.Image(sample_fake))
 
             if epoch % 20 == 19:
                 save_model(generator, saved_dir=args.save_dir+"/generator",
