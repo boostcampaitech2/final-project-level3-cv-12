@@ -41,6 +41,59 @@ class Generator(nn.Module):
     def forward(self, input):
         return self.conv(input)
 
+class Generator_U(nn.Module):
+
+    def __init__(self, input_nc, output_nc, ngf=56, n_blocks=9, norm_layer=nn.InstanceNorm2d, padding_type='reflect'):
+        super(Generator_U, self).__init__()
+        activation = nn.ReLU()
+
+        first_layers = []
+        first_layers.append(nn.ReflectionPad2d(3))
+        first_layers.append(Conv2D_Block(input_nc, ngf, 7, 0, 1))
+        self.first = nn.Sequential(*first_layers)
+
+        # downsample
+        self.down1 = Conv2D_Block(ngf, ngf*2, 4, 1, 2)  # 2C H/2 W/2
+        self.down2 = Conv2D_Block(ngf*2, ngf*4, 4, 1, 2)  # 4C H/4 W/4
+        self.down3 = Conv2D_Block(ngf*4, ngf*8, 4, 1, 2)  # 8C H/8 W/8
+
+        # resnet blocks
+        resnet_layers = []
+        for i in range(n_blocks):
+            resnet_layers.append(ResnetBlock((ngf * 8), padding_type=padding_type,
+                                             activation=activation, norm_layer=norm_layer))
+        self.res = nn.Sequential(*resnet_layers)
+
+        # upsample
+        self.up3 = ConvTrans2D_Block(ngf*8, ngf*4, 4, 1, 2) #4C H/4 W/4
+        self.up2 = ConvTrans2D_Block(ngf*8, ngf*2, 4, 1, 2)
+        self.up1 = ConvTrans2D_Block(ngf*4, ngf, 4, 1, 2)
+
+        # final
+        final_layers = []
+        final_layers.append(nn.ReflectionPad2d(3))
+        final_layers.append(nn.Conv2d(ngf, output_nc, 7, padding=0))
+        final_layers.append(nn.Tanh())
+        self.final = nn.Sequential(*final_layers)
+
+        for m in self.modules():
+            weight_init_kaiming(m)
+
+    def forward(self, input):
+        x = self.first(input)
+
+        d1 = self.down1(x)
+        d2 = self.down2(d1)
+        d3 = self.down3(d2)
+
+        d3 = self.res(d3)
+
+        u3 = self.up3(d3)
+        u2 = self.up2(torch.cat((u3, d2), axis=1))
+        u1 = self.up1(torch.cat((u2, d1), axis=1))
+        return self.final(u1)
+
+
 
 class Discriminator(nn.Module):
     def __init__(self, input_nc):

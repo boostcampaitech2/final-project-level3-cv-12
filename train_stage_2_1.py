@@ -3,7 +3,7 @@ import torch.nn as nn
 from torch.utils.data import DataLoader
 import numpy as np
 import random
-from module_fold import CEModule, ISModule
+from module_fold import ISModule
 import argparse
 import os
 from dataset import FEDataset2
@@ -51,8 +51,8 @@ def train(args):
                             drop_last=True)
 
     #--- Loss & optimizer & scheduler
-    generator = ISModule.Generator(input_nc=1, output_nc=3, ngf=56, n_downsampling=3,
-                                   n_blocks=9, norm_layer=nn.BatchNorm2d, padding_type='reflect')
+    generator = ISModule.Generator_U(
+        input_nc=1, output_nc=3, ngf=56, n_blocks=9, norm_layer=nn.BatchNorm2d, padding_type='reflect')
     discriminator = ISModule.Discriminator(input_nc=1)
     generator.to(device)
     discriminator.to(device)
