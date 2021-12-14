@@ -1,7 +1,7 @@
 import torch
 import torch.nn as nn
 from module_fold.Block import ResnetBlock, Conv2D_Block, ConvTrans2D_Block
-from module_fold.utils import weight_init_kaiming
+from module_fold.utils import *
 
 
 def define_part_encoder(model='mouth', norm='instance', input_nc=1, latent_dim=512):
@@ -14,19 +14,16 @@ def define_part_encoder(model='mouth', norm='instance', input_nc=1, latent_dim=5
     elif 'nose' in model:
         image_size = 160
     else:
-        print("Whole Image !!")
-
+        print('Whole Image !!')
     # input longsize 256 to 512*4*4
     net_encoder = CE_EncoderGen_Res(
         norm_layer, image_size, input_nc, latent_dim)
-    print("net_encoder of part "+model+" is:", image_size)
-
+    print('net_encoder of part '+model+' is:', image_size)
     return net_encoder
 
 
 def define_part_decoder(model='mouth', norm='instance', output_nc=1, latent_dim=512):
     norm_layer = get_norm_layer(norm_type=norm)
-
     image_size = 512
     if 'eye' in model:
         image_size = 128
@@ -35,21 +32,17 @@ def define_part_decoder(model='mouth', norm='instance', output_nc=1, latent_dim=
     elif 'nose' in model:
         image_size = 160
     else:
-        print("Whole Image !!")
-
+        print('Whole Image !!')
     # input longsize 256 to 512*4*4
     net_decoder = CE_DecoderGen_Res(
         norm_layer, image_size, output_nc, latent_dim)
-
-    print("net_decoder to image of part "+model+" is:", image_size)
-
+    print('net_decoder to image of part '+model+' is:', image_size)
     return net_decoder
 
 
 class CE_EncoderGen_Res(nn.Module):
     def __init__(self, norm_layer, image_size, input_nc, latent_dim=512):
         super(CE_EncoderGen_Res, self).__init__()
-
         self.norm_layer = norm_layer
         self.image_size = image_size
         self.input_nc = input_nc
@@ -61,7 +54,6 @@ class CE_EncoderGen_Res(nn.Module):
 
         activation = nn.ReLU()
         padding_type = 'reflect'
-        norm_layer = nn.BatchNorm2d
 
         # conv1
         self.conv1_1 = Conv2D_Block(self.input_nc, 32, 4, 1, 2)
@@ -128,7 +120,6 @@ class CE_DecoderGen_Res(nn.Module):
 
         activation = nn.ReLU()
         padding_type = 'reflect'
-        norm_layer = nn.BatchNorm2d
 
         # fc
         self.fc = nn.Linear(in_features=latent_dim, out_features=longsize)
@@ -190,14 +181,3 @@ class CE_DecoderGen_Res(nn.Module):
         h = self.convtr6_1(h)
         h = self.convtr6_2(h)
         return self.convtr6_3(h)
-
-
-def get_norm_layer(norm_type='instance'):
-    if (norm_type == 'batch'):
-        norm_layer = nn.BatchNorm2d
-    elif (norm_type == 'instance'):
-        norm_layer = nn.InstanceNorm2d
-    else:
-        raise NotImplementedError(
-            ('normalization layer [%s] is not found' % norm_type))
-    return norm_layer
