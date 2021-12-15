@@ -4,8 +4,7 @@ from torch.utils.data import Dataset
 
 
 class CEDataset(Dataset):
-    pos = { 'left_eye': (244, 186), 'right_eye': (244, 326), 'nose': (302, 256),
-            'mouth': (385, 256), 'remainder': (256, 256), 'all': (256, 256) }
+    pos = { 'left_eye': (244, 186), 'right_eye': (244, 326), 'nose': (302, 256), 'mouth': (385, 256), 'remainder': (256, 256), 'all': (256, 256) }
     sz = { 'left_eye': 128, 'right_eye': 128, 'nose': 160, 'mouth': 192, 'remainder': 512, 'all': 512 }
     
     def __init__(self, json_path, part, transform=None, transform_all=None):
