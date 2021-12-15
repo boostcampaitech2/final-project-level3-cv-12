@@ -3,6 +3,7 @@ import torch.nn as nn
 import numpy as np
 from copy import deepcopy
 
+
 class KNN:
     def __init__(self, v_data):
         """
@@ -27,6 +28,7 @@ class KNN:
         if k > len(self.v_data): return deepcopy(self.v_data)
         ret = sorted(self.v_data, key=lambda v: self.GetDist(v, v_in))
         return ret[:k]
+
 
 class ConstrainedLeastSquareSolver:
     def __call__(self, v_in, v_k):
