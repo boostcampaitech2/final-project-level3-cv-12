@@ -1,97 +1,0 @@
-[2021-12-21 23:14:02,484] {taskinstance.py:1035} INFO - Dependencies all met for <TaskInstance: data_pipeline.super_resolution scheduled__2021-12-19T00:20:00+00:00 [queued]>
-[2021-12-21 23:14:02,491] {taskinstance.py:1035} INFO - Dependencies all met for <TaskInstance: data_pipeline.super_resolution scheduled__2021-12-19T00:20:00+00:00 [queued]>
-[2021-12-21 23:14:02,491] {taskinstance.py:1241} INFO - 
---------------------------------------------------------------------------------
-[2021-12-21 23:14:02,492] {taskinstance.py:1242} INFO - Starting attempt 1 of 4
-[2021-12-21 23:14:02,492] {taskinstance.py:1243} INFO - 
---------------------------------------------------------------------------------
-[2021-12-21 23:14:02,501] {taskinstance.py:1262} INFO - Executing <Task(BashOperator): super_resolution> on 2021-12-19 00:20:00+00:00
-[2021-12-21 23:14:02,503] {standard_task_runner.py:52} INFO - Started process 107179 to run task
-[2021-12-21 23:14:02,505] {standard_task_runner.py:76} INFO - Running: ['airflow', 'tasks', 'run', 'data_pipeline', 'super_resolution', 'scheduled__2021-12-19T00:20:00+00:00', '--job-id', '245', '--raw', '--subdir', '/home/myamya/project/dockers/airflow/dags/hello_world.py', '--cfg-path', '/tmp/tmpgu74f4ej', '--error-file', '/tmp/tmp9gsci81h']
-[2021-12-21 23:14:02,506] {standard_task_runner.py:77} INFO - Job 245: Subtask super_resolution
-[2021-12-21 23:14:02,530] {logging_mixin.py:109} INFO - Running <TaskInstance: data_pipeline.super_resolution scheduled__2021-12-19T00:20:00+00:00 [running]> on host myamya
-[2021-12-21 23:14:02,556] {taskinstance.py:1412} INFO - Exporting the following env vars:
-AIRFLOW_CTX_DAG_OWNER=yangjae
-AIRFLOW_CTX_DAG_ID=data_pipeline
-AIRFLOW_CTX_TASK_ID=super_resolution
-AIRFLOW_CTX_EXECUTION_DATE=2021-12-19T00:20:00+00:00
-AIRFLOW_CTX_DAG_RUN_ID=scheduled__2021-12-19T00:20:00+00:00
-[2021-12-21 23:14:02,557] {subprocess.py:62} INFO - Tmp dir root location: 
- /tmp
-[2021-12-21 23:14:02,557] {subprocess.py:74} INFO - Running command: ['bash', '-c', 'docker run -it -v /home/myamya/project/image_files/:/home/myamya/project/image_files/ sure:0.3 /bin/bash /home/myamya/project/init.sh ']
-[2021-12-21 23:14:02,562] {subprocess.py:85} INFO - Output:
-[2021-12-21 23:14:04,306] {subprocess.py:89} INFO - /opt/conda/lib/python3.8/site-packages/torch/cuda/__init__.py:52: UserWarning: CUDA initialization: Found no NVIDIA driver on your system. Please check that you have an NVIDIA GPU and installed a driver from http://www.nvidia.com/Download/index.aspx (Triggered internally at  /opt/conda/conda-bld/pytorch_1603729096996/work/c10/cuda/CUDAFunctions.cpp:100.)
-[2021-12-21 23:14:04,306] {subprocess.py:89} INFO -   return torch._C._cuda_getDeviceCount() > 0
-[2021-12-21 23:14:05,561] {subprocess.py:89} INFO - Downloading: "https://github.com/xinntao/facexlib/releases/download/v0.1.0/detection_Resnet50_Final.pth" to /opt/conda/lib/python3.8/site-packages/facexlib/weights/detection_Resnet50_Final.pth
-[2021-12-21 23:14:05,561] {subprocess.py:89} INFO - 
-[2021-12-21 23:14:08,447] {subprocess.py:89} INFO -   0% 0.00/104M [00:00<?, ?B/s]  0% 168k/104M [00:00<01:03, 1.72MB/s]  1% 888k/104M [00:00<00:48, 2.23MB/s]  4% 4.35M/104M [00:00<00:33, 3.11MB/s]  7% 7.62M/104M [00:00<00:23, 4.27MB/s] 11% 11.1M/104M [00:00<00:16, 5.80MB/s] 16% 16.2M/104M [00:00<00:11, 7.92MB/s] 19% 19.8M/104M [00:00<00:08, 10.4MB/s] 24% 24.8M/104M [00:00<00:06, 13.6MB/s] 29% 30.2M/104M [00:00<00:04, 17.7MB/s] 33% 34.5M/104M [00:01<00:03, 21.1MB/s] 38% 39.5M/104M [00:01<00:02, 25.7MB/s] 43% 44.9M/104M [00:01<00:02, 30.8MB/s] 47% 49.6M/104M [00:01<00:01, 33.2MB/s] 52% 54.5M/104M [00:01<00:01, 37.1MB/s] 57% 60.0M/104M [00:01<00:01, 41.5MB/s] 62% 64.8M/104M [00:01<00:01, 41.5MB/s] 67% 69.7M/104M [00:01<00:00, 44.0MB/s] 72% 75.1M/104M [00:01<00:00, 47.2MB/s] 77% 80.0M/104M [00:01<00:00, 45.9MB/s] 81% 84.7M/104M [00:02<00:00, 46.7MB/s] 86% 90.1M/104M [00:02<00:00, 49.3MB/s] 91% 95.0M/104M [00:02<00:00, 47.4MB/s] 95% 99.7M/104M [00:02<00:00, 47.7MB/s]100% 104M/104M [00:02<00:00, 43.9MB/s]
-[2021-12-21 23:14:08,588] {subprocess.py:89} INFO - Downloading: "https://github.com/TencentARC/GFPGAN/releases/download/v0.2.0/GFPGANCleanv1-NoCE-C2.pth" to /opt/conda/lib/python3.8/site-packages/gfpgan/weights/GFPGANCleanv1-NoCE-C2.pth
-[2021-12-21 23:14:08,588] {subprocess.py:89} INFO - 
-[2021-12-21 23:14:16,344] {subprocess.py:89} INFO -   0% 0.00/332M [00:00<?, ?B/s]  0% 200k/332M [00:00<02:56, 1.98MB/s]  0% 1.12M/332M [00:00<02:13, 2.60MB/s]  0% 1.60M/332M [00:00<02:00, 2.87MB/s]  2% 5.57M/332M [00:00<01:26, 3.94MB/s]  3% 9.37M/332M [00:00<01:02, 5.40MB/s]  5% 15.1M/332M [00:00<00:44, 7.43MB/s]  6% 20.5M/332M [00:00<00:32, 10.1MB/s]  7% 24.3M/332M [00:00<00:24, 12.9MB/s]  9% 29.5M/332M [00:00<00:18, 16.7MB/s] 11% 34.9M/332M [00:01<00:14, 21.2MB/s] 12% 39.5M/332M [00:01<00:12, 25.0MB/s] 13% 44.4M/332M [00:01<00:10, 29.5MB/s] 15% 49.8M/332M [00:01<00:08, 34.6MB/s] 16% 54.7M/332M [00:01<00:08, 36.0MB/s] 18% 60.1M/332M [00:01<00:07, 40.5MB/s] 20% 65.4M/332M [00:01<00:06, 40.4MB/s] 21% 71.0M/332M [00:01<00:06, 44.5MB/s] 23% 76.4M/332M [00:01<00:05, 47.7MB/s] 24% 81.4M/332M [00:02<00:05, 46.0MB/s] 26% 86.5M/332M [00:02<00:05, 47.9MB/s] 28% 92.0M/332M [00:02<00:05, 50.4MB/s] 29% 97.0M/332M [00:02<00:05, 48.3MB/s] 31% 102M/332M [00:02<00:04, 48.9MB/s]  32% 107M/332M [00:02<00:04, 51.2MB/s] 34% 112M/332M [00:02<00:04, 47.2MB/s] 35% 118M/332M [00:02<00:04, 49.8MB/s] 37% 123M/332M [00:02<00:04, 46.1MB/s] 39% 128M/332M [00:03<00:04, 49.2MB/s] 40% 134M/332M [00:03<00:04, 51.4MB/s] 42% 139M/332M [00:03<00:04, 48.4MB/s] 43% 144M/332M [00:03<00:03, 49.7MB/s] 45% 149M/332M [00:03<00:03, 51.8MB/s] 46% 154M/332M [00:03<00:03, 47.6MB/s] 48% 160M/332M [00:03<00:03, 50.1MB/s] 50% 165M/332M [00:03<00:03, 46.6MB/s] 51% 170M/332M [00:03<00:03, 49.6MB/s] 53% 176M/332M [00:04<00:03, 51.6MB/s] 54% 181M/332M [00:04<00:03, 48.5MB/s] 56% 186M/332M [00:04<00:03, 49.8MB/s] 58% 192M/332M [00:04<00:02, 51.9MB/s] 59% 197M/332M [00:04<00:02, 50.3MB/s] 61% 201M/332M [00:04<00:02, 49.2MB/s] 62% 207M/332M [00:04<00:02, 51.4MB/s] 64% 212M/332M [00:04<00:02, 47.3MB/s] 65% 217M/332M [00:04<00:02, 49.9MB/s] 67% 222M/332M [00:05<00:02, 46.3MB/s] 69% 228M/332M [00:05<00:02, 49.3MB/s] 70% 233M/332M [00:05<00:02, 51.4MB/s] 72% 238M/332M [00:05<00:02, 48.2MB/s] 73% 243M/332M [00:05<00:01, 49.2MB/s] 75% 249M/332M [00:05<00:01, 51.3MB/s] 76% 254M/332M [00:05<00:01, 49.9MB/s] 78% 259M/332M [00:05<00:01, 48.9MB/s] 79% 264M/332M [00:05<00:01, 51.2MB/s] 81% 269M/332M [00:06<00:01, 47.2MB/s] 83% 274M/332M [00:06<00:01, 49.8MB/s] 84% 280M/332M [00:06<00:01, 46.4MB/s] 86% 285M/332M [00:06<00:01, 49.4MB/s] 87% 291M/332M [00:06<00:00, 51.6MB/s] 89% 296M/332M [00:06<00:00, 48.3MB/s] 90% 301M/332M [00:06<00:00, 49.7MB/s] 92% 306M/332M [00:06<00:00, 51.8MB/s] 94% 311M/332M [00:06<00:00, 47.7MB/s] 95% 317M/332M [00:07<00:00, 50.2MB/s] 97% 322M/332M [00:07<00:00, 48.4MB/s] 98% 327M/332M [00:07<00:00, 45.3MB/s]100% 332M/332M [00:07<00:00, 48.3MB/s]100% 332M/332M [00:07<00:00, 47.2MB/s]
-[2021-12-21 23:14:16,527] {subprocess.py:89} INFO - Testing 0 1
-[2021-12-21 23:14:16,656] {subprocess.py:89} INFO - /opt/conda/lib/python3.8/site-packages/torch/nn/functional.py:3103: UserWarning: The default behavior for interpolate/upsample with float scale_factor changed in 1.6.0 to align with other frameworks/libraries, and now uses scale_factor directly, instead of relying on the computed output size. If you wish to restore the old behavior, please set recompute_scale_factor=True. See the documentation of nn.Upsample for details.
-[2021-12-21 23:14:16,656] {subprocess.py:89} INFO -   warnings.warn("The default behavior for interpolate/upsample with float scale_factor changed "
-[2021-12-21 23:14:17,067] {subprocess.py:89} INFO - ^CTraceback (most recent call last):
-[2021-12-21 23:14:17,067] {subprocess.py:89} INFO -   File "inference_realesrgan.py", line 112, in <module>
-[2021-12-21 23:14:17,067] {subprocess.py:89} INFO -     main()
-[2021-12-21 23:14:17,067] {subprocess.py:89} INFO -   File "inference_realesrgan.py", line 94, in main
-[2021-12-21 23:14:17,067] {subprocess.py:89} INFO -     _, _, output = face_enhancer.enhance(img, has_aligned=False, only_center_face=False, paste_back=True)
-[2021-12-21 23:14:17,067] {subprocess.py:89} INFO -   File "/opt/conda/lib/python3.8/site-packages/torch/autograd/grad_mode.py", line 26, in decorate_context
-[2021-12-21 23:14:17,074] {subprocess.py:89} INFO -     return func(*args, **kwargs)
-[2021-12-21 23:14:17,074] {subprocess.py:89} INFO -   File "/opt/conda/lib/python3.8/site-packages/gfpgan/utils.py", line 92, in enhance
-[2021-12-21 23:14:17,074] {subprocess.py:89} INFO -     output = self.gfpgan(cropped_face_t, return_rgb=False)[0]
-[2021-12-21 23:14:17,074] {subprocess.py:89} INFO -   File "/opt/conda/lib/python3.8/site-packages/torch/nn/modules/module.py", line 727, in _call_impl
-[2021-12-21 23:14:17,074] {subprocess.py:89} INFO -     result = self.forward(*input, **kwargs)
-[2021-12-21 23:14:17,074] {subprocess.py:89} INFO -   File "/opt/conda/lib/python3.8/site-packages/gfpgan/archs/gfpganv1_clean_arch.py", line 285, in forward
-[2021-12-21 23:14:17,075] {subprocess.py:89} INFO -     shift = self.condition_shift[i](feat)
-[2021-12-21 23:14:17,075] {subprocess.py:89} INFO -   File "/opt/conda/lib/python3.8/site-packages/torch/nn/modules/module.py", line 727, in _call_impl
-[2021-12-21 23:14:17,075] {subprocess.py:89} INFO -     result = self.forward(*input, **kwargs)
-[2021-12-21 23:14:17,075] {subprocess.py:89} INFO -   File "/opt/conda/lib/python3.8/site-packages/torch/nn/modules/container.py", line 117, in forward
-[2021-12-21 23:14:17,075] {subprocess.py:89} INFO -     input = module(input)
-[2021-12-21 23:14:17,075] {subprocess.py:89} INFO -   File "/opt/conda/lib/python3.8/site-packages/torch/nn/modules/module.py", line 727, in _call_impl
-[2021-12-21 23:14:17,075] {subprocess.py:89} INFO -     result = self.forward(*input, **kwargs)
-[2021-12-21 23:14:17,075] {subprocess.py:89} INFO -   File "/opt/conda/lib/python3.8/site-packages/torch/nn/modules/conv.py", line 423, in forward
-[2021-12-21 23:14:17,075] {subprocess.py:89} INFO -     return self._conv_forward(input, self.weight)
-[2021-12-21 23:14:17,075] {subprocess.py:89} INFO -   File "/opt/conda/lib/python3.8/site-packages/torch/nn/modules/conv.py", line 419, in _conv_forward
-[2021-12-21 23:14:17,076] {subprocess.py:89} INFO -     return F.conv2d(input, weight, self.bias, self.stride,
-[2021-12-21 23:14:17,076] {subprocess.py:89} INFO - KeyboardInterrupt
-[2021-12-21 23:14:17,621] {subprocess.py:93} INFO - Command exited with return code 130
-[2021-12-21 23:14:17,622] {taskinstance.py:1686} ERROR - Task failed with exception
-Traceback (most recent call last):
-  File "/home/myamya/anaconda3/lib/python3.9/site-packages/airflow/models/taskinstance.py", line 1324, in _run_raw_task
-    self._execute_task_with_callbacks(context)
-  File "/home/myamya/anaconda3/lib/python3.9/site-packages/airflow/models/taskinstance.py", line 1443, in _execute_task_with_callbacks
-    result = self._execute_task(context, self.task)
-  File "/home/myamya/anaconda3/lib/python3.9/site-packages/airflow/models/taskinstance.py", line 1499, in _execute_task
-    result = execute_callable(context=context)
-  File "/home/myamya/anaconda3/lib/python3.9/site-packages/airflow/operators/bash.py", line 187, in execute
-    raise AirflowException(
-airflow.exceptions.AirflowException: Bash command failed. The command returned a non-zero exit code 130.
-[2021-12-21 23:14:17,627] {taskinstance.py:1270} INFO - Marking task as UP_FOR_RETRY. dag_id=data_pipeline, task_id=super_resolution, execution_date=20211219T002000, start_date=20211221T141402, end_date=20211221T141417
-[2021-12-21 23:14:17,636] {standard_task_runner.py:88} ERROR - Failed to execute job 245 for task super_resolution
-Traceback (most recent call last):
-  File "/home/myamya/anaconda3/lib/python3.9/site-packages/airflow/task/task_runner/standard_task_runner.py", line 85, in _start_by_fork
-    args.func(args, dag=self.dag)
-  File "/home/myamya/anaconda3/lib/python3.9/site-packages/airflow/cli/cli_parser.py", line 48, in command
-    return func(*args, **kwargs)
-  File "/home/myamya/anaconda3/lib/python3.9/site-packages/airflow/utils/cli.py", line 92, in wrapper
-    return f(*args, **kwargs)
-  File "/home/myamya/anaconda3/lib/python3.9/site-packages/airflow/cli/commands/task_command.py", line 292, in task_run
-    _run_task_by_selected_method(args, dag, ti)
-  File "/home/myamya/anaconda3/lib/python3.9/site-packages/airflow/cli/commands/task_command.py", line 107, in _run_task_by_selected_method
-    _run_raw_task(args, ti)
-  File "/home/myamya/anaconda3/lib/python3.9/site-packages/airflow/cli/commands/task_command.py", line 180, in _run_raw_task
-    ti._run_raw_task(
-  File "/home/myamya/anaconda3/lib/python3.9/site-packages/airflow/utils/session.py", line 70, in wrapper
-    return func(*args, session=session, **kwargs)
-  File "/home/myamya/anaconda3/lib/python3.9/site-packages/airflow/models/taskinstance.py", line 1324, in _run_raw_task
-    self._execute_task_with_callbacks(context)
-  File "/home/myamya/anaconda3/lib/python3.9/site-packages/airflow/models/taskinstance.py", line 1443, in _execute_task_with_callbacks
-    result = self._execute_task(context, self.task)
-  File "/home/myamya/anaconda3/lib/python3.9/site-packages/airflow/models/taskinstance.py", line 1499, in _execute_task
-    result = execute_callable(context=context)
-  File "/home/myamya/anaconda3/lib/python3.9/site-packages/airflow/operators/bash.py", line 187, in execute
-    raise AirflowException(
-airflow.exceptions.AirflowException: Bash command failed. The command returned a non-zero exit code 130.
-[2021-12-21 23:14:17,663] {local_task_job.py:154} INFO - Task exited with return code 1
-[2021-12-21 23:14:17,673] {local_task_job.py:264} INFO - 0 downstream tasks scheduled from follow-on schedule check
