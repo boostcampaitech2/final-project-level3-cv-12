@@ -1,1 +1,0 @@
-python inference_realesrgan.py --model_path experiments/pretrained_models/RealESRGAN_x4plus.pth --input /home/myamya/project/image_files/annotationsx4/ --output /home/myamya/project/image_files/512x512/ --face_enhance
