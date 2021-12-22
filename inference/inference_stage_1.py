@@ -29,7 +29,7 @@ def inference(pth_path, part):
     # -- set model
     seed_everything(42)
     use_cuda = torch.cuda.is_available()
-    device   = 'cuda' if use_cuda else 'cpu'
+    device = 'cuda' if use_cuda else 'cpu'
 
     model = CEModule.define_part_encoder(model=part)
     checkpoint = torch.load(pth_path)
@@ -39,16 +39,16 @@ def inference(pth_path, part):
 
     # -- dataset, data loader
     all_dataset = CEDataset('/opt/ml/project/data/all.json', part=part)
-    
+
     # -- inference
     DB = []
     with torch.no_grad():
         model.eval()
         for i in tqdm(range(3964)):
             img, _ = all_dataset[i]
-            img    = torch.Tensor(img).to(device)
-            img    = img.unsqueeze(axis=0).float().to(device)
-            img    = img.unsqueeze(axis=1).float().to(device)
+            img = torch.Tensor(img).to(device)
+            img = img.unsqueeze(axis=0).float().to(device)
+            img = img.unsqueeze(axis=1).float().to(device)
             output = model(img)
             DB.append(output[0])
     return DB
@@ -65,9 +65,9 @@ def save_json(DB, save_path, file_name):
 
 
 if __name__ == '__main__':
-    pth_path  = '/opt/ml/mouth_encoder.pth'
+    pth_path = '/opt/ml/all_encoder.pth'
     save_path = '/opt/ml/project/inference/'
-    part = 'mouth'
+    part = 'all'
     DB = inference(pth_path, part)
     file_name = part + '.json'
     save_json(DB, save_path, file_name)
