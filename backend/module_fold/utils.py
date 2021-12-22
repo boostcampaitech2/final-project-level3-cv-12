@@ -8,8 +8,7 @@ def get_norm_layer(norm_type='instance'):
     elif (norm_type == 'instance'):
         norm_layer = nn.InstanceNorm2d
     else:
-        raise NotImplementedError(
-            ('normalization layer [%s] is not found' % norm_type))
+        raise NotImplementedError(('normalization layer [%s] is not found' % norm_type))
     return norm_layer
 
 
@@ -29,3 +28,4 @@ def weight_init_kaiming(m):
     elif 'BatchNorm' in classname:
         nn.init.normal_(m.weight, 1.0, 0.02)
         nn.init.constant_(m.bias, 0.0)
+ 

@@ -1,0 +1,1 @@
+python inference_realesrgan.py --model_path experiments/pretrained_models/RealESRGAN_x4plus.pth --input /home/myamya/project/image_files/cropped_image/ --output /home/myamya/project/image_files/cropped_512_image/ --face_enhance
