@@ -41,6 +41,7 @@ class Generator(nn.Module):
     def forward(self, input):
         return self.conv(input)
 
+
 class Generator_U(nn.Module):
 
     def __init__(self, input_nc, output_nc, ngf=56, n_blocks=9, norm_layer=nn.InstanceNorm2d, padding_type='reflect'):
@@ -65,7 +66,7 @@ class Generator_U(nn.Module):
         self.res = nn.Sequential(*resnet_layers)
 
         # upsample
-        self.up3 = ConvTrans2D_Block(ngf*8, ngf*4, 4, 1, 2) #4C H/4 W/4
+        self.up3 = ConvTrans2D_Block(ngf*8, ngf*4, 4, 1, 2)  # 4C H/4 W/4
         self.up2 = ConvTrans2D_Block(ngf*8, ngf*2, 4, 1, 2)
         self.up1 = ConvTrans2D_Block(ngf*4, ngf, 4, 1, 2)
 
@@ -92,7 +93,6 @@ class Generator_U(nn.Module):
         u2 = self.up2(torch.cat((u3, d2), axis=1))
         u1 = self.up1(torch.cat((u2, d1), axis=1))
         return self.final(u1)
-
 
 
 class Discriminator(nn.Module):
