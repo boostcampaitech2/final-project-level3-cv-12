@@ -1,0 +1,945 @@
+[2021-12-22 16:59:15,325] {processor.py:163} INFO - Started process (PID=8122) to work on /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_branch_datetime_operator.py
+[2021-12-22 16:59:15,326] {processor.py:620} INFO - Processing file /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_branch_datetime_operator.py for tasks to queue
+[2021-12-22 16:59:15,326] {logging_mixin.py:109} INFO - [2021-12-22 16:59:15,326] {dagbag.py:500} INFO - Filling up the DagBag from /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_branch_datetime_operator.py
+[2021-12-22 16:59:15,336] {processor.py:632} INFO - DAG(s) dict_keys(['example_branch_datetime_operator_2']) retrieved from /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_branch_datetime_operator.py
+[2021-12-22 16:59:15,340] {logging_mixin.py:109} INFO - [2021-12-22 16:59:15,340] {dag.py:2389} INFO - Sync 1 DAGs
+[2021-12-22 16:59:15,346] {logging_mixin.py:109} INFO - [2021-12-22 16:59:15,346] {dag.py:2914} INFO - Setting next_dagrun for example_branch_datetime_operator_2 to 2021-12-21 00:00:00+00:00
+[2021-12-22 16:59:15,357] {processor.py:171} INFO - Processing /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_branch_datetime_operator.py took 0.033 seconds
+[2021-12-22 16:59:57,240] {processor.py:163} INFO - Started process (PID=8206) to work on /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_branch_datetime_operator.py
+[2021-12-22 16:59:57,243] {processor.py:620} INFO - Processing file /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_branch_datetime_operator.py for tasks to queue
+[2021-12-22 16:59:57,243] {logging_mixin.py:109} INFO - [2021-12-22 16:59:57,243] {dagbag.py:500} INFO - Filling up the DagBag from /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_branch_datetime_operator.py
+[2021-12-22 16:59:57,258] {processor.py:632} INFO - DAG(s) dict_keys(['example_branch_datetime_operator_2']) retrieved from /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_branch_datetime_operator.py
+[2021-12-22 16:59:57,262] {logging_mixin.py:109} INFO - [2021-12-22 16:59:57,262] {dag.py:2389} INFO - Sync 1 DAGs
+[2021-12-22 16:59:57,270] {logging_mixin.py:109} INFO - [2021-12-22 16:59:57,270] {dag.py:2914} INFO - Setting next_dagrun for example_branch_datetime_operator_2 to 2021-12-21 00:00:00+00:00
+[2021-12-22 16:59:57,278] {processor.py:171} INFO - Processing /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_branch_datetime_operator.py took 0.041 seconds
+[2021-12-22 17:00:36,006] {processor.py:163} INFO - Started process (PID=8366) to work on /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_branch_datetime_operator.py
+[2021-12-22 17:00:36,014] {processor.py:620} INFO - Processing file /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_branch_datetime_operator.py for tasks to queue
+[2021-12-22 17:00:36,015] {logging_mixin.py:109} INFO - [2021-12-22 17:00:36,014] {dagbag.py:500} INFO - Filling up the DagBag from /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_branch_datetime_operator.py
+[2021-12-22 17:00:36,041] {processor.py:632} INFO - DAG(s) dict_keys(['example_branch_datetime_operator_2']) retrieved from /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_branch_datetime_operator.py
+[2021-12-22 17:00:36,048] {logging_mixin.py:109} INFO - [2021-12-22 17:00:36,048] {dag.py:2389} INFO - Sync 1 DAGs
+[2021-12-22 17:00:36,057] {logging_mixin.py:109} INFO - [2021-12-22 17:00:36,057] {dag.py:2914} INFO - Setting next_dagrun for example_branch_datetime_operator_2 to 2021-12-21 00:00:00+00:00
+[2021-12-22 17:00:36,065] {processor.py:171} INFO - Processing /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_branch_datetime_operator.py took 0.062 seconds
+[2021-12-22 17:12:47,855] {processor.py:163} INFO - Started process (PID=19094) to work on /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_branch_datetime_operator.py
+[2021-12-22 17:12:47,858] {processor.py:620} INFO - Processing file /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_branch_datetime_operator.py for tasks to queue
+[2021-12-22 17:12:47,858] {logging_mixin.py:109} INFO - [2021-12-22 17:12:47,858] {dagbag.py:500} INFO - Filling up the DagBag from /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_branch_datetime_operator.py
+[2021-12-22 17:12:47,869] {processor.py:632} INFO - DAG(s) dict_keys(['example_branch_datetime_operator_2']) retrieved from /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_branch_datetime_operator.py
+[2021-12-22 17:12:47,874] {logging_mixin.py:109} INFO - [2021-12-22 17:12:47,874] {dag.py:2389} INFO - Sync 1 DAGs
+[2021-12-22 17:12:47,919] {logging_mixin.py:109} INFO - [2021-12-22 17:12:47,919] {dag.py:2914} INFO - Setting next_dagrun for example_branch_datetime_operator_2 to 2021-12-21 00:00:00+00:00
+[2021-12-22 17:12:47,928] {processor.py:171} INFO - Processing /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_branch_datetime_operator.py took 0.075 seconds
+[2021-12-22 17:13:29,515] {processor.py:163} INFO - Started process (PID=19295) to work on /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_branch_datetime_operator.py
+[2021-12-22 17:13:29,523] {processor.py:620} INFO - Processing file /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_branch_datetime_operator.py for tasks to queue
+[2021-12-22 17:13:29,524] {logging_mixin.py:109} INFO - [2021-12-22 17:13:29,524] {dagbag.py:500} INFO - Filling up the DagBag from /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_branch_datetime_operator.py
+[2021-12-22 17:13:29,575] {processor.py:632} INFO - DAG(s) dict_keys(['example_branch_datetime_operator_2']) retrieved from /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_branch_datetime_operator.py
+[2021-12-22 17:13:29,579] {logging_mixin.py:109} INFO - [2021-12-22 17:13:29,578] {dag.py:2389} INFO - Sync 1 DAGs
+[2021-12-22 17:13:29,584] {logging_mixin.py:109} INFO - [2021-12-22 17:13:29,584] {dag.py:2914} INFO - Setting next_dagrun for example_branch_datetime_operator_2 to 2021-12-21 00:00:00+00:00
+[2021-12-22 17:13:29,592] {processor.py:171} INFO - Processing /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_branch_datetime_operator.py took 0.079 seconds
+[2021-12-22 17:14:13,999] {processor.py:163} INFO - Started process (PID=19541) to work on /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_branch_datetime_operator.py
+[2021-12-22 17:14:14,002] {processor.py:620} INFO - Processing file /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_branch_datetime_operator.py for tasks to queue
+[2021-12-22 17:14:14,003] {logging_mixin.py:109} INFO - [2021-12-22 17:14:14,003] {dagbag.py:500} INFO - Filling up the DagBag from /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_branch_datetime_operator.py
+[2021-12-22 17:14:14,052] {processor.py:632} INFO - DAG(s) dict_keys(['example_branch_datetime_operator_2']) retrieved from /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_branch_datetime_operator.py
+[2021-12-22 17:14:14,056] {logging_mixin.py:109} INFO - [2021-12-22 17:14:14,056] {dag.py:2389} INFO - Sync 1 DAGs
+[2021-12-22 17:14:14,061] {logging_mixin.py:109} INFO - [2021-12-22 17:14:14,060] {dag.py:2914} INFO - Setting next_dagrun for example_branch_datetime_operator_2 to 2021-12-21 00:00:00+00:00
+[2021-12-22 17:14:14,068] {processor.py:171} INFO - Processing /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_branch_datetime_operator.py took 0.071 seconds
+[2021-12-22 17:14:57,486] {processor.py:163} INFO - Started process (PID=19766) to work on /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_branch_datetime_operator.py
+[2021-12-22 17:14:57,496] {processor.py:620} INFO - Processing file /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_branch_datetime_operator.py for tasks to queue
+[2021-12-22 17:14:57,497] {logging_mixin.py:109} INFO - [2021-12-22 17:14:57,497] {dagbag.py:500} INFO - Filling up the DagBag from /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_branch_datetime_operator.py
+[2021-12-22 17:14:57,522] {processor.py:632} INFO - DAG(s) dict_keys(['example_branch_datetime_operator_2']) retrieved from /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_branch_datetime_operator.py
+[2021-12-22 17:14:57,529] {logging_mixin.py:109} INFO - [2021-12-22 17:14:57,529] {dag.py:2389} INFO - Sync 1 DAGs
+[2021-12-22 17:14:57,537] {logging_mixin.py:109} INFO - [2021-12-22 17:14:57,537] {dag.py:2914} INFO - Setting next_dagrun for example_branch_datetime_operator_2 to 2021-12-21 00:00:00+00:00
+[2021-12-22 17:14:57,546] {processor.py:171} INFO - Processing /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_branch_datetime_operator.py took 0.066 seconds
+[2021-12-22 17:15:36,420] {processor.py:163} INFO - Started process (PID=19814) to work on /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_branch_datetime_operator.py
+[2021-12-22 17:15:36,429] {processor.py:620} INFO - Processing file /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_branch_datetime_operator.py for tasks to queue
+[2021-12-22 17:15:36,431] {logging_mixin.py:109} INFO - [2021-12-22 17:15:36,431] {dagbag.py:500} INFO - Filling up the DagBag from /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_branch_datetime_operator.py
+[2021-12-22 17:15:36,457] {processor.py:632} INFO - DAG(s) dict_keys(['example_branch_datetime_operator_2']) retrieved from /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_branch_datetime_operator.py
+[2021-12-22 17:15:36,464] {logging_mixin.py:109} INFO - [2021-12-22 17:15:36,464] {dag.py:2389} INFO - Sync 1 DAGs
+[2021-12-22 17:15:36,472] {logging_mixin.py:109} INFO - [2021-12-22 17:15:36,472] {dag.py:2914} INFO - Setting next_dagrun for example_branch_datetime_operator_2 to 2021-12-21 00:00:00+00:00
+[2021-12-22 17:15:36,484] {processor.py:171} INFO - Processing /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_branch_datetime_operator.py took 0.071 seconds
+[2021-12-22 17:16:18,083] {processor.py:163} INFO - Started process (PID=19880) to work on /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_branch_datetime_operator.py
+[2021-12-22 17:16:18,092] {processor.py:620} INFO - Processing file /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_branch_datetime_operator.py for tasks to queue
+[2021-12-22 17:16:18,093] {logging_mixin.py:109} INFO - [2021-12-22 17:16:18,093] {dagbag.py:500} INFO - Filling up the DagBag from /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_branch_datetime_operator.py
+[2021-12-22 17:16:18,121] {processor.py:632} INFO - DAG(s) dict_keys(['example_branch_datetime_operator_2']) retrieved from /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_branch_datetime_operator.py
+[2021-12-22 17:16:18,128] {logging_mixin.py:109} INFO - [2021-12-22 17:16:18,128] {dag.py:2389} INFO - Sync 1 DAGs
+[2021-12-22 17:16:18,137] {logging_mixin.py:109} INFO - [2021-12-22 17:16:18,137] {dag.py:2914} INFO - Setting next_dagrun for example_branch_datetime_operator_2 to 2021-12-21 00:00:00+00:00
+[2021-12-22 17:16:18,146] {processor.py:171} INFO - Processing /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_branch_datetime_operator.py took 0.070 seconds
+[2021-12-22 17:16:57,833] {processor.py:163} INFO - Started process (PID=20289) to work on /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_branch_datetime_operator.py
+[2021-12-22 17:16:57,840] {processor.py:620} INFO - Processing file /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_branch_datetime_operator.py for tasks to queue
+[2021-12-22 17:16:57,841] {logging_mixin.py:109} INFO - [2021-12-22 17:16:57,841] {dagbag.py:500} INFO - Filling up the DagBag from /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_branch_datetime_operator.py
+[2021-12-22 17:16:57,849] {processor.py:632} INFO - DAG(s) dict_keys(['example_branch_datetime_operator_2']) retrieved from /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_branch_datetime_operator.py
+[2021-12-22 17:16:57,854] {logging_mixin.py:109} INFO - [2021-12-22 17:16:57,854] {dag.py:2389} INFO - Sync 1 DAGs
+[2021-12-22 17:16:57,860] {logging_mixin.py:109} INFO - [2021-12-22 17:16:57,860] {dag.py:2914} INFO - Setting next_dagrun for example_branch_datetime_operator_2 to 2021-12-21 00:00:00+00:00
+[2021-12-22 17:16:57,868] {processor.py:171} INFO - Processing /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_branch_datetime_operator.py took 0.037 seconds
+[2021-12-22 17:17:47,741] {processor.py:163} INFO - Started process (PID=20948) to work on /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_branch_datetime_operator.py
+[2021-12-22 17:17:47,745] {processor.py:620} INFO - Processing file /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_branch_datetime_operator.py for tasks to queue
+[2021-12-22 17:17:47,746] {logging_mixin.py:109} INFO - [2021-12-22 17:17:47,746] {dagbag.py:500} INFO - Filling up the DagBag from /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_branch_datetime_operator.py
+[2021-12-22 17:17:47,760] {processor.py:632} INFO - DAG(s) dict_keys(['example_branch_datetime_operator_2']) retrieved from /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_branch_datetime_operator.py
+[2021-12-22 17:17:47,766] {logging_mixin.py:109} INFO - [2021-12-22 17:17:47,766] {dag.py:2389} INFO - Sync 1 DAGs
+[2021-12-22 17:17:47,773] {logging_mixin.py:109} INFO - [2021-12-22 17:17:47,773] {dag.py:2914} INFO - Setting next_dagrun for example_branch_datetime_operator_2 to 2021-12-21 00:00:00+00:00
+[2021-12-22 17:17:47,781] {processor.py:171} INFO - Processing /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_branch_datetime_operator.py took 0.044 seconds
+[2021-12-22 17:18:27,630] {processor.py:163} INFO - Started process (PID=21001) to work on /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_branch_datetime_operator.py
+[2021-12-22 17:18:27,635] {processor.py:620} INFO - Processing file /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_branch_datetime_operator.py for tasks to queue
+[2021-12-22 17:18:27,636] {logging_mixin.py:109} INFO - [2021-12-22 17:18:27,636] {dagbag.py:500} INFO - Filling up the DagBag from /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_branch_datetime_operator.py
+[2021-12-22 17:18:27,661] {processor.py:632} INFO - DAG(s) dict_keys(['example_branch_datetime_operator_2']) retrieved from /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_branch_datetime_operator.py
+[2021-12-22 17:18:27,669] {logging_mixin.py:109} INFO - [2021-12-22 17:18:27,669] {dag.py:2389} INFO - Sync 1 DAGs
+[2021-12-22 17:18:27,679] {logging_mixin.py:109} INFO - [2021-12-22 17:18:27,679] {dag.py:2914} INFO - Setting next_dagrun for example_branch_datetime_operator_2 to 2021-12-21 00:00:00+00:00
+[2021-12-22 17:18:27,687] {processor.py:171} INFO - Processing /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_branch_datetime_operator.py took 0.064 seconds
+[2021-12-22 17:19:09,840] {processor.py:163} INFO - Started process (PID=21149) to work on /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_branch_datetime_operator.py
+[2021-12-22 17:19:09,846] {processor.py:620} INFO - Processing file /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_branch_datetime_operator.py for tasks to queue
+[2021-12-22 17:19:09,847] {logging_mixin.py:109} INFO - [2021-12-22 17:19:09,847] {dagbag.py:500} INFO - Filling up the DagBag from /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_branch_datetime_operator.py
+[2021-12-22 17:19:09,869] {processor.py:632} INFO - DAG(s) dict_keys(['example_branch_datetime_operator_2']) retrieved from /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_branch_datetime_operator.py
+[2021-12-22 17:19:09,876] {logging_mixin.py:109} INFO - [2021-12-22 17:19:09,876] {dag.py:2389} INFO - Sync 1 DAGs
+[2021-12-22 17:19:09,884] {logging_mixin.py:109} INFO - [2021-12-22 17:19:09,884] {dag.py:2914} INFO - Setting next_dagrun for example_branch_datetime_operator_2 to 2021-12-21 00:00:00+00:00
+[2021-12-22 17:19:09,892] {processor.py:171} INFO - Processing /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_branch_datetime_operator.py took 0.058 seconds
+[2021-12-22 17:19:51,582] {processor.py:163} INFO - Started process (PID=21478) to work on /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_branch_datetime_operator.py
+[2021-12-22 17:19:51,587] {processor.py:620} INFO - Processing file /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_branch_datetime_operator.py for tasks to queue
+[2021-12-22 17:19:51,588] {logging_mixin.py:109} INFO - [2021-12-22 17:19:51,588] {dagbag.py:500} INFO - Filling up the DagBag from /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_branch_datetime_operator.py
+[2021-12-22 17:19:51,613] {processor.py:632} INFO - DAG(s) dict_keys(['example_branch_datetime_operator_2']) retrieved from /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_branch_datetime_operator.py
+[2021-12-22 17:19:51,620] {logging_mixin.py:109} INFO - [2021-12-22 17:19:51,620] {dag.py:2389} INFO - Sync 1 DAGs
+[2021-12-22 17:19:51,628] {logging_mixin.py:109} INFO - [2021-12-22 17:19:51,628] {dag.py:2914} INFO - Setting next_dagrun for example_branch_datetime_operator_2 to 2021-12-21 00:00:00+00:00
+[2021-12-22 17:19:51,637] {processor.py:171} INFO - Processing /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_branch_datetime_operator.py took 0.062 seconds
+[2021-12-22 17:20:38,140] {processor.py:163} INFO - Started process (PID=21551) to work on /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_branch_datetime_operator.py
+[2021-12-22 17:20:38,148] {processor.py:620} INFO - Processing file /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_branch_datetime_operator.py for tasks to queue
+[2021-12-22 17:20:38,149] {logging_mixin.py:109} INFO - [2021-12-22 17:20:38,149] {dagbag.py:500} INFO - Filling up the DagBag from /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_branch_datetime_operator.py
+[2021-12-22 17:20:38,163] {processor.py:632} INFO - DAG(s) dict_keys(['example_branch_datetime_operator_2']) retrieved from /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_branch_datetime_operator.py
+[2021-12-22 17:20:38,170] {logging_mixin.py:109} INFO - [2021-12-22 17:20:38,170] {dag.py:2389} INFO - Sync 1 DAGs
+[2021-12-22 17:20:38,179] {logging_mixin.py:109} INFO - [2021-12-22 17:20:38,179] {dag.py:2914} INFO - Setting next_dagrun for example_branch_datetime_operator_2 to 2021-12-21 00:00:00+00:00
+[2021-12-22 17:20:38,187] {processor.py:171} INFO - Processing /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_branch_datetime_operator.py took 0.050 seconds
+[2021-12-22 17:21:21,314] {processor.py:163} INFO - Started process (PID=21610) to work on /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_branch_datetime_operator.py
+[2021-12-22 17:21:21,323] {processor.py:620} INFO - Processing file /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_branch_datetime_operator.py for tasks to queue
+[2021-12-22 17:21:21,325] {logging_mixin.py:109} INFO - [2021-12-22 17:21:21,325] {dagbag.py:500} INFO - Filling up the DagBag from /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_branch_datetime_operator.py
+[2021-12-22 17:21:21,352] {processor.py:632} INFO - DAG(s) dict_keys(['example_branch_datetime_operator_2']) retrieved from /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_branch_datetime_operator.py
+[2021-12-22 17:21:21,360] {logging_mixin.py:109} INFO - [2021-12-22 17:21:21,359] {dag.py:2389} INFO - Sync 1 DAGs
+[2021-12-22 17:21:21,368] {logging_mixin.py:109} INFO - [2021-12-22 17:21:21,368] {dag.py:2914} INFO - Setting next_dagrun for example_branch_datetime_operator_2 to 2021-12-21 00:00:00+00:00
+[2021-12-22 17:21:21,377] {processor.py:171} INFO - Processing /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_branch_datetime_operator.py took 0.069 seconds
+[2021-12-22 17:59:12,666] {processor.py:163} INFO - Started process (PID=38864) to work on /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_branch_datetime_operator.py
+[2021-12-22 17:59:12,671] {processor.py:620} INFO - Processing file /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_branch_datetime_operator.py for tasks to queue
+[2021-12-22 17:59:12,673] {logging_mixin.py:109} INFO - [2021-12-22 17:59:12,672] {dagbag.py:500} INFO - Filling up the DagBag from /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_branch_datetime_operator.py
+[2021-12-22 17:59:12,702] {processor.py:632} INFO - DAG(s) dict_keys(['example_branch_datetime_operator_2']) retrieved from /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_branch_datetime_operator.py
+[2021-12-22 17:59:12,710] {logging_mixin.py:109} INFO - [2021-12-22 17:59:12,710] {dag.py:2389} INFO - Sync 1 DAGs
+[2021-12-22 17:59:12,719] {logging_mixin.py:109} INFO - [2021-12-22 17:59:12,719] {dag.py:2914} INFO - Setting next_dagrun for example_branch_datetime_operator_2 to 2021-12-21 00:00:00+00:00
+[2021-12-22 17:59:12,728] {processor.py:171} INFO - Processing /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_branch_datetime_operator.py took 0.063 seconds
+[2021-12-22 17:59:52,413] {processor.py:163} INFO - Started process (PID=38933) to work on /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_branch_datetime_operator.py
+[2021-12-22 17:59:52,423] {processor.py:620} INFO - Processing file /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_branch_datetime_operator.py for tasks to queue
+[2021-12-22 17:59:52,424] {logging_mixin.py:109} INFO - [2021-12-22 17:59:52,424] {dagbag.py:500} INFO - Filling up the DagBag from /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_branch_datetime_operator.py
+[2021-12-22 17:59:52,451] {processor.py:632} INFO - DAG(s) dict_keys(['example_branch_datetime_operator_2']) retrieved from /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_branch_datetime_operator.py
+[2021-12-22 17:59:52,460] {logging_mixin.py:109} INFO - [2021-12-22 17:59:52,460] {dag.py:2389} INFO - Sync 1 DAGs
+[2021-12-22 17:59:52,468] {logging_mixin.py:109} INFO - [2021-12-22 17:59:52,468] {dag.py:2914} INFO - Setting next_dagrun for example_branch_datetime_operator_2 to 2021-12-21 00:00:00+00:00
+[2021-12-22 17:59:52,476] {processor.py:171} INFO - Processing /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_branch_datetime_operator.py took 0.069 seconds
+[2021-12-22 18:00:33,137] {processor.py:163} INFO - Started process (PID=38984) to work on /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_branch_datetime_operator.py
+[2021-12-22 18:00:33,142] {processor.py:620} INFO - Processing file /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_branch_datetime_operator.py for tasks to queue
+[2021-12-22 18:00:33,143] {logging_mixin.py:109} INFO - [2021-12-22 18:00:33,143] {dagbag.py:500} INFO - Filling up the DagBag from /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_branch_datetime_operator.py
+[2021-12-22 18:00:33,168] {processor.py:632} INFO - DAG(s) dict_keys(['example_branch_datetime_operator_2']) retrieved from /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_branch_datetime_operator.py
+[2021-12-22 18:00:33,175] {logging_mixin.py:109} INFO - [2021-12-22 18:00:33,175] {dag.py:2389} INFO - Sync 1 DAGs
+[2021-12-22 18:00:33,183] {logging_mixin.py:109} INFO - [2021-12-22 18:00:33,183] {dag.py:2914} INFO - Setting next_dagrun for example_branch_datetime_operator_2 to 2021-12-21 00:00:00+00:00
+[2021-12-22 18:00:33,191] {processor.py:171} INFO - Processing /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_branch_datetime_operator.py took 0.061 seconds
+[2021-12-22 18:01:17,598] {processor.py:163} INFO - Started process (PID=39029) to work on /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_branch_datetime_operator.py
+[2021-12-22 18:01:17,608] {processor.py:620} INFO - Processing file /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_branch_datetime_operator.py for tasks to queue
+[2021-12-22 18:01:17,609] {logging_mixin.py:109} INFO - [2021-12-22 18:01:17,609] {dagbag.py:500} INFO - Filling up the DagBag from /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_branch_datetime_operator.py
+[2021-12-22 18:01:17,631] {processor.py:632} INFO - DAG(s) dict_keys(['example_branch_datetime_operator_2']) retrieved from /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_branch_datetime_operator.py
+[2021-12-22 18:01:17,638] {logging_mixin.py:109} INFO - [2021-12-22 18:01:17,638] {dag.py:2389} INFO - Sync 1 DAGs
+[2021-12-22 18:01:17,646] {logging_mixin.py:109} INFO - [2021-12-22 18:01:17,646] {dag.py:2914} INFO - Setting next_dagrun for example_branch_datetime_operator_2 to 2021-12-21 00:00:00+00:00
+[2021-12-22 18:01:17,655] {processor.py:171} INFO - Processing /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_branch_datetime_operator.py took 0.063 seconds
+[2021-12-22 18:01:57,515] {processor.py:163} INFO - Started process (PID=39072) to work on /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_branch_datetime_operator.py
+[2021-12-22 18:01:57,523] {processor.py:620} INFO - Processing file /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_branch_datetime_operator.py for tasks to queue
+[2021-12-22 18:01:57,523] {logging_mixin.py:109} INFO - [2021-12-22 18:01:57,523] {dagbag.py:500} INFO - Filling up the DagBag from /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_branch_datetime_operator.py
+[2021-12-22 18:01:57,533] {processor.py:632} INFO - DAG(s) dict_keys(['example_branch_datetime_operator_2']) retrieved from /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_branch_datetime_operator.py
+[2021-12-22 18:01:57,537] {logging_mixin.py:109} INFO - [2021-12-22 18:01:57,537] {dag.py:2389} INFO - Sync 1 DAGs
+[2021-12-22 18:01:57,543] {logging_mixin.py:109} INFO - [2021-12-22 18:01:57,543] {dag.py:2914} INFO - Setting next_dagrun for example_branch_datetime_operator_2 to 2021-12-21 00:00:00+00:00
+[2021-12-22 18:01:57,552] {processor.py:171} INFO - Processing /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_branch_datetime_operator.py took 0.039 seconds
+[2021-12-22 18:02:39,498] {processor.py:163} INFO - Started process (PID=39113) to work on /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_branch_datetime_operator.py
+[2021-12-22 18:02:39,503] {processor.py:620} INFO - Processing file /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_branch_datetime_operator.py for tasks to queue
+[2021-12-22 18:02:39,505] {logging_mixin.py:109} INFO - [2021-12-22 18:02:39,504] {dagbag.py:500} INFO - Filling up the DagBag from /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_branch_datetime_operator.py
+[2021-12-22 18:02:39,529] {processor.py:632} INFO - DAG(s) dict_keys(['example_branch_datetime_operator_2']) retrieved from /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_branch_datetime_operator.py
+[2021-12-22 18:02:39,536] {logging_mixin.py:109} INFO - [2021-12-22 18:02:39,536] {dag.py:2389} INFO - Sync 1 DAGs
+[2021-12-22 18:02:39,544] {logging_mixin.py:109} INFO - [2021-12-22 18:02:39,544] {dag.py:2914} INFO - Setting next_dagrun for example_branch_datetime_operator_2 to 2021-12-21 00:00:00+00:00
+[2021-12-22 18:02:39,556] {processor.py:171} INFO - Processing /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_branch_datetime_operator.py took 0.064 seconds
+[2021-12-22 18:07:58,697] {processor.py:163} INFO - Started process (PID=41061) to work on /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_branch_datetime_operator.py
+[2021-12-22 18:07:58,702] {processor.py:620} INFO - Processing file /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_branch_datetime_operator.py for tasks to queue
+[2021-12-22 18:07:58,703] {logging_mixin.py:109} INFO - [2021-12-22 18:07:58,703] {dagbag.py:500} INFO - Filling up the DagBag from /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_branch_datetime_operator.py
+[2021-12-22 18:07:58,730] {processor.py:632} INFO - DAG(s) dict_keys(['example_branch_datetime_operator_2']) retrieved from /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_branch_datetime_operator.py
+[2021-12-22 18:07:58,737] {logging_mixin.py:109} INFO - [2021-12-22 18:07:58,737] {dag.py:2389} INFO - Sync 1 DAGs
+[2021-12-22 18:07:58,745] {logging_mixin.py:109} INFO - [2021-12-22 18:07:58,745] {dag.py:2914} INFO - Setting next_dagrun for example_branch_datetime_operator_2 to 2021-12-21 00:00:00+00:00
+[2021-12-22 18:07:58,754] {processor.py:171} INFO - Processing /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_branch_datetime_operator.py took 0.064 seconds
+[2021-12-22 18:08:38,460] {processor.py:163} INFO - Started process (PID=41105) to work on /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_branch_datetime_operator.py
+[2021-12-22 18:08:38,469] {processor.py:620} INFO - Processing file /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_branch_datetime_operator.py for tasks to queue
+[2021-12-22 18:08:38,471] {logging_mixin.py:109} INFO - [2021-12-22 18:08:38,471] {dagbag.py:500} INFO - Filling up the DagBag from /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_branch_datetime_operator.py
+[2021-12-22 18:08:38,497] {processor.py:632} INFO - DAG(s) dict_keys(['example_branch_datetime_operator_2']) retrieved from /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_branch_datetime_operator.py
+[2021-12-22 18:08:38,505] {logging_mixin.py:109} INFO - [2021-12-22 18:08:38,505] {dag.py:2389} INFO - Sync 1 DAGs
+[2021-12-22 18:08:38,513] {logging_mixin.py:109} INFO - [2021-12-22 18:08:38,513] {dag.py:2914} INFO - Setting next_dagrun for example_branch_datetime_operator_2 to 2021-12-21 00:00:00+00:00
+[2021-12-22 18:08:38,523] {processor.py:171} INFO - Processing /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_branch_datetime_operator.py took 0.070 seconds
+[2021-12-22 18:09:24,555] {processor.py:163} INFO - Started process (PID=41150) to work on /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_branch_datetime_operator.py
+[2021-12-22 18:09:24,565] {processor.py:620} INFO - Processing file /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_branch_datetime_operator.py for tasks to queue
+[2021-12-22 18:09:24,566] {logging_mixin.py:109} INFO - [2021-12-22 18:09:24,566] {dagbag.py:500} INFO - Filling up the DagBag from /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_branch_datetime_operator.py
+[2021-12-22 18:09:24,597] {processor.py:632} INFO - DAG(s) dict_keys(['example_branch_datetime_operator_2']) retrieved from /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_branch_datetime_operator.py
+[2021-12-22 18:09:24,605] {logging_mixin.py:109} INFO - [2021-12-22 18:09:24,605] {dag.py:2389} INFO - Sync 1 DAGs
+[2021-12-22 18:09:24,614] {logging_mixin.py:109} INFO - [2021-12-22 18:09:24,614] {dag.py:2914} INFO - Setting next_dagrun for example_branch_datetime_operator_2 to 2021-12-21 00:00:00+00:00
+[2021-12-22 18:09:24,623] {processor.py:171} INFO - Processing /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_branch_datetime_operator.py took 0.074 seconds
+[2021-12-22 18:10:02,814] {processor.py:163} INFO - Started process (PID=41189) to work on /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_branch_datetime_operator.py
+[2021-12-22 18:10:02,822] {processor.py:620} INFO - Processing file /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_branch_datetime_operator.py for tasks to queue
+[2021-12-22 18:10:02,823] {logging_mixin.py:109} INFO - [2021-12-22 18:10:02,823] {dagbag.py:500} INFO - Filling up the DagBag from /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_branch_datetime_operator.py
+[2021-12-22 18:10:02,846] {processor.py:632} INFO - DAG(s) dict_keys(['example_branch_datetime_operator_2']) retrieved from /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_branch_datetime_operator.py
+[2021-12-22 18:10:02,854] {logging_mixin.py:109} INFO - [2021-12-22 18:10:02,854] {dag.py:2389} INFO - Sync 1 DAGs
+[2021-12-22 18:10:02,862] {logging_mixin.py:109} INFO - [2021-12-22 18:10:02,862] {dag.py:2914} INFO - Setting next_dagrun for example_branch_datetime_operator_2 to 2021-12-21 00:00:00+00:00
+[2021-12-22 18:10:02,873] {processor.py:171} INFO - Processing /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_branch_datetime_operator.py took 0.064 seconds
+[2021-12-22 18:10:42,839] {processor.py:163} INFO - Started process (PID=41230) to work on /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_branch_datetime_operator.py
+[2021-12-22 18:10:42,848] {processor.py:620} INFO - Processing file /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_branch_datetime_operator.py for tasks to queue
+[2021-12-22 18:10:42,850] {logging_mixin.py:109} INFO - [2021-12-22 18:10:42,850] {dagbag.py:500} INFO - Filling up the DagBag from /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_branch_datetime_operator.py
+[2021-12-22 18:10:42,879] {processor.py:632} INFO - DAG(s) dict_keys(['example_branch_datetime_operator_2']) retrieved from /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_branch_datetime_operator.py
+[2021-12-22 18:10:42,887] {logging_mixin.py:109} INFO - [2021-12-22 18:10:42,887] {dag.py:2389} INFO - Sync 1 DAGs
+[2021-12-22 18:10:42,895] {logging_mixin.py:109} INFO - [2021-12-22 18:10:42,895] {dag.py:2914} INFO - Setting next_dagrun for example_branch_datetime_operator_2 to 2021-12-21 00:00:00+00:00
+[2021-12-22 18:10:42,904] {processor.py:171} INFO - Processing /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_branch_datetime_operator.py took 0.071 seconds
+[2021-12-22 18:11:30,821] {processor.py:163} INFO - Started process (PID=41286) to work on /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_branch_datetime_operator.py
+[2021-12-22 18:11:30,830] {processor.py:620} INFO - Processing file /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_branch_datetime_operator.py for tasks to queue
+[2021-12-22 18:11:30,831] {logging_mixin.py:109} INFO - [2021-12-22 18:11:30,831] {dagbag.py:500} INFO - Filling up the DagBag from /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_branch_datetime_operator.py
+[2021-12-22 18:11:30,861] {processor.py:632} INFO - DAG(s) dict_keys(['example_branch_datetime_operator_2']) retrieved from /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_branch_datetime_operator.py
+[2021-12-22 18:11:30,871] {logging_mixin.py:109} INFO - [2021-12-22 18:11:30,871] {dag.py:2389} INFO - Sync 1 DAGs
+[2021-12-22 18:11:30,880] {logging_mixin.py:109} INFO - [2021-12-22 18:11:30,880] {dag.py:2914} INFO - Setting next_dagrun for example_branch_datetime_operator_2 to 2021-12-21 00:00:00+00:00
+[2021-12-22 18:11:30,889] {processor.py:171} INFO - Processing /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_branch_datetime_operator.py took 0.070 seconds
+[2021-12-22 18:12:09,440] {processor.py:163} INFO - Started process (PID=41324) to work on /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_branch_datetime_operator.py
+[2021-12-22 18:12:09,445] {processor.py:620} INFO - Processing file /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_branch_datetime_operator.py for tasks to queue
+[2021-12-22 18:12:09,446] {logging_mixin.py:109} INFO - [2021-12-22 18:12:09,446] {dagbag.py:500} INFO - Filling up the DagBag from /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_branch_datetime_operator.py
+[2021-12-22 18:12:09,471] {processor.py:632} INFO - DAG(s) dict_keys(['example_branch_datetime_operator_2']) retrieved from /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_branch_datetime_operator.py
+[2021-12-22 18:12:09,478] {logging_mixin.py:109} INFO - [2021-12-22 18:12:09,478] {dag.py:2389} INFO - Sync 1 DAGs
+[2021-12-22 18:12:09,486] {logging_mixin.py:109} INFO - [2021-12-22 18:12:09,486] {dag.py:2914} INFO - Setting next_dagrun for example_branch_datetime_operator_2 to 2021-12-21 00:00:00+00:00
+[2021-12-22 18:12:09,495] {processor.py:171} INFO - Processing /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_branch_datetime_operator.py took 0.062 seconds
+[2021-12-22 18:19:27,262] {processor.py:163} INFO - Started process (PID=43805) to work on /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_branch_datetime_operator.py
+[2021-12-22 18:19:27,267] {processor.py:620} INFO - Processing file /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_branch_datetime_operator.py for tasks to queue
+[2021-12-22 18:19:27,268] {logging_mixin.py:109} INFO - [2021-12-22 18:19:27,268] {dagbag.py:500} INFO - Filling up the DagBag from /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_branch_datetime_operator.py
+[2021-12-22 18:19:27,293] {processor.py:632} INFO - DAG(s) dict_keys(['example_branch_datetime_operator_2']) retrieved from /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_branch_datetime_operator.py
+[2021-12-22 18:19:27,301] {logging_mixin.py:109} INFO - [2021-12-22 18:19:27,301] {dag.py:2389} INFO - Sync 1 DAGs
+[2021-12-22 18:19:27,309] {logging_mixin.py:109} INFO - [2021-12-22 18:19:27,309] {dag.py:2914} INFO - Setting next_dagrun for example_branch_datetime_operator_2 to 2021-12-21 00:00:00+00:00
+[2021-12-22 18:19:27,317] {processor.py:171} INFO - Processing /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_branch_datetime_operator.py took 0.062 seconds
+[2021-12-22 18:20:13,000] {processor.py:163} INFO - Started process (PID=43851) to work on /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_branch_datetime_operator.py
+[2021-12-22 18:20:13,008] {processor.py:620} INFO - Processing file /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_branch_datetime_operator.py for tasks to queue
+[2021-12-22 18:20:13,008] {logging_mixin.py:109} INFO - [2021-12-22 18:20:13,008] {dagbag.py:500} INFO - Filling up the DagBag from /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_branch_datetime_operator.py
+[2021-12-22 18:20:13,016] {processor.py:632} INFO - DAG(s) dict_keys(['example_branch_datetime_operator_2']) retrieved from /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_branch_datetime_operator.py
+[2021-12-22 18:20:13,021] {logging_mixin.py:109} INFO - [2021-12-22 18:20:13,021] {dag.py:2389} INFO - Sync 1 DAGs
+[2021-12-22 18:20:13,027] {logging_mixin.py:109} INFO - [2021-12-22 18:20:13,027] {dag.py:2914} INFO - Setting next_dagrun for example_branch_datetime_operator_2 to 2021-12-21 00:00:00+00:00
+[2021-12-22 18:20:13,035] {processor.py:171} INFO - Processing /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_branch_datetime_operator.py took 0.037 seconds
+[2021-12-22 18:20:56,443] {processor.py:163} INFO - Started process (PID=43927) to work on /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_branch_datetime_operator.py
+[2021-12-22 18:20:56,448] {processor.py:620} INFO - Processing file /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_branch_datetime_operator.py for tasks to queue
+[2021-12-22 18:20:56,450] {logging_mixin.py:109} INFO - [2021-12-22 18:20:56,449] {dagbag.py:500} INFO - Filling up the DagBag from /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_branch_datetime_operator.py
+[2021-12-22 18:20:56,474] {processor.py:632} INFO - DAG(s) dict_keys(['example_branch_datetime_operator_2']) retrieved from /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_branch_datetime_operator.py
+[2021-12-22 18:20:56,481] {logging_mixin.py:109} INFO - [2021-12-22 18:20:56,481] {dag.py:2389} INFO - Sync 1 DAGs
+[2021-12-22 18:20:56,489] {logging_mixin.py:109} INFO - [2021-12-22 18:20:56,489] {dag.py:2914} INFO - Setting next_dagrun for example_branch_datetime_operator_2 to 2021-12-21 00:00:00+00:00
+[2021-12-22 18:20:56,501] {processor.py:171} INFO - Processing /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_branch_datetime_operator.py took 0.065 seconds
+[2021-12-22 18:21:39,110] {processor.py:163} INFO - Started process (PID=43968) to work on /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_branch_datetime_operator.py
+[2021-12-22 18:21:39,121] {processor.py:620} INFO - Processing file /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_branch_datetime_operator.py for tasks to queue
+[2021-12-22 18:21:39,122] {logging_mixin.py:109} INFO - [2021-12-22 18:21:39,122] {dagbag.py:500} INFO - Filling up the DagBag from /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_branch_datetime_operator.py
+[2021-12-22 18:21:39,148] {processor.py:632} INFO - DAG(s) dict_keys(['example_branch_datetime_operator_2']) retrieved from /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_branch_datetime_operator.py
+[2021-12-22 18:21:39,154] {logging_mixin.py:109} INFO - [2021-12-22 18:21:39,154] {dag.py:2389} INFO - Sync 1 DAGs
+[2021-12-22 18:21:39,160] {logging_mixin.py:109} INFO - [2021-12-22 18:21:39,160] {dag.py:2914} INFO - Setting next_dagrun for example_branch_datetime_operator_2 to 2021-12-21 00:00:00+00:00
+[2021-12-22 18:21:39,178] {processor.py:171} INFO - Processing /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_branch_datetime_operator.py took 0.074 seconds
+[2021-12-22 18:22:24,378] {processor.py:163} INFO - Started process (PID=44015) to work on /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_branch_datetime_operator.py
+[2021-12-22 18:22:24,382] {processor.py:620} INFO - Processing file /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_branch_datetime_operator.py for tasks to queue
+[2021-12-22 18:22:24,382] {logging_mixin.py:109} INFO - [2021-12-22 18:22:24,382] {dagbag.py:500} INFO - Filling up the DagBag from /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_branch_datetime_operator.py
+[2021-12-22 18:22:24,393] {processor.py:632} INFO - DAG(s) dict_keys(['example_branch_datetime_operator_2']) retrieved from /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_branch_datetime_operator.py
+[2021-12-22 18:22:24,397] {logging_mixin.py:109} INFO - [2021-12-22 18:22:24,397] {dag.py:2389} INFO - Sync 1 DAGs
+[2021-12-22 18:22:24,404] {logging_mixin.py:109} INFO - [2021-12-22 18:22:24,404] {dag.py:2914} INFO - Setting next_dagrun for example_branch_datetime_operator_2 to 2021-12-21 00:00:00+00:00
+[2021-12-22 18:22:24,412] {processor.py:171} INFO - Processing /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_branch_datetime_operator.py took 0.037 seconds
+[2021-12-22 18:23:05,940] {processor.py:163} INFO - Started process (PID=44061) to work on /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_branch_datetime_operator.py
+[2021-12-22 18:23:05,949] {processor.py:620} INFO - Processing file /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_branch_datetime_operator.py for tasks to queue
+[2021-12-22 18:23:05,950] {logging_mixin.py:109} INFO - [2021-12-22 18:23:05,950] {dagbag.py:500} INFO - Filling up the DagBag from /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_branch_datetime_operator.py
+[2021-12-22 18:23:05,970] {processor.py:632} INFO - DAG(s) dict_keys(['example_branch_datetime_operator_2']) retrieved from /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_branch_datetime_operator.py
+[2021-12-22 18:23:05,978] {logging_mixin.py:109} INFO - [2021-12-22 18:23:05,978] {dag.py:2389} INFO - Sync 1 DAGs
+[2021-12-22 18:23:05,987] {logging_mixin.py:109} INFO - [2021-12-22 18:23:05,987] {dag.py:2914} INFO - Setting next_dagrun for example_branch_datetime_operator_2 to 2021-12-21 00:00:00+00:00
+[2021-12-22 18:23:05,996] {processor.py:171} INFO - Processing /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_branch_datetime_operator.py took 0.060 seconds
+[2021-12-22 18:23:51,594] {processor.py:163} INFO - Started process (PID=44118) to work on /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_branch_datetime_operator.py
+[2021-12-22 18:23:51,603] {processor.py:620} INFO - Processing file /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_branch_datetime_operator.py for tasks to queue
+[2021-12-22 18:23:51,605] {logging_mixin.py:109} INFO - [2021-12-22 18:23:51,604] {dagbag.py:500} INFO - Filling up the DagBag from /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_branch_datetime_operator.py
+[2021-12-22 18:23:51,630] {processor.py:632} INFO - DAG(s) dict_keys(['example_branch_datetime_operator_2']) retrieved from /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_branch_datetime_operator.py
+[2021-12-22 18:23:51,637] {logging_mixin.py:109} INFO - [2021-12-22 18:23:51,637] {dag.py:2389} INFO - Sync 1 DAGs
+[2021-12-22 18:23:51,645] {logging_mixin.py:109} INFO - [2021-12-22 18:23:51,645] {dag.py:2914} INFO - Setting next_dagrun for example_branch_datetime_operator_2 to 2021-12-21 00:00:00+00:00
+[2021-12-22 18:23:51,654] {processor.py:171} INFO - Processing /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_branch_datetime_operator.py took 0.066 seconds
+[2021-12-22 18:24:34,179] {processor.py:163} INFO - Started process (PID=44488) to work on /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_branch_datetime_operator.py
+[2021-12-22 18:24:34,188] {processor.py:620} INFO - Processing file /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_branch_datetime_operator.py for tasks to queue
+[2021-12-22 18:24:34,189] {logging_mixin.py:109} INFO - [2021-12-22 18:24:34,189] {dagbag.py:500} INFO - Filling up the DagBag from /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_branch_datetime_operator.py
+[2021-12-22 18:24:34,218] {processor.py:632} INFO - DAG(s) dict_keys(['example_branch_datetime_operator_2']) retrieved from /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_branch_datetime_operator.py
+[2021-12-22 18:24:34,227] {logging_mixin.py:109} INFO - [2021-12-22 18:24:34,227] {dag.py:2389} INFO - Sync 1 DAGs
+[2021-12-22 18:24:34,236] {logging_mixin.py:109} INFO - [2021-12-22 18:24:34,235] {dag.py:2914} INFO - Setting next_dagrun for example_branch_datetime_operator_2 to 2021-12-21 00:00:00+00:00
+[2021-12-22 18:24:34,253] {processor.py:171} INFO - Processing /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_branch_datetime_operator.py took 0.081 seconds
+[2021-12-22 18:25:18,600] {processor.py:163} INFO - Started process (PID=44533) to work on /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_branch_datetime_operator.py
+[2021-12-22 18:25:18,610] {processor.py:620} INFO - Processing file /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_branch_datetime_operator.py for tasks to queue
+[2021-12-22 18:25:18,611] {logging_mixin.py:109} INFO - [2021-12-22 18:25:18,611] {dagbag.py:500} INFO - Filling up the DagBag from /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_branch_datetime_operator.py
+[2021-12-22 18:25:18,636] {processor.py:632} INFO - DAG(s) dict_keys(['example_branch_datetime_operator_2']) retrieved from /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_branch_datetime_operator.py
+[2021-12-22 18:25:18,643] {logging_mixin.py:109} INFO - [2021-12-22 18:25:18,643] {dag.py:2389} INFO - Sync 1 DAGs
+[2021-12-22 18:25:18,652] {logging_mixin.py:109} INFO - [2021-12-22 18:25:18,652] {dag.py:2914} INFO - Setting next_dagrun for example_branch_datetime_operator_2 to 2021-12-21 00:00:00+00:00
+[2021-12-22 18:25:18,661] {processor.py:171} INFO - Processing /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_branch_datetime_operator.py took 0.067 seconds
+[2021-12-22 18:26:02,908] {processor.py:163} INFO - Started process (PID=44585) to work on /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_branch_datetime_operator.py
+[2021-12-22 18:26:02,917] {processor.py:620} INFO - Processing file /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_branch_datetime_operator.py for tasks to queue
+[2021-12-22 18:26:02,919] {logging_mixin.py:109} INFO - [2021-12-22 18:26:02,919] {dagbag.py:500} INFO - Filling up the DagBag from /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_branch_datetime_operator.py
+[2021-12-22 18:26:02,946] {processor.py:632} INFO - DAG(s) dict_keys(['example_branch_datetime_operator_2']) retrieved from /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_branch_datetime_operator.py
+[2021-12-22 18:26:02,955] {logging_mixin.py:109} INFO - [2021-12-22 18:26:02,955] {dag.py:2389} INFO - Sync 1 DAGs
+[2021-12-22 18:26:02,962] {logging_mixin.py:109} INFO - [2021-12-22 18:26:02,962] {dag.py:2914} INFO - Setting next_dagrun for example_branch_datetime_operator_2 to 2021-12-21 00:00:00+00:00
+[2021-12-22 18:26:02,971] {processor.py:171} INFO - Processing /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_branch_datetime_operator.py took 0.069 seconds
+[2021-12-22 18:26:48,030] {processor.py:163} INFO - Started process (PID=44633) to work on /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_branch_datetime_operator.py
+[2021-12-22 18:26:48,038] {processor.py:620} INFO - Processing file /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_branch_datetime_operator.py for tasks to queue
+[2021-12-22 18:26:48,038] {logging_mixin.py:109} INFO - [2021-12-22 18:26:48,038] {dagbag.py:500} INFO - Filling up the DagBag from /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_branch_datetime_operator.py
+[2021-12-22 18:26:48,046] {processor.py:632} INFO - DAG(s) dict_keys(['example_branch_datetime_operator_2']) retrieved from /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_branch_datetime_operator.py
+[2021-12-22 18:26:48,051] {logging_mixin.py:109} INFO - [2021-12-22 18:26:48,051] {dag.py:2389} INFO - Sync 1 DAGs
+[2021-12-22 18:26:48,056] {logging_mixin.py:109} INFO - [2021-12-22 18:26:48,056] {dag.py:2914} INFO - Setting next_dagrun for example_branch_datetime_operator_2 to 2021-12-21 00:00:00+00:00
+[2021-12-22 18:26:48,065] {processor.py:171} INFO - Processing /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_branch_datetime_operator.py took 0.036 seconds
+[2021-12-22 18:27:31,322] {processor.py:163} INFO - Started process (PID=44675) to work on /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_branch_datetime_operator.py
+[2021-12-22 18:27:31,323] {processor.py:620} INFO - Processing file /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_branch_datetime_operator.py for tasks to queue
+[2021-12-22 18:27:31,323] {logging_mixin.py:109} INFO - [2021-12-22 18:27:31,323] {dagbag.py:500} INFO - Filling up the DagBag from /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_branch_datetime_operator.py
+[2021-12-22 18:27:31,332] {processor.py:632} INFO - DAG(s) dict_keys(['example_branch_datetime_operator_2']) retrieved from /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_branch_datetime_operator.py
+[2021-12-22 18:27:31,337] {logging_mixin.py:109} INFO - [2021-12-22 18:27:31,337] {dag.py:2389} INFO - Sync 1 DAGs
+[2021-12-22 18:27:31,343] {logging_mixin.py:109} INFO - [2021-12-22 18:27:31,343] {dag.py:2914} INFO - Setting next_dagrun for example_branch_datetime_operator_2 to 2021-12-21 00:00:00+00:00
+[2021-12-22 18:27:31,357] {processor.py:171} INFO - Processing /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_branch_datetime_operator.py took 0.037 seconds
+[2021-12-22 18:28:12,947] {processor.py:163} INFO - Started process (PID=44728) to work on /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_branch_datetime_operator.py
+[2021-12-22 18:28:12,957] {processor.py:620} INFO - Processing file /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_branch_datetime_operator.py for tasks to queue
+[2021-12-22 18:28:12,958] {logging_mixin.py:109} INFO - [2021-12-22 18:28:12,958] {dagbag.py:500} INFO - Filling up the DagBag from /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_branch_datetime_operator.py
+[2021-12-22 18:28:12,985] {processor.py:632} INFO - DAG(s) dict_keys(['example_branch_datetime_operator_2']) retrieved from /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_branch_datetime_operator.py
+[2021-12-22 18:28:12,993] {logging_mixin.py:109} INFO - [2021-12-22 18:28:12,993] {dag.py:2389} INFO - Sync 1 DAGs
+[2021-12-22 18:28:13,001] {logging_mixin.py:109} INFO - [2021-12-22 18:28:13,001] {dag.py:2914} INFO - Setting next_dagrun for example_branch_datetime_operator_2 to 2021-12-21 00:00:00+00:00
+[2021-12-22 18:28:13,013] {processor.py:171} INFO - Processing /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_branch_datetime_operator.py took 0.072 seconds
+[2021-12-22 18:29:15,401] {processor.py:163} INFO - Started process (PID=45601) to work on /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_branch_datetime_operator.py
+[2021-12-22 18:29:15,401] {processor.py:620} INFO - Processing file /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_branch_datetime_operator.py for tasks to queue
+[2021-12-22 18:29:15,402] {logging_mixin.py:109} INFO - [2021-12-22 18:29:15,402] {dagbag.py:500} INFO - Filling up the DagBag from /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_branch_datetime_operator.py
+[2021-12-22 18:29:15,410] {processor.py:632} INFO - DAG(s) dict_keys(['example_branch_datetime_operator_2']) retrieved from /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_branch_datetime_operator.py
+[2021-12-22 18:29:15,415] {logging_mixin.py:109} INFO - [2021-12-22 18:29:15,415] {dag.py:2389} INFO - Sync 1 DAGs
+[2021-12-22 18:29:15,421] {logging_mixin.py:109} INFO - [2021-12-22 18:29:15,421] {dag.py:2914} INFO - Setting next_dagrun for example_branch_datetime_operator_2 to 2021-12-21 00:00:00+00:00
+[2021-12-22 18:29:15,430] {processor.py:171} INFO - Processing /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_branch_datetime_operator.py took 0.031 seconds
+[2021-12-22 21:11:04,210] {processor.py:163} INFO - Started process (PID=46916) to work on /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_branch_datetime_operator.py
+[2021-12-22 21:11:04,213] {processor.py:620} INFO - Processing file /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_branch_datetime_operator.py for tasks to queue
+[2021-12-22 21:11:04,213] {logging_mixin.py:109} INFO - [2021-12-22 21:11:04,213] {dagbag.py:500} INFO - Filling up the DagBag from /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_branch_datetime_operator.py
+[2021-12-22 21:11:04,223] {processor.py:632} INFO - DAG(s) dict_keys(['example_branch_datetime_operator_2']) retrieved from /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_branch_datetime_operator.py
+[2021-12-22 21:11:04,227] {logging_mixin.py:109} INFO - [2021-12-22 21:11:04,227] {dag.py:2389} INFO - Sync 1 DAGs
+[2021-12-22 21:11:04,233] {logging_mixin.py:109} INFO - [2021-12-22 21:11:04,233] {dag.py:2914} INFO - Setting next_dagrun for example_branch_datetime_operator_2 to 2021-12-21 00:00:00+00:00
+[2021-12-22 21:11:04,242] {processor.py:171} INFO - Processing /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_branch_datetime_operator.py took 0.033 seconds
+[2021-12-22 21:11:46,070] {processor.py:163} INFO - Started process (PID=46962) to work on /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_branch_datetime_operator.py
+[2021-12-22 21:11:46,075] {processor.py:620} INFO - Processing file /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_branch_datetime_operator.py for tasks to queue
+[2021-12-22 21:11:46,077] {logging_mixin.py:109} INFO - [2021-12-22 21:11:46,076] {dagbag.py:500} INFO - Filling up the DagBag from /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_branch_datetime_operator.py
+[2021-12-22 21:11:46,108] {processor.py:632} INFO - DAG(s) dict_keys(['example_branch_datetime_operator_2']) retrieved from /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_branch_datetime_operator.py
+[2021-12-22 21:11:46,115] {logging_mixin.py:109} INFO - [2021-12-22 21:11:46,115] {dag.py:2389} INFO - Sync 1 DAGs
+[2021-12-22 21:11:46,123] {logging_mixin.py:109} INFO - [2021-12-22 21:11:46,122] {dag.py:2914} INFO - Setting next_dagrun for example_branch_datetime_operator_2 to 2021-12-21 00:00:00+00:00
+[2021-12-22 21:11:46,131] {processor.py:171} INFO - Processing /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_branch_datetime_operator.py took 0.067 seconds
+[2021-12-22 21:12:24,904] {processor.py:163} INFO - Started process (PID=47101) to work on /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_branch_datetime_operator.py
+[2021-12-22 21:12:24,914] {processor.py:620} INFO - Processing file /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_branch_datetime_operator.py for tasks to queue
+[2021-12-22 21:12:24,915] {logging_mixin.py:109} INFO - [2021-12-22 21:12:24,915] {dagbag.py:500} INFO - Filling up the DagBag from /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_branch_datetime_operator.py
+[2021-12-22 21:12:24,947] {processor.py:632} INFO - DAG(s) dict_keys(['example_branch_datetime_operator_2']) retrieved from /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_branch_datetime_operator.py
+[2021-12-22 21:12:24,954] {logging_mixin.py:109} INFO - [2021-12-22 21:12:24,954] {dag.py:2389} INFO - Sync 1 DAGs
+[2021-12-22 21:12:24,962] {logging_mixin.py:109} INFO - [2021-12-22 21:12:24,962] {dag.py:2914} INFO - Setting next_dagrun for example_branch_datetime_operator_2 to 2021-12-21 00:00:00+00:00
+[2021-12-22 21:12:24,971] {processor.py:171} INFO - Processing /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_branch_datetime_operator.py took 0.072 seconds
+[2021-12-22 21:13:13,037] {processor.py:163} INFO - Started process (PID=47253) to work on /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_branch_datetime_operator.py
+[2021-12-22 21:13:13,046] {processor.py:620} INFO - Processing file /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_branch_datetime_operator.py for tasks to queue
+[2021-12-22 21:13:13,047] {logging_mixin.py:109} INFO - [2021-12-22 21:13:13,047] {dagbag.py:500} INFO - Filling up the DagBag from /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_branch_datetime_operator.py
+[2021-12-22 21:13:13,081] {processor.py:632} INFO - DAG(s) dict_keys(['example_branch_datetime_operator_2']) retrieved from /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_branch_datetime_operator.py
+[2021-12-22 21:13:13,088] {logging_mixin.py:109} INFO - [2021-12-22 21:13:13,088] {dag.py:2389} INFO - Sync 1 DAGs
+[2021-12-22 21:13:13,096] {logging_mixin.py:109} INFO - [2021-12-22 21:13:13,096] {dag.py:2914} INFO - Setting next_dagrun for example_branch_datetime_operator_2 to 2021-12-21 00:00:00+00:00
+[2021-12-22 21:13:13,105] {processor.py:171} INFO - Processing /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_branch_datetime_operator.py took 0.075 seconds
+[2021-12-22 21:13:51,294] {processor.py:163} INFO - Started process (PID=47308) to work on /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_branch_datetime_operator.py
+[2021-12-22 21:13:51,297] {processor.py:620} INFO - Processing file /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_branch_datetime_operator.py for tasks to queue
+[2021-12-22 21:13:51,297] {logging_mixin.py:109} INFO - [2021-12-22 21:13:51,297] {dagbag.py:500} INFO - Filling up the DagBag from /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_branch_datetime_operator.py
+[2021-12-22 21:13:51,308] {processor.py:632} INFO - DAG(s) dict_keys(['example_branch_datetime_operator_2']) retrieved from /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_branch_datetime_operator.py
+[2021-12-22 21:13:51,313] {logging_mixin.py:109} INFO - [2021-12-22 21:13:51,313] {dag.py:2389} INFO - Sync 1 DAGs
+[2021-12-22 21:13:51,320] {logging_mixin.py:109} INFO - [2021-12-22 21:13:51,320] {dag.py:2914} INFO - Setting next_dagrun for example_branch_datetime_operator_2 to 2021-12-21 00:00:00+00:00
+[2021-12-22 21:13:51,329] {processor.py:171} INFO - Processing /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_branch_datetime_operator.py took 0.036 seconds
+[2021-12-22 21:14:31,343] {processor.py:163} INFO - Started process (PID=47347) to work on /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_branch_datetime_operator.py
+[2021-12-22 21:14:31,351] {processor.py:620} INFO - Processing file /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_branch_datetime_operator.py for tasks to queue
+[2021-12-22 21:14:31,351] {logging_mixin.py:109} INFO - [2021-12-22 21:14:31,351] {dagbag.py:500} INFO - Filling up the DagBag from /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_branch_datetime_operator.py
+[2021-12-22 21:14:31,361] {processor.py:632} INFO - DAG(s) dict_keys(['example_branch_datetime_operator_2']) retrieved from /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_branch_datetime_operator.py
+[2021-12-22 21:14:31,366] {logging_mixin.py:109} INFO - [2021-12-22 21:14:31,365] {dag.py:2389} INFO - Sync 1 DAGs
+[2021-12-22 21:14:31,372] {logging_mixin.py:109} INFO - [2021-12-22 21:14:31,372] {dag.py:2914} INFO - Setting next_dagrun for example_branch_datetime_operator_2 to 2021-12-21 00:00:00+00:00
+[2021-12-22 21:14:31,386] {processor.py:171} INFO - Processing /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_branch_datetime_operator.py took 0.043 seconds
+[2021-12-22 21:15:17,963] {processor.py:163} INFO - Started process (PID=47393) to work on /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_branch_datetime_operator.py
+[2021-12-22 21:15:17,970] {processor.py:620} INFO - Processing file /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_branch_datetime_operator.py for tasks to queue
+[2021-12-22 21:15:17,971] {logging_mixin.py:109} INFO - [2021-12-22 21:15:17,971] {dagbag.py:500} INFO - Filling up the DagBag from /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_branch_datetime_operator.py
+[2021-12-22 21:15:17,983] {processor.py:632} INFO - DAG(s) dict_keys(['example_branch_datetime_operator_2']) retrieved from /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_branch_datetime_operator.py
+[2021-12-22 21:15:17,988] {logging_mixin.py:109} INFO - [2021-12-22 21:15:17,988] {dag.py:2389} INFO - Sync 1 DAGs
+[2021-12-22 21:15:17,996] {logging_mixin.py:109} INFO - [2021-12-22 21:15:17,995] {dag.py:2914} INFO - Setting next_dagrun for example_branch_datetime_operator_2 to 2021-12-21 00:00:00+00:00
+[2021-12-22 21:15:18,005] {processor.py:171} INFO - Processing /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_branch_datetime_operator.py took 0.043 seconds
+[2021-12-22 21:21:48,822] {processor.py:163} INFO - Started process (PID=49695) to work on /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_branch_datetime_operator.py
+[2021-12-22 21:21:48,829] {processor.py:620} INFO - Processing file /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_branch_datetime_operator.py for tasks to queue
+[2021-12-22 21:21:48,830] {logging_mixin.py:109} INFO - [2021-12-22 21:21:48,830] {dagbag.py:500} INFO - Filling up the DagBag from /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_branch_datetime_operator.py
+[2021-12-22 21:21:48,839] {processor.py:632} INFO - DAG(s) dict_keys(['example_branch_datetime_operator_2']) retrieved from /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_branch_datetime_operator.py
+[2021-12-22 21:21:48,844] {logging_mixin.py:109} INFO - [2021-12-22 21:21:48,843] {dag.py:2389} INFO - Sync 1 DAGs
+[2021-12-22 21:21:48,850] {logging_mixin.py:109} INFO - [2021-12-22 21:21:48,850] {dag.py:2914} INFO - Setting next_dagrun for example_branch_datetime_operator_2 to 2021-12-21 00:00:00+00:00
+[2021-12-22 21:21:48,859] {processor.py:171} INFO - Processing /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_branch_datetime_operator.py took 0.038 seconds
+[2021-12-22 21:22:27,326] {processor.py:163} INFO - Started process (PID=49732) to work on /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_branch_datetime_operator.py
+[2021-12-22 21:22:27,334] {processor.py:620} INFO - Processing file /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_branch_datetime_operator.py for tasks to queue
+[2021-12-22 21:22:27,334] {logging_mixin.py:109} INFO - [2021-12-22 21:22:27,334] {dagbag.py:500} INFO - Filling up the DagBag from /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_branch_datetime_operator.py
+[2021-12-22 21:22:27,343] {processor.py:632} INFO - DAG(s) dict_keys(['example_branch_datetime_operator_2']) retrieved from /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_branch_datetime_operator.py
+[2021-12-22 21:22:27,347] {logging_mixin.py:109} INFO - [2021-12-22 21:22:27,347] {dag.py:2389} INFO - Sync 1 DAGs
+[2021-12-22 21:22:27,353] {logging_mixin.py:109} INFO - [2021-12-22 21:22:27,353] {dag.py:2914} INFO - Setting next_dagrun for example_branch_datetime_operator_2 to 2021-12-21 00:00:00+00:00
+[2021-12-22 21:22:27,361] {processor.py:171} INFO - Processing /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_branch_datetime_operator.py took 0.036 seconds
+[2021-12-22 21:23:05,267] {processor.py:163} INFO - Started process (PID=49776) to work on /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_branch_datetime_operator.py
+[2021-12-22 21:23:05,268] {processor.py:620} INFO - Processing file /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_branch_datetime_operator.py for tasks to queue
+[2021-12-22 21:23:05,268] {logging_mixin.py:109} INFO - [2021-12-22 21:23:05,268] {dagbag.py:500} INFO - Filling up the DagBag from /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_branch_datetime_operator.py
+[2021-12-22 21:23:05,276] {processor.py:632} INFO - DAG(s) dict_keys(['example_branch_datetime_operator_2']) retrieved from /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_branch_datetime_operator.py
+[2021-12-22 21:23:05,280] {logging_mixin.py:109} INFO - [2021-12-22 21:23:05,280] {dag.py:2389} INFO - Sync 1 DAGs
+[2021-12-22 21:23:05,286] {logging_mixin.py:109} INFO - [2021-12-22 21:23:05,286] {dag.py:2914} INFO - Setting next_dagrun for example_branch_datetime_operator_2 to 2021-12-21 00:00:00+00:00
+[2021-12-22 21:23:05,294] {processor.py:171} INFO - Processing /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_branch_datetime_operator.py took 0.028 seconds
+[2021-12-22 21:23:48,058] {processor.py:163} INFO - Started process (PID=49817) to work on /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_branch_datetime_operator.py
+[2021-12-22 21:23:48,066] {processor.py:620} INFO - Processing file /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_branch_datetime_operator.py for tasks to queue
+[2021-12-22 21:23:48,066] {logging_mixin.py:109} INFO - [2021-12-22 21:23:48,066] {dagbag.py:500} INFO - Filling up the DagBag from /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_branch_datetime_operator.py
+[2021-12-22 21:23:48,075] {processor.py:632} INFO - DAG(s) dict_keys(['example_branch_datetime_operator_2']) retrieved from /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_branch_datetime_operator.py
+[2021-12-22 21:23:48,080] {logging_mixin.py:109} INFO - [2021-12-22 21:23:48,080] {dag.py:2389} INFO - Sync 1 DAGs
+[2021-12-22 21:23:48,086] {logging_mixin.py:109} INFO - [2021-12-22 21:23:48,086] {dag.py:2914} INFO - Setting next_dagrun for example_branch_datetime_operator_2 to 2021-12-21 00:00:00+00:00
+[2021-12-22 21:23:48,100] {processor.py:171} INFO - Processing /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_branch_datetime_operator.py took 0.043 seconds
+[2021-12-22 21:24:27,826] {processor.py:163} INFO - Started process (PID=49859) to work on /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_branch_datetime_operator.py
+[2021-12-22 21:24:27,835] {processor.py:620} INFO - Processing file /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_branch_datetime_operator.py for tasks to queue
+[2021-12-22 21:24:27,837] {logging_mixin.py:109} INFO - [2021-12-22 21:24:27,836] {dagbag.py:500} INFO - Filling up the DagBag from /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_branch_datetime_operator.py
+[2021-12-22 21:24:27,866] {processor.py:632} INFO - DAG(s) dict_keys(['example_branch_datetime_operator_2']) retrieved from /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_branch_datetime_operator.py
+[2021-12-22 21:24:27,874] {logging_mixin.py:109} INFO - [2021-12-22 21:24:27,874] {dag.py:2389} INFO - Sync 1 DAGs
+[2021-12-22 21:24:27,882] {logging_mixin.py:109} INFO - [2021-12-22 21:24:27,882] {dag.py:2914} INFO - Setting next_dagrun for example_branch_datetime_operator_2 to 2021-12-21 00:00:00+00:00
+[2021-12-22 21:24:27,891] {processor.py:171} INFO - Processing /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_branch_datetime_operator.py took 0.067 seconds
+[2021-12-22 21:25:07,089] {processor.py:163} INFO - Started process (PID=49898) to work on /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_branch_datetime_operator.py
+[2021-12-22 21:25:07,097] {processor.py:620} INFO - Processing file /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_branch_datetime_operator.py for tasks to queue
+[2021-12-22 21:25:07,097] {logging_mixin.py:109} INFO - [2021-12-22 21:25:07,097] {dagbag.py:500} INFO - Filling up the DagBag from /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_branch_datetime_operator.py
+[2021-12-22 21:25:07,108] {processor.py:632} INFO - DAG(s) dict_keys(['example_branch_datetime_operator_2']) retrieved from /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_branch_datetime_operator.py
+[2021-12-22 21:25:07,113] {logging_mixin.py:109} INFO - [2021-12-22 21:25:07,113] {dag.py:2389} INFO - Sync 1 DAGs
+[2021-12-22 21:25:07,121] {logging_mixin.py:109} INFO - [2021-12-22 21:25:07,121] {dag.py:2914} INFO - Setting next_dagrun for example_branch_datetime_operator_2 to 2021-12-21 00:00:00+00:00
+[2021-12-22 21:25:07,130] {processor.py:171} INFO - Processing /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_branch_datetime_operator.py took 0.042 seconds
+[2021-12-22 21:25:45,605] {processor.py:163} INFO - Started process (PID=49940) to work on /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_branch_datetime_operator.py
+[2021-12-22 21:25:45,614] {processor.py:620} INFO - Processing file /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_branch_datetime_operator.py for tasks to queue
+[2021-12-22 21:25:45,616] {logging_mixin.py:109} INFO - [2021-12-22 21:25:45,616] {dagbag.py:500} INFO - Filling up the DagBag from /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_branch_datetime_operator.py
+[2021-12-22 21:25:45,643] {processor.py:632} INFO - DAG(s) dict_keys(['example_branch_datetime_operator_2']) retrieved from /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_branch_datetime_operator.py
+[2021-12-22 21:25:45,651] {logging_mixin.py:109} INFO - [2021-12-22 21:25:45,650] {dag.py:2389} INFO - Sync 1 DAGs
+[2021-12-22 21:25:45,660] {logging_mixin.py:109} INFO - [2021-12-22 21:25:45,660] {dag.py:2914} INFO - Setting next_dagrun for example_branch_datetime_operator_2 to 2021-12-21 00:00:00+00:00
+[2021-12-22 21:25:45,671] {processor.py:171} INFO - Processing /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_branch_datetime_operator.py took 0.073 seconds
+[2021-12-22 21:26:30,180] {processor.py:163} INFO - Started process (PID=49996) to work on /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_branch_datetime_operator.py
+[2021-12-22 21:26:30,190] {processor.py:620} INFO - Processing file /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_branch_datetime_operator.py for tasks to queue
+[2021-12-22 21:26:30,191] {logging_mixin.py:109} INFO - [2021-12-22 21:26:30,191] {dagbag.py:500} INFO - Filling up the DagBag from /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_branch_datetime_operator.py
+[2021-12-22 21:26:30,219] {processor.py:632} INFO - DAG(s) dict_keys(['example_branch_datetime_operator_2']) retrieved from /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_branch_datetime_operator.py
+[2021-12-22 21:26:30,226] {logging_mixin.py:109} INFO - [2021-12-22 21:26:30,226] {dag.py:2389} INFO - Sync 1 DAGs
+[2021-12-22 21:26:30,235] {logging_mixin.py:109} INFO - [2021-12-22 21:26:30,235] {dag.py:2914} INFO - Setting next_dagrun for example_branch_datetime_operator_2 to 2021-12-21 00:00:00+00:00
+[2021-12-22 21:26:30,247] {processor.py:171} INFO - Processing /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_branch_datetime_operator.py took 0.073 seconds
+[2021-12-22 21:27:10,171] {processor.py:163} INFO - Started process (PID=50142) to work on /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_branch_datetime_operator.py
+[2021-12-22 21:27:10,176] {processor.py:620} INFO - Processing file /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_branch_datetime_operator.py for tasks to queue
+[2021-12-22 21:27:10,177] {logging_mixin.py:109} INFO - [2021-12-22 21:27:10,177] {dagbag.py:500} INFO - Filling up the DagBag from /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_branch_datetime_operator.py
+[2021-12-22 21:27:10,206] {processor.py:632} INFO - DAG(s) dict_keys(['example_branch_datetime_operator_2']) retrieved from /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_branch_datetime_operator.py
+[2021-12-22 21:27:10,213] {logging_mixin.py:109} INFO - [2021-12-22 21:27:10,213] {dag.py:2389} INFO - Sync 1 DAGs
+[2021-12-22 21:27:10,220] {logging_mixin.py:109} INFO - [2021-12-22 21:27:10,220] {dag.py:2914} INFO - Setting next_dagrun for example_branch_datetime_operator_2 to 2021-12-21 00:00:00+00:00
+[2021-12-22 21:27:10,232] {processor.py:171} INFO - Processing /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_branch_datetime_operator.py took 0.068 seconds
+[2021-12-22 21:27:56,304] {processor.py:163} INFO - Started process (PID=50196) to work on /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_branch_datetime_operator.py
+[2021-12-22 21:27:56,305] {processor.py:620} INFO - Processing file /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_branch_datetime_operator.py for tasks to queue
+[2021-12-22 21:27:56,305] {logging_mixin.py:109} INFO - [2021-12-22 21:27:56,305] {dagbag.py:500} INFO - Filling up the DagBag from /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_branch_datetime_operator.py
+[2021-12-22 21:27:56,313] {processor.py:632} INFO - DAG(s) dict_keys(['example_branch_datetime_operator_2']) retrieved from /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_branch_datetime_operator.py
+[2021-12-22 21:27:56,318] {logging_mixin.py:109} INFO - [2021-12-22 21:27:56,318] {dag.py:2389} INFO - Sync 1 DAGs
+[2021-12-22 21:27:56,324] {logging_mixin.py:109} INFO - [2021-12-22 21:27:56,324] {dag.py:2914} INFO - Setting next_dagrun for example_branch_datetime_operator_2 to 2021-12-21 00:00:00+00:00
+[2021-12-22 21:27:56,332] {processor.py:171} INFO - Processing /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_branch_datetime_operator.py took 0.029 seconds
+[2021-12-22 21:28:39,823] {processor.py:163} INFO - Started process (PID=50240) to work on /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_branch_datetime_operator.py
+[2021-12-22 21:28:39,831] {processor.py:620} INFO - Processing file /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_branch_datetime_operator.py for tasks to queue
+[2021-12-22 21:28:39,831] {logging_mixin.py:109} INFO - [2021-12-22 21:28:39,831] {dagbag.py:500} INFO - Filling up the DagBag from /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_branch_datetime_operator.py
+[2021-12-22 21:28:39,840] {processor.py:632} INFO - DAG(s) dict_keys(['example_branch_datetime_operator_2']) retrieved from /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_branch_datetime_operator.py
+[2021-12-22 21:28:39,845] {logging_mixin.py:109} INFO - [2021-12-22 21:28:39,845] {dag.py:2389} INFO - Sync 1 DAGs
+[2021-12-22 21:28:39,851] {logging_mixin.py:109} INFO - [2021-12-22 21:28:39,851] {dag.py:2914} INFO - Setting next_dagrun for example_branch_datetime_operator_2 to 2021-12-21 00:00:00+00:00
+[2021-12-22 21:28:39,865] {processor.py:171} INFO - Processing /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_branch_datetime_operator.py took 0.043 seconds
+[2021-12-22 21:29:22,566] {processor.py:163} INFO - Started process (PID=50283) to work on /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_branch_datetime_operator.py
+[2021-12-22 21:29:22,574] {processor.py:620} INFO - Processing file /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_branch_datetime_operator.py for tasks to queue
+[2021-12-22 21:29:22,574] {logging_mixin.py:109} INFO - [2021-12-22 21:29:22,574] {dagbag.py:500} INFO - Filling up the DagBag from /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_branch_datetime_operator.py
+[2021-12-22 21:29:22,582] {processor.py:632} INFO - DAG(s) dict_keys(['example_branch_datetime_operator_2']) retrieved from /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_branch_datetime_operator.py
+[2021-12-22 21:29:22,586] {logging_mixin.py:109} INFO - [2021-12-22 21:29:22,586] {dag.py:2389} INFO - Sync 1 DAGs
+[2021-12-22 21:29:22,593] {logging_mixin.py:109} INFO - [2021-12-22 21:29:22,592] {dag.py:2914} INFO - Setting next_dagrun for example_branch_datetime_operator_2 to 2021-12-21 00:00:00+00:00
+[2021-12-22 21:29:22,606] {processor.py:171} INFO - Processing /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_branch_datetime_operator.py took 0.041 seconds
+[2021-12-22 21:30:04,082] {processor.py:163} INFO - Started process (PID=50328) to work on /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_branch_datetime_operator.py
+[2021-12-22 21:30:04,089] {processor.py:620} INFO - Processing file /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_branch_datetime_operator.py for tasks to queue
+[2021-12-22 21:30:04,090] {logging_mixin.py:109} INFO - [2021-12-22 21:30:04,090] {dagbag.py:500} INFO - Filling up the DagBag from /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_branch_datetime_operator.py
+[2021-12-22 21:30:04,098] {processor.py:632} INFO - DAG(s) dict_keys(['example_branch_datetime_operator_2']) retrieved from /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_branch_datetime_operator.py
+[2021-12-22 21:30:04,102] {logging_mixin.py:109} INFO - [2021-12-22 21:30:04,102] {dag.py:2389} INFO - Sync 1 DAGs
+[2021-12-22 21:30:04,108] {logging_mixin.py:109} INFO - [2021-12-22 21:30:04,108] {dag.py:2914} INFO - Setting next_dagrun for example_branch_datetime_operator_2 to 2021-12-21 00:00:00+00:00
+[2021-12-22 21:30:04,116] {processor.py:171} INFO - Processing /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_branch_datetime_operator.py took 0.036 seconds
+[2021-12-22 21:30:43,147] {processor.py:163} INFO - Started process (PID=50369) to work on /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_branch_datetime_operator.py
+[2021-12-22 21:30:43,151] {processor.py:620} INFO - Processing file /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_branch_datetime_operator.py for tasks to queue
+[2021-12-22 21:30:43,152] {logging_mixin.py:109} INFO - [2021-12-22 21:30:43,152] {dagbag.py:500} INFO - Filling up the DagBag from /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_branch_datetime_operator.py
+[2021-12-22 21:30:43,161] {processor.py:632} INFO - DAG(s) dict_keys(['example_branch_datetime_operator_2']) retrieved from /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_branch_datetime_operator.py
+[2021-12-22 21:30:43,165] {logging_mixin.py:109} INFO - [2021-12-22 21:30:43,165] {dag.py:2389} INFO - Sync 1 DAGs
+[2021-12-22 21:30:43,171] {logging_mixin.py:109} INFO - [2021-12-22 21:30:43,171] {dag.py:2914} INFO - Setting next_dagrun for example_branch_datetime_operator_2 to 2021-12-21 00:00:00+00:00
+[2021-12-22 21:30:43,179] {processor.py:171} INFO - Processing /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_branch_datetime_operator.py took 0.034 seconds
+[2021-12-22 21:31:24,246] {processor.py:163} INFO - Started process (PID=50411) to work on /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_branch_datetime_operator.py
+[2021-12-22 21:31:24,250] {processor.py:620} INFO - Processing file /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_branch_datetime_operator.py for tasks to queue
+[2021-12-22 21:31:24,250] {logging_mixin.py:109} INFO - [2021-12-22 21:31:24,250] {dagbag.py:500} INFO - Filling up the DagBag from /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_branch_datetime_operator.py
+[2021-12-22 21:31:24,259] {processor.py:632} INFO - DAG(s) dict_keys(['example_branch_datetime_operator_2']) retrieved from /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_branch_datetime_operator.py
+[2021-12-22 21:31:24,263] {logging_mixin.py:109} INFO - [2021-12-22 21:31:24,263] {dag.py:2389} INFO - Sync 1 DAGs
+[2021-12-22 21:31:24,269] {logging_mixin.py:109} INFO - [2021-12-22 21:31:24,269] {dag.py:2914} INFO - Setting next_dagrun for example_branch_datetime_operator_2 to 2021-12-21 00:00:00+00:00
+[2021-12-22 21:31:24,277] {processor.py:171} INFO - Processing /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_branch_datetime_operator.py took 0.032 seconds
+[2021-12-22 21:32:04,008] {processor.py:163} INFO - Started process (PID=50559) to work on /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_branch_datetime_operator.py
+[2021-12-22 21:32:04,016] {processor.py:620} INFO - Processing file /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_branch_datetime_operator.py for tasks to queue
+[2021-12-22 21:32:04,017] {logging_mixin.py:109} INFO - [2021-12-22 21:32:04,016] {dagbag.py:500} INFO - Filling up the DagBag from /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_branch_datetime_operator.py
+[2021-12-22 21:32:04,025] {processor.py:632} INFO - DAG(s) dict_keys(['example_branch_datetime_operator_2']) retrieved from /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_branch_datetime_operator.py
+[2021-12-22 21:32:04,029] {logging_mixin.py:109} INFO - [2021-12-22 21:32:04,029] {dag.py:2389} INFO - Sync 1 DAGs
+[2021-12-22 21:32:04,035] {logging_mixin.py:109} INFO - [2021-12-22 21:32:04,035] {dag.py:2914} INFO - Setting next_dagrun for example_branch_datetime_operator_2 to 2021-12-21 00:00:00+00:00
+[2021-12-22 21:32:04,047] {processor.py:171} INFO - Processing /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_branch_datetime_operator.py took 0.040 seconds
+[2021-12-22 21:32:47,887] {processor.py:163} INFO - Started process (PID=50601) to work on /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_branch_datetime_operator.py
+[2021-12-22 21:32:47,897] {processor.py:620} INFO - Processing file /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_branch_datetime_operator.py for tasks to queue
+[2021-12-22 21:32:47,898] {logging_mixin.py:109} INFO - [2021-12-22 21:32:47,898] {dagbag.py:500} INFO - Filling up the DagBag from /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_branch_datetime_operator.py
+[2021-12-22 21:32:47,925] {processor.py:632} INFO - DAG(s) dict_keys(['example_branch_datetime_operator_2']) retrieved from /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_branch_datetime_operator.py
+[2021-12-22 21:32:47,933] {logging_mixin.py:109} INFO - [2021-12-22 21:32:47,933] {dag.py:2389} INFO - Sync 1 DAGs
+[2021-12-22 21:32:47,941] {logging_mixin.py:109} INFO - [2021-12-22 21:32:47,941] {dag.py:2914} INFO - Setting next_dagrun for example_branch_datetime_operator_2 to 2021-12-21 00:00:00+00:00
+[2021-12-22 21:32:47,950] {processor.py:171} INFO - Processing /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_branch_datetime_operator.py took 0.069 seconds
+[2021-12-22 21:33:32,453] {processor.py:163} INFO - Started process (PID=50649) to work on /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_branch_datetime_operator.py
+[2021-12-22 21:33:32,458] {processor.py:620} INFO - Processing file /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_branch_datetime_operator.py for tasks to queue
+[2021-12-22 21:33:32,459] {logging_mixin.py:109} INFO - [2021-12-22 21:33:32,459] {dagbag.py:500} INFO - Filling up the DagBag from /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_branch_datetime_operator.py
+[2021-12-22 21:33:32,484] {processor.py:632} INFO - DAG(s) dict_keys(['example_branch_datetime_operator_2']) retrieved from /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_branch_datetime_operator.py
+[2021-12-22 21:33:32,491] {logging_mixin.py:109} INFO - [2021-12-22 21:33:32,491] {dag.py:2389} INFO - Sync 1 DAGs
+[2021-12-22 21:33:32,499] {logging_mixin.py:109} INFO - [2021-12-22 21:33:32,499] {dag.py:2914} INFO - Setting next_dagrun for example_branch_datetime_operator_2 to 2021-12-21 00:00:00+00:00
+[2021-12-22 21:33:32,507] {processor.py:171} INFO - Processing /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_branch_datetime_operator.py took 0.062 seconds
+[2021-12-22 21:34:12,359] {processor.py:163} INFO - Started process (PID=50687) to work on /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_branch_datetime_operator.py
+[2021-12-22 21:34:12,367] {processor.py:620} INFO - Processing file /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_branch_datetime_operator.py for tasks to queue
+[2021-12-22 21:34:12,367] {logging_mixin.py:109} INFO - [2021-12-22 21:34:12,367] {dagbag.py:500} INFO - Filling up the DagBag from /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_branch_datetime_operator.py
+[2021-12-22 21:34:12,375] {processor.py:632} INFO - DAG(s) dict_keys(['example_branch_datetime_operator_2']) retrieved from /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_branch_datetime_operator.py
+[2021-12-22 21:34:12,380] {logging_mixin.py:109} INFO - [2021-12-22 21:34:12,380] {dag.py:2389} INFO - Sync 1 DAGs
+[2021-12-22 21:34:12,386] {logging_mixin.py:109} INFO - [2021-12-22 21:34:12,385] {dag.py:2914} INFO - Setting next_dagrun for example_branch_datetime_operator_2 to 2021-12-21 00:00:00+00:00
+[2021-12-22 21:34:12,394] {processor.py:171} INFO - Processing /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_branch_datetime_operator.py took 0.036 seconds
+[2021-12-22 21:34:54,575] {processor.py:163} INFO - Started process (PID=50732) to work on /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_branch_datetime_operator.py
+[2021-12-22 21:34:54,578] {processor.py:620} INFO - Processing file /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_branch_datetime_operator.py for tasks to queue
+[2021-12-22 21:34:54,579] {logging_mixin.py:109} INFO - [2021-12-22 21:34:54,578] {dagbag.py:500} INFO - Filling up the DagBag from /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_branch_datetime_operator.py
+[2021-12-22 21:34:54,586] {processor.py:632} INFO - DAG(s) dict_keys(['example_branch_datetime_operator_2']) retrieved from /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_branch_datetime_operator.py
+[2021-12-22 21:34:54,591] {logging_mixin.py:109} INFO - [2021-12-22 21:34:54,591] {dag.py:2389} INFO - Sync 1 DAGs
+[2021-12-22 21:34:54,596] {logging_mixin.py:109} INFO - [2021-12-22 21:34:54,596] {dag.py:2914} INFO - Setting next_dagrun for example_branch_datetime_operator_2 to 2021-12-21 00:00:00+00:00
+[2021-12-22 21:34:54,604] {processor.py:171} INFO - Processing /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_branch_datetime_operator.py took 0.031 seconds
+[2021-12-22 21:35:36,498] {processor.py:163} INFO - Started process (PID=50773) to work on /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_branch_datetime_operator.py
+[2021-12-22 21:35:36,503] {processor.py:620} INFO - Processing file /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_branch_datetime_operator.py for tasks to queue
+[2021-12-22 21:35:36,504] {logging_mixin.py:109} INFO - [2021-12-22 21:35:36,504] {dagbag.py:500} INFO - Filling up the DagBag from /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_branch_datetime_operator.py
+[2021-12-22 21:35:36,531] {processor.py:632} INFO - DAG(s) dict_keys(['example_branch_datetime_operator_2']) retrieved from /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_branch_datetime_operator.py
+[2021-12-22 21:35:36,539] {logging_mixin.py:109} INFO - [2021-12-22 21:35:36,539] {dag.py:2389} INFO - Sync 1 DAGs
+[2021-12-22 21:35:36,547] {logging_mixin.py:109} INFO - [2021-12-22 21:35:36,547] {dag.py:2914} INFO - Setting next_dagrun for example_branch_datetime_operator_2 to 2021-12-21 00:00:00+00:00
+[2021-12-22 21:35:36,558] {processor.py:171} INFO - Processing /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_branch_datetime_operator.py took 0.066 seconds
+[2021-12-22 21:36:21,392] {processor.py:163} INFO - Started process (PID=50820) to work on /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_branch_datetime_operator.py
+[2021-12-22 21:36:21,399] {processor.py:620} INFO - Processing file /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_branch_datetime_operator.py for tasks to queue
+[2021-12-22 21:36:21,400] {logging_mixin.py:109} INFO - [2021-12-22 21:36:21,400] {dagbag.py:500} INFO - Filling up the DagBag from /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_branch_datetime_operator.py
+[2021-12-22 21:36:21,409] {processor.py:632} INFO - DAG(s) dict_keys(['example_branch_datetime_operator_2']) retrieved from /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_branch_datetime_operator.py
+[2021-12-22 21:36:21,413] {logging_mixin.py:109} INFO - [2021-12-22 21:36:21,413] {dag.py:2389} INFO - Sync 1 DAGs
+[2021-12-22 21:36:21,418] {logging_mixin.py:109} INFO - [2021-12-22 21:36:21,418] {dag.py:2914} INFO - Setting next_dagrun for example_branch_datetime_operator_2 to 2021-12-21 00:00:00+00:00
+[2021-12-22 21:36:21,427] {processor.py:171} INFO - Processing /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_branch_datetime_operator.py took 0.037 seconds
+[2021-12-22 21:37:11,975] {processor.py:163} INFO - Started process (PID=51081) to work on /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_branch_datetime_operator.py
+[2021-12-22 21:37:11,982] {processor.py:620} INFO - Processing file /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_branch_datetime_operator.py for tasks to queue
+[2021-12-22 21:37:11,983] {logging_mixin.py:109} INFO - [2021-12-22 21:37:11,983] {dagbag.py:500} INFO - Filling up the DagBag from /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_branch_datetime_operator.py
+[2021-12-22 21:37:11,996] {processor.py:632} INFO - DAG(s) dict_keys(['example_branch_datetime_operator_2']) retrieved from /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_branch_datetime_operator.py
+[2021-12-22 21:37:12,002] {logging_mixin.py:109} INFO - [2021-12-22 21:37:12,002] {dag.py:2389} INFO - Sync 1 DAGs
+[2021-12-22 21:37:12,011] {logging_mixin.py:109} INFO - [2021-12-22 21:37:12,011] {dag.py:2914} INFO - Setting next_dagrun for example_branch_datetime_operator_2 to 2021-12-21 00:00:00+00:00
+[2021-12-22 21:37:12,021] {processor.py:171} INFO - Processing /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_branch_datetime_operator.py took 0.049 seconds
+[2021-12-22 21:37:55,919] {processor.py:163} INFO - Started process (PID=51124) to work on /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_branch_datetime_operator.py
+[2021-12-22 21:37:55,926] {processor.py:620} INFO - Processing file /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_branch_datetime_operator.py for tasks to queue
+[2021-12-22 21:37:55,926] {logging_mixin.py:109} INFO - [2021-12-22 21:37:55,926] {dagbag.py:500} INFO - Filling up the DagBag from /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_branch_datetime_operator.py
+[2021-12-22 21:37:55,935] {processor.py:632} INFO - DAG(s) dict_keys(['example_branch_datetime_operator_2']) retrieved from /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_branch_datetime_operator.py
+[2021-12-22 21:37:55,939] {logging_mixin.py:109} INFO - [2021-12-22 21:37:55,939] {dag.py:2389} INFO - Sync 1 DAGs
+[2021-12-22 21:37:55,945] {logging_mixin.py:109} INFO - [2021-12-22 21:37:55,945] {dag.py:2914} INFO - Setting next_dagrun for example_branch_datetime_operator_2 to 2021-12-21 00:00:00+00:00
+[2021-12-22 21:37:55,953] {processor.py:171} INFO - Processing /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_branch_datetime_operator.py took 0.036 seconds
+[2021-12-22 21:38:40,525] {processor.py:163} INFO - Started process (PID=51178) to work on /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_branch_datetime_operator.py
+[2021-12-22 21:38:40,529] {processor.py:620} INFO - Processing file /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_branch_datetime_operator.py for tasks to queue
+[2021-12-22 21:38:40,530] {logging_mixin.py:109} INFO - [2021-12-22 21:38:40,530] {dagbag.py:500} INFO - Filling up the DagBag from /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_branch_datetime_operator.py
+[2021-12-22 21:38:40,563] {processor.py:632} INFO - DAG(s) dict_keys(['example_branch_datetime_operator_2']) retrieved from /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_branch_datetime_operator.py
+[2021-12-22 21:38:40,571] {logging_mixin.py:109} INFO - [2021-12-22 21:38:40,571] {dag.py:2389} INFO - Sync 1 DAGs
+[2021-12-22 21:38:40,580] {logging_mixin.py:109} INFO - [2021-12-22 21:38:40,580] {dag.py:2914} INFO - Setting next_dagrun for example_branch_datetime_operator_2 to 2021-12-21 00:00:00+00:00
+[2021-12-22 21:38:40,589] {processor.py:171} INFO - Processing /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_branch_datetime_operator.py took 0.066 seconds
+[2021-12-22 21:39:19,861] {processor.py:163} INFO - Started process (PID=51220) to work on /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_branch_datetime_operator.py
+[2021-12-22 21:39:19,870] {processor.py:620} INFO - Processing file /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_branch_datetime_operator.py for tasks to queue
+[2021-12-22 21:39:19,871] {logging_mixin.py:109} INFO - [2021-12-22 21:39:19,871] {dagbag.py:500} INFO - Filling up the DagBag from /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_branch_datetime_operator.py
+[2021-12-22 21:39:19,881] {processor.py:632} INFO - DAG(s) dict_keys(['example_branch_datetime_operator_2']) retrieved from /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_branch_datetime_operator.py
+[2021-12-22 21:39:19,885] {logging_mixin.py:109} INFO - [2021-12-22 21:39:19,885] {dag.py:2389} INFO - Sync 1 DAGs
+[2021-12-22 21:39:19,891] {logging_mixin.py:109} INFO - [2021-12-22 21:39:19,891] {dag.py:2914} INFO - Setting next_dagrun for example_branch_datetime_operator_2 to 2021-12-21 00:00:00+00:00
+[2021-12-22 21:39:19,900] {processor.py:171} INFO - Processing /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_branch_datetime_operator.py took 0.040 seconds
+[2021-12-22 21:40:02,730] {processor.py:163} INFO - Started process (PID=51262) to work on /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_branch_datetime_operator.py
+[2021-12-22 21:40:02,733] {processor.py:620} INFO - Processing file /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_branch_datetime_operator.py for tasks to queue
+[2021-12-22 21:40:02,734] {logging_mixin.py:109} INFO - [2021-12-22 21:40:02,734] {dagbag.py:500} INFO - Filling up the DagBag from /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_branch_datetime_operator.py
+[2021-12-22 21:40:02,758] {processor.py:632} INFO - DAG(s) dict_keys(['example_branch_datetime_operator_2']) retrieved from /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_branch_datetime_operator.py
+[2021-12-22 21:40:02,766] {logging_mixin.py:109} INFO - [2021-12-22 21:40:02,765] {dag.py:2389} INFO - Sync 1 DAGs
+[2021-12-22 21:40:02,773] {logging_mixin.py:109} INFO - [2021-12-22 21:40:02,773] {dag.py:2914} INFO - Setting next_dagrun for example_branch_datetime_operator_2 to 2021-12-21 00:00:00+00:00
+[2021-12-22 21:40:02,782] {processor.py:171} INFO - Processing /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_branch_datetime_operator.py took 0.059 seconds
+[2021-12-22 21:40:46,225] {processor.py:163} INFO - Started process (PID=51309) to work on /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_branch_datetime_operator.py
+[2021-12-22 21:40:46,235] {processor.py:620} INFO - Processing file /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_branch_datetime_operator.py for tasks to queue
+[2021-12-22 21:40:46,237] {logging_mixin.py:109} INFO - [2021-12-22 21:40:46,236] {dagbag.py:500} INFO - Filling up the DagBag from /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_branch_datetime_operator.py
+[2021-12-22 21:40:46,263] {processor.py:632} INFO - DAG(s) dict_keys(['example_branch_datetime_operator_2']) retrieved from /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_branch_datetime_operator.py
+[2021-12-22 21:40:46,271] {logging_mixin.py:109} INFO - [2021-12-22 21:40:46,271] {dag.py:2389} INFO - Sync 1 DAGs
+[2021-12-22 21:40:46,280] {logging_mixin.py:109} INFO - [2021-12-22 21:40:46,280] {dag.py:2914} INFO - Setting next_dagrun for example_branch_datetime_operator_2 to 2021-12-21 00:00:00+00:00
+[2021-12-22 21:40:46,288] {processor.py:171} INFO - Processing /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_branch_datetime_operator.py took 0.069 seconds
+[2021-12-22 21:41:31,455] {processor.py:163} INFO - Started process (PID=51352) to work on /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_branch_datetime_operator.py
+[2021-12-22 21:41:31,465] {processor.py:620} INFO - Processing file /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_branch_datetime_operator.py for tasks to queue
+[2021-12-22 21:41:31,466] {logging_mixin.py:109} INFO - [2021-12-22 21:41:31,466] {dagbag.py:500} INFO - Filling up the DagBag from /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_branch_datetime_operator.py
+[2021-12-22 21:41:31,475] {processor.py:632} INFO - DAG(s) dict_keys(['example_branch_datetime_operator_2']) retrieved from /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_branch_datetime_operator.py
+[2021-12-22 21:41:31,479] {logging_mixin.py:109} INFO - [2021-12-22 21:41:31,479] {dag.py:2389} INFO - Sync 1 DAGs
+[2021-12-22 21:41:31,485] {logging_mixin.py:109} INFO - [2021-12-22 21:41:31,484] {dag.py:2914} INFO - Setting next_dagrun for example_branch_datetime_operator_2 to 2021-12-21 00:00:00+00:00
+[2021-12-22 21:41:31,498] {processor.py:171} INFO - Processing /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_branch_datetime_operator.py took 0.044 seconds
+[2021-12-22 21:42:15,136] {processor.py:163} INFO - Started process (PID=51508) to work on /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_branch_datetime_operator.py
+[2021-12-22 21:42:15,141] {processor.py:620} INFO - Processing file /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_branch_datetime_operator.py for tasks to queue
+[2021-12-22 21:42:15,142] {logging_mixin.py:109} INFO - [2021-12-22 21:42:15,142] {dagbag.py:500} INFO - Filling up the DagBag from /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_branch_datetime_operator.py
+[2021-12-22 21:42:15,169] {processor.py:632} INFO - DAG(s) dict_keys(['example_branch_datetime_operator_2']) retrieved from /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_branch_datetime_operator.py
+[2021-12-22 21:42:15,177] {logging_mixin.py:109} INFO - [2021-12-22 21:42:15,176] {dag.py:2389} INFO - Sync 1 DAGs
+[2021-12-22 21:42:15,185] {logging_mixin.py:109} INFO - [2021-12-22 21:42:15,184] {dag.py:2914} INFO - Setting next_dagrun for example_branch_datetime_operator_2 to 2021-12-21 00:00:00+00:00
+[2021-12-22 21:42:15,193] {processor.py:171} INFO - Processing /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_branch_datetime_operator.py took 0.064 seconds
+[2021-12-22 21:42:57,684] {processor.py:163} INFO - Started process (PID=51550) to work on /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_branch_datetime_operator.py
+[2021-12-22 21:42:57,692] {processor.py:620} INFO - Processing file /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_branch_datetime_operator.py for tasks to queue
+[2021-12-22 21:42:57,692] {logging_mixin.py:109} INFO - [2021-12-22 21:42:57,692] {dagbag.py:500} INFO - Filling up the DagBag from /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_branch_datetime_operator.py
+[2021-12-22 21:42:57,701] {processor.py:632} INFO - DAG(s) dict_keys(['example_branch_datetime_operator_2']) retrieved from /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_branch_datetime_operator.py
+[2021-12-22 21:42:57,705] {logging_mixin.py:109} INFO - [2021-12-22 21:42:57,705] {dag.py:2389} INFO - Sync 1 DAGs
+[2021-12-22 21:42:57,711] {logging_mixin.py:109} INFO - [2021-12-22 21:42:57,711] {dag.py:2914} INFO - Setting next_dagrun for example_branch_datetime_operator_2 to 2021-12-21 00:00:00+00:00
+[2021-12-22 21:42:57,724] {processor.py:171} INFO - Processing /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_branch_datetime_operator.py took 0.042 seconds
+[2021-12-22 21:43:35,950] {processor.py:163} INFO - Started process (PID=51590) to work on /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_branch_datetime_operator.py
+[2021-12-22 21:43:35,955] {processor.py:620} INFO - Processing file /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_branch_datetime_operator.py for tasks to queue
+[2021-12-22 21:43:35,956] {logging_mixin.py:109} INFO - [2021-12-22 21:43:35,956] {dagbag.py:500} INFO - Filling up the DagBag from /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_branch_datetime_operator.py
+[2021-12-22 21:43:35,982] {processor.py:632} INFO - DAG(s) dict_keys(['example_branch_datetime_operator_2']) retrieved from /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_branch_datetime_operator.py
+[2021-12-22 21:43:35,989] {logging_mixin.py:109} INFO - [2021-12-22 21:43:35,989] {dag.py:2389} INFO - Sync 1 DAGs
+[2021-12-22 21:43:35,997] {logging_mixin.py:109} INFO - [2021-12-22 21:43:35,996] {dag.py:2914} INFO - Setting next_dagrun for example_branch_datetime_operator_2 to 2021-12-21 00:00:00+00:00
+[2021-12-22 21:43:36,009] {processor.py:171} INFO - Processing /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_branch_datetime_operator.py took 0.066 seconds
+[2021-12-22 21:44:18,948] {processor.py:163} INFO - Started process (PID=51641) to work on /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_branch_datetime_operator.py
+[2021-12-22 21:44:18,958] {processor.py:620} INFO - Processing file /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_branch_datetime_operator.py for tasks to queue
+[2021-12-22 21:44:18,959] {logging_mixin.py:109} INFO - [2021-12-22 21:44:18,959] {dagbag.py:500} INFO - Filling up the DagBag from /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_branch_datetime_operator.py
+[2021-12-22 21:44:18,984] {processor.py:632} INFO - DAG(s) dict_keys(['example_branch_datetime_operator_2']) retrieved from /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_branch_datetime_operator.py
+[2021-12-22 21:44:18,991] {logging_mixin.py:109} INFO - [2021-12-22 21:44:18,991] {dag.py:2389} INFO - Sync 1 DAGs
+[2021-12-22 21:44:18,999] {logging_mixin.py:109} INFO - [2021-12-22 21:44:18,999] {dag.py:2914} INFO - Setting next_dagrun for example_branch_datetime_operator_2 to 2021-12-21 00:00:00+00:00
+[2021-12-22 21:44:19,008] {processor.py:171} INFO - Processing /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_branch_datetime_operator.py took 0.066 seconds
+[2021-12-22 21:45:01,961] {processor.py:163} INFO - Started process (PID=51685) to work on /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_branch_datetime_operator.py
+[2021-12-22 21:45:01,970] {processor.py:620} INFO - Processing file /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_branch_datetime_operator.py for tasks to queue
+[2021-12-22 21:45:01,972] {logging_mixin.py:109} INFO - [2021-12-22 21:45:01,971] {dagbag.py:500} INFO - Filling up the DagBag from /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_branch_datetime_operator.py
+[2021-12-22 21:45:02,004] {processor.py:632} INFO - DAG(s) dict_keys(['example_branch_datetime_operator_2']) retrieved from /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_branch_datetime_operator.py
+[2021-12-22 21:45:02,013] {logging_mixin.py:109} INFO - [2021-12-22 21:45:02,013] {dag.py:2389} INFO - Sync 1 DAGs
+[2021-12-22 21:45:02,022] {logging_mixin.py:109} INFO - [2021-12-22 21:45:02,022] {dag.py:2914} INFO - Setting next_dagrun for example_branch_datetime_operator_2 to 2021-12-21 00:00:00+00:00
+[2021-12-22 21:45:02,031] {processor.py:171} INFO - Processing /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_branch_datetime_operator.py took 0.072 seconds
+[2021-12-22 21:45:45,803] {processor.py:163} INFO - Started process (PID=51729) to work on /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_branch_datetime_operator.py
+[2021-12-22 21:45:45,811] {processor.py:620} INFO - Processing file /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_branch_datetime_operator.py for tasks to queue
+[2021-12-22 21:45:45,811] {logging_mixin.py:109} INFO - [2021-12-22 21:45:45,811] {dagbag.py:500} INFO - Filling up the DagBag from /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_branch_datetime_operator.py
+[2021-12-22 21:45:45,820] {processor.py:632} INFO - DAG(s) dict_keys(['example_branch_datetime_operator_2']) retrieved from /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_branch_datetime_operator.py
+[2021-12-22 21:45:45,824] {logging_mixin.py:109} INFO - [2021-12-22 21:45:45,824] {dag.py:2389} INFO - Sync 1 DAGs
+[2021-12-22 21:45:45,830] {logging_mixin.py:109} INFO - [2021-12-22 21:45:45,830] {dag.py:2914} INFO - Setting next_dagrun for example_branch_datetime_operator_2 to 2021-12-21 00:00:00+00:00
+[2021-12-22 21:45:45,838] {processor.py:171} INFO - Processing /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_branch_datetime_operator.py took 0.036 seconds
+[2021-12-22 21:46:29,068] {processor.py:163} INFO - Started process (PID=51772) to work on /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_branch_datetime_operator.py
+[2021-12-22 21:46:29,073] {processor.py:620} INFO - Processing file /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_branch_datetime_operator.py for tasks to queue
+[2021-12-22 21:46:29,074] {logging_mixin.py:109} INFO - [2021-12-22 21:46:29,074] {dagbag.py:500} INFO - Filling up the DagBag from /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_branch_datetime_operator.py
+[2021-12-22 21:46:29,106] {processor.py:632} INFO - DAG(s) dict_keys(['example_branch_datetime_operator_2']) retrieved from /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_branch_datetime_operator.py
+[2021-12-22 21:46:29,115] {logging_mixin.py:109} INFO - [2021-12-22 21:46:29,114] {dag.py:2389} INFO - Sync 1 DAGs
+[2021-12-22 21:46:29,123] {logging_mixin.py:109} INFO - [2021-12-22 21:46:29,123] {dag.py:2914} INFO - Setting next_dagrun for example_branch_datetime_operator_2 to 2021-12-21 00:00:00+00:00
+[2021-12-22 21:46:29,133] {processor.py:171} INFO - Processing /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_branch_datetime_operator.py took 0.066 seconds
+[2021-12-22 21:47:15,903] {processor.py:163} INFO - Started process (PID=51927) to work on /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_branch_datetime_operator.py
+[2021-12-22 21:47:15,911] {processor.py:620} INFO - Processing file /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_branch_datetime_operator.py for tasks to queue
+[2021-12-22 21:47:15,911] {logging_mixin.py:109} INFO - [2021-12-22 21:47:15,911] {dagbag.py:500} INFO - Filling up the DagBag from /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_branch_datetime_operator.py
+[2021-12-22 21:47:15,920] {processor.py:632} INFO - DAG(s) dict_keys(['example_branch_datetime_operator_2']) retrieved from /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_branch_datetime_operator.py
+[2021-12-22 21:47:15,925] {logging_mixin.py:109} INFO - [2021-12-22 21:47:15,925] {dag.py:2389} INFO - Sync 1 DAGs
+[2021-12-22 21:47:15,933] {logging_mixin.py:109} INFO - [2021-12-22 21:47:15,933] {dag.py:2914} INFO - Setting next_dagrun for example_branch_datetime_operator_2 to 2021-12-21 00:00:00+00:00
+[2021-12-22 21:47:15,942] {processor.py:171} INFO - Processing /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_branch_datetime_operator.py took 0.040 seconds
+[2021-12-22 21:48:00,257] {processor.py:163} INFO - Started process (PID=51976) to work on /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_branch_datetime_operator.py
+[2021-12-22 21:48:00,266] {processor.py:620} INFO - Processing file /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_branch_datetime_operator.py for tasks to queue
+[2021-12-22 21:48:00,267] {logging_mixin.py:109} INFO - [2021-12-22 21:48:00,267] {dagbag.py:500} INFO - Filling up the DagBag from /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_branch_datetime_operator.py
+[2021-12-22 21:48:00,285] {processor.py:632} INFO - DAG(s) dict_keys(['example_branch_datetime_operator_2']) retrieved from /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_branch_datetime_operator.py
+[2021-12-22 21:48:00,289] {logging_mixin.py:109} INFO - [2021-12-22 21:48:00,289] {dag.py:2389} INFO - Sync 1 DAGs
+[2021-12-22 21:48:00,295] {logging_mixin.py:109} INFO - [2021-12-22 21:48:00,294] {dag.py:2914} INFO - Setting next_dagrun for example_branch_datetime_operator_2 to 2021-12-21 00:00:00+00:00
+[2021-12-22 21:48:00,303] {processor.py:171} INFO - Processing /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_branch_datetime_operator.py took 0.048 seconds
+[2021-12-22 21:48:42,747] {processor.py:163} INFO - Started process (PID=52017) to work on /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_branch_datetime_operator.py
+[2021-12-22 21:48:42,755] {processor.py:620} INFO - Processing file /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_branch_datetime_operator.py for tasks to queue
+[2021-12-22 21:48:42,755] {logging_mixin.py:109} INFO - [2021-12-22 21:48:42,755] {dagbag.py:500} INFO - Filling up the DagBag from /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_branch_datetime_operator.py
+[2021-12-22 21:48:42,764] {processor.py:632} INFO - DAG(s) dict_keys(['example_branch_datetime_operator_2']) retrieved from /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_branch_datetime_operator.py
+[2021-12-22 21:48:42,768] {logging_mixin.py:109} INFO - [2021-12-22 21:48:42,768] {dag.py:2389} INFO - Sync 1 DAGs
+[2021-12-22 21:48:42,773] {logging_mixin.py:109} INFO - [2021-12-22 21:48:42,773] {dag.py:2914} INFO - Setting next_dagrun for example_branch_datetime_operator_2 to 2021-12-21 00:00:00+00:00
+[2021-12-22 21:48:42,782] {processor.py:171} INFO - Processing /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_branch_datetime_operator.py took 0.037 seconds
+[2021-12-22 21:49:26,703] {processor.py:163} INFO - Started process (PID=52060) to work on /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_branch_datetime_operator.py
+[2021-12-22 21:49:26,708] {processor.py:620} INFO - Processing file /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_branch_datetime_operator.py for tasks to queue
+[2021-12-22 21:49:26,709] {logging_mixin.py:109} INFO - [2021-12-22 21:49:26,709] {dagbag.py:500} INFO - Filling up the DagBag from /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_branch_datetime_operator.py
+[2021-12-22 21:49:26,737] {processor.py:632} INFO - DAG(s) dict_keys(['example_branch_datetime_operator_2']) retrieved from /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_branch_datetime_operator.py
+[2021-12-22 21:49:26,744] {logging_mixin.py:109} INFO - [2021-12-22 21:49:26,744] {dag.py:2389} INFO - Sync 1 DAGs
+[2021-12-22 21:49:26,752] {logging_mixin.py:109} INFO - [2021-12-22 21:49:26,752] {dag.py:2914} INFO - Setting next_dagrun for example_branch_datetime_operator_2 to 2021-12-21 00:00:00+00:00
+[2021-12-22 21:49:26,761] {processor.py:171} INFO - Processing /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_branch_datetime_operator.py took 0.065 seconds
+[2021-12-22 21:50:12,124] {processor.py:163} INFO - Started process (PID=52105) to work on /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_branch_datetime_operator.py
+[2021-12-22 21:50:12,133] {processor.py:620} INFO - Processing file /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_branch_datetime_operator.py for tasks to queue
+[2021-12-22 21:50:12,134] {logging_mixin.py:109} INFO - [2021-12-22 21:50:12,134] {dagbag.py:500} INFO - Filling up the DagBag from /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_branch_datetime_operator.py
+[2021-12-22 21:50:12,161] {processor.py:632} INFO - DAG(s) dict_keys(['example_branch_datetime_operator_2']) retrieved from /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_branch_datetime_operator.py
+[2021-12-22 21:50:12,169] {logging_mixin.py:109} INFO - [2021-12-22 21:50:12,169] {dag.py:2389} INFO - Sync 1 DAGs
+[2021-12-22 21:50:12,177] {logging_mixin.py:109} INFO - [2021-12-22 21:50:12,177] {dag.py:2914} INFO - Setting next_dagrun for example_branch_datetime_operator_2 to 2021-12-21 00:00:00+00:00
+[2021-12-22 21:50:12,186] {processor.py:171} INFO - Processing /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_branch_datetime_operator.py took 0.069 seconds
+[2021-12-22 21:50:50,232] {processor.py:163} INFO - Started process (PID=52144) to work on /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_branch_datetime_operator.py
+[2021-12-22 21:50:50,242] {processor.py:620} INFO - Processing file /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_branch_datetime_operator.py for tasks to queue
+[2021-12-22 21:50:50,243] {logging_mixin.py:109} INFO - [2021-12-22 21:50:50,243] {dagbag.py:500} INFO - Filling up the DagBag from /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_branch_datetime_operator.py
+[2021-12-22 21:50:50,274] {processor.py:632} INFO - DAG(s) dict_keys(['example_branch_datetime_operator_2']) retrieved from /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_branch_datetime_operator.py
+[2021-12-22 21:50:50,282] {logging_mixin.py:109} INFO - [2021-12-22 21:50:50,282] {dag.py:2389} INFO - Sync 1 DAGs
+[2021-12-22 21:50:50,290] {logging_mixin.py:109} INFO - [2021-12-22 21:50:50,290] {dag.py:2914} INFO - Setting next_dagrun for example_branch_datetime_operator_2 to 2021-12-21 00:00:00+00:00
+[2021-12-22 21:50:50,302] {processor.py:171} INFO - Processing /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_branch_datetime_operator.py took 0.071 seconds
+[2021-12-22 21:51:29,330] {processor.py:163} INFO - Started process (PID=52185) to work on /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_branch_datetime_operator.py
+[2021-12-22 21:51:29,338] {processor.py:620} INFO - Processing file /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_branch_datetime_operator.py for tasks to queue
+[2021-12-22 21:51:29,338] {logging_mixin.py:109} INFO - [2021-12-22 21:51:29,338] {dagbag.py:500} INFO - Filling up the DagBag from /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_branch_datetime_operator.py
+[2021-12-22 21:51:29,346] {processor.py:632} INFO - DAG(s) dict_keys(['example_branch_datetime_operator_2']) retrieved from /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_branch_datetime_operator.py
+[2021-12-22 21:51:29,350] {logging_mixin.py:109} INFO - [2021-12-22 21:51:29,350] {dag.py:2389} INFO - Sync 1 DAGs
+[2021-12-22 21:51:29,356] {logging_mixin.py:109} INFO - [2021-12-22 21:51:29,356] {dag.py:2914} INFO - Setting next_dagrun for example_branch_datetime_operator_2 to 2021-12-21 00:00:00+00:00
+[2021-12-22 21:51:29,364] {processor.py:171} INFO - Processing /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_branch_datetime_operator.py took 0.035 seconds
+[2021-12-22 21:52:12,414] {processor.py:163} INFO - Started process (PID=52439) to work on /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_branch_datetime_operator.py
+[2021-12-22 21:52:12,415] {processor.py:620} INFO - Processing file /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_branch_datetime_operator.py for tasks to queue
+[2021-12-22 21:52:12,415] {logging_mixin.py:109} INFO - [2021-12-22 21:52:12,415] {dagbag.py:500} INFO - Filling up the DagBag from /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_branch_datetime_operator.py
+[2021-12-22 21:52:12,423] {processor.py:632} INFO - DAG(s) dict_keys(['example_branch_datetime_operator_2']) retrieved from /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_branch_datetime_operator.py
+[2021-12-22 21:52:12,427] {logging_mixin.py:109} INFO - [2021-12-22 21:52:12,427] {dag.py:2389} INFO - Sync 1 DAGs
+[2021-12-22 21:52:12,433] {logging_mixin.py:109} INFO - [2021-12-22 21:52:12,433] {dag.py:2914} INFO - Setting next_dagrun for example_branch_datetime_operator_2 to 2021-12-21 00:00:00+00:00
+[2021-12-22 21:52:12,441] {processor.py:171} INFO - Processing /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_branch_datetime_operator.py took 0.028 seconds
+[2021-12-22 21:52:52,159] {processor.py:163} INFO - Started process (PID=52500) to work on /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_branch_datetime_operator.py
+[2021-12-22 21:52:52,168] {processor.py:620} INFO - Processing file /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_branch_datetime_operator.py for tasks to queue
+[2021-12-22 21:52:52,169] {logging_mixin.py:109} INFO - [2021-12-22 21:52:52,169] {dagbag.py:500} INFO - Filling up the DagBag from /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_branch_datetime_operator.py
+[2021-12-22 21:52:52,196] {processor.py:632} INFO - DAG(s) dict_keys(['example_branch_datetime_operator_2']) retrieved from /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_branch_datetime_operator.py
+[2021-12-22 21:52:52,204] {logging_mixin.py:109} INFO - [2021-12-22 21:52:52,203] {dag.py:2389} INFO - Sync 1 DAGs
+[2021-12-22 21:52:52,212] {logging_mixin.py:109} INFO - [2021-12-22 21:52:52,212] {dag.py:2914} INFO - Setting next_dagrun for example_branch_datetime_operator_2 to 2021-12-21 00:00:00+00:00
+[2021-12-22 21:52:52,222] {processor.py:171} INFO - Processing /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_branch_datetime_operator.py took 0.070 seconds
+[2021-12-22 21:54:20,718] {processor.py:163} INFO - Started process (PID=52811) to work on /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_branch_datetime_operator.py
+[2021-12-22 21:54:20,718] {processor.py:620} INFO - Processing file /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_branch_datetime_operator.py for tasks to queue
+[2021-12-22 21:54:20,719] {logging_mixin.py:109} INFO - [2021-12-22 21:54:20,719] {dagbag.py:500} INFO - Filling up the DagBag from /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_branch_datetime_operator.py
+[2021-12-22 21:54:20,726] {processor.py:632} INFO - DAG(s) dict_keys(['example_branch_datetime_operator_2']) retrieved from /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_branch_datetime_operator.py
+[2021-12-22 21:54:20,730] {logging_mixin.py:109} INFO - [2021-12-22 21:54:20,730] {dag.py:2389} INFO - Sync 1 DAGs
+[2021-12-22 21:54:20,736] {logging_mixin.py:109} INFO - [2021-12-22 21:54:20,736] {dag.py:2914} INFO - Setting next_dagrun for example_branch_datetime_operator_2 to 2021-12-21 00:00:00+00:00
+[2021-12-22 21:54:20,746] {processor.py:171} INFO - Processing /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_branch_datetime_operator.py took 0.029 seconds
+[2021-12-22 21:55:25,493] {processor.py:163} INFO - Started process (PID=53010) to work on /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_branch_datetime_operator.py
+[2021-12-22 21:55:25,501] {processor.py:620} INFO - Processing file /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_branch_datetime_operator.py for tasks to queue
+[2021-12-22 21:55:25,501] {logging_mixin.py:109} INFO - [2021-12-22 21:55:25,501] {dagbag.py:500} INFO - Filling up the DagBag from /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_branch_datetime_operator.py
+[2021-12-22 21:55:25,510] {processor.py:632} INFO - DAG(s) dict_keys(['example_branch_datetime_operator_2']) retrieved from /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_branch_datetime_operator.py
+[2021-12-22 21:55:25,514] {logging_mixin.py:109} INFO - [2021-12-22 21:55:25,514] {dag.py:2389} INFO - Sync 1 DAGs
+[2021-12-22 21:55:25,520] {logging_mixin.py:109} INFO - [2021-12-22 21:55:25,519] {dag.py:2914} INFO - Setting next_dagrun for example_branch_datetime_operator_2 to 2021-12-21 00:00:00+00:00
+[2021-12-22 21:55:25,527] {processor.py:171} INFO - Processing /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_branch_datetime_operator.py took 0.036 seconds
+[2021-12-22 21:56:11,221] {processor.py:163} INFO - Started process (PID=53061) to work on /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_branch_datetime_operator.py
+[2021-12-22 21:56:11,228] {processor.py:620} INFO - Processing file /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_branch_datetime_operator.py for tasks to queue
+[2021-12-22 21:56:11,228] {logging_mixin.py:109} INFO - [2021-12-22 21:56:11,228] {dagbag.py:500} INFO - Filling up the DagBag from /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_branch_datetime_operator.py
+[2021-12-22 21:56:11,237] {processor.py:632} INFO - DAG(s) dict_keys(['example_branch_datetime_operator_2']) retrieved from /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_branch_datetime_operator.py
+[2021-12-22 21:56:11,241] {logging_mixin.py:109} INFO - [2021-12-22 21:56:11,241] {dag.py:2389} INFO - Sync 1 DAGs
+[2021-12-22 21:56:11,247] {logging_mixin.py:109} INFO - [2021-12-22 21:56:11,247] {dag.py:2914} INFO - Setting next_dagrun for example_branch_datetime_operator_2 to 2021-12-21 00:00:00+00:00
+[2021-12-22 21:56:11,255] {processor.py:171} INFO - Processing /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_branch_datetime_operator.py took 0.036 seconds
+[2021-12-22 21:56:54,877] {processor.py:163} INFO - Started process (PID=53104) to work on /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_branch_datetime_operator.py
+[2021-12-22 21:56:54,884] {processor.py:620} INFO - Processing file /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_branch_datetime_operator.py for tasks to queue
+[2021-12-22 21:56:54,885] {logging_mixin.py:109} INFO - [2021-12-22 21:56:54,885] {dagbag.py:500} INFO - Filling up the DagBag from /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_branch_datetime_operator.py
+[2021-12-22 21:56:54,894] {processor.py:632} INFO - DAG(s) dict_keys(['example_branch_datetime_operator_2']) retrieved from /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_branch_datetime_operator.py
+[2021-12-22 21:56:54,899] {logging_mixin.py:109} INFO - [2021-12-22 21:56:54,899] {dag.py:2389} INFO - Sync 1 DAGs
+[2021-12-22 21:56:54,907] {logging_mixin.py:109} INFO - [2021-12-22 21:56:54,907] {dag.py:2914} INFO - Setting next_dagrun for example_branch_datetime_operator_2 to 2021-12-21 00:00:00+00:00
+[2021-12-22 21:56:54,916] {processor.py:171} INFO - Processing /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_branch_datetime_operator.py took 0.040 seconds
+[2021-12-22 21:57:40,455] {processor.py:163} INFO - Started process (PID=53154) to work on /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_branch_datetime_operator.py
+[2021-12-22 21:57:40,463] {processor.py:620} INFO - Processing file /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_branch_datetime_operator.py for tasks to queue
+[2021-12-22 21:57:40,463] {logging_mixin.py:109} INFO - [2021-12-22 21:57:40,463] {dagbag.py:500} INFO - Filling up the DagBag from /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_branch_datetime_operator.py
+[2021-12-22 21:57:40,473] {processor.py:632} INFO - DAG(s) dict_keys(['example_branch_datetime_operator_2']) retrieved from /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_branch_datetime_operator.py
+[2021-12-22 21:57:40,478] {logging_mixin.py:109} INFO - [2021-12-22 21:57:40,478] {dag.py:2389} INFO - Sync 1 DAGs
+[2021-12-22 21:57:40,485] {logging_mixin.py:109} INFO - [2021-12-22 21:57:40,485] {dag.py:2914} INFO - Setting next_dagrun for example_branch_datetime_operator_2 to 2021-12-21 00:00:00+00:00
+[2021-12-22 21:57:40,494] {processor.py:171} INFO - Processing /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_branch_datetime_operator.py took 0.040 seconds
+[2021-12-22 21:58:19,375] {processor.py:163} INFO - Started process (PID=53195) to work on /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_branch_datetime_operator.py
+[2021-12-22 21:58:19,378] {processor.py:620} INFO - Processing file /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_branch_datetime_operator.py for tasks to queue
+[2021-12-22 21:58:19,379] {logging_mixin.py:109} INFO - [2021-12-22 21:58:19,379] {dagbag.py:500} INFO - Filling up the DagBag from /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_branch_datetime_operator.py
+[2021-12-22 21:58:19,406] {processor.py:632} INFO - DAG(s) dict_keys(['example_branch_datetime_operator_2']) retrieved from /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_branch_datetime_operator.py
+[2021-12-22 21:58:19,413] {logging_mixin.py:109} INFO - [2021-12-22 21:58:19,413] {dag.py:2389} INFO - Sync 1 DAGs
+[2021-12-22 21:58:19,421] {logging_mixin.py:109} INFO - [2021-12-22 21:58:19,421] {dag.py:2914} INFO - Setting next_dagrun for example_branch_datetime_operator_2 to 2021-12-21 00:00:00+00:00
+[2021-12-22 21:58:19,432] {processor.py:171} INFO - Processing /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_branch_datetime_operator.py took 0.063 seconds
+[2021-12-22 21:59:03,343] {processor.py:163} INFO - Started process (PID=53253) to work on /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_branch_datetime_operator.py
+[2021-12-22 21:59:03,352] {processor.py:620} INFO - Processing file /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_branch_datetime_operator.py for tasks to queue
+[2021-12-22 21:59:03,353] {logging_mixin.py:109} INFO - [2021-12-22 21:59:03,353] {dagbag.py:500} INFO - Filling up the DagBag from /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_branch_datetime_operator.py
+[2021-12-22 21:59:03,386] {processor.py:632} INFO - DAG(s) dict_keys(['example_branch_datetime_operator_2']) retrieved from /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_branch_datetime_operator.py
+[2021-12-22 21:59:03,394] {logging_mixin.py:109} INFO - [2021-12-22 21:59:03,394] {dag.py:2389} INFO - Sync 1 DAGs
+[2021-12-22 21:59:03,403] {logging_mixin.py:109} INFO - [2021-12-22 21:59:03,403] {dag.py:2914} INFO - Setting next_dagrun for example_branch_datetime_operator_2 to 2021-12-21 00:00:00+00:00
+[2021-12-22 21:59:03,412] {processor.py:171} INFO - Processing /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_branch_datetime_operator.py took 0.071 seconds
+[2021-12-22 21:59:46,093] {processor.py:163} INFO - Started process (PID=53446) to work on /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_branch_datetime_operator.py
+[2021-12-22 21:59:46,103] {processor.py:620} INFO - Processing file /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_branch_datetime_operator.py for tasks to queue
+[2021-12-22 21:59:46,104] {logging_mixin.py:109} INFO - [2021-12-22 21:59:46,104] {dagbag.py:500} INFO - Filling up the DagBag from /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_branch_datetime_operator.py
+[2021-12-22 21:59:46,130] {processor.py:632} INFO - DAG(s) dict_keys(['example_branch_datetime_operator_2']) retrieved from /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_branch_datetime_operator.py
+[2021-12-22 21:59:46,137] {logging_mixin.py:109} INFO - [2021-12-22 21:59:46,137] {dag.py:2389} INFO - Sync 1 DAGs
+[2021-12-22 21:59:46,145] {logging_mixin.py:109} INFO - [2021-12-22 21:59:46,145] {dag.py:2914} INFO - Setting next_dagrun for example_branch_datetime_operator_2 to 2021-12-21 00:00:00+00:00
+[2021-12-22 21:59:46,157] {processor.py:171} INFO - Processing /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_branch_datetime_operator.py took 0.070 seconds
+[2021-12-22 22:00:26,380] {processor.py:163} INFO - Started process (PID=53641) to work on /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_branch_datetime_operator.py
+[2021-12-22 22:00:26,390] {processor.py:620} INFO - Processing file /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_branch_datetime_operator.py for tasks to queue
+[2021-12-22 22:00:26,391] {logging_mixin.py:109} INFO - [2021-12-22 22:00:26,391] {dagbag.py:500} INFO - Filling up the DagBag from /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_branch_datetime_operator.py
+[2021-12-22 22:00:26,419] {processor.py:632} INFO - DAG(s) dict_keys(['example_branch_datetime_operator_2']) retrieved from /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_branch_datetime_operator.py
+[2021-12-22 22:00:26,426] {logging_mixin.py:109} INFO - [2021-12-22 22:00:26,426] {dag.py:2389} INFO - Sync 1 DAGs
+[2021-12-22 22:00:26,435] {logging_mixin.py:109} INFO - [2021-12-22 22:00:26,435] {dag.py:2914} INFO - Setting next_dagrun for example_branch_datetime_operator_2 to 2021-12-21 00:00:00+00:00
+[2021-12-22 22:00:26,443] {processor.py:171} INFO - Processing /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_branch_datetime_operator.py took 0.069 seconds
+[2021-12-22 22:01:08,973] {processor.py:163} INFO - Started process (PID=53685) to work on /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_branch_datetime_operator.py
+[2021-12-22 22:01:08,981] {processor.py:620} INFO - Processing file /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_branch_datetime_operator.py for tasks to queue
+[2021-12-22 22:01:08,981] {logging_mixin.py:109} INFO - [2021-12-22 22:01:08,981] {dagbag.py:500} INFO - Filling up the DagBag from /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_branch_datetime_operator.py
+[2021-12-22 22:01:08,991] {processor.py:632} INFO - DAG(s) dict_keys(['example_branch_datetime_operator_2']) retrieved from /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_branch_datetime_operator.py
+[2021-12-22 22:01:08,997] {logging_mixin.py:109} INFO - [2021-12-22 22:01:08,997] {dag.py:2389} INFO - Sync 1 DAGs
+[2021-12-22 22:01:09,004] {logging_mixin.py:109} INFO - [2021-12-22 22:01:09,004] {dag.py:2914} INFO - Setting next_dagrun for example_branch_datetime_operator_2 to 2021-12-21 00:00:00+00:00
+[2021-12-22 22:01:09,014] {processor.py:171} INFO - Processing /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_branch_datetime_operator.py took 0.042 seconds
+[2021-12-22 22:01:52,113] {processor.py:163} INFO - Started process (PID=53730) to work on /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_branch_datetime_operator.py
+[2021-12-22 22:01:52,116] {processor.py:620} INFO - Processing file /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_branch_datetime_operator.py for tasks to queue
+[2021-12-22 22:01:52,117] {logging_mixin.py:109} INFO - [2021-12-22 22:01:52,117] {dagbag.py:500} INFO - Filling up the DagBag from /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_branch_datetime_operator.py
+[2021-12-22 22:01:52,125] {processor.py:632} INFO - DAG(s) dict_keys(['example_branch_datetime_operator_2']) retrieved from /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_branch_datetime_operator.py
+[2021-12-22 22:01:52,129] {logging_mixin.py:109} INFO - [2021-12-22 22:01:52,129] {dag.py:2389} INFO - Sync 1 DAGs
+[2021-12-22 22:01:52,136] {logging_mixin.py:109} INFO - [2021-12-22 22:01:52,136] {dag.py:2914} INFO - Setting next_dagrun for example_branch_datetime_operator_2 to 2021-12-21 00:00:00+00:00
+[2021-12-22 22:01:52,150] {processor.py:171} INFO - Processing /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_branch_datetime_operator.py took 0.038 seconds
+[2021-12-22 22:02:37,398] {processor.py:163} INFO - Started process (PID=53775) to work on /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_branch_datetime_operator.py
+[2021-12-22 22:02:37,405] {processor.py:620} INFO - Processing file /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_branch_datetime_operator.py for tasks to queue
+[2021-12-22 22:02:37,406] {logging_mixin.py:109} INFO - [2021-12-22 22:02:37,406] {dagbag.py:500} INFO - Filling up the DagBag from /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_branch_datetime_operator.py
+[2021-12-22 22:02:37,414] {processor.py:632} INFO - DAG(s) dict_keys(['example_branch_datetime_operator_2']) retrieved from /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_branch_datetime_operator.py
+[2021-12-22 22:02:37,418] {logging_mixin.py:109} INFO - [2021-12-22 22:02:37,418] {dag.py:2389} INFO - Sync 1 DAGs
+[2021-12-22 22:02:37,424] {logging_mixin.py:109} INFO - [2021-12-22 22:02:37,424] {dag.py:2914} INFO - Setting next_dagrun for example_branch_datetime_operator_2 to 2021-12-21 00:00:00+00:00
+[2021-12-22 22:02:37,437] {processor.py:171} INFO - Processing /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_branch_datetime_operator.py took 0.041 seconds
+[2021-12-22 22:03:21,643] {processor.py:163} INFO - Started process (PID=53820) to work on /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_branch_datetime_operator.py
+[2021-12-22 22:03:21,652] {processor.py:620} INFO - Processing file /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_branch_datetime_operator.py for tasks to queue
+[2021-12-22 22:03:21,653] {logging_mixin.py:109} INFO - [2021-12-22 22:03:21,653] {dagbag.py:500} INFO - Filling up the DagBag from /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_branch_datetime_operator.py
+[2021-12-22 22:03:21,663] {processor.py:632} INFO - DAG(s) dict_keys(['example_branch_datetime_operator_2']) retrieved from /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_branch_datetime_operator.py
+[2021-12-22 22:03:21,667] {logging_mixin.py:109} INFO - [2021-12-22 22:03:21,667] {dag.py:2389} INFO - Sync 1 DAGs
+[2021-12-22 22:03:21,673] {logging_mixin.py:109} INFO - [2021-12-22 22:03:21,672] {dag.py:2914} INFO - Setting next_dagrun for example_branch_datetime_operator_2 to 2021-12-21 00:00:00+00:00
+[2021-12-22 22:03:21,680] {processor.py:171} INFO - Processing /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_branch_datetime_operator.py took 0.039 seconds
+[2021-12-22 22:03:59,925] {processor.py:163} INFO - Started process (PID=53862) to work on /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_branch_datetime_operator.py
+[2021-12-22 22:03:59,933] {processor.py:620} INFO - Processing file /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_branch_datetime_operator.py for tasks to queue
+[2021-12-22 22:03:59,933] {logging_mixin.py:109} INFO - [2021-12-22 22:03:59,933] {dagbag.py:500} INFO - Filling up the DagBag from /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_branch_datetime_operator.py
+[2021-12-22 22:03:59,942] {processor.py:632} INFO - DAG(s) dict_keys(['example_branch_datetime_operator_2']) retrieved from /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_branch_datetime_operator.py
+[2021-12-22 22:03:59,946] {logging_mixin.py:109} INFO - [2021-12-22 22:03:59,946] {dag.py:2389} INFO - Sync 1 DAGs
+[2021-12-22 22:03:59,952] {logging_mixin.py:109} INFO - [2021-12-22 22:03:59,952] {dag.py:2914} INFO - Setting next_dagrun for example_branch_datetime_operator_2 to 2021-12-21 00:00:00+00:00
+[2021-12-22 22:03:59,966] {processor.py:171} INFO - Processing /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_branch_datetime_operator.py took 0.042 seconds
+[2021-12-22 22:04:43,583] {processor.py:163} INFO - Started process (PID=53909) to work on /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_branch_datetime_operator.py
+[2021-12-22 22:04:43,586] {processor.py:620} INFO - Processing file /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_branch_datetime_operator.py for tasks to queue
+[2021-12-22 22:04:43,587] {logging_mixin.py:109} INFO - [2021-12-22 22:04:43,587] {dagbag.py:500} INFO - Filling up the DagBag from /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_branch_datetime_operator.py
+[2021-12-22 22:04:43,596] {processor.py:632} INFO - DAG(s) dict_keys(['example_branch_datetime_operator_2']) retrieved from /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_branch_datetime_operator.py
+[2021-12-22 22:04:43,600] {logging_mixin.py:109} INFO - [2021-12-22 22:04:43,600] {dag.py:2389} INFO - Sync 1 DAGs
+[2021-12-22 22:04:43,607] {logging_mixin.py:109} INFO - [2021-12-22 22:04:43,607] {dag.py:2914} INFO - Setting next_dagrun for example_branch_datetime_operator_2 to 2021-12-21 00:00:00+00:00
+[2021-12-22 22:04:43,620] {processor.py:171} INFO - Processing /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_branch_datetime_operator.py took 0.038 seconds
+[2021-12-22 22:06:57,703] {processor.py:163} INFO - Started process (PID=54451) to work on /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_branch_datetime_operator.py
+[2021-12-22 22:06:57,712] {processor.py:620} INFO - Processing file /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_branch_datetime_operator.py for tasks to queue
+[2021-12-22 22:06:57,714] {logging_mixin.py:109} INFO - [2021-12-22 22:06:57,713] {dagbag.py:500} INFO - Filling up the DagBag from /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_branch_datetime_operator.py
+[2021-12-22 22:06:57,745] {processor.py:632} INFO - DAG(s) dict_keys(['example_branch_datetime_operator_2']) retrieved from /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_branch_datetime_operator.py
+[2021-12-22 22:06:57,754] {logging_mixin.py:109} INFO - [2021-12-22 22:06:57,754] {dag.py:2389} INFO - Sync 1 DAGs
+[2021-12-22 22:06:57,763] {logging_mixin.py:109} INFO - [2021-12-22 22:06:57,762] {dag.py:2914} INFO - Setting next_dagrun for example_branch_datetime_operator_2 to 2021-12-21 00:00:00+00:00
+[2021-12-22 22:06:57,772] {processor.py:171} INFO - Processing /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_branch_datetime_operator.py took 0.070 seconds
+[2021-12-22 22:07:37,016] {processor.py:163} INFO - Started process (PID=54491) to work on /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_branch_datetime_operator.py
+[2021-12-22 22:07:37,021] {processor.py:620} INFO - Processing file /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_branch_datetime_operator.py for tasks to queue
+[2021-12-22 22:07:37,022] {logging_mixin.py:109} INFO - [2021-12-22 22:07:37,022] {dagbag.py:500} INFO - Filling up the DagBag from /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_branch_datetime_operator.py
+[2021-12-22 22:07:37,047] {processor.py:632} INFO - DAG(s) dict_keys(['example_branch_datetime_operator_2']) retrieved from /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_branch_datetime_operator.py
+[2021-12-22 22:07:37,051] {logging_mixin.py:109} INFO - [2021-12-22 22:07:37,051] {dag.py:2389} INFO - Sync 1 DAGs
+[2021-12-22 22:07:37,057] {logging_mixin.py:109} INFO - [2021-12-22 22:07:37,057] {dag.py:2914} INFO - Setting next_dagrun for example_branch_datetime_operator_2 to 2021-12-21 00:00:00+00:00
+[2021-12-22 22:07:37,065] {processor.py:171} INFO - Processing /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_branch_datetime_operator.py took 0.050 seconds
+[2021-12-22 22:08:19,667] {processor.py:163} INFO - Started process (PID=54538) to work on /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_branch_datetime_operator.py
+[2021-12-22 22:08:19,675] {processor.py:620} INFO - Processing file /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_branch_datetime_operator.py for tasks to queue
+[2021-12-22 22:08:19,675] {logging_mixin.py:109} INFO - [2021-12-22 22:08:19,675] {dagbag.py:500} INFO - Filling up the DagBag from /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_branch_datetime_operator.py
+[2021-12-22 22:08:19,684] {processor.py:632} INFO - DAG(s) dict_keys(['example_branch_datetime_operator_2']) retrieved from /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_branch_datetime_operator.py
+[2021-12-22 22:08:19,689] {logging_mixin.py:109} INFO - [2021-12-22 22:08:19,689] {dag.py:2389} INFO - Sync 1 DAGs
+[2021-12-22 22:08:19,696] {logging_mixin.py:109} INFO - [2021-12-22 22:08:19,696] {dag.py:2914} INFO - Setting next_dagrun for example_branch_datetime_operator_2 to 2021-12-21 00:00:00+00:00
+[2021-12-22 22:08:19,705] {processor.py:171} INFO - Processing /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_branch_datetime_operator.py took 0.039 seconds
+[2021-12-22 22:08:59,808] {processor.py:163} INFO - Started process (PID=54581) to work on /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_branch_datetime_operator.py
+[2021-12-22 22:08:59,811] {processor.py:620} INFO - Processing file /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_branch_datetime_operator.py for tasks to queue
+[2021-12-22 22:08:59,811] {logging_mixin.py:109} INFO - [2021-12-22 22:08:59,811] {dagbag.py:500} INFO - Filling up the DagBag from /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_branch_datetime_operator.py
+[2021-12-22 22:08:59,819] {processor.py:632} INFO - DAG(s) dict_keys(['example_branch_datetime_operator_2']) retrieved from /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_branch_datetime_operator.py
+[2021-12-22 22:08:59,823] {logging_mixin.py:109} INFO - [2021-12-22 22:08:59,823] {dag.py:2389} INFO - Sync 1 DAGs
+[2021-12-22 22:08:59,829] {logging_mixin.py:109} INFO - [2021-12-22 22:08:59,829] {dag.py:2914} INFO - Setting next_dagrun for example_branch_datetime_operator_2 to 2021-12-21 00:00:00+00:00
+[2021-12-22 22:08:59,836] {processor.py:171} INFO - Processing /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_branch_datetime_operator.py took 0.030 seconds
+[2021-12-22 22:09:38,559] {processor.py:163} INFO - Started process (PID=54627) to work on /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_branch_datetime_operator.py
+[2021-12-22 22:09:38,567] {processor.py:620} INFO - Processing file /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_branch_datetime_operator.py for tasks to queue
+[2021-12-22 22:09:38,567] {logging_mixin.py:109} INFO - [2021-12-22 22:09:38,567] {dagbag.py:500} INFO - Filling up the DagBag from /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_branch_datetime_operator.py
+[2021-12-22 22:09:38,576] {processor.py:632} INFO - DAG(s) dict_keys(['example_branch_datetime_operator_2']) retrieved from /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_branch_datetime_operator.py
+[2021-12-22 22:09:38,581] {logging_mixin.py:109} INFO - [2021-12-22 22:09:38,581] {dag.py:2389} INFO - Sync 1 DAGs
+[2021-12-22 22:09:38,588] {logging_mixin.py:109} INFO - [2021-12-22 22:09:38,588] {dag.py:2914} INFO - Setting next_dagrun for example_branch_datetime_operator_2 to 2021-12-21 00:00:00+00:00
+[2021-12-22 22:09:38,597] {processor.py:171} INFO - Processing /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_branch_datetime_operator.py took 0.039 seconds
+[2021-12-22 22:10:19,982] {processor.py:163} INFO - Started process (PID=54671) to work on /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_branch_datetime_operator.py
+[2021-12-22 22:10:19,992] {processor.py:620} INFO - Processing file /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_branch_datetime_operator.py for tasks to queue
+[2021-12-22 22:10:19,993] {logging_mixin.py:109} INFO - [2021-12-22 22:10:19,993] {dagbag.py:500} INFO - Filling up the DagBag from /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_branch_datetime_operator.py
+[2021-12-22 22:10:20,025] {processor.py:632} INFO - DAG(s) dict_keys(['example_branch_datetime_operator_2']) retrieved from /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_branch_datetime_operator.py
+[2021-12-22 22:10:20,034] {logging_mixin.py:109} INFO - [2021-12-22 22:10:20,034] {dag.py:2389} INFO - Sync 1 DAGs
+[2021-12-22 22:10:20,043] {logging_mixin.py:109} INFO - [2021-12-22 22:10:20,043] {dag.py:2914} INFO - Setting next_dagrun for example_branch_datetime_operator_2 to 2021-12-21 00:00:00+00:00
+[2021-12-22 22:10:20,052] {processor.py:171} INFO - Processing /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_branch_datetime_operator.py took 0.071 seconds
+[2021-12-22 22:11:04,127] {processor.py:163} INFO - Started process (PID=54723) to work on /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_branch_datetime_operator.py
+[2021-12-22 22:11:04,135] {processor.py:620} INFO - Processing file /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_branch_datetime_operator.py for tasks to queue
+[2021-12-22 22:11:04,135] {logging_mixin.py:109} INFO - [2021-12-22 22:11:04,135] {dagbag.py:500} INFO - Filling up the DagBag from /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_branch_datetime_operator.py
+[2021-12-22 22:11:04,143] {processor.py:632} INFO - DAG(s) dict_keys(['example_branch_datetime_operator_2']) retrieved from /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_branch_datetime_operator.py
+[2021-12-22 22:11:04,147] {logging_mixin.py:109} INFO - [2021-12-22 22:11:04,147] {dag.py:2389} INFO - Sync 1 DAGs
+[2021-12-22 22:11:04,153] {logging_mixin.py:109} INFO - [2021-12-22 22:11:04,153] {dag.py:2914} INFO - Setting next_dagrun for example_branch_datetime_operator_2 to 2021-12-21 00:00:00+00:00
+[2021-12-22 22:11:04,160] {processor.py:171} INFO - Processing /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_branch_datetime_operator.py took 0.034 seconds
+[2021-12-22 22:11:53,659] {processor.py:163} INFO - Started process (PID=54875) to work on /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_branch_datetime_operator.py
+[2021-12-22 22:11:53,669] {processor.py:620} INFO - Processing file /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_branch_datetime_operator.py for tasks to queue
+[2021-12-22 22:11:53,670] {logging_mixin.py:109} INFO - [2021-12-22 22:11:53,670] {dagbag.py:500} INFO - Filling up the DagBag from /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_branch_datetime_operator.py
+[2021-12-22 22:11:53,701] {processor.py:632} INFO - DAG(s) dict_keys(['example_branch_datetime_operator_2']) retrieved from /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_branch_datetime_operator.py
+[2021-12-22 22:11:53,710] {logging_mixin.py:109} INFO - [2021-12-22 22:11:53,710] {dag.py:2389} INFO - Sync 1 DAGs
+[2021-12-22 22:11:53,719] {logging_mixin.py:109} INFO - [2021-12-22 22:11:53,719] {dag.py:2914} INFO - Setting next_dagrun for example_branch_datetime_operator_2 to 2021-12-21 00:00:00+00:00
+[2021-12-22 22:11:53,729] {processor.py:171} INFO - Processing /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_branch_datetime_operator.py took 0.071 seconds
+[2021-12-22 22:12:38,842] {processor.py:163} INFO - Started process (PID=54920) to work on /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_branch_datetime_operator.py
+[2021-12-22 22:12:38,846] {processor.py:620} INFO - Processing file /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_branch_datetime_operator.py for tasks to queue
+[2021-12-22 22:12:38,846] {logging_mixin.py:109} INFO - [2021-12-22 22:12:38,846] {dagbag.py:500} INFO - Filling up the DagBag from /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_branch_datetime_operator.py
+[2021-12-22 22:12:38,853] {processor.py:632} INFO - DAG(s) dict_keys(['example_branch_datetime_operator_2']) retrieved from /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_branch_datetime_operator.py
+[2021-12-22 22:12:38,857] {logging_mixin.py:109} INFO - [2021-12-22 22:12:38,857] {dag.py:2389} INFO - Sync 1 DAGs
+[2021-12-22 22:12:38,863] {logging_mixin.py:109} INFO - [2021-12-22 22:12:38,863] {dag.py:2914} INFO - Setting next_dagrun for example_branch_datetime_operator_2 to 2021-12-21 00:00:00+00:00
+[2021-12-22 22:12:38,871] {processor.py:171} INFO - Processing /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_branch_datetime_operator.py took 0.030 seconds
+[2021-12-22 22:13:18,445] {processor.py:163} INFO - Started process (PID=54965) to work on /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_branch_datetime_operator.py
+[2021-12-22 22:13:18,453] {processor.py:620} INFO - Processing file /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_branch_datetime_operator.py for tasks to queue
+[2021-12-22 22:13:18,454] {logging_mixin.py:109} INFO - [2021-12-22 22:13:18,454] {dagbag.py:500} INFO - Filling up the DagBag from /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_branch_datetime_operator.py
+[2021-12-22 22:13:18,469] {processor.py:632} INFO - DAG(s) dict_keys(['example_branch_datetime_operator_2']) retrieved from /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_branch_datetime_operator.py
+[2021-12-22 22:13:18,478] {logging_mixin.py:109} INFO - [2021-12-22 22:13:18,478] {dag.py:2389} INFO - Sync 1 DAGs
+[2021-12-22 22:13:18,488] {logging_mixin.py:109} INFO - [2021-12-22 22:13:18,488] {dag.py:2914} INFO - Setting next_dagrun for example_branch_datetime_operator_2 to 2021-12-21 00:00:00+00:00
+[2021-12-22 22:13:18,500] {processor.py:171} INFO - Processing /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_branch_datetime_operator.py took 0.057 seconds
+[2021-12-22 22:13:59,076] {processor.py:163} INFO - Started process (PID=55015) to work on /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_branch_datetime_operator.py
+[2021-12-22 22:13:59,085] {processor.py:620} INFO - Processing file /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_branch_datetime_operator.py for tasks to queue
+[2021-12-22 22:13:59,086] {logging_mixin.py:109} INFO - [2021-12-22 22:13:59,086] {dagbag.py:500} INFO - Filling up the DagBag from /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_branch_datetime_operator.py
+[2021-12-22 22:13:59,096] {processor.py:632} INFO - DAG(s) dict_keys(['example_branch_datetime_operator_2']) retrieved from /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_branch_datetime_operator.py
+[2021-12-22 22:13:59,100] {logging_mixin.py:109} INFO - [2021-12-22 22:13:59,100] {dag.py:2389} INFO - Sync 1 DAGs
+[2021-12-22 22:13:59,105] {logging_mixin.py:109} INFO - [2021-12-22 22:13:59,105] {dag.py:2914} INFO - Setting next_dagrun for example_branch_datetime_operator_2 to 2021-12-21 00:00:00+00:00
+[2021-12-22 22:13:59,114] {processor.py:171} INFO - Processing /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_branch_datetime_operator.py took 0.039 seconds
+[2021-12-22 22:14:41,504] {processor.py:163} INFO - Started process (PID=55060) to work on /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_branch_datetime_operator.py
+[2021-12-22 22:14:41,511] {processor.py:620} INFO - Processing file /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_branch_datetime_operator.py for tasks to queue
+[2021-12-22 22:14:41,511] {logging_mixin.py:109} INFO - [2021-12-22 22:14:41,511] {dagbag.py:500} INFO - Filling up the DagBag from /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_branch_datetime_operator.py
+[2021-12-22 22:14:41,520] {processor.py:632} INFO - DAG(s) dict_keys(['example_branch_datetime_operator_2']) retrieved from /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_branch_datetime_operator.py
+[2021-12-22 22:14:41,524] {logging_mixin.py:109} INFO - [2021-12-22 22:14:41,524] {dag.py:2389} INFO - Sync 1 DAGs
+[2021-12-22 22:14:41,530] {logging_mixin.py:109} INFO - [2021-12-22 22:14:41,529] {dag.py:2914} INFO - Setting next_dagrun for example_branch_datetime_operator_2 to 2021-12-21 00:00:00+00:00
+[2021-12-22 22:14:41,538] {processor.py:171} INFO - Processing /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_branch_datetime_operator.py took 0.036 seconds
+[2021-12-22 22:15:25,547] {processor.py:163} INFO - Started process (PID=55103) to work on /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_branch_datetime_operator.py
+[2021-12-22 22:15:25,554] {processor.py:620} INFO - Processing file /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_branch_datetime_operator.py for tasks to queue
+[2021-12-22 22:15:25,555] {logging_mixin.py:109} INFO - [2021-12-22 22:15:25,554] {dagbag.py:500} INFO - Filling up the DagBag from /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_branch_datetime_operator.py
+[2021-12-22 22:15:25,561] {processor.py:632} INFO - DAG(s) dict_keys(['example_branch_datetime_operator_2']) retrieved from /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_branch_datetime_operator.py
+[2021-12-22 22:15:25,566] {logging_mixin.py:109} INFO - [2021-12-22 22:15:25,565] {dag.py:2389} INFO - Sync 1 DAGs
+[2021-12-22 22:15:25,571] {logging_mixin.py:109} INFO - [2021-12-22 22:15:25,571] {dag.py:2914} INFO - Setting next_dagrun for example_branch_datetime_operator_2 to 2021-12-21 00:00:00+00:00
+[2021-12-22 22:15:25,580] {processor.py:171} INFO - Processing /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_branch_datetime_operator.py took 0.034 seconds
+[2021-12-22 22:16:07,797] {processor.py:163} INFO - Started process (PID=55153) to work on /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_branch_datetime_operator.py
+[2021-12-22 22:16:07,801] {processor.py:620} INFO - Processing file /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_branch_datetime_operator.py for tasks to queue
+[2021-12-22 22:16:07,801] {logging_mixin.py:109} INFO - [2021-12-22 22:16:07,801] {dagbag.py:500} INFO - Filling up the DagBag from /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_branch_datetime_operator.py
+[2021-12-22 22:16:07,814] {processor.py:632} INFO - DAG(s) dict_keys(['example_branch_datetime_operator_2']) retrieved from /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_branch_datetime_operator.py
+[2021-12-22 22:16:07,820] {logging_mixin.py:109} INFO - [2021-12-22 22:16:07,820] {dag.py:2389} INFO - Sync 1 DAGs
+[2021-12-22 22:16:07,829] {logging_mixin.py:109} INFO - [2021-12-22 22:16:07,829] {dag.py:2914} INFO - Setting next_dagrun for example_branch_datetime_operator_2 to 2021-12-21 00:00:00+00:00
+[2021-12-22 22:16:07,838] {processor.py:171} INFO - Processing /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_branch_datetime_operator.py took 0.043 seconds
+[2021-12-22 22:16:52,301] {processor.py:163} INFO - Started process (PID=55306) to work on /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_branch_datetime_operator.py
+[2021-12-22 22:16:52,308] {processor.py:620} INFO - Processing file /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_branch_datetime_operator.py for tasks to queue
+[2021-12-22 22:16:52,309] {logging_mixin.py:109} INFO - [2021-12-22 22:16:52,309] {dagbag.py:500} INFO - Filling up the DagBag from /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_branch_datetime_operator.py
+[2021-12-22 22:16:52,317] {processor.py:632} INFO - DAG(s) dict_keys(['example_branch_datetime_operator_2']) retrieved from /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_branch_datetime_operator.py
+[2021-12-22 22:16:52,321] {logging_mixin.py:109} INFO - [2021-12-22 22:16:52,321] {dag.py:2389} INFO - Sync 1 DAGs
+[2021-12-22 22:16:52,327] {logging_mixin.py:109} INFO - [2021-12-22 22:16:52,327] {dag.py:2914} INFO - Setting next_dagrun for example_branch_datetime_operator_2 to 2021-12-21 00:00:00+00:00
+[2021-12-22 22:16:52,340] {processor.py:171} INFO - Processing /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_branch_datetime_operator.py took 0.040 seconds
+[2021-12-22 22:17:36,734] {processor.py:163} INFO - Started process (PID=55352) to work on /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_branch_datetime_operator.py
+[2021-12-22 22:17:36,737] {processor.py:620} INFO - Processing file /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_branch_datetime_operator.py for tasks to queue
+[2021-12-22 22:17:36,737] {logging_mixin.py:109} INFO - [2021-12-22 22:17:36,737] {dagbag.py:500} INFO - Filling up the DagBag from /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_branch_datetime_operator.py
+[2021-12-22 22:17:36,746] {processor.py:632} INFO - DAG(s) dict_keys(['example_branch_datetime_operator_2']) retrieved from /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_branch_datetime_operator.py
+[2021-12-22 22:17:36,751] {logging_mixin.py:109} INFO - [2021-12-22 22:17:36,751] {dag.py:2389} INFO - Sync 1 DAGs
+[2021-12-22 22:17:36,758] {logging_mixin.py:109} INFO - [2021-12-22 22:17:36,758] {dag.py:2914} INFO - Setting next_dagrun for example_branch_datetime_operator_2 to 2021-12-21 00:00:00+00:00
+[2021-12-22 22:17:36,772] {processor.py:171} INFO - Processing /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_branch_datetime_operator.py took 0.039 seconds
+[2021-12-22 22:18:19,346] {processor.py:163} INFO - Started process (PID=55435) to work on /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_branch_datetime_operator.py
+[2021-12-22 22:18:19,354] {processor.py:620} INFO - Processing file /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_branch_datetime_operator.py for tasks to queue
+[2021-12-22 22:18:19,354] {logging_mixin.py:109} INFO - [2021-12-22 22:18:19,354] {dagbag.py:500} INFO - Filling up the DagBag from /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_branch_datetime_operator.py
+[2021-12-22 22:18:19,363] {processor.py:632} INFO - DAG(s) dict_keys(['example_branch_datetime_operator_2']) retrieved from /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_branch_datetime_operator.py
+[2021-12-22 22:18:19,368] {logging_mixin.py:109} INFO - [2021-12-22 22:18:19,368] {dag.py:2389} INFO - Sync 1 DAGs
+[2021-12-22 22:18:19,376] {logging_mixin.py:109} INFO - [2021-12-22 22:18:19,375] {dag.py:2914} INFO - Setting next_dagrun for example_branch_datetime_operator_2 to 2021-12-21 00:00:00+00:00
+[2021-12-22 22:18:19,390] {processor.py:171} INFO - Processing /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_branch_datetime_operator.py took 0.045 seconds
+[2021-12-22 22:19:02,464] {processor.py:163} INFO - Started process (PID=55481) to work on /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_branch_datetime_operator.py
+[2021-12-22 22:19:02,472] {processor.py:620} INFO - Processing file /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_branch_datetime_operator.py for tasks to queue
+[2021-12-22 22:19:02,472] {logging_mixin.py:109} INFO - [2021-12-22 22:19:02,472] {dagbag.py:500} INFO - Filling up the DagBag from /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_branch_datetime_operator.py
+[2021-12-22 22:19:02,482] {processor.py:632} INFO - DAG(s) dict_keys(['example_branch_datetime_operator_2']) retrieved from /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_branch_datetime_operator.py
+[2021-12-22 22:19:02,487] {logging_mixin.py:109} INFO - [2021-12-22 22:19:02,487] {dag.py:2389} INFO - Sync 1 DAGs
+[2021-12-22 22:19:02,494] {logging_mixin.py:109} INFO - [2021-12-22 22:19:02,494] {dag.py:2914} INFO - Setting next_dagrun for example_branch_datetime_operator_2 to 2021-12-21 00:00:00+00:00
+[2021-12-22 22:19:02,503] {processor.py:171} INFO - Processing /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_branch_datetime_operator.py took 0.040 seconds
+[2021-12-22 22:19:41,419] {processor.py:163} INFO - Started process (PID=55527) to work on /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_branch_datetime_operator.py
+[2021-12-22 22:19:41,422] {processor.py:620} INFO - Processing file /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_branch_datetime_operator.py for tasks to queue
+[2021-12-22 22:19:41,422] {logging_mixin.py:109} INFO - [2021-12-22 22:19:41,422] {dagbag.py:500} INFO - Filling up the DagBag from /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_branch_datetime_operator.py
+[2021-12-22 22:19:41,431] {processor.py:632} INFO - DAG(s) dict_keys(['example_branch_datetime_operator_2']) retrieved from /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_branch_datetime_operator.py
+[2021-12-22 22:19:41,436] {logging_mixin.py:109} INFO - [2021-12-22 22:19:41,436] {dag.py:2389} INFO - Sync 1 DAGs
+[2021-12-22 22:19:41,443] {logging_mixin.py:109} INFO - [2021-12-22 22:19:41,443] {dag.py:2914} INFO - Setting next_dagrun for example_branch_datetime_operator_2 to 2021-12-21 00:00:00+00:00
+[2021-12-22 22:19:41,452] {processor.py:171} INFO - Processing /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_branch_datetime_operator.py took 0.035 seconds
+[2021-12-22 22:20:21,455] {processor.py:163} INFO - Started process (PID=55566) to work on /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_branch_datetime_operator.py
+[2021-12-22 22:20:21,463] {processor.py:620} INFO - Processing file /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_branch_datetime_operator.py for tasks to queue
+[2021-12-22 22:20:21,463] {logging_mixin.py:109} INFO - [2021-12-22 22:20:21,463] {dagbag.py:500} INFO - Filling up the DagBag from /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_branch_datetime_operator.py
+[2021-12-22 22:20:21,472] {processor.py:632} INFO - DAG(s) dict_keys(['example_branch_datetime_operator_2']) retrieved from /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_branch_datetime_operator.py
+[2021-12-22 22:20:21,476] {logging_mixin.py:109} INFO - [2021-12-22 22:20:21,476] {dag.py:2389} INFO - Sync 1 DAGs
+[2021-12-22 22:20:21,481] {logging_mixin.py:109} INFO - [2021-12-22 22:20:21,481] {dag.py:2914} INFO - Setting next_dagrun for example_branch_datetime_operator_2 to 2021-12-21 00:00:00+00:00
+[2021-12-22 22:20:21,495] {processor.py:171} INFO - Processing /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_branch_datetime_operator.py took 0.042 seconds
+[2021-12-22 22:21:02,586] {processor.py:163} INFO - Started process (PID=55607) to work on /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_branch_datetime_operator.py
+[2021-12-22 22:21:02,591] {processor.py:620} INFO - Processing file /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_branch_datetime_operator.py for tasks to queue
+[2021-12-22 22:21:02,592] {logging_mixin.py:109} INFO - [2021-12-22 22:21:02,592] {dagbag.py:500} INFO - Filling up the DagBag from /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_branch_datetime_operator.py
+[2021-12-22 22:21:02,624] {processor.py:632} INFO - DAG(s) dict_keys(['example_branch_datetime_operator_2']) retrieved from /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_branch_datetime_operator.py
+[2021-12-22 22:21:02,632] {logging_mixin.py:109} INFO - [2021-12-22 22:21:02,632] {dag.py:2389} INFO - Sync 1 DAGs
+[2021-12-22 22:21:02,641] {logging_mixin.py:109} INFO - [2021-12-22 22:21:02,641] {dag.py:2914} INFO - Setting next_dagrun for example_branch_datetime_operator_2 to 2021-12-21 00:00:00+00:00
+[2021-12-22 22:21:02,653] {processor.py:171} INFO - Processing /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_branch_datetime_operator.py took 0.068 seconds
+[2021-12-22 22:21:45,084] {processor.py:163} INFO - Started process (PID=55857) to work on /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_branch_datetime_operator.py
+[2021-12-22 22:21:45,092] {processor.py:620} INFO - Processing file /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_branch_datetime_operator.py for tasks to queue
+[2021-12-22 22:21:45,092] {logging_mixin.py:109} INFO - [2021-12-22 22:21:45,092] {dagbag.py:500} INFO - Filling up the DagBag from /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_branch_datetime_operator.py
+[2021-12-22 22:21:45,102] {processor.py:632} INFO - DAG(s) dict_keys(['example_branch_datetime_operator_2']) retrieved from /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_branch_datetime_operator.py
+[2021-12-22 22:21:45,107] {logging_mixin.py:109} INFO - [2021-12-22 22:21:45,107] {dag.py:2389} INFO - Sync 1 DAGs
+[2021-12-22 22:21:45,115] {logging_mixin.py:109} INFO - [2021-12-22 22:21:45,115] {dag.py:2914} INFO - Setting next_dagrun for example_branch_datetime_operator_2 to 2021-12-21 00:00:00+00:00
+[2021-12-22 22:21:45,124] {processor.py:171} INFO - Processing /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_branch_datetime_operator.py took 0.042 seconds
+[2021-12-22 22:22:25,721] {processor.py:163} INFO - Started process (PID=55906) to work on /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_branch_datetime_operator.py
+[2021-12-22 22:22:25,724] {processor.py:620} INFO - Processing file /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_branch_datetime_operator.py for tasks to queue
+[2021-12-22 22:22:25,725] {logging_mixin.py:109} INFO - [2021-12-22 22:22:25,725] {dagbag.py:500} INFO - Filling up the DagBag from /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_branch_datetime_operator.py
+[2021-12-22 22:22:25,734] {processor.py:632} INFO - DAG(s) dict_keys(['example_branch_datetime_operator_2']) retrieved from /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_branch_datetime_operator.py
+[2021-12-22 22:22:25,739] {logging_mixin.py:109} INFO - [2021-12-22 22:22:25,739] {dag.py:2389} INFO - Sync 1 DAGs
+[2021-12-22 22:22:25,746] {logging_mixin.py:109} INFO - [2021-12-22 22:22:25,746] {dag.py:2914} INFO - Setting next_dagrun for example_branch_datetime_operator_2 to 2021-12-21 00:00:00+00:00
+[2021-12-22 22:22:25,755] {processor.py:171} INFO - Processing /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_branch_datetime_operator.py took 0.035 seconds
+[2021-12-22 22:23:10,308] {processor.py:163} INFO - Started process (PID=55987) to work on /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_branch_datetime_operator.py
+[2021-12-22 22:23:10,316] {processor.py:620} INFO - Processing file /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_branch_datetime_operator.py for tasks to queue
+[2021-12-22 22:23:10,316] {logging_mixin.py:109} INFO - [2021-12-22 22:23:10,316] {dagbag.py:500} INFO - Filling up the DagBag from /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_branch_datetime_operator.py
+[2021-12-22 22:23:10,324] {processor.py:632} INFO - DAG(s) dict_keys(['example_branch_datetime_operator_2']) retrieved from /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_branch_datetime_operator.py
+[2021-12-22 22:23:10,329] {logging_mixin.py:109} INFO - [2021-12-22 22:23:10,329] {dag.py:2389} INFO - Sync 1 DAGs
+[2021-12-22 22:23:10,336] {logging_mixin.py:109} INFO - [2021-12-22 22:23:10,336] {dag.py:2914} INFO - Setting next_dagrun for example_branch_datetime_operator_2 to 2021-12-21 00:00:00+00:00
+[2021-12-22 22:23:10,345] {processor.py:171} INFO - Processing /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_branch_datetime_operator.py took 0.038 seconds
+[2021-12-22 22:23:51,711] {processor.py:163} INFO - Started process (PID=56035) to work on /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_branch_datetime_operator.py
+[2021-12-22 22:23:51,721] {processor.py:620} INFO - Processing file /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_branch_datetime_operator.py for tasks to queue
+[2021-12-22 22:23:51,722] {logging_mixin.py:109} INFO - [2021-12-22 22:23:51,722] {dagbag.py:500} INFO - Filling up the DagBag from /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_branch_datetime_operator.py
+[2021-12-22 22:23:51,747] {processor.py:632} INFO - DAG(s) dict_keys(['example_branch_datetime_operator_2']) retrieved from /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_branch_datetime_operator.py
+[2021-12-22 22:23:51,755] {logging_mixin.py:109} INFO - [2021-12-22 22:23:51,755] {dag.py:2389} INFO - Sync 1 DAGs
+[2021-12-22 22:23:51,763] {logging_mixin.py:109} INFO - [2021-12-22 22:23:51,763] {dag.py:2914} INFO - Setting next_dagrun for example_branch_datetime_operator_2 to 2021-12-21 00:00:00+00:00
+[2021-12-22 22:23:51,772] {processor.py:171} INFO - Processing /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_branch_datetime_operator.py took 0.067 seconds

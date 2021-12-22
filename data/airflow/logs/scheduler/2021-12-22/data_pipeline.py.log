@@ -1,0 +1,7 @@
+[2021-12-22 22:23:54,484] {processor.py:163} INFO - Started process (PID=56038) to work on /home/myamya/project/dockers/airflow/dags/data_pipeline.py
+[2021-12-22 22:23:54,486] {processor.py:620} INFO - Processing file /home/myamya/project/dockers/airflow/dags/data_pipeline.py for tasks to queue
+[2021-12-22 22:23:54,487] {logging_mixin.py:109} INFO - [2021-12-22 22:23:54,487] {dagbag.py:500} INFO - Filling up the DagBag from /home/myamya/project/dockers/airflow/dags/data_pipeline.py
+[2021-12-22 22:23:54,513] {processor.py:632} INFO - DAG(s) dict_keys(['data_pipeline1']) retrieved from /home/myamya/project/dockers/airflow/dags/data_pipeline.py
+[2021-12-22 22:23:54,667] {logging_mixin.py:109} INFO - [2021-12-22 22:23:54,667] {dag.py:2389} INFO - Sync 1 DAGs
+[2021-12-22 22:23:54,671] {logging_mixin.py:109} INFO - [2021-12-22 22:23:54,671] {dag.py:2914} INFO - Setting next_dagrun for data_pipeline1 to 2021-12-22T00:40:00+00:00
+[2021-12-22 22:23:54,683] {processor.py:171} INFO - Processing /home/myamya/project/dockers/airflow/dags/data_pipeline.py took 0.205 seconds

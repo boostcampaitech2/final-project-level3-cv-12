@@ -1,0 +1,26 @@
+[2021-12-21 23:12:24,017] {taskinstance.py:1035} INFO - Dependencies all met for <TaskInstance: data_pipeline.delete_past_images scheduled__2021-12-19T00:06:00+00:00 [queued]>
+[2021-12-21 23:12:24,021] {taskinstance.py:1035} INFO - Dependencies all met for <TaskInstance: data_pipeline.delete_past_images scheduled__2021-12-19T00:06:00+00:00 [queued]>
+[2021-12-21 23:12:24,021] {taskinstance.py:1241} INFO - 
+--------------------------------------------------------------------------------
+[2021-12-21 23:12:24,021] {taskinstance.py:1242} INFO - Starting attempt 2 of 4
+[2021-12-21 23:12:24,021] {taskinstance.py:1243} INFO - 
+--------------------------------------------------------------------------------
+[2021-12-21 23:12:24,030] {taskinstance.py:1262} INFO - Executing <Task(BashOperator): delete_past_images> on 2021-12-19 00:06:00+00:00
+[2021-12-21 23:12:24,031] {standard_task_runner.py:52} INFO - Started process 105453 to run task
+[2021-12-21 23:12:24,033] {standard_task_runner.py:76} INFO - Running: ['airflow', 'tasks', 'run', 'data_pipeline', 'delete_past_images', 'scheduled__2021-12-19T00:06:00+00:00', '--job-id', '219', '--raw', '--subdir', '/home/myamya/project/dockers/airflow/dags/hello_world.py', '--cfg-path', '/tmp/tmphrdrlid8', '--error-file', '/tmp/tmpwqbgpin2']
+[2021-12-21 23:12:24,034] {standard_task_runner.py:77} INFO - Job 219: Subtask delete_past_images
+[2021-12-21 23:12:24,051] {logging_mixin.py:109} INFO - Running <TaskInstance: data_pipeline.delete_past_images scheduled__2021-12-19T00:06:00+00:00 [running]> on host myamya
+[2021-12-21 23:12:24,082] {taskinstance.py:1412} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=yangjae
+AIRFLOW_CTX_DAG_ID=data_pipeline
+AIRFLOW_CTX_TASK_ID=delete_past_images
+AIRFLOW_CTX_EXECUTION_DATE=2021-12-19T00:06:00+00:00
+AIRFLOW_CTX_DAG_RUN_ID=scheduled__2021-12-19T00:06:00+00:00
+[2021-12-21 23:12:24,083] {subprocess.py:62} INFO - Tmp dir root location: 
+ /tmp
+[2021-12-21 23:12:24,083] {subprocess.py:74} INFO - Running command: ['bash', '-c', '/bin/bash /home/myamya/project/image_files/delete.sh ']
+[2021-12-21 23:12:24,088] {subprocess.py:85} INFO - Output:
+[2021-12-21 23:12:24,093] {subprocess.py:93} INFO - Command exited with return code 0
+[2021-12-21 23:12:24,106] {taskinstance.py:1270} INFO - Marking task as SUCCESS. dag_id=data_pipeline, task_id=delete_past_images, execution_date=20211219T000600, start_date=20211221T141224, end_date=20211221T141224
+[2021-12-21 23:12:24,166] {local_task_job.py:154} INFO - Task exited with return code 0
+[2021-12-21 23:12:24,200] {local_task_job.py:264} INFO - 0 downstream tasks scheduled from follow-on schedule check

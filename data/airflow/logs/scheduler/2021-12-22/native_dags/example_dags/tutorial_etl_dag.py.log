@@ -1,0 +1,1106 @@
+[2021-12-22 16:58:51,633] {processor.py:163} INFO - Started process (PID=8098) to work on /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2021-12-22 16:58:51,636] {processor.py:620} INFO - Processing file /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py for tasks to queue
+[2021-12-22 16:58:51,637] {logging_mixin.py:109} INFO - [2021-12-22 16:58:51,637] {dagbag.py:500} INFO - Filling up the DagBag from /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2021-12-22 16:58:51,662] {processor.py:632} INFO - DAG(s) dict_keys(['tutorial_etl_dag']) retrieved from /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2021-12-22 16:58:51,669] {logging_mixin.py:109} INFO - [2021-12-22 16:58:51,669] {dag.py:2389} INFO - Sync 1 DAGs
+[2021-12-22 16:58:51,676] {logging_mixin.py:109} INFO - [2021-12-22 16:58:51,676] {dag.py:2914} INFO - Setting next_dagrun for tutorial_etl_dag to None
+[2021-12-22 16:58:51,691] {processor.py:171} INFO - Processing /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py took 0.065 seconds
+[2021-12-22 16:59:28,249] {processor.py:163} INFO - Started process (PID=8137) to work on /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2021-12-22 16:59:28,256] {processor.py:620} INFO - Processing file /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py for tasks to queue
+[2021-12-22 16:59:28,257] {logging_mixin.py:109} INFO - [2021-12-22 16:59:28,257] {dagbag.py:500} INFO - Filling up the DagBag from /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2021-12-22 16:59:28,270] {processor.py:632} INFO - DAG(s) dict_keys(['tutorial_etl_dag']) retrieved from /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2021-12-22 16:59:28,274] {logging_mixin.py:109} INFO - [2021-12-22 16:59:28,274] {dag.py:2389} INFO - Sync 1 DAGs
+[2021-12-22 16:59:28,279] {logging_mixin.py:109} INFO - [2021-12-22 16:59:28,279] {dag.py:2914} INFO - Setting next_dagrun for tutorial_etl_dag to None
+[2021-12-22 16:59:28,287] {processor.py:171} INFO - Processing /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py took 0.041 seconds
+[2021-12-22 17:00:07,648] {processor.py:163} INFO - Started process (PID=8292) to work on /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2021-12-22 17:00:07,653] {processor.py:620} INFO - Processing file /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py for tasks to queue
+[2021-12-22 17:00:07,654] {logging_mixin.py:109} INFO - [2021-12-22 17:00:07,654] {dagbag.py:500} INFO - Filling up the DagBag from /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2021-12-22 17:00:07,676] {processor.py:632} INFO - DAG(s) dict_keys(['tutorial_etl_dag']) retrieved from /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2021-12-22 17:00:07,682] {logging_mixin.py:109} INFO - [2021-12-22 17:00:07,682] {dag.py:2389} INFO - Sync 1 DAGs
+[2021-12-22 17:00:07,690] {logging_mixin.py:109} INFO - [2021-12-22 17:00:07,690] {dag.py:2914} INFO - Setting next_dagrun for tutorial_etl_dag to None
+[2021-12-22 17:00:07,701] {processor.py:171} INFO - Processing /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py took 0.061 seconds
+[2021-12-22 17:00:47,715] {processor.py:163} INFO - Started process (PID=8381) to work on /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2021-12-22 17:00:47,724] {processor.py:620} INFO - Processing file /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py for tasks to queue
+[2021-12-22 17:00:47,726] {logging_mixin.py:109} INFO - [2021-12-22 17:00:47,725] {dagbag.py:500} INFO - Filling up the DagBag from /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2021-12-22 17:00:47,754] {processor.py:632} INFO - DAG(s) dict_keys(['tutorial_etl_dag']) retrieved from /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2021-12-22 17:00:47,760] {logging_mixin.py:109} INFO - [2021-12-22 17:00:47,760] {dag.py:2389} INFO - Sync 1 DAGs
+[2021-12-22 17:00:47,767] {logging_mixin.py:109} INFO - [2021-12-22 17:00:47,767] {dag.py:2914} INFO - Setting next_dagrun for tutorial_etl_dag to None
+[2021-12-22 17:00:47,775] {processor.py:171} INFO - Processing /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py took 0.067 seconds
+[2021-12-22 17:03:18,118] {processor.py:163} INFO - Started process (PID=9162) to work on /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2021-12-22 17:03:18,123] {processor.py:620} INFO - Processing file /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py for tasks to queue
+[2021-12-22 17:03:18,124] {logging_mixin.py:109} INFO - [2021-12-22 17:03:18,124] {dagbag.py:500} INFO - Filling up the DagBag from /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2021-12-22 17:03:18,146] {processor.py:632} INFO - DAG(s) dict_keys(['tutorial_etl_dag']) retrieved from /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2021-12-22 17:03:18,154] {logging_mixin.py:109} INFO - [2021-12-22 17:03:18,154] {dag.py:2389} INFO - Sync 1 DAGs
+[2021-12-22 17:03:18,161] {logging_mixin.py:109} INFO - [2021-12-22 17:03:18,161] {dag.py:2914} INFO - Setting next_dagrun for tutorial_etl_dag to None
+[2021-12-22 17:03:18,173] {processor.py:171} INFO - Processing /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py took 0.058 seconds
+[2021-12-22 17:12:21,006] {processor.py:163} INFO - Started process (PID=18954) to work on /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2021-12-22 17:12:21,015] {processor.py:620} INFO - Processing file /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py for tasks to queue
+[2021-12-22 17:12:21,017] {logging_mixin.py:109} INFO - [2021-12-22 17:12:21,016] {dagbag.py:500} INFO - Filling up the DagBag from /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2021-12-22 17:12:21,045] {processor.py:632} INFO - DAG(s) dict_keys(['tutorial_etl_dag']) retrieved from /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2021-12-22 17:12:21,051] {logging_mixin.py:109} INFO - [2021-12-22 17:12:21,051] {dag.py:2389} INFO - Sync 1 DAGs
+[2021-12-22 17:12:21,096] {logging_mixin.py:109} INFO - [2021-12-22 17:12:21,096] {dag.py:2914} INFO - Setting next_dagrun for tutorial_etl_dag to None
+[2021-12-22 17:12:21,107] {processor.py:171} INFO - Processing /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py took 0.108 seconds
+[2021-12-22 17:13:01,065] {processor.py:163} INFO - Started process (PID=19200) to work on /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2021-12-22 17:13:01,074] {processor.py:620} INFO - Processing file /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py for tasks to queue
+[2021-12-22 17:13:01,075] {logging_mixin.py:109} INFO - [2021-12-22 17:13:01,075] {dagbag.py:500} INFO - Filling up the DagBag from /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2021-12-22 17:13:01,100] {processor.py:632} INFO - DAG(s) dict_keys(['tutorial_etl_dag']) retrieved from /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2021-12-22 17:13:01,107] {logging_mixin.py:109} INFO - [2021-12-22 17:13:01,107] {dag.py:2389} INFO - Sync 1 DAGs
+[2021-12-22 17:13:01,161] {logging_mixin.py:109} INFO - [2021-12-22 17:13:01,161] {dag.py:2914} INFO - Setting next_dagrun for tutorial_etl_dag to None
+[2021-12-22 17:13:01,171] {processor.py:171} INFO - Processing /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py took 0.112 seconds
+[2021-12-22 17:13:42,843] {processor.py:163} INFO - Started process (PID=19349) to work on /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2021-12-22 17:13:42,848] {processor.py:620} INFO - Processing file /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py for tasks to queue
+[2021-12-22 17:13:42,850] {logging_mixin.py:109} INFO - [2021-12-22 17:13:42,850] {dagbag.py:500} INFO - Filling up the DagBag from /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2021-12-22 17:13:42,917] {processor.py:632} INFO - DAG(s) dict_keys(['tutorial_etl_dag']) retrieved from /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2021-12-22 17:13:42,921] {logging_mixin.py:109} INFO - [2021-12-22 17:13:42,921] {dag.py:2389} INFO - Sync 1 DAGs
+[2021-12-22 17:13:42,925] {logging_mixin.py:109} INFO - [2021-12-22 17:13:42,925] {dag.py:2914} INFO - Setting next_dagrun for tutorial_etl_dag to None
+[2021-12-22 17:13:42,936] {processor.py:171} INFO - Processing /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py took 0.099 seconds
+[2021-12-22 17:14:23,299] {processor.py:163} INFO - Started process (PID=19555) to work on /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2021-12-22 17:14:23,304] {processor.py:620} INFO - Processing file /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py for tasks to queue
+[2021-12-22 17:14:23,306] {logging_mixin.py:109} INFO - [2021-12-22 17:14:23,306] {dagbag.py:500} INFO - Filling up the DagBag from /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2021-12-22 17:14:23,367] {processor.py:632} INFO - DAG(s) dict_keys(['tutorial_etl_dag']) retrieved from /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2021-12-22 17:14:23,371] {logging_mixin.py:109} INFO - [2021-12-22 17:14:23,371] {dag.py:2389} INFO - Sync 1 DAGs
+[2021-12-22 17:14:23,375] {logging_mixin.py:109} INFO - [2021-12-22 17:14:23,375] {dag.py:2914} INFO - Setting next_dagrun for tutorial_etl_dag to None
+[2021-12-22 17:14:23,386] {processor.py:171} INFO - Processing /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py took 0.094 seconds
+[2021-12-22 17:15:03,546] {processor.py:163} INFO - Started process (PID=19775) to work on /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2021-12-22 17:15:03,555] {processor.py:620} INFO - Processing file /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py for tasks to queue
+[2021-12-22 17:15:03,556] {logging_mixin.py:109} INFO - [2021-12-22 17:15:03,556] {dagbag.py:500} INFO - Filling up the DagBag from /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2021-12-22 17:15:03,580] {processor.py:632} INFO - DAG(s) dict_keys(['tutorial_etl_dag']) retrieved from /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2021-12-22 17:15:03,588] {logging_mixin.py:109} INFO - [2021-12-22 17:15:03,588] {dag.py:2389} INFO - Sync 1 DAGs
+[2021-12-22 17:15:03,594] {logging_mixin.py:109} INFO - [2021-12-22 17:15:03,594] {dag.py:2914} INFO - Setting next_dagrun for tutorial_etl_dag to None
+[2021-12-22 17:15:03,603] {processor.py:171} INFO - Processing /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py took 0.063 seconds
+[2021-12-22 17:15:42,786] {processor.py:163} INFO - Started process (PID=19824) to work on /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2021-12-22 17:15:42,796] {processor.py:620} INFO - Processing file /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py for tasks to queue
+[2021-12-22 17:15:42,797] {logging_mixin.py:109} INFO - [2021-12-22 17:15:42,797] {dagbag.py:500} INFO - Filling up the DagBag from /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2021-12-22 17:15:42,823] {processor.py:632} INFO - DAG(s) dict_keys(['tutorial_etl_dag']) retrieved from /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2021-12-22 17:15:42,830] {logging_mixin.py:109} INFO - [2021-12-22 17:15:42,830] {dag.py:2389} INFO - Sync 1 DAGs
+[2021-12-22 17:15:42,837] {logging_mixin.py:109} INFO - [2021-12-22 17:15:42,837] {dag.py:2914} INFO - Setting next_dagrun for tutorial_etl_dag to None
+[2021-12-22 17:15:42,845] {processor.py:171} INFO - Processing /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py took 0.066 seconds
+[2021-12-22 17:16:22,082] {processor.py:163} INFO - Started process (PID=19884) to work on /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2021-12-22 17:16:22,088] {processor.py:620} INFO - Processing file /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py for tasks to queue
+[2021-12-22 17:16:22,089] {logging_mixin.py:109} INFO - [2021-12-22 17:16:22,089] {dagbag.py:500} INFO - Filling up the DagBag from /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2021-12-22 17:16:22,113] {processor.py:632} INFO - DAG(s) dict_keys(['tutorial_etl_dag']) retrieved from /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2021-12-22 17:16:22,121] {logging_mixin.py:109} INFO - [2021-12-22 17:16:22,121] {dag.py:2389} INFO - Sync 1 DAGs
+[2021-12-22 17:16:22,127] {logging_mixin.py:109} INFO - [2021-12-22 17:16:22,127] {dag.py:2914} INFO - Setting next_dagrun for tutorial_etl_dag to None
+[2021-12-22 17:16:22,136] {processor.py:171} INFO - Processing /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py took 0.060 seconds
+[2021-12-22 17:17:04,375] {processor.py:163} INFO - Started process (PID=20434) to work on /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2021-12-22 17:17:04,378] {processor.py:620} INFO - Processing file /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py for tasks to queue
+[2021-12-22 17:17:04,379] {logging_mixin.py:109} INFO - [2021-12-22 17:17:04,379] {dagbag.py:500} INFO - Filling up the DagBag from /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2021-12-22 17:17:04,398] {processor.py:632} INFO - DAG(s) dict_keys(['tutorial_etl_dag']) retrieved from /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2021-12-22 17:17:04,404] {logging_mixin.py:109} INFO - [2021-12-22 17:17:04,404] {dag.py:2389} INFO - Sync 1 DAGs
+[2021-12-22 17:17:04,410] {logging_mixin.py:109} INFO - [2021-12-22 17:17:04,410] {dag.py:2914} INFO - Setting next_dagrun for tutorial_etl_dag to None
+[2021-12-22 17:17:04,419] {processor.py:171} INFO - Processing /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py took 0.050 seconds
+[2021-12-22 17:17:39,760] {processor.py:163} INFO - Started process (PID=20939) to work on /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2021-12-22 17:17:39,767] {processor.py:620} INFO - Processing file /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py for tasks to queue
+[2021-12-22 17:17:39,767] {logging_mixin.py:109} INFO - [2021-12-22 17:17:39,767] {dagbag.py:500} INFO - Filling up the DagBag from /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2021-12-22 17:17:39,777] {processor.py:632} INFO - DAG(s) dict_keys(['tutorial_etl_dag']) retrieved from /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2021-12-22 17:17:39,782] {logging_mixin.py:109} INFO - [2021-12-22 17:17:39,782] {dag.py:2389} INFO - Sync 1 DAGs
+[2021-12-22 17:17:39,788] {logging_mixin.py:109} INFO - [2021-12-22 17:17:39,788] {dag.py:2914} INFO - Setting next_dagrun for tutorial_etl_dag to None
+[2021-12-22 17:17:39,796] {processor.py:171} INFO - Processing /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py took 0.038 seconds
+[2021-12-22 17:18:16,885] {processor.py:163} INFO - Started process (PID=20989) to work on /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2021-12-22 17:18:16,893] {processor.py:620} INFO - Processing file /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py for tasks to queue
+[2021-12-22 17:18:16,894] {logging_mixin.py:109} INFO - [2021-12-22 17:18:16,894] {dagbag.py:500} INFO - Filling up the DagBag from /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2021-12-22 17:18:16,908] {processor.py:632} INFO - DAG(s) dict_keys(['tutorial_etl_dag']) retrieved from /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2021-12-22 17:18:16,917] {logging_mixin.py:109} INFO - [2021-12-22 17:18:16,917] {dag.py:2389} INFO - Sync 1 DAGs
+[2021-12-22 17:18:16,924] {logging_mixin.py:109} INFO - [2021-12-22 17:18:16,924] {dag.py:2914} INFO - Setting next_dagrun for tutorial_etl_dag to None
+[2021-12-22 17:18:16,933] {processor.py:171} INFO - Processing /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py took 0.050 seconds
+[2021-12-22 17:18:51,364] {processor.py:163} INFO - Started process (PID=21048) to work on /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2021-12-22 17:18:51,374] {processor.py:620} INFO - Processing file /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py for tasks to queue
+[2021-12-22 17:18:51,375] {logging_mixin.py:109} INFO - [2021-12-22 17:18:51,375] {dagbag.py:500} INFO - Filling up the DagBag from /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2021-12-22 17:18:51,398] {processor.py:632} INFO - DAG(s) dict_keys(['tutorial_etl_dag']) retrieved from /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2021-12-22 17:18:51,405] {logging_mixin.py:109} INFO - [2021-12-22 17:18:51,405] {dag.py:2389} INFO - Sync 1 DAGs
+[2021-12-22 17:18:51,412] {logging_mixin.py:109} INFO - [2021-12-22 17:18:51,412] {dag.py:2914} INFO - Setting next_dagrun for tutorial_etl_dag to None
+[2021-12-22 17:18:51,420] {processor.py:171} INFO - Processing /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py took 0.063 seconds
+[2021-12-22 17:19:29,491] {processor.py:163} INFO - Started process (PID=21176) to work on /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2021-12-22 17:19:29,497] {processor.py:620} INFO - Processing file /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py for tasks to queue
+[2021-12-22 17:19:29,498] {logging_mixin.py:109} INFO - [2021-12-22 17:19:29,498] {dagbag.py:500} INFO - Filling up the DagBag from /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2021-12-22 17:19:29,523] {processor.py:632} INFO - DAG(s) dict_keys(['tutorial_etl_dag']) retrieved from /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2021-12-22 17:19:29,531] {logging_mixin.py:109} INFO - [2021-12-22 17:19:29,531] {dag.py:2389} INFO - Sync 1 DAGs
+[2021-12-22 17:19:29,537] {logging_mixin.py:109} INFO - [2021-12-22 17:19:29,537] {dag.py:2914} INFO - Setting next_dagrun for tutorial_etl_dag to None
+[2021-12-22 17:19:29,546] {processor.py:171} INFO - Processing /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py took 0.061 seconds
+[2021-12-22 17:20:05,499] {processor.py:163} INFO - Started process (PID=21492) to work on /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2021-12-22 17:20:05,503] {processor.py:620} INFO - Processing file /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py for tasks to queue
+[2021-12-22 17:20:05,504] {logging_mixin.py:109} INFO - [2021-12-22 17:20:05,503] {dagbag.py:500} INFO - Filling up the DagBag from /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2021-12-22 17:20:05,518] {processor.py:632} INFO - DAG(s) dict_keys(['tutorial_etl_dag']) retrieved from /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2021-12-22 17:20:05,523] {logging_mixin.py:109} INFO - [2021-12-22 17:20:05,523] {dag.py:2389} INFO - Sync 1 DAGs
+[2021-12-22 17:20:05,529] {logging_mixin.py:109} INFO - [2021-12-22 17:20:05,529] {dag.py:2914} INFO - Setting next_dagrun for tutorial_etl_dag to None
+[2021-12-22 17:20:05,537] {processor.py:171} INFO - Processing /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py took 0.045 seconds
+[2021-12-22 17:20:42,021] {processor.py:163} INFO - Started process (PID=21562) to work on /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2021-12-22 17:20:42,031] {processor.py:620} INFO - Processing file /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py for tasks to queue
+[2021-12-22 17:20:42,032] {logging_mixin.py:109} INFO - [2021-12-22 17:20:42,032] {dagbag.py:500} INFO - Filling up the DagBag from /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2021-12-22 17:20:42,055] {processor.py:632} INFO - DAG(s) dict_keys(['tutorial_etl_dag']) retrieved from /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2021-12-22 17:20:42,062] {logging_mixin.py:109} INFO - [2021-12-22 17:20:42,062] {dag.py:2389} INFO - Sync 1 DAGs
+[2021-12-22 17:20:42,069] {logging_mixin.py:109} INFO - [2021-12-22 17:20:42,069] {dag.py:2914} INFO - Setting next_dagrun for tutorial_etl_dag to None
+[2021-12-22 17:20:42,077] {processor.py:171} INFO - Processing /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py took 0.062 seconds
+[2021-12-22 17:21:16,560] {processor.py:163} INFO - Started process (PID=21604) to work on /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2021-12-22 17:21:16,569] {processor.py:620} INFO - Processing file /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py for tasks to queue
+[2021-12-22 17:21:16,571] {logging_mixin.py:109} INFO - [2021-12-22 17:21:16,571] {dagbag.py:500} INFO - Filling up the DagBag from /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2021-12-22 17:21:16,595] {processor.py:632} INFO - DAG(s) dict_keys(['tutorial_etl_dag']) retrieved from /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2021-12-22 17:21:16,602] {logging_mixin.py:109} INFO - [2021-12-22 17:21:16,602] {dag.py:2389} INFO - Sync 1 DAGs
+[2021-12-22 17:21:16,609] {logging_mixin.py:109} INFO - [2021-12-22 17:21:16,609] {dag.py:2914} INFO - Setting next_dagrun for tutorial_etl_dag to None
+[2021-12-22 17:21:16,617] {processor.py:171} INFO - Processing /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py took 0.065 seconds
+[2021-12-22 17:58:50,157] {processor.py:163} INFO - Started process (PID=38838) to work on /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2021-12-22 17:58:50,164] {processor.py:620} INFO - Processing file /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py for tasks to queue
+[2021-12-22 17:58:50,165] {logging_mixin.py:109} INFO - [2021-12-22 17:58:50,165] {dagbag.py:500} INFO - Filling up the DagBag from /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2021-12-22 17:58:50,173] {processor.py:632} INFO - DAG(s) dict_keys(['tutorial_etl_dag']) retrieved from /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2021-12-22 17:58:50,177] {logging_mixin.py:109} INFO - [2021-12-22 17:58:50,177] {dag.py:2389} INFO - Sync 1 DAGs
+[2021-12-22 17:58:50,182] {logging_mixin.py:109} INFO - [2021-12-22 17:58:50,182] {dag.py:2914} INFO - Setting next_dagrun for tutorial_etl_dag to None
+[2021-12-22 17:58:50,190] {processor.py:171} INFO - Processing /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py took 0.034 seconds
+[2021-12-22 17:59:25,443] {processor.py:163} INFO - Started process (PID=38879) to work on /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2021-12-22 17:59:25,452] {processor.py:620} INFO - Processing file /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py for tasks to queue
+[2021-12-22 17:59:25,454] {logging_mixin.py:109} INFO - [2021-12-22 17:59:25,453] {dagbag.py:500} INFO - Filling up the DagBag from /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2021-12-22 17:59:25,485] {processor.py:632} INFO - DAG(s) dict_keys(['tutorial_etl_dag']) retrieved from /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2021-12-22 17:59:25,494] {logging_mixin.py:109} INFO - [2021-12-22 17:59:25,494] {dag.py:2389} INFO - Sync 1 DAGs
+[2021-12-22 17:59:25,501] {logging_mixin.py:109} INFO - [2021-12-22 17:59:25,501] {dag.py:2914} INFO - Setting next_dagrun for tutorial_etl_dag to None
+[2021-12-22 17:59:25,511] {processor.py:171} INFO - Processing /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py took 0.069 seconds
+[2021-12-22 18:00:05,889] {processor.py:163} INFO - Started process (PID=38946) to work on /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2021-12-22 18:00:05,894] {processor.py:620} INFO - Processing file /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py for tasks to queue
+[2021-12-22 18:00:05,896] {logging_mixin.py:109} INFO - [2021-12-22 18:00:05,895] {dagbag.py:500} INFO - Filling up the DagBag from /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2021-12-22 18:00:05,921] {processor.py:632} INFO - DAG(s) dict_keys(['tutorial_etl_dag']) retrieved from /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2021-12-22 18:00:05,929] {logging_mixin.py:109} INFO - [2021-12-22 18:00:05,929] {dag.py:2389} INFO - Sync 1 DAGs
+[2021-12-22 18:00:05,936] {logging_mixin.py:109} INFO - [2021-12-22 18:00:05,936] {dag.py:2914} INFO - Setting next_dagrun for tutorial_etl_dag to None
+[2021-12-22 18:00:05,945] {processor.py:171} INFO - Processing /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py took 0.062 seconds
+[2021-12-22 18:00:45,230] {processor.py:163} INFO - Started process (PID=38996) to work on /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2021-12-22 18:00:45,236] {processor.py:620} INFO - Processing file /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py for tasks to queue
+[2021-12-22 18:00:45,237] {logging_mixin.py:109} INFO - [2021-12-22 18:00:45,237] {dagbag.py:500} INFO - Filling up the DagBag from /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2021-12-22 18:00:45,263] {processor.py:632} INFO - DAG(s) dict_keys(['tutorial_etl_dag']) retrieved from /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2021-12-22 18:00:45,270] {logging_mixin.py:109} INFO - [2021-12-22 18:00:45,270] {dag.py:2389} INFO - Sync 1 DAGs
+[2021-12-22 18:00:45,277] {logging_mixin.py:109} INFO - [2021-12-22 18:00:45,277] {dag.py:2914} INFO - Setting next_dagrun for tutorial_etl_dag to None
+[2021-12-22 18:00:45,286] {processor.py:171} INFO - Processing /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py took 0.063 seconds
+[2021-12-22 18:01:22,396] {processor.py:163} INFO - Started process (PID=39034) to work on /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2021-12-22 18:01:22,404] {processor.py:620} INFO - Processing file /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py for tasks to queue
+[2021-12-22 18:01:22,405] {logging_mixin.py:109} INFO - [2021-12-22 18:01:22,405] {dagbag.py:500} INFO - Filling up the DagBag from /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2021-12-22 18:01:22,426] {processor.py:632} INFO - DAG(s) dict_keys(['tutorial_etl_dag']) retrieved from /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2021-12-22 18:01:22,434] {logging_mixin.py:109} INFO - [2021-12-22 18:01:22,434] {dag.py:2389} INFO - Sync 1 DAGs
+[2021-12-22 18:01:22,440] {logging_mixin.py:109} INFO - [2021-12-22 18:01:22,440] {dag.py:2914} INFO - Setting next_dagrun for tutorial_etl_dag to None
+[2021-12-22 18:01:22,449] {processor.py:171} INFO - Processing /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py took 0.058 seconds
+[2021-12-22 18:02:01,506] {processor.py:163} INFO - Started process (PID=39076) to work on /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2021-12-22 18:02:01,514] {processor.py:620} INFO - Processing file /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py for tasks to queue
+[2021-12-22 18:02:01,514] {logging_mixin.py:109} INFO - [2021-12-22 18:02:01,514] {dagbag.py:500} INFO - Filling up the DagBag from /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2021-12-22 18:02:01,526] {processor.py:632} INFO - DAG(s) dict_keys(['tutorial_etl_dag']) retrieved from /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2021-12-22 18:02:01,533] {logging_mixin.py:109} INFO - [2021-12-22 18:02:01,533] {dag.py:2389} INFO - Sync 1 DAGs
+[2021-12-22 18:02:01,540] {logging_mixin.py:109} INFO - [2021-12-22 18:02:01,540] {dag.py:2914} INFO - Setting next_dagrun for tutorial_etl_dag to None
+[2021-12-22 18:02:01,550] {processor.py:171} INFO - Processing /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py took 0.046 seconds
+[2021-12-22 18:07:33,557] {processor.py:163} INFO - Started process (PID=40988) to work on /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2021-12-22 18:07:33,565] {processor.py:620} INFO - Processing file /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py for tasks to queue
+[2021-12-22 18:07:33,566] {logging_mixin.py:109} INFO - [2021-12-22 18:07:33,566] {dagbag.py:500} INFO - Filling up the DagBag from /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2021-12-22 18:07:33,577] {processor.py:632} INFO - DAG(s) dict_keys(['tutorial_etl_dag']) retrieved from /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2021-12-22 18:07:33,583] {logging_mixin.py:109} INFO - [2021-12-22 18:07:33,583] {dag.py:2389} INFO - Sync 1 DAGs
+[2021-12-22 18:07:33,588] {logging_mixin.py:109} INFO - [2021-12-22 18:07:33,588] {dag.py:2914} INFO - Setting next_dagrun for tutorial_etl_dag to None
+[2021-12-22 18:07:33,596] {processor.py:171} INFO - Processing /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py took 0.043 seconds
+[2021-12-22 18:08:11,402] {processor.py:163} INFO - Started process (PID=41075) to work on /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2021-12-22 18:08:11,412] {processor.py:620} INFO - Processing file /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py for tasks to queue
+[2021-12-22 18:08:11,413] {logging_mixin.py:109} INFO - [2021-12-22 18:08:11,413] {dagbag.py:500} INFO - Filling up the DagBag from /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2021-12-22 18:08:11,438] {processor.py:632} INFO - DAG(s) dict_keys(['tutorial_etl_dag']) retrieved from /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2021-12-22 18:08:11,445] {logging_mixin.py:109} INFO - [2021-12-22 18:08:11,445] {dag.py:2389} INFO - Sync 1 DAGs
+[2021-12-22 18:08:11,452] {logging_mixin.py:109} INFO - [2021-12-22 18:08:11,452] {dag.py:2914} INFO - Setting next_dagrun for tutorial_etl_dag to None
+[2021-12-22 18:08:11,461] {processor.py:171} INFO - Processing /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py took 0.065 seconds
+[2021-12-22 18:08:50,542] {processor.py:163} INFO - Started process (PID=41117) to work on /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2021-12-22 18:08:50,551] {processor.py:620} INFO - Processing file /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py for tasks to queue
+[2021-12-22 18:08:50,553] {logging_mixin.py:109} INFO - [2021-12-22 18:08:50,552] {dagbag.py:500} INFO - Filling up the DagBag from /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2021-12-22 18:08:50,581] {processor.py:632} INFO - DAG(s) dict_keys(['tutorial_etl_dag']) retrieved from /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2021-12-22 18:08:50,589] {logging_mixin.py:109} INFO - [2021-12-22 18:08:50,588] {dag.py:2389} INFO - Sync 1 DAGs
+[2021-12-22 18:08:50,597] {logging_mixin.py:109} INFO - [2021-12-22 18:08:50,597] {dag.py:2914} INFO - Setting next_dagrun for tutorial_etl_dag to None
+[2021-12-22 18:08:50,605] {processor.py:171} INFO - Processing /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py took 0.070 seconds
+[2021-12-22 18:09:28,950] {processor.py:163} INFO - Started process (PID=41156) to work on /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2021-12-22 18:09:28,959] {processor.py:620} INFO - Processing file /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py for tasks to queue
+[2021-12-22 18:09:28,960] {logging_mixin.py:109} INFO - [2021-12-22 18:09:28,960] {dagbag.py:500} INFO - Filling up the DagBag from /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2021-12-22 18:09:28,987] {processor.py:632} INFO - DAG(s) dict_keys(['tutorial_etl_dag']) retrieved from /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2021-12-22 18:09:28,995] {logging_mixin.py:109} INFO - [2021-12-22 18:09:28,995] {dag.py:2389} INFO - Sync 1 DAGs
+[2021-12-22 18:09:29,003] {logging_mixin.py:109} INFO - [2021-12-22 18:09:29,003] {dag.py:2914} INFO - Setting next_dagrun for tutorial_etl_dag to None
+[2021-12-22 18:09:29,012] {processor.py:171} INFO - Processing /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py took 0.069 seconds
+[2021-12-22 18:10:07,597] {processor.py:163} INFO - Started process (PID=41195) to work on /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2021-12-22 18:10:07,602] {processor.py:620} INFO - Processing file /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py for tasks to queue
+[2021-12-22 18:10:07,603] {logging_mixin.py:109} INFO - [2021-12-22 18:10:07,603] {dagbag.py:500} INFO - Filling up the DagBag from /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2021-12-22 18:10:07,630] {processor.py:632} INFO - DAG(s) dict_keys(['tutorial_etl_dag']) retrieved from /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2021-12-22 18:10:07,637] {logging_mixin.py:109} INFO - [2021-12-22 18:10:07,637] {dag.py:2389} INFO - Sync 1 DAGs
+[2021-12-22 18:10:07,643] {logging_mixin.py:109} INFO - [2021-12-22 18:10:07,643] {dag.py:2914} INFO - Setting next_dagrun for tutorial_etl_dag to None
+[2021-12-22 18:10:07,654] {processor.py:171} INFO - Processing /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py took 0.064 seconds
+[2021-12-22 18:10:46,842] {processor.py:163} INFO - Started process (PID=41234) to work on /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2021-12-22 18:10:46,850] {processor.py:620} INFO - Processing file /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py for tasks to queue
+[2021-12-22 18:10:46,851] {logging_mixin.py:109} INFO - [2021-12-22 18:10:46,851] {dagbag.py:500} INFO - Filling up the DagBag from /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2021-12-22 18:10:46,872] {processor.py:632} INFO - DAG(s) dict_keys(['tutorial_etl_dag']) retrieved from /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2021-12-22 18:10:46,878] {logging_mixin.py:109} INFO - [2021-12-22 18:10:46,878] {dag.py:2389} INFO - Sync 1 DAGs
+[2021-12-22 18:10:46,885] {logging_mixin.py:109} INFO - [2021-12-22 18:10:46,885] {dag.py:2914} INFO - Setting next_dagrun for tutorial_etl_dag to None
+[2021-12-22 18:10:46,894] {processor.py:171} INFO - Processing /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py took 0.055 seconds
+[2021-12-22 18:11:25,681] {processor.py:163} INFO - Started process (PID=41281) to work on /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2021-12-22 18:11:25,686] {processor.py:620} INFO - Processing file /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py for tasks to queue
+[2021-12-22 18:11:25,687] {logging_mixin.py:109} INFO - [2021-12-22 18:11:25,687] {dagbag.py:500} INFO - Filling up the DagBag from /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2021-12-22 18:11:25,712] {processor.py:632} INFO - DAG(s) dict_keys(['tutorial_etl_dag']) retrieved from /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2021-12-22 18:11:25,720] {logging_mixin.py:109} INFO - [2021-12-22 18:11:25,720] {dag.py:2389} INFO - Sync 1 DAGs
+[2021-12-22 18:11:25,727] {logging_mixin.py:109} INFO - [2021-12-22 18:11:25,727] {dag.py:2914} INFO - Setting next_dagrun for tutorial_etl_dag to None
+[2021-12-22 18:11:25,736] {processor.py:171} INFO - Processing /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py took 0.059 seconds
+[2021-12-22 18:12:04,031] {processor.py:163} INFO - Started process (PID=41319) to work on /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2021-12-22 18:12:04,040] {processor.py:620} INFO - Processing file /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py for tasks to queue
+[2021-12-22 18:12:04,041] {logging_mixin.py:109} INFO - [2021-12-22 18:12:04,041] {dagbag.py:500} INFO - Filling up the DagBag from /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2021-12-22 18:12:04,069] {processor.py:632} INFO - DAG(s) dict_keys(['tutorial_etl_dag']) retrieved from /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2021-12-22 18:12:04,077] {logging_mixin.py:109} INFO - [2021-12-22 18:12:04,076] {dag.py:2389} INFO - Sync 1 DAGs
+[2021-12-22 18:12:04,083] {logging_mixin.py:109} INFO - [2021-12-22 18:12:04,083] {dag.py:2914} INFO - Setting next_dagrun for tutorial_etl_dag to None
+[2021-12-22 18:12:04,092] {processor.py:171} INFO - Processing /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py took 0.068 seconds
+[2021-12-22 18:19:02,795] {processor.py:163} INFO - Started process (PID=43782) to work on /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2021-12-22 18:19:02,804] {processor.py:620} INFO - Processing file /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py for tasks to queue
+[2021-12-22 18:19:02,805] {logging_mixin.py:109} INFO - [2021-12-22 18:19:02,805] {dagbag.py:500} INFO - Filling up the DagBag from /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2021-12-22 18:19:02,832] {processor.py:632} INFO - DAG(s) dict_keys(['tutorial_etl_dag']) retrieved from /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2021-12-22 18:19:02,840] {logging_mixin.py:109} INFO - [2021-12-22 18:19:02,840] {dag.py:2389} INFO - Sync 1 DAGs
+[2021-12-22 18:19:02,847] {logging_mixin.py:109} INFO - [2021-12-22 18:19:02,847] {dag.py:2914} INFO - Setting next_dagrun for tutorial_etl_dag to None
+[2021-12-22 18:19:02,856] {processor.py:171} INFO - Processing /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py took 0.068 seconds
+[2021-12-22 18:19:39,428] {processor.py:163} INFO - Started process (PID=43819) to work on /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2021-12-22 18:19:39,437] {processor.py:620} INFO - Processing file /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py for tasks to queue
+[2021-12-22 18:19:39,439] {logging_mixin.py:109} INFO - [2021-12-22 18:19:39,438] {dagbag.py:500} INFO - Filling up the DagBag from /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2021-12-22 18:19:39,464] {processor.py:632} INFO - DAG(s) dict_keys(['tutorial_etl_dag']) retrieved from /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2021-12-22 18:19:39,471] {logging_mixin.py:109} INFO - [2021-12-22 18:19:39,471] {dag.py:2389} INFO - Sync 1 DAGs
+[2021-12-22 18:19:39,478] {logging_mixin.py:109} INFO - [2021-12-22 18:19:39,478] {dag.py:2914} INFO - Setting next_dagrun for tutorial_etl_dag to None
+[2021-12-22 18:19:39,487] {processor.py:171} INFO - Processing /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py took 0.066 seconds
+[2021-12-22 18:20:19,346] {processor.py:163} INFO - Started process (PID=43863) to work on /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2021-12-22 18:20:19,351] {processor.py:620} INFO - Processing file /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py for tasks to queue
+[2021-12-22 18:20:19,352] {logging_mixin.py:109} INFO - [2021-12-22 18:20:19,352] {dagbag.py:500} INFO - Filling up the DagBag from /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2021-12-22 18:20:19,376] {processor.py:632} INFO - DAG(s) dict_keys(['tutorial_etl_dag']) retrieved from /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2021-12-22 18:20:19,383] {logging_mixin.py:109} INFO - [2021-12-22 18:20:19,383] {dag.py:2389} INFO - Sync 1 DAGs
+[2021-12-22 18:20:19,389] {logging_mixin.py:109} INFO - [2021-12-22 18:20:19,389] {dag.py:2914} INFO - Setting next_dagrun for tutorial_etl_dag to None
+[2021-12-22 18:20:19,398] {processor.py:171} INFO - Processing /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py took 0.059 seconds
+[2021-12-22 18:20:56,000] {processor.py:163} INFO - Started process (PID=43926) to work on /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2021-12-22 18:20:56,009] {processor.py:620} INFO - Processing file /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py for tasks to queue
+[2021-12-22 18:20:56,010] {logging_mixin.py:109} INFO - [2021-12-22 18:20:56,010] {dagbag.py:500} INFO - Filling up the DagBag from /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2021-12-22 18:20:56,038] {processor.py:632} INFO - DAG(s) dict_keys(['tutorial_etl_dag']) retrieved from /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2021-12-22 18:20:56,045] {logging_mixin.py:109} INFO - [2021-12-22 18:20:56,045] {dag.py:2389} INFO - Sync 1 DAGs
+[2021-12-22 18:20:56,052] {logging_mixin.py:109} INFO - [2021-12-22 18:20:56,052] {dag.py:2914} INFO - Setting next_dagrun for tutorial_etl_dag to None
+[2021-12-22 18:20:56,061] {processor.py:171} INFO - Processing /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py took 0.067 seconds
+[2021-12-22 18:21:35,085] {processor.py:163} INFO - Started process (PID=43964) to work on /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2021-12-22 18:21:35,094] {processor.py:620} INFO - Processing file /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py for tasks to queue
+[2021-12-22 18:21:35,095] {logging_mixin.py:109} INFO - [2021-12-22 18:21:35,094] {dagbag.py:500} INFO - Filling up the DagBag from /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2021-12-22 18:21:35,113] {processor.py:632} INFO - DAG(s) dict_keys(['tutorial_etl_dag']) retrieved from /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2021-12-22 18:21:35,119] {logging_mixin.py:109} INFO - [2021-12-22 18:21:35,119] {dag.py:2389} INFO - Sync 1 DAGs
+[2021-12-22 18:21:35,125] {logging_mixin.py:109} INFO - [2021-12-22 18:21:35,125] {dag.py:2914} INFO - Setting next_dagrun for tutorial_etl_dag to None
+[2021-12-22 18:21:35,134] {processor.py:171} INFO - Processing /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py took 0.055 seconds
+[2021-12-22 18:22:10,364] {processor.py:163} INFO - Started process (PID=44000) to work on /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2021-12-22 18:22:10,369] {processor.py:620} INFO - Processing file /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py for tasks to queue
+[2021-12-22 18:22:10,371] {logging_mixin.py:109} INFO - [2021-12-22 18:22:10,370] {dagbag.py:500} INFO - Filling up the DagBag from /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2021-12-22 18:22:10,397] {processor.py:632} INFO - DAG(s) dict_keys(['tutorial_etl_dag']) retrieved from /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2021-12-22 18:22:10,405] {logging_mixin.py:109} INFO - [2021-12-22 18:22:10,405] {dag.py:2389} INFO - Sync 1 DAGs
+[2021-12-22 18:22:10,412] {logging_mixin.py:109} INFO - [2021-12-22 18:22:10,412] {dag.py:2914} INFO - Setting next_dagrun for tutorial_etl_dag to None
+[2021-12-22 18:22:10,421] {processor.py:171} INFO - Processing /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py took 0.063 seconds
+[2021-12-22 18:22:45,475] {processor.py:163} INFO - Started process (PID=44036) to work on /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2021-12-22 18:22:45,478] {processor.py:620} INFO - Processing file /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py for tasks to queue
+[2021-12-22 18:22:45,479] {logging_mixin.py:109} INFO - [2021-12-22 18:22:45,479] {dagbag.py:500} INFO - Filling up the DagBag from /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2021-12-22 18:22:45,492] {processor.py:632} INFO - DAG(s) dict_keys(['tutorial_etl_dag']) retrieved from /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2021-12-22 18:22:45,500] {logging_mixin.py:109} INFO - [2021-12-22 18:22:45,500] {dag.py:2389} INFO - Sync 1 DAGs
+[2021-12-22 18:22:45,507] {logging_mixin.py:109} INFO - [2021-12-22 18:22:45,507] {dag.py:2914} INFO - Setting next_dagrun for tutorial_etl_dag to None
+[2021-12-22 18:22:45,516] {processor.py:171} INFO - Processing /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py took 0.044 seconds
+[2021-12-22 18:23:20,206] {processor.py:163} INFO - Started process (PID=44075) to work on /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2021-12-22 18:23:20,215] {processor.py:620} INFO - Processing file /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py for tasks to queue
+[2021-12-22 18:23:20,217] {logging_mixin.py:109} INFO - [2021-12-22 18:23:20,217] {dagbag.py:500} INFO - Filling up the DagBag from /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2021-12-22 18:23:20,243] {processor.py:632} INFO - DAG(s) dict_keys(['tutorial_etl_dag']) retrieved from /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2021-12-22 18:23:20,251] {logging_mixin.py:109} INFO - [2021-12-22 18:23:20,250] {dag.py:2389} INFO - Sync 1 DAGs
+[2021-12-22 18:23:20,258] {logging_mixin.py:109} INFO - [2021-12-22 18:23:20,258] {dag.py:2914} INFO - Setting next_dagrun for tutorial_etl_dag to None
+[2021-12-22 18:23:20,266] {processor.py:171} INFO - Processing /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py took 0.067 seconds
+[2021-12-22 18:24:02,660] {processor.py:163} INFO - Started process (PID=44456) to work on /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2021-12-22 18:24:02,668] {processor.py:620} INFO - Processing file /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py for tasks to queue
+[2021-12-22 18:24:02,668] {logging_mixin.py:109} INFO - [2021-12-22 18:24:02,668] {dagbag.py:500} INFO - Filling up the DagBag from /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2021-12-22 18:24:02,688] {processor.py:632} INFO - DAG(s) dict_keys(['tutorial_etl_dag']) retrieved from /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2021-12-22 18:24:02,697] {logging_mixin.py:109} INFO - [2021-12-22 18:24:02,697] {dag.py:2389} INFO - Sync 1 DAGs
+[2021-12-22 18:24:02,705] {logging_mixin.py:109} INFO - [2021-12-22 18:24:02,705] {dag.py:2914} INFO - Setting next_dagrun for tutorial_etl_dag to None
+[2021-12-22 18:24:02,724] {processor.py:171} INFO - Processing /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py took 0.067 seconds
+[2021-12-22 18:24:40,535] {processor.py:163} INFO - Started process (PID=44494) to work on /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2021-12-22 18:24:40,540] {processor.py:620} INFO - Processing file /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py for tasks to queue
+[2021-12-22 18:24:40,542] {logging_mixin.py:109} INFO - [2021-12-22 18:24:40,541] {dagbag.py:500} INFO - Filling up the DagBag from /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2021-12-22 18:24:40,567] {processor.py:632} INFO - DAG(s) dict_keys(['tutorial_etl_dag']) retrieved from /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2021-12-22 18:24:40,574] {logging_mixin.py:109} INFO - [2021-12-22 18:24:40,574] {dag.py:2389} INFO - Sync 1 DAGs
+[2021-12-22 18:24:40,581] {logging_mixin.py:109} INFO - [2021-12-22 18:24:40,581] {dag.py:2914} INFO - Setting next_dagrun for tutorial_etl_dag to None
+[2021-12-22 18:24:40,590] {processor.py:171} INFO - Processing /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py took 0.063 seconds
+[2021-12-22 18:25:15,941] {processor.py:163} INFO - Started process (PID=44530) to work on /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2021-12-22 18:25:15,950] {processor.py:620} INFO - Processing file /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py for tasks to queue
+[2021-12-22 18:25:15,952] {logging_mixin.py:109} INFO - [2021-12-22 18:25:15,952] {dagbag.py:500} INFO - Filling up the DagBag from /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2021-12-22 18:25:15,979] {processor.py:632} INFO - DAG(s) dict_keys(['tutorial_etl_dag']) retrieved from /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2021-12-22 18:25:15,987] {logging_mixin.py:109} INFO - [2021-12-22 18:25:15,987] {dag.py:2389} INFO - Sync 1 DAGs
+[2021-12-22 18:25:15,995] {logging_mixin.py:109} INFO - [2021-12-22 18:25:15,995] {dag.py:2914} INFO - Setting next_dagrun for tutorial_etl_dag to None
+[2021-12-22 18:25:16,003] {processor.py:171} INFO - Processing /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py took 0.068 seconds
+[2021-12-22 18:25:51,123] {processor.py:163} INFO - Started process (PID=44573) to work on /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2021-12-22 18:25:51,131] {processor.py:620} INFO - Processing file /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py for tasks to queue
+[2021-12-22 18:25:51,131] {logging_mixin.py:109} INFO - [2021-12-22 18:25:51,131] {dagbag.py:500} INFO - Filling up the DagBag from /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2021-12-22 18:25:51,140] {processor.py:632} INFO - DAG(s) dict_keys(['tutorial_etl_dag']) retrieved from /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2021-12-22 18:25:51,146] {logging_mixin.py:109} INFO - [2021-12-22 18:25:51,146] {dag.py:2389} INFO - Sync 1 DAGs
+[2021-12-22 18:25:51,152] {logging_mixin.py:109} INFO - [2021-12-22 18:25:51,152] {dag.py:2914} INFO - Setting next_dagrun for tutorial_etl_dag to None
+[2021-12-22 18:25:51,161] {processor.py:171} INFO - Processing /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py took 0.039 seconds
+[2021-12-22 18:26:27,776] {processor.py:163} INFO - Started process (PID=44613) to work on /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2021-12-22 18:26:27,780] {processor.py:620} INFO - Processing file /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py for tasks to queue
+[2021-12-22 18:26:27,780] {logging_mixin.py:109} INFO - [2021-12-22 18:26:27,780] {dagbag.py:500} INFO - Filling up the DagBag from /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2021-12-22 18:26:27,789] {processor.py:632} INFO - DAG(s) dict_keys(['tutorial_etl_dag']) retrieved from /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2021-12-22 18:26:27,794] {logging_mixin.py:109} INFO - [2021-12-22 18:26:27,794] {dag.py:2389} INFO - Sync 1 DAGs
+[2021-12-22 18:26:27,799] {logging_mixin.py:109} INFO - [2021-12-22 18:26:27,799] {dag.py:2914} INFO - Setting next_dagrun for tutorial_etl_dag to None
+[2021-12-22 18:26:27,808] {processor.py:171} INFO - Processing /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py took 0.033 seconds
+[2021-12-22 18:27:03,529] {processor.py:163} INFO - Started process (PID=44648) to work on /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2021-12-22 18:27:03,537] {processor.py:620} INFO - Processing file /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py for tasks to queue
+[2021-12-22 18:27:03,537] {logging_mixin.py:109} INFO - [2021-12-22 18:27:03,537] {dagbag.py:500} INFO - Filling up the DagBag from /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2021-12-22 18:27:03,549] {processor.py:632} INFO - DAG(s) dict_keys(['tutorial_etl_dag']) retrieved from /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2021-12-22 18:27:03,554] {logging_mixin.py:109} INFO - [2021-12-22 18:27:03,554] {dag.py:2389} INFO - Sync 1 DAGs
+[2021-12-22 18:27:03,560] {logging_mixin.py:109} INFO - [2021-12-22 18:27:03,559] {dag.py:2914} INFO - Setting next_dagrun for tutorial_etl_dag to None
+[2021-12-22 18:27:03,568] {processor.py:171} INFO - Processing /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py took 0.041 seconds
+[2021-12-22 18:27:36,555] {processor.py:163} INFO - Started process (PID=44681) to work on /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2021-12-22 18:27:36,565] {processor.py:620} INFO - Processing file /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py for tasks to queue
+[2021-12-22 18:27:36,566] {logging_mixin.py:109} INFO - [2021-12-22 18:27:36,566] {dagbag.py:500} INFO - Filling up the DagBag from /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2021-12-22 18:27:36,588] {processor.py:632} INFO - DAG(s) dict_keys(['tutorial_etl_dag']) retrieved from /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2021-12-22 18:27:36,595] {logging_mixin.py:109} INFO - [2021-12-22 18:27:36,595] {dag.py:2389} INFO - Sync 1 DAGs
+[2021-12-22 18:27:36,602] {logging_mixin.py:109} INFO - [2021-12-22 18:27:36,602] {dag.py:2914} INFO - Setting next_dagrun for tutorial_etl_dag to None
+[2021-12-22 18:27:36,611] {processor.py:171} INFO - Processing /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py took 0.062 seconds
+[2021-12-22 18:28:18,144] {processor.py:163} INFO - Started process (PID=44736) to work on /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2021-12-22 18:28:18,152] {processor.py:620} INFO - Processing file /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py for tasks to queue
+[2021-12-22 18:28:18,153] {logging_mixin.py:109} INFO - [2021-12-22 18:28:18,153] {dagbag.py:500} INFO - Filling up the DagBag from /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2021-12-22 18:28:18,178] {processor.py:632} INFO - DAG(s) dict_keys(['tutorial_etl_dag']) retrieved from /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2021-12-22 18:28:18,185] {logging_mixin.py:109} INFO - [2021-12-22 18:28:18,185] {dag.py:2389} INFO - Sync 1 DAGs
+[2021-12-22 18:28:18,192] {logging_mixin.py:109} INFO - [2021-12-22 18:28:18,192] {dag.py:2914} INFO - Setting next_dagrun for tutorial_etl_dag to None
+[2021-12-22 18:28:18,204] {processor.py:171} INFO - Processing /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py took 0.067 seconds
+[2021-12-22 18:29:00,728] {processor.py:163} INFO - Started process (PID=45200) to work on /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2021-12-22 18:29:00,731] {processor.py:620} INFO - Processing file /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py for tasks to queue
+[2021-12-22 18:29:00,732] {logging_mixin.py:109} INFO - [2021-12-22 18:29:00,732] {dagbag.py:500} INFO - Filling up the DagBag from /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2021-12-22 18:29:00,739] {processor.py:632} INFO - DAG(s) dict_keys(['tutorial_etl_dag']) retrieved from /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2021-12-22 18:29:00,744] {logging_mixin.py:109} INFO - [2021-12-22 18:29:00,744] {dag.py:2389} INFO - Sync 1 DAGs
+[2021-12-22 18:29:00,749] {logging_mixin.py:109} INFO - [2021-12-22 18:29:00,749] {dag.py:2914} INFO - Setting next_dagrun for tutorial_etl_dag to None
+[2021-12-22 18:29:00,758] {processor.py:171} INFO - Processing /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py took 0.031 seconds
+[2021-12-22 21:10:40,350] {processor.py:163} INFO - Started process (PID=46872) to work on /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2021-12-22 21:10:40,358] {processor.py:620} INFO - Processing file /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py for tasks to queue
+[2021-12-22 21:10:40,358] {logging_mixin.py:109} INFO - [2021-12-22 21:10:40,358] {dagbag.py:500} INFO - Filling up the DagBag from /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2021-12-22 21:10:40,376] {processor.py:632} INFO - DAG(s) dict_keys(['tutorial_etl_dag']) retrieved from /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2021-12-22 21:10:40,382] {logging_mixin.py:109} INFO - [2021-12-22 21:10:40,382] {dag.py:2389} INFO - Sync 1 DAGs
+[2021-12-22 21:10:40,388] {logging_mixin.py:109} INFO - [2021-12-22 21:10:40,388] {dag.py:2914} INFO - Setting next_dagrun for tutorial_etl_dag to None
+[2021-12-22 21:10:40,396] {processor.py:171} INFO - Processing /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py took 0.053 seconds
+[2021-12-22 21:11:17,189] {processor.py:163} INFO - Started process (PID=46930) to work on /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2021-12-22 21:11:17,191] {processor.py:620} INFO - Processing file /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py for tasks to queue
+[2021-12-22 21:11:17,192] {logging_mixin.py:109} INFO - [2021-12-22 21:11:17,192] {dagbag.py:500} INFO - Filling up the DagBag from /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2021-12-22 21:11:17,220] {processor.py:632} INFO - DAG(s) dict_keys(['tutorial_etl_dag']) retrieved from /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2021-12-22 21:11:17,226] {logging_mixin.py:109} INFO - [2021-12-22 21:11:17,226] {dag.py:2389} INFO - Sync 1 DAGs
+[2021-12-22 21:11:17,233] {logging_mixin.py:109} INFO - [2021-12-22 21:11:17,233] {dag.py:2914} INFO - Setting next_dagrun for tutorial_etl_dag to None
+[2021-12-22 21:11:17,244] {processor.py:171} INFO - Processing /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py took 0.061 seconds
+[2021-12-22 21:11:56,432] {processor.py:163} INFO - Started process (PID=46972) to work on /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2021-12-22 21:11:56,435] {processor.py:620} INFO - Processing file /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py for tasks to queue
+[2021-12-22 21:11:56,436] {logging_mixin.py:109} INFO - [2021-12-22 21:11:56,435] {dagbag.py:500} INFO - Filling up the DagBag from /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2021-12-22 21:11:56,446] {processor.py:632} INFO - DAG(s) dict_keys(['tutorial_etl_dag']) retrieved from /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2021-12-22 21:11:56,450] {logging_mixin.py:109} INFO - [2021-12-22 21:11:56,450] {dag.py:2389} INFO - Sync 1 DAGs
+[2021-12-22 21:11:56,455] {logging_mixin.py:109} INFO - [2021-12-22 21:11:56,455] {dag.py:2914} INFO - Setting next_dagrun for tutorial_etl_dag to None
+[2021-12-22 21:11:56,463] {processor.py:171} INFO - Processing /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py took 0.033 seconds
+[2021-12-22 21:12:36,699] {processor.py:163} INFO - Started process (PID=47131) to work on /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2021-12-22 21:12:36,703] {processor.py:620} INFO - Processing file /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py for tasks to queue
+[2021-12-22 21:12:36,704] {logging_mixin.py:109} INFO - [2021-12-22 21:12:36,704] {dagbag.py:500} INFO - Filling up the DagBag from /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2021-12-22 21:12:36,729] {processor.py:632} INFO - DAG(s) dict_keys(['tutorial_etl_dag']) retrieved from /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2021-12-22 21:12:36,736] {logging_mixin.py:109} INFO - [2021-12-22 21:12:36,736] {dag.py:2389} INFO - Sync 1 DAGs
+[2021-12-22 21:12:36,743] {logging_mixin.py:109} INFO - [2021-12-22 21:12:36,743] {dag.py:2914} INFO - Setting next_dagrun for tutorial_etl_dag to None
+[2021-12-22 21:12:36,752] {processor.py:171} INFO - Processing /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py took 0.058 seconds
+[2021-12-22 21:13:14,686] {processor.py:163} INFO - Started process (PID=47255) to work on /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2021-12-22 21:13:14,691] {processor.py:620} INFO - Processing file /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py for tasks to queue
+[2021-12-22 21:13:14,692] {logging_mixin.py:109} INFO - [2021-12-22 21:13:14,692] {dagbag.py:500} INFO - Filling up the DagBag from /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2021-12-22 21:13:14,728] {processor.py:632} INFO - DAG(s) dict_keys(['tutorial_etl_dag']) retrieved from /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2021-12-22 21:13:14,736] {logging_mixin.py:109} INFO - [2021-12-22 21:13:14,736] {dag.py:2389} INFO - Sync 1 DAGs
+[2021-12-22 21:13:14,743] {logging_mixin.py:109} INFO - [2021-12-22 21:13:14,743] {dag.py:2914} INFO - Setting next_dagrun for tutorial_etl_dag to None
+[2021-12-22 21:13:14,752] {processor.py:171} INFO - Processing /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py took 0.067 seconds
+[2021-12-22 21:13:53,755] {processor.py:163} INFO - Started process (PID=47312) to work on /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2021-12-22 21:13:53,760] {processor.py:620} INFO - Processing file /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py for tasks to queue
+[2021-12-22 21:13:53,761] {logging_mixin.py:109} INFO - [2021-12-22 21:13:53,761] {dagbag.py:500} INFO - Filling up the DagBag from /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2021-12-22 21:13:53,793] {processor.py:632} INFO - DAG(s) dict_keys(['tutorial_etl_dag']) retrieved from /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2021-12-22 21:13:53,799] {logging_mixin.py:109} INFO - [2021-12-22 21:13:53,799] {dag.py:2389} INFO - Sync 1 DAGs
+[2021-12-22 21:13:53,806] {logging_mixin.py:109} INFO - [2021-12-22 21:13:53,806] {dag.py:2914} INFO - Setting next_dagrun for tutorial_etl_dag to None
+[2021-12-22 21:13:53,815] {processor.py:171} INFO - Processing /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py took 0.067 seconds
+[2021-12-22 21:14:32,961] {processor.py:163} INFO - Started process (PID=47349) to work on /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2021-12-22 21:14:32,966] {processor.py:620} INFO - Processing file /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py for tasks to queue
+[2021-12-22 21:14:32,968] {logging_mixin.py:109} INFO - [2021-12-22 21:14:32,967] {dagbag.py:500} INFO - Filling up the DagBag from /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2021-12-22 21:14:32,997] {processor.py:632} INFO - DAG(s) dict_keys(['tutorial_etl_dag']) retrieved from /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2021-12-22 21:14:33,005] {logging_mixin.py:109} INFO - [2021-12-22 21:14:33,004] {dag.py:2389} INFO - Sync 1 DAGs
+[2021-12-22 21:14:33,011] {logging_mixin.py:109} INFO - [2021-12-22 21:14:33,011] {dag.py:2914} INFO - Setting next_dagrun for tutorial_etl_dag to None
+[2021-12-22 21:14:33,019] {processor.py:171} INFO - Processing /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py took 0.064 seconds
+[2021-12-22 21:15:10,296] {processor.py:163} INFO - Started process (PID=47386) to work on /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2021-12-22 21:15:10,303] {processor.py:620} INFO - Processing file /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py for tasks to queue
+[2021-12-22 21:15:10,304] {logging_mixin.py:109} INFO - [2021-12-22 21:15:10,304] {dagbag.py:500} INFO - Filling up the DagBag from /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2021-12-22 21:15:10,314] {processor.py:632} INFO - DAG(s) dict_keys(['tutorial_etl_dag']) retrieved from /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2021-12-22 21:15:10,319] {logging_mixin.py:109} INFO - [2021-12-22 21:15:10,319] {dag.py:2389} INFO - Sync 1 DAGs
+[2021-12-22 21:15:10,324] {logging_mixin.py:109} INFO - [2021-12-22 21:15:10,324] {dag.py:2914} INFO - Setting next_dagrun for tutorial_etl_dag to None
+[2021-12-22 21:15:10,336] {processor.py:171} INFO - Processing /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py took 0.041 seconds
+[2021-12-22 21:20:47,545] {processor.py:163} INFO - Started process (PID=49244) to work on /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2021-12-22 21:20:47,547] {processor.py:620} INFO - Processing file /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py for tasks to queue
+[2021-12-22 21:20:47,547] {logging_mixin.py:109} INFO - [2021-12-22 21:20:47,547] {dagbag.py:500} INFO - Filling up the DagBag from /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2021-12-22 21:20:47,564] {processor.py:632} INFO - DAG(s) dict_keys(['tutorial_etl_dag']) retrieved from /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2021-12-22 21:20:47,571] {logging_mixin.py:109} INFO - [2021-12-22 21:20:47,571] {dag.py:2389} INFO - Sync 1 DAGs
+[2021-12-22 21:20:47,578] {logging_mixin.py:109} INFO - [2021-12-22 21:20:47,578] {dag.py:2914} INFO - Setting next_dagrun for tutorial_etl_dag to None
+[2021-12-22 21:20:47,587] {processor.py:171} INFO - Processing /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py took 0.045 seconds
+[2021-12-22 21:22:00,344] {processor.py:163} INFO - Started process (PID=49706) to work on /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2021-12-22 21:22:00,353] {processor.py:620} INFO - Processing file /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py for tasks to queue
+[2021-12-22 21:22:00,354] {logging_mixin.py:109} INFO - [2021-12-22 21:22:00,354] {dagbag.py:500} INFO - Filling up the DagBag from /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2021-12-22 21:22:00,386] {processor.py:632} INFO - DAG(s) dict_keys(['tutorial_etl_dag']) retrieved from /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2021-12-22 21:22:00,396] {logging_mixin.py:109} INFO - [2021-12-22 21:22:00,396] {dag.py:2389} INFO - Sync 1 DAGs
+[2021-12-22 21:22:00,404] {logging_mixin.py:109} INFO - [2021-12-22 21:22:00,403] {dag.py:2914} INFO - Setting next_dagrun for tutorial_etl_dag to None
+[2021-12-22 21:22:00,416] {processor.py:171} INFO - Processing /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py took 0.073 seconds
+[2021-12-22 21:22:39,009] {processor.py:163} INFO - Started process (PID=49744) to work on /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2021-12-22 21:22:39,018] {processor.py:620} INFO - Processing file /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py for tasks to queue
+[2021-12-22 21:22:39,020] {logging_mixin.py:109} INFO - [2021-12-22 21:22:39,020] {dagbag.py:500} INFO - Filling up the DagBag from /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2021-12-22 21:22:39,047] {processor.py:632} INFO - DAG(s) dict_keys(['tutorial_etl_dag']) retrieved from /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2021-12-22 21:22:39,054] {logging_mixin.py:109} INFO - [2021-12-22 21:22:39,054] {dag.py:2389} INFO - Sync 1 DAGs
+[2021-12-22 21:22:39,061] {logging_mixin.py:109} INFO - [2021-12-22 21:22:39,061] {dag.py:2914} INFO - Setting next_dagrun for tutorial_etl_dag to None
+[2021-12-22 21:22:39,070] {processor.py:171} INFO - Processing /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py took 0.068 seconds
+[2021-12-22 21:23:18,107] {processor.py:163} INFO - Started process (PID=49788) to work on /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2021-12-22 21:23:18,117] {processor.py:620} INFO - Processing file /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py for tasks to queue
+[2021-12-22 21:23:18,118] {logging_mixin.py:109} INFO - [2021-12-22 21:23:18,118] {dagbag.py:500} INFO - Filling up the DagBag from /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2021-12-22 21:23:18,146] {processor.py:632} INFO - DAG(s) dict_keys(['tutorial_etl_dag']) retrieved from /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2021-12-22 21:23:18,154] {logging_mixin.py:109} INFO - [2021-12-22 21:23:18,153] {dag.py:2389} INFO - Sync 1 DAGs
+[2021-12-22 21:23:18,161] {logging_mixin.py:109} INFO - [2021-12-22 21:23:18,161] {dag.py:2914} INFO - Setting next_dagrun for tutorial_etl_dag to None
+[2021-12-22 21:23:18,170] {processor.py:171} INFO - Processing /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py took 0.069 seconds
+[2021-12-22 21:23:56,082] {processor.py:163} INFO - Started process (PID=49825) to work on /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2021-12-22 21:23:56,090] {processor.py:620} INFO - Processing file /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py for tasks to queue
+[2021-12-22 21:23:56,090] {logging_mixin.py:109} INFO - [2021-12-22 21:23:56,090] {dagbag.py:500} INFO - Filling up the DagBag from /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2021-12-22 21:23:56,098] {processor.py:632} INFO - DAG(s) dict_keys(['tutorial_etl_dag']) retrieved from /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2021-12-22 21:23:56,102] {logging_mixin.py:109} INFO - [2021-12-22 21:23:56,102] {dag.py:2389} INFO - Sync 1 DAGs
+[2021-12-22 21:23:56,107] {logging_mixin.py:109} INFO - [2021-12-22 21:23:56,107] {dag.py:2914} INFO - Setting next_dagrun for tutorial_etl_dag to None
+[2021-12-22 21:23:56,115] {processor.py:171} INFO - Processing /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py took 0.035 seconds
+[2021-12-22 21:24:33,540] {processor.py:163} INFO - Started process (PID=49866) to work on /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2021-12-22 21:24:33,543] {processor.py:620} INFO - Processing file /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py for tasks to queue
+[2021-12-22 21:24:33,544] {logging_mixin.py:109} INFO - [2021-12-22 21:24:33,544] {dagbag.py:500} INFO - Filling up the DagBag from /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2021-12-22 21:24:33,552] {processor.py:632} INFO - DAG(s) dict_keys(['tutorial_etl_dag']) retrieved from /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2021-12-22 21:24:33,556] {logging_mixin.py:109} INFO - [2021-12-22 21:24:33,556] {dag.py:2389} INFO - Sync 1 DAGs
+[2021-12-22 21:24:33,561] {logging_mixin.py:109} INFO - [2021-12-22 21:24:33,561] {dag.py:2914} INFO - Setting next_dagrun for tutorial_etl_dag to None
+[2021-12-22 21:24:33,574] {processor.py:171} INFO - Processing /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py took 0.036 seconds
+[2021-12-22 21:25:12,259] {processor.py:163} INFO - Started process (PID=49904) to work on /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2021-12-22 21:25:12,268] {processor.py:620} INFO - Processing file /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py for tasks to queue
+[2021-12-22 21:25:12,270] {logging_mixin.py:109} INFO - [2021-12-22 21:25:12,269] {dagbag.py:500} INFO - Filling up the DagBag from /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2021-12-22 21:25:12,300] {processor.py:632} INFO - DAG(s) dict_keys(['tutorial_etl_dag']) retrieved from /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2021-12-22 21:25:12,308] {logging_mixin.py:109} INFO - [2021-12-22 21:25:12,308] {dag.py:2389} INFO - Sync 1 DAGs
+[2021-12-22 21:25:12,315] {logging_mixin.py:109} INFO - [2021-12-22 21:25:12,315] {dag.py:2914} INFO - Setting next_dagrun for tutorial_etl_dag to None
+[2021-12-22 21:25:12,324] {processor.py:171} INFO - Processing /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py took 0.066 seconds
+[2021-12-22 21:25:51,307] {processor.py:163} INFO - Started process (PID=49946) to work on /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2021-12-22 21:25:51,311] {processor.py:620} INFO - Processing file /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py for tasks to queue
+[2021-12-22 21:25:51,311] {logging_mixin.py:109} INFO - [2021-12-22 21:25:51,311] {dagbag.py:500} INFO - Filling up the DagBag from /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2021-12-22 21:25:51,318] {processor.py:632} INFO - DAG(s) dict_keys(['tutorial_etl_dag']) retrieved from /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2021-12-22 21:25:51,322] {logging_mixin.py:109} INFO - [2021-12-22 21:25:51,322] {dag.py:2389} INFO - Sync 1 DAGs
+[2021-12-22 21:25:51,327] {logging_mixin.py:109} INFO - [2021-12-22 21:25:51,327] {dag.py:2914} INFO - Setting next_dagrun for tutorial_etl_dag to None
+[2021-12-22 21:25:51,335] {processor.py:171} INFO - Processing /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py took 0.029 seconds
+[2021-12-22 21:26:26,755] {processor.py:163} INFO - Started process (PID=49993) to work on /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2021-12-22 21:26:26,760] {processor.py:620} INFO - Processing file /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py for tasks to queue
+[2021-12-22 21:26:26,761] {logging_mixin.py:109} INFO - [2021-12-22 21:26:26,761] {dagbag.py:500} INFO - Filling up the DagBag from /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2021-12-22 21:26:26,783] {processor.py:632} INFO - DAG(s) dict_keys(['tutorial_etl_dag']) retrieved from /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2021-12-22 21:26:26,789] {logging_mixin.py:109} INFO - [2021-12-22 21:26:26,789] {dag.py:2389} INFO - Sync 1 DAGs
+[2021-12-22 21:26:26,797] {logging_mixin.py:109} INFO - [2021-12-22 21:26:26,796] {dag.py:2914} INFO - Setting next_dagrun for tutorial_etl_dag to None
+[2021-12-22 21:26:26,805] {processor.py:171} INFO - Processing /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py took 0.057 seconds
+[2021-12-22 21:27:07,338] {processor.py:163} INFO - Started process (PID=50139) to work on /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2021-12-22 21:27:07,346] {processor.py:620} INFO - Processing file /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py for tasks to queue
+[2021-12-22 21:27:07,346] {logging_mixin.py:109} INFO - [2021-12-22 21:27:07,346] {dagbag.py:500} INFO - Filling up the DagBag from /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2021-12-22 21:27:07,357] {processor.py:632} INFO - DAG(s) dict_keys(['tutorial_etl_dag']) retrieved from /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2021-12-22 21:27:07,362] {logging_mixin.py:109} INFO - [2021-12-22 21:27:07,362] {dag.py:2389} INFO - Sync 1 DAGs
+[2021-12-22 21:27:07,368] {logging_mixin.py:109} INFO - [2021-12-22 21:27:07,368] {dag.py:2914} INFO - Setting next_dagrun for tutorial_etl_dag to None
+[2021-12-22 21:27:07,377] {processor.py:171} INFO - Processing /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py took 0.041 seconds
+[2021-12-22 21:27:43,933] {processor.py:163} INFO - Started process (PID=50176) to work on /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2021-12-22 21:27:43,940] {processor.py:620} INFO - Processing file /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py for tasks to queue
+[2021-12-22 21:27:43,940] {logging_mixin.py:109} INFO - [2021-12-22 21:27:43,940] {dagbag.py:500} INFO - Filling up the DagBag from /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2021-12-22 21:27:43,949] {processor.py:632} INFO - DAG(s) dict_keys(['tutorial_etl_dag']) retrieved from /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2021-12-22 21:27:43,953] {logging_mixin.py:109} INFO - [2021-12-22 21:27:43,953] {dag.py:2389} INFO - Sync 1 DAGs
+[2021-12-22 21:27:43,959] {logging_mixin.py:109} INFO - [2021-12-22 21:27:43,959] {dag.py:2914} INFO - Setting next_dagrun for tutorial_etl_dag to None
+[2021-12-22 21:27:43,972] {processor.py:171} INFO - Processing /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py took 0.041 seconds
+[2021-12-22 21:28:20,174] {processor.py:163} INFO - Started process (PID=50221) to work on /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2021-12-22 21:28:20,182] {processor.py:620} INFO - Processing file /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py for tasks to queue
+[2021-12-22 21:28:20,182] {logging_mixin.py:109} INFO - [2021-12-22 21:28:20,182] {dagbag.py:500} INFO - Filling up the DagBag from /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2021-12-22 21:28:20,191] {processor.py:632} INFO - DAG(s) dict_keys(['tutorial_etl_dag']) retrieved from /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2021-12-22 21:28:20,195] {logging_mixin.py:109} INFO - [2021-12-22 21:28:20,195] {dag.py:2389} INFO - Sync 1 DAGs
+[2021-12-22 21:28:20,200] {logging_mixin.py:109} INFO - [2021-12-22 21:28:20,200] {dag.py:2914} INFO - Setting next_dagrun for tutorial_etl_dag to None
+[2021-12-22 21:28:20,208] {processor.py:171} INFO - Processing /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py took 0.035 seconds
+[2021-12-22 21:28:55,347] {processor.py:163} INFO - Started process (PID=50256) to work on /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2021-12-22 21:28:55,355] {processor.py:620} INFO - Processing file /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py for tasks to queue
+[2021-12-22 21:28:55,355] {logging_mixin.py:109} INFO - [2021-12-22 21:28:55,355] {dagbag.py:500} INFO - Filling up the DagBag from /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2021-12-22 21:28:55,364] {processor.py:632} INFO - DAG(s) dict_keys(['tutorial_etl_dag']) retrieved from /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2021-12-22 21:28:55,368] {logging_mixin.py:109} INFO - [2021-12-22 21:28:55,368] {dag.py:2389} INFO - Sync 1 DAGs
+[2021-12-22 21:28:55,372] {logging_mixin.py:109} INFO - [2021-12-22 21:28:55,372] {dag.py:2914} INFO - Setting next_dagrun for tutorial_etl_dag to None
+[2021-12-22 21:28:55,386] {processor.py:171} INFO - Processing /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py took 0.040 seconds
+[2021-12-22 21:29:35,753] {processor.py:163} INFO - Started process (PID=50298) to work on /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2021-12-22 21:29:35,758] {processor.py:620} INFO - Processing file /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py for tasks to queue
+[2021-12-22 21:29:35,759] {logging_mixin.py:109} INFO - [2021-12-22 21:29:35,759] {dagbag.py:500} INFO - Filling up the DagBag from /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2021-12-22 21:29:35,785] {processor.py:632} INFO - DAG(s) dict_keys(['tutorial_etl_dag']) retrieved from /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2021-12-22 21:29:35,793] {logging_mixin.py:109} INFO - [2021-12-22 21:29:35,792] {dag.py:2389} INFO - Sync 1 DAGs
+[2021-12-22 21:29:35,799] {logging_mixin.py:109} INFO - [2021-12-22 21:29:35,799] {dag.py:2914} INFO - Setting next_dagrun for tutorial_etl_dag to None
+[2021-12-22 21:29:35,810] {processor.py:171} INFO - Processing /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py took 0.064 seconds
+[2021-12-22 21:30:08,199] {processor.py:163} INFO - Started process (PID=50332) to work on /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2021-12-22 21:30:08,207] {processor.py:620} INFO - Processing file /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py for tasks to queue
+[2021-12-22 21:30:08,207] {logging_mixin.py:109} INFO - [2021-12-22 21:30:08,207] {dagbag.py:500} INFO - Filling up the DagBag from /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2021-12-22 21:30:08,215] {processor.py:632} INFO - DAG(s) dict_keys(['tutorial_etl_dag']) retrieved from /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2021-12-22 21:30:08,219] {logging_mixin.py:109} INFO - [2021-12-22 21:30:08,219] {dag.py:2389} INFO - Sync 1 DAGs
+[2021-12-22 21:30:08,224] {logging_mixin.py:109} INFO - [2021-12-22 21:30:08,224] {dag.py:2914} INFO - Setting next_dagrun for tutorial_etl_dag to None
+[2021-12-22 21:30:08,232] {processor.py:171} INFO - Processing /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py took 0.035 seconds
+[2021-12-22 21:30:46,674] {processor.py:163} INFO - Started process (PID=50372) to work on /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2021-12-22 21:30:46,682] {processor.py:620} INFO - Processing file /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py for tasks to queue
+[2021-12-22 21:30:46,682] {logging_mixin.py:109} INFO - [2021-12-22 21:30:46,682] {dagbag.py:500} INFO - Filling up the DagBag from /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2021-12-22 21:30:46,692] {processor.py:632} INFO - DAG(s) dict_keys(['tutorial_etl_dag']) retrieved from /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2021-12-22 21:30:46,697] {logging_mixin.py:109} INFO - [2021-12-22 21:30:46,697] {dag.py:2389} INFO - Sync 1 DAGs
+[2021-12-22 21:30:46,704] {logging_mixin.py:109} INFO - [2021-12-22 21:30:46,704] {dag.py:2914} INFO - Setting next_dagrun for tutorial_etl_dag to None
+[2021-12-22 21:30:46,713] {processor.py:171} INFO - Processing /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py took 0.041 seconds
+[2021-12-22 21:31:20,691] {processor.py:163} INFO - Started process (PID=50408) to work on /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2021-12-22 21:31:20,696] {processor.py:620} INFO - Processing file /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py for tasks to queue
+[2021-12-22 21:31:20,698] {logging_mixin.py:109} INFO - [2021-12-22 21:31:20,698] {dagbag.py:500} INFO - Filling up the DagBag from /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2021-12-22 21:31:20,722] {processor.py:632} INFO - DAG(s) dict_keys(['tutorial_etl_dag']) retrieved from /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2021-12-22 21:31:20,729] {logging_mixin.py:109} INFO - [2021-12-22 21:31:20,729] {dag.py:2389} INFO - Sync 1 DAGs
+[2021-12-22 21:31:20,736] {logging_mixin.py:109} INFO - [2021-12-22 21:31:20,736] {dag.py:2914} INFO - Setting next_dagrun for tutorial_etl_dag to None
+[2021-12-22 21:31:20,745] {processor.py:171} INFO - Processing /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py took 0.060 seconds
+[2021-12-22 21:31:57,641] {processor.py:163} INFO - Started process (PID=50553) to work on /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2021-12-22 21:31:57,645] {processor.py:620} INFO - Processing file /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py for tasks to queue
+[2021-12-22 21:31:57,645] {logging_mixin.py:109} INFO - [2021-12-22 21:31:57,645] {dagbag.py:500} INFO - Filling up the DagBag from /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2021-12-22 21:31:57,653] {processor.py:632} INFO - DAG(s) dict_keys(['tutorial_etl_dag']) retrieved from /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2021-12-22 21:31:57,658] {logging_mixin.py:109} INFO - [2021-12-22 21:31:57,658] {dag.py:2389} INFO - Sync 1 DAGs
+[2021-12-22 21:31:57,664] {logging_mixin.py:109} INFO - [2021-12-22 21:31:57,664] {dag.py:2914} INFO - Setting next_dagrun for tutorial_etl_dag to None
+[2021-12-22 21:31:57,673] {processor.py:171} INFO - Processing /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py took 0.033 seconds
+[2021-12-22 21:32:35,109] {processor.py:163} INFO - Started process (PID=50589) to work on /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2021-12-22 21:32:35,117] {processor.py:620} INFO - Processing file /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py for tasks to queue
+[2021-12-22 21:32:35,117] {logging_mixin.py:109} INFO - [2021-12-22 21:32:35,117] {dagbag.py:500} INFO - Filling up the DagBag from /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2021-12-22 21:32:35,126] {processor.py:632} INFO - DAG(s) dict_keys(['tutorial_etl_dag']) retrieved from /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2021-12-22 21:32:35,131] {logging_mixin.py:109} INFO - [2021-12-22 21:32:35,131] {dag.py:2389} INFO - Sync 1 DAGs
+[2021-12-22 21:32:35,136] {logging_mixin.py:109} INFO - [2021-12-22 21:32:35,136] {dag.py:2914} INFO - Setting next_dagrun for tutorial_etl_dag to None
+[2021-12-22 21:32:35,145] {processor.py:171} INFO - Processing /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py took 0.037 seconds
+[2021-12-22 21:33:10,415] {processor.py:163} INFO - Started process (PID=50627) to work on /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2021-12-22 21:33:10,418] {processor.py:620} INFO - Processing file /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py for tasks to queue
+[2021-12-22 21:33:10,418] {logging_mixin.py:109} INFO - [2021-12-22 21:33:10,418] {dagbag.py:500} INFO - Filling up the DagBag from /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2021-12-22 21:33:10,426] {processor.py:632} INFO - DAG(s) dict_keys(['tutorial_etl_dag']) retrieved from /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2021-12-22 21:33:10,431] {logging_mixin.py:109} INFO - [2021-12-22 21:33:10,431] {dag.py:2389} INFO - Sync 1 DAGs
+[2021-12-22 21:33:10,436] {logging_mixin.py:109} INFO - [2021-12-22 21:33:10,436] {dag.py:2914} INFO - Setting next_dagrun for tutorial_etl_dag to None
+[2021-12-22 21:33:10,450] {processor.py:171} INFO - Processing /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py took 0.037 seconds
+[2021-12-22 21:33:43,843] {processor.py:163} INFO - Started process (PID=50660) to work on /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2021-12-22 21:33:43,850] {processor.py:620} INFO - Processing file /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py for tasks to queue
+[2021-12-22 21:33:43,851] {logging_mixin.py:109} INFO - [2021-12-22 21:33:43,851] {dagbag.py:500} INFO - Filling up the DagBag from /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2021-12-22 21:33:43,858] {processor.py:632} INFO - DAG(s) dict_keys(['tutorial_etl_dag']) retrieved from /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2021-12-22 21:33:43,862] {logging_mixin.py:109} INFO - [2021-12-22 21:33:43,862] {dag.py:2389} INFO - Sync 1 DAGs
+[2021-12-22 21:33:43,867] {logging_mixin.py:109} INFO - [2021-12-22 21:33:43,867] {dag.py:2914} INFO - Setting next_dagrun for tutorial_etl_dag to None
+[2021-12-22 21:33:43,875] {processor.py:171} INFO - Processing /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py took 0.033 seconds
+[2021-12-22 21:34:24,613] {processor.py:163} INFO - Started process (PID=50699) to work on /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2021-12-22 21:34:24,622] {processor.py:620} INFO - Processing file /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py for tasks to queue
+[2021-12-22 21:34:24,624] {logging_mixin.py:109} INFO - [2021-12-22 21:34:24,623] {dagbag.py:500} INFO - Filling up the DagBag from /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2021-12-22 21:34:24,633] {processor.py:632} INFO - DAG(s) dict_keys(['tutorial_etl_dag']) retrieved from /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2021-12-22 21:34:24,637] {logging_mixin.py:109} INFO - [2021-12-22 21:34:24,637] {dag.py:2389} INFO - Sync 1 DAGs
+[2021-12-22 21:34:24,642] {logging_mixin.py:109} INFO - [2021-12-22 21:34:24,642] {dag.py:2914} INFO - Setting next_dagrun for tutorial_etl_dag to None
+[2021-12-22 21:34:24,653] {processor.py:171} INFO - Processing /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py took 0.042 seconds
+[2021-12-22 21:34:59,246] {processor.py:163} INFO - Started process (PID=50736) to work on /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2021-12-22 21:34:59,254] {processor.py:620} INFO - Processing file /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py for tasks to queue
+[2021-12-22 21:34:59,254] {logging_mixin.py:109} INFO - [2021-12-22 21:34:59,254] {dagbag.py:500} INFO - Filling up the DagBag from /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2021-12-22 21:34:59,263] {processor.py:632} INFO - DAG(s) dict_keys(['tutorial_etl_dag']) retrieved from /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2021-12-22 21:34:59,267] {logging_mixin.py:109} INFO - [2021-12-22 21:34:59,267] {dag.py:2389} INFO - Sync 1 DAGs
+[2021-12-22 21:34:59,272] {logging_mixin.py:109} INFO - [2021-12-22 21:34:59,272] {dag.py:2914} INFO - Setting next_dagrun for tutorial_etl_dag to None
+[2021-12-22 21:34:59,280] {processor.py:171} INFO - Processing /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py took 0.035 seconds
+[2021-12-22 21:35:33,924] {processor.py:163} INFO - Started process (PID=50770) to work on /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2021-12-22 21:35:33,934] {processor.py:620} INFO - Processing file /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py for tasks to queue
+[2021-12-22 21:35:33,935] {logging_mixin.py:109} INFO - [2021-12-22 21:35:33,935] {dagbag.py:500} INFO - Filling up the DagBag from /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2021-12-22 21:35:33,966] {processor.py:632} INFO - DAG(s) dict_keys(['tutorial_etl_dag']) retrieved from /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2021-12-22 21:35:33,975] {logging_mixin.py:109} INFO - [2021-12-22 21:35:33,975] {dag.py:2389} INFO - Sync 1 DAGs
+[2021-12-22 21:35:33,982] {logging_mixin.py:109} INFO - [2021-12-22 21:35:33,982] {dag.py:2914} INFO - Setting next_dagrun for tutorial_etl_dag to None
+[2021-12-22 21:35:33,991] {processor.py:171} INFO - Processing /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py took 0.068 seconds
+[2021-12-22 21:36:11,024] {processor.py:163} INFO - Started process (PID=50810) to work on /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2021-12-22 21:36:11,031] {processor.py:620} INFO - Processing file /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py for tasks to queue
+[2021-12-22 21:36:11,032] {logging_mixin.py:109} INFO - [2021-12-22 21:36:11,032] {dagbag.py:500} INFO - Filling up the DagBag from /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2021-12-22 21:36:11,040] {processor.py:632} INFO - DAG(s) dict_keys(['tutorial_etl_dag']) retrieved from /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2021-12-22 21:36:11,045] {logging_mixin.py:109} INFO - [2021-12-22 21:36:11,045] {dag.py:2389} INFO - Sync 1 DAGs
+[2021-12-22 21:36:11,050] {logging_mixin.py:109} INFO - [2021-12-22 21:36:11,050] {dag.py:2914} INFO - Setting next_dagrun for tutorial_etl_dag to None
+[2021-12-22 21:36:11,064] {processor.py:171} INFO - Processing /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py took 0.042 seconds
+[2021-12-22 21:36:53,376] {processor.py:163} INFO - Started process (PID=50959) to work on /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2021-12-22 21:36:53,377] {processor.py:620} INFO - Processing file /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py for tasks to queue
+[2021-12-22 21:36:53,378] {logging_mixin.py:109} INFO - [2021-12-22 21:36:53,378] {dagbag.py:500} INFO - Filling up the DagBag from /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2021-12-22 21:36:53,392] {processor.py:632} INFO - DAG(s) dict_keys(['tutorial_etl_dag']) retrieved from /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2021-12-22 21:36:53,399] {logging_mixin.py:109} INFO - [2021-12-22 21:36:53,399] {dag.py:2389} INFO - Sync 1 DAGs
+[2021-12-22 21:36:53,405] {logging_mixin.py:109} INFO - [2021-12-22 21:36:53,405] {dag.py:2914} INFO - Setting next_dagrun for tutorial_etl_dag to None
+[2021-12-22 21:36:53,413] {processor.py:171} INFO - Processing /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py took 0.042 seconds
+[2021-12-22 21:37:27,801] {processor.py:163} INFO - Started process (PID=51097) to work on /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2021-12-22 21:37:27,805] {processor.py:620} INFO - Processing file /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py for tasks to queue
+[2021-12-22 21:37:27,807] {logging_mixin.py:109} INFO - [2021-12-22 21:37:27,806] {dagbag.py:500} INFO - Filling up the DagBag from /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2021-12-22 21:37:27,832] {processor.py:632} INFO - DAG(s) dict_keys(['tutorial_etl_dag']) retrieved from /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2021-12-22 21:37:27,839] {logging_mixin.py:109} INFO - [2021-12-22 21:37:27,839] {dag.py:2389} INFO - Sync 1 DAGs
+[2021-12-22 21:37:27,846] {logging_mixin.py:109} INFO - [2021-12-22 21:37:27,846] {dag.py:2914} INFO - Setting next_dagrun for tutorial_etl_dag to None
+[2021-12-22 21:37:27,857] {processor.py:171} INFO - Processing /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py took 0.063 seconds
+[2021-12-22 21:38:01,300] {processor.py:163} INFO - Started process (PID=51131) to work on /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2021-12-22 21:38:01,308] {processor.py:620} INFO - Processing file /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py for tasks to queue
+[2021-12-22 21:38:01,308] {logging_mixin.py:109} INFO - [2021-12-22 21:38:01,308] {dagbag.py:500} INFO - Filling up the DagBag from /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2021-12-22 21:38:01,317] {processor.py:632} INFO - DAG(s) dict_keys(['tutorial_etl_dag']) retrieved from /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2021-12-22 21:38:01,322] {logging_mixin.py:109} INFO - [2021-12-22 21:38:01,322] {dag.py:2389} INFO - Sync 1 DAGs
+[2021-12-22 21:38:01,328] {logging_mixin.py:109} INFO - [2021-12-22 21:38:01,328] {dag.py:2914} INFO - Setting next_dagrun for tutorial_etl_dag to None
+[2021-12-22 21:38:01,337] {processor.py:171} INFO - Processing /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py took 0.038 seconds
+[2021-12-22 21:38:37,685] {processor.py:163} INFO - Started process (PID=51175) to work on /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2021-12-22 21:38:37,694] {processor.py:620} INFO - Processing file /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py for tasks to queue
+[2021-12-22 21:38:37,695] {logging_mixin.py:109} INFO - [2021-12-22 21:38:37,695] {dagbag.py:500} INFO - Filling up the DagBag from /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2021-12-22 21:38:37,704] {processor.py:632} INFO - DAG(s) dict_keys(['tutorial_etl_dag']) retrieved from /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2021-12-22 21:38:37,708] {logging_mixin.py:109} INFO - [2021-12-22 21:38:37,708] {dag.py:2389} INFO - Sync 1 DAGs
+[2021-12-22 21:38:37,714] {logging_mixin.py:109} INFO - [2021-12-22 21:38:37,714] {dag.py:2914} INFO - Setting next_dagrun for tutorial_etl_dag to None
+[2021-12-22 21:38:37,723] {processor.py:171} INFO - Processing /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py took 0.039 seconds
+[2021-12-22 21:39:16,993] {processor.py:163} INFO - Started process (PID=51217) to work on /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2021-12-22 21:39:16,996] {processor.py:620} INFO - Processing file /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py for tasks to queue
+[2021-12-22 21:39:16,997] {logging_mixin.py:109} INFO - [2021-12-22 21:39:16,996] {dagbag.py:500} INFO - Filling up the DagBag from /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2021-12-22 21:39:17,005] {processor.py:632} INFO - DAG(s) dict_keys(['tutorial_etl_dag']) retrieved from /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2021-12-22 21:39:17,011] {logging_mixin.py:109} INFO - [2021-12-22 21:39:17,010] {dag.py:2389} INFO - Sync 1 DAGs
+[2021-12-22 21:39:17,016] {logging_mixin.py:109} INFO - [2021-12-22 21:39:17,016] {dag.py:2914} INFO - Setting next_dagrun for tutorial_etl_dag to None
+[2021-12-22 21:39:17,025] {processor.py:171} INFO - Processing /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py took 0.034 seconds
+[2021-12-22 21:39:51,580] {processor.py:163} INFO - Started process (PID=51251) to work on /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2021-12-22 21:39:51,590] {processor.py:620} INFO - Processing file /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py for tasks to queue
+[2021-12-22 21:39:51,591] {logging_mixin.py:109} INFO - [2021-12-22 21:39:51,591] {dagbag.py:500} INFO - Filling up the DagBag from /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2021-12-22 21:39:51,623] {processor.py:632} INFO - DAG(s) dict_keys(['tutorial_etl_dag']) retrieved from /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2021-12-22 21:39:51,632] {logging_mixin.py:109} INFO - [2021-12-22 21:39:51,632] {dag.py:2389} INFO - Sync 1 DAGs
+[2021-12-22 21:39:51,639] {logging_mixin.py:109} INFO - [2021-12-22 21:39:51,639] {dag.py:2914} INFO - Setting next_dagrun for tutorial_etl_dag to None
+[2021-12-22 21:39:51,652] {processor.py:171} INFO - Processing /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py took 0.073 seconds
+[2021-12-22 21:40:26,552] {processor.py:163} INFO - Started process (PID=51285) to work on /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2021-12-22 21:40:26,557] {processor.py:620} INFO - Processing file /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py for tasks to queue
+[2021-12-22 21:40:26,558] {logging_mixin.py:109} INFO - [2021-12-22 21:40:26,558] {dagbag.py:500} INFO - Filling up the DagBag from /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2021-12-22 21:40:26,584] {processor.py:632} INFO - DAG(s) dict_keys(['tutorial_etl_dag']) retrieved from /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2021-12-22 21:40:26,591] {logging_mixin.py:109} INFO - [2021-12-22 21:40:26,591] {dag.py:2389} INFO - Sync 1 DAGs
+[2021-12-22 21:40:26,598] {logging_mixin.py:109} INFO - [2021-12-22 21:40:26,598] {dag.py:2914} INFO - Setting next_dagrun for tutorial_etl_dag to None
+[2021-12-22 21:40:26,609] {processor.py:171} INFO - Processing /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py took 0.063 seconds
+[2021-12-22 21:41:01,913] {processor.py:163} INFO - Started process (PID=51324) to work on /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2021-12-22 21:41:01,921] {processor.py:620} INFO - Processing file /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py for tasks to queue
+[2021-12-22 21:41:01,922] {logging_mixin.py:109} INFO - [2021-12-22 21:41:01,921] {dagbag.py:500} INFO - Filling up the DagBag from /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2021-12-22 21:41:01,930] {processor.py:632} INFO - DAG(s) dict_keys(['tutorial_etl_dag']) retrieved from /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2021-12-22 21:41:01,935] {logging_mixin.py:109} INFO - [2021-12-22 21:41:01,934] {dag.py:2389} INFO - Sync 1 DAGs
+[2021-12-22 21:41:01,939] {logging_mixin.py:109} INFO - [2021-12-22 21:41:01,939] {dag.py:2914} INFO - Setting next_dagrun for tutorial_etl_dag to None
+[2021-12-22 21:41:01,952] {processor.py:171} INFO - Processing /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py took 0.040 seconds
+[2021-12-22 21:41:36,901] {processor.py:163} INFO - Started process (PID=51358) to work on /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2021-12-22 21:41:36,910] {processor.py:620} INFO - Processing file /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py for tasks to queue
+[2021-12-22 21:41:36,911] {logging_mixin.py:109} INFO - [2021-12-22 21:41:36,911] {dagbag.py:500} INFO - Filling up the DagBag from /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2021-12-22 21:41:36,920] {processor.py:632} INFO - DAG(s) dict_keys(['tutorial_etl_dag']) retrieved from /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2021-12-22 21:41:36,925] {logging_mixin.py:109} INFO - [2021-12-22 21:41:36,924] {dag.py:2389} INFO - Sync 1 DAGs
+[2021-12-22 21:41:36,929] {logging_mixin.py:109} INFO - [2021-12-22 21:41:36,929] {dag.py:2914} INFO - Setting next_dagrun for tutorial_etl_dag to None
+[2021-12-22 21:41:36,943] {processor.py:171} INFO - Processing /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py took 0.044 seconds
+[2021-12-22 21:42:13,475] {processor.py:163} INFO - Started process (PID=51506) to work on /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2021-12-22 21:42:13,483] {processor.py:620} INFO - Processing file /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py for tasks to queue
+[2021-12-22 21:42:13,483] {logging_mixin.py:109} INFO - [2021-12-22 21:42:13,483] {dagbag.py:500} INFO - Filling up the DagBag from /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2021-12-22 21:42:13,493] {processor.py:632} INFO - DAG(s) dict_keys(['tutorial_etl_dag']) retrieved from /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2021-12-22 21:42:13,499] {logging_mixin.py:109} INFO - [2021-12-22 21:42:13,498] {dag.py:2389} INFO - Sync 1 DAGs
+[2021-12-22 21:42:13,505] {logging_mixin.py:109} INFO - [2021-12-22 21:42:13,505] {dag.py:2914} INFO - Setting next_dagrun for tutorial_etl_dag to None
+[2021-12-22 21:42:13,515] {processor.py:171} INFO - Processing /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py took 0.041 seconds
+[2021-12-22 21:42:51,353] {processor.py:163} INFO - Started process (PID=51544) to work on /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2021-12-22 21:42:51,360] {processor.py:620} INFO - Processing file /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py for tasks to queue
+[2021-12-22 21:42:51,361] {logging_mixin.py:109} INFO - [2021-12-22 21:42:51,361] {dagbag.py:500} INFO - Filling up the DagBag from /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2021-12-22 21:42:51,369] {processor.py:632} INFO - DAG(s) dict_keys(['tutorial_etl_dag']) retrieved from /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2021-12-22 21:42:51,373] {logging_mixin.py:109} INFO - [2021-12-22 21:42:51,373] {dag.py:2389} INFO - Sync 1 DAGs
+[2021-12-22 21:42:51,378] {logging_mixin.py:109} INFO - [2021-12-22 21:42:51,378] {dag.py:2914} INFO - Setting next_dagrun for tutorial_etl_dag to None
+[2021-12-22 21:42:51,386] {processor.py:171} INFO - Processing /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py took 0.034 seconds
+[2021-12-22 21:43:27,622] {processor.py:163} INFO - Started process (PID=51582) to work on /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2021-12-22 21:43:27,627] {processor.py:620} INFO - Processing file /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py for tasks to queue
+[2021-12-22 21:43:27,628] {logging_mixin.py:109} INFO - [2021-12-22 21:43:27,628] {dagbag.py:500} INFO - Filling up the DagBag from /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2021-12-22 21:43:27,637] {processor.py:632} INFO - DAG(s) dict_keys(['tutorial_etl_dag']) retrieved from /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2021-12-22 21:43:27,641] {logging_mixin.py:109} INFO - [2021-12-22 21:43:27,641] {dag.py:2389} INFO - Sync 1 DAGs
+[2021-12-22 21:43:27,646] {logging_mixin.py:109} INFO - [2021-12-22 21:43:27,646] {dag.py:2914} INFO - Setting next_dagrun for tutorial_etl_dag to None
+[2021-12-22 21:43:27,666] {processor.py:171} INFO - Processing /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py took 0.045 seconds
+[2021-12-22 21:44:07,282] {processor.py:163} INFO - Started process (PID=51630) to work on /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2021-12-22 21:44:07,290] {processor.py:620} INFO - Processing file /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py for tasks to queue
+[2021-12-22 21:44:07,290] {logging_mixin.py:109} INFO - [2021-12-22 21:44:07,290] {dagbag.py:500} INFO - Filling up the DagBag from /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2021-12-22 21:44:07,299] {processor.py:632} INFO - DAG(s) dict_keys(['tutorial_etl_dag']) retrieved from /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2021-12-22 21:44:07,303] {logging_mixin.py:109} INFO - [2021-12-22 21:44:07,303] {dag.py:2389} INFO - Sync 1 DAGs
+[2021-12-22 21:44:07,308] {logging_mixin.py:109} INFO - [2021-12-22 21:44:07,308] {dag.py:2914} INFO - Setting next_dagrun for tutorial_etl_dag to None
+[2021-12-22 21:44:07,321] {processor.py:171} INFO - Processing /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py took 0.040 seconds
+[2021-12-22 21:44:42,297] {processor.py:163} INFO - Started process (PID=51666) to work on /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2021-12-22 21:44:42,306] {processor.py:620} INFO - Processing file /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py for tasks to queue
+[2021-12-22 21:44:42,307] {logging_mixin.py:109} INFO - [2021-12-22 21:44:42,307] {dagbag.py:500} INFO - Filling up the DagBag from /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2021-12-22 21:44:42,316] {processor.py:632} INFO - DAG(s) dict_keys(['tutorial_etl_dag']) retrieved from /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2021-12-22 21:44:42,321] {logging_mixin.py:109} INFO - [2021-12-22 21:44:42,321] {dag.py:2389} INFO - Sync 1 DAGs
+[2021-12-22 21:44:42,325] {logging_mixin.py:109} INFO - [2021-12-22 21:44:42,325] {dag.py:2914} INFO - Setting next_dagrun for tutorial_etl_dag to None
+[2021-12-22 21:44:42,334] {processor.py:171} INFO - Processing /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py took 0.039 seconds
+[2021-12-22 21:45:22,766] {processor.py:163} INFO - Started process (PID=51705) to work on /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2021-12-22 21:45:22,774] {processor.py:620} INFO - Processing file /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py for tasks to queue
+[2021-12-22 21:45:22,774] {logging_mixin.py:109} INFO - [2021-12-22 21:45:22,774] {dagbag.py:500} INFO - Filling up the DagBag from /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2021-12-22 21:45:22,783] {processor.py:632} INFO - DAG(s) dict_keys(['tutorial_etl_dag']) retrieved from /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2021-12-22 21:45:22,787] {logging_mixin.py:109} INFO - [2021-12-22 21:45:22,787] {dag.py:2389} INFO - Sync 1 DAGs
+[2021-12-22 21:45:22,791] {logging_mixin.py:109} INFO - [2021-12-22 21:45:22,791] {dag.py:2914} INFO - Setting next_dagrun for tutorial_etl_dag to None
+[2021-12-22 21:45:22,805] {processor.py:171} INFO - Processing /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py took 0.041 seconds
+[2021-12-22 21:45:57,825] {processor.py:163} INFO - Started process (PID=51741) to work on /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2021-12-22 21:45:57,826] {processor.py:620} INFO - Processing file /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py for tasks to queue
+[2021-12-22 21:45:57,826] {logging_mixin.py:109} INFO - [2021-12-22 21:45:57,826] {dagbag.py:500} INFO - Filling up the DagBag from /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2021-12-22 21:45:57,834] {processor.py:632} INFO - DAG(s) dict_keys(['tutorial_etl_dag']) retrieved from /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2021-12-22 21:45:57,839] {logging_mixin.py:109} INFO - [2021-12-22 21:45:57,839] {dag.py:2389} INFO - Sync 1 DAGs
+[2021-12-22 21:45:57,845] {logging_mixin.py:109} INFO - [2021-12-22 21:45:57,844] {dag.py:2914} INFO - Setting next_dagrun for tutorial_etl_dag to None
+[2021-12-22 21:45:57,853] {processor.py:171} INFO - Processing /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py took 0.030 seconds
+[2021-12-22 21:46:33,795] {processor.py:163} INFO - Started process (PID=51776) to work on /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2021-12-22 21:46:33,803] {processor.py:620} INFO - Processing file /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py for tasks to queue
+[2021-12-22 21:46:33,803] {logging_mixin.py:109} INFO - [2021-12-22 21:46:33,803] {dagbag.py:500} INFO - Filling up the DagBag from /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2021-12-22 21:46:33,811] {processor.py:632} INFO - DAG(s) dict_keys(['tutorial_etl_dag']) retrieved from /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2021-12-22 21:46:33,815] {logging_mixin.py:109} INFO - [2021-12-22 21:46:33,815] {dag.py:2389} INFO - Sync 1 DAGs
+[2021-12-22 21:46:33,820] {logging_mixin.py:109} INFO - [2021-12-22 21:46:33,820] {dag.py:2914} INFO - Setting next_dagrun for tutorial_etl_dag to None
+[2021-12-22 21:46:33,828] {processor.py:171} INFO - Processing /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py took 0.035 seconds
+[2021-12-22 21:47:08,421] {processor.py:163} INFO - Started process (PID=51920) to work on /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2021-12-22 21:47:08,422] {processor.py:620} INFO - Processing file /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py for tasks to queue
+[2021-12-22 21:47:08,422] {logging_mixin.py:109} INFO - [2021-12-22 21:47:08,422] {dagbag.py:500} INFO - Filling up the DagBag from /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2021-12-22 21:47:08,430] {processor.py:632} INFO - DAG(s) dict_keys(['tutorial_etl_dag']) retrieved from /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2021-12-22 21:47:08,437] {logging_mixin.py:109} INFO - [2021-12-22 21:47:08,437] {dag.py:2389} INFO - Sync 1 DAGs
+[2021-12-22 21:47:08,446] {logging_mixin.py:109} INFO - [2021-12-22 21:47:08,446] {dag.py:2914} INFO - Setting next_dagrun for tutorial_etl_dag to None
+[2021-12-22 21:47:08,454] {processor.py:171} INFO - Processing /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py took 0.035 seconds
+[2021-12-22 21:47:47,042] {processor.py:163} INFO - Started process (PID=51957) to work on /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2021-12-22 21:47:47,049] {processor.py:620} INFO - Processing file /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py for tasks to queue
+[2021-12-22 21:47:47,049] {logging_mixin.py:109} INFO - [2021-12-22 21:47:47,049] {dagbag.py:500} INFO - Filling up the DagBag from /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2021-12-22 21:47:47,057] {processor.py:632} INFO - DAG(s) dict_keys(['tutorial_etl_dag']) retrieved from /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2021-12-22 21:47:47,061] {logging_mixin.py:109} INFO - [2021-12-22 21:47:47,061] {dag.py:2389} INFO - Sync 1 DAGs
+[2021-12-22 21:47:47,066] {logging_mixin.py:109} INFO - [2021-12-22 21:47:47,066] {dag.py:2914} INFO - Setting next_dagrun for tutorial_etl_dag to None
+[2021-12-22 21:47:47,074] {processor.py:171} INFO - Processing /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py took 0.034 seconds
+[2021-12-22 21:48:20,989] {processor.py:163} INFO - Started process (PID=51996) to work on /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2021-12-22 21:48:20,993] {processor.py:620} INFO - Processing file /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py for tasks to queue
+[2021-12-22 21:48:20,993] {logging_mixin.py:109} INFO - [2021-12-22 21:48:20,993] {dagbag.py:500} INFO - Filling up the DagBag from /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2021-12-22 21:48:21,011] {processor.py:632} INFO - DAG(s) dict_keys(['tutorial_etl_dag']) retrieved from /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2021-12-22 21:48:21,019] {logging_mixin.py:109} INFO - [2021-12-22 21:48:21,018] {dag.py:2389} INFO - Sync 1 DAGs
+[2021-12-22 21:48:21,025] {logging_mixin.py:109} INFO - [2021-12-22 21:48:21,025] {dag.py:2914} INFO - Setting next_dagrun for tutorial_etl_dag to None
+[2021-12-22 21:48:21,036] {processor.py:171} INFO - Processing /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py took 0.052 seconds
+[2021-12-22 21:48:56,096] {processor.py:163} INFO - Started process (PID=52031) to work on /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2021-12-22 21:48:56,099] {processor.py:620} INFO - Processing file /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py for tasks to queue
+[2021-12-22 21:48:56,100] {logging_mixin.py:109} INFO - [2021-12-22 21:48:56,100] {dagbag.py:500} INFO - Filling up the DagBag from /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2021-12-22 21:48:56,108] {processor.py:632} INFO - DAG(s) dict_keys(['tutorial_etl_dag']) retrieved from /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2021-12-22 21:48:56,112] {logging_mixin.py:109} INFO - [2021-12-22 21:48:56,112] {dag.py:2389} INFO - Sync 1 DAGs
+[2021-12-22 21:48:56,117] {logging_mixin.py:109} INFO - [2021-12-22 21:48:56,117] {dag.py:2914} INFO - Setting next_dagrun for tutorial_etl_dag to None
+[2021-12-22 21:48:56,125] {processor.py:171} INFO - Processing /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py took 0.030 seconds
+[2021-12-22 21:49:30,655] {processor.py:163} INFO - Started process (PID=52064) to work on /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2021-12-22 21:49:30,663] {processor.py:620} INFO - Processing file /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py for tasks to queue
+[2021-12-22 21:49:30,663] {logging_mixin.py:109} INFO - [2021-12-22 21:49:30,663] {dagbag.py:500} INFO - Filling up the DagBag from /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2021-12-22 21:49:30,672] {processor.py:632} INFO - DAG(s) dict_keys(['tutorial_etl_dag']) retrieved from /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2021-12-22 21:49:30,676] {logging_mixin.py:109} INFO - [2021-12-22 21:49:30,676] {dag.py:2389} INFO - Sync 1 DAGs
+[2021-12-22 21:49:30,681] {logging_mixin.py:109} INFO - [2021-12-22 21:49:30,681] {dag.py:2914} INFO - Setting next_dagrun for tutorial_etl_dag to None
+[2021-12-22 21:49:30,689] {processor.py:171} INFO - Processing /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py took 0.035 seconds
+[2021-12-22 21:50:06,901] {processor.py:163} INFO - Started process (PID=52100) to work on /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2021-12-22 21:50:06,908] {processor.py:620} INFO - Processing file /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py for tasks to queue
+[2021-12-22 21:50:06,908] {logging_mixin.py:109} INFO - [2021-12-22 21:50:06,908] {dagbag.py:500} INFO - Filling up the DagBag from /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2021-12-22 21:50:06,916] {processor.py:632} INFO - DAG(s) dict_keys(['tutorial_etl_dag']) retrieved from /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2021-12-22 21:50:06,920] {logging_mixin.py:109} INFO - [2021-12-22 21:50:06,920] {dag.py:2389} INFO - Sync 1 DAGs
+[2021-12-22 21:50:06,925] {logging_mixin.py:109} INFO - [2021-12-22 21:50:06,925] {dag.py:2914} INFO - Setting next_dagrun for tutorial_etl_dag to None
+[2021-12-22 21:50:06,938] {processor.py:171} INFO - Processing /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py took 0.039 seconds
+[2021-12-22 21:50:45,073] {processor.py:163} INFO - Started process (PID=52139) to work on /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2021-12-22 21:50:45,083] {processor.py:620} INFO - Processing file /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py for tasks to queue
+[2021-12-22 21:50:45,084] {logging_mixin.py:109} INFO - [2021-12-22 21:50:45,084] {dagbag.py:500} INFO - Filling up the DagBag from /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2021-12-22 21:50:45,110] {processor.py:632} INFO - DAG(s) dict_keys(['tutorial_etl_dag']) retrieved from /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2021-12-22 21:50:45,117] {logging_mixin.py:109} INFO - [2021-12-22 21:50:45,117] {dag.py:2389} INFO - Sync 1 DAGs
+[2021-12-22 21:50:45,124] {logging_mixin.py:109} INFO - [2021-12-22 21:50:45,124] {dag.py:2914} INFO - Setting next_dagrun for tutorial_etl_dag to None
+[2021-12-22 21:50:45,133] {processor.py:171} INFO - Processing /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py took 0.064 seconds
+[2021-12-22 21:51:24,364] {processor.py:163} INFO - Started process (PID=52178) to work on /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2021-12-22 21:51:24,367] {processor.py:620} INFO - Processing file /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py for tasks to queue
+[2021-12-22 21:51:24,367] {logging_mixin.py:109} INFO - [2021-12-22 21:51:24,367] {dagbag.py:500} INFO - Filling up the DagBag from /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2021-12-22 21:51:24,376] {processor.py:632} INFO - DAG(s) dict_keys(['tutorial_etl_dag']) retrieved from /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2021-12-22 21:51:24,380] {logging_mixin.py:109} INFO - [2021-12-22 21:51:24,380] {dag.py:2389} INFO - Sync 1 DAGs
+[2021-12-22 21:51:24,386] {logging_mixin.py:109} INFO - [2021-12-22 21:51:24,385] {dag.py:2914} INFO - Setting next_dagrun for tutorial_etl_dag to None
+[2021-12-22 21:51:24,394] {processor.py:171} INFO - Processing /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py took 0.032 seconds
+[2021-12-22 21:52:05,137] {processor.py:163} INFO - Started process (PID=52326) to work on /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2021-12-22 21:52:05,137] {processor.py:620} INFO - Processing file /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py for tasks to queue
+[2021-12-22 21:52:05,137] {logging_mixin.py:109} INFO - [2021-12-22 21:52:05,137] {dagbag.py:500} INFO - Filling up the DagBag from /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2021-12-22 21:52:05,145] {processor.py:632} INFO - DAG(s) dict_keys(['tutorial_etl_dag']) retrieved from /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2021-12-22 21:52:05,150] {logging_mixin.py:109} INFO - [2021-12-22 21:52:05,149] {dag.py:2389} INFO - Sync 1 DAGs
+[2021-12-22 21:52:05,154] {logging_mixin.py:109} INFO - [2021-12-22 21:52:05,154] {dag.py:2914} INFO - Setting next_dagrun for tutorial_etl_dag to None
+[2021-12-22 21:52:05,164] {processor.py:171} INFO - Processing /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py took 0.028 seconds
+[2021-12-22 21:52:39,418] {processor.py:163} INFO - Started process (PID=52474) to work on /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2021-12-22 21:52:39,427] {processor.py:620} INFO - Processing file /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py for tasks to queue
+[2021-12-22 21:52:39,429] {logging_mixin.py:109} INFO - [2021-12-22 21:52:39,428] {dagbag.py:500} INFO - Filling up the DagBag from /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2021-12-22 21:52:39,453] {processor.py:632} INFO - DAG(s) dict_keys(['tutorial_etl_dag']) retrieved from /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2021-12-22 21:52:39,461] {logging_mixin.py:109} INFO - [2021-12-22 21:52:39,461] {dag.py:2389} INFO - Sync 1 DAGs
+[2021-12-22 21:52:39,467] {logging_mixin.py:109} INFO - [2021-12-22 21:52:39,467] {dag.py:2914} INFO - Setting next_dagrun for tutorial_etl_dag to None
+[2021-12-22 21:52:39,476] {processor.py:171} INFO - Processing /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py took 0.064 seconds
+[2021-12-22 21:53:19,278] {processor.py:163} INFO - Started process (PID=52552) to work on /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2021-12-22 21:53:19,288] {processor.py:620} INFO - Processing file /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py for tasks to queue
+[2021-12-22 21:53:19,289] {logging_mixin.py:109} INFO - [2021-12-22 21:53:19,289] {dagbag.py:500} INFO - Filling up the DagBag from /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2021-12-22 21:53:19,316] {processor.py:632} INFO - DAG(s) dict_keys(['tutorial_etl_dag']) retrieved from /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2021-12-22 21:53:19,323] {logging_mixin.py:109} INFO - [2021-12-22 21:53:19,323] {dag.py:2389} INFO - Sync 1 DAGs
+[2021-12-22 21:53:19,330] {logging_mixin.py:109} INFO - [2021-12-22 21:53:19,330] {dag.py:2914} INFO - Setting next_dagrun for tutorial_etl_dag to None
+[2021-12-22 21:53:19,339] {processor.py:171} INFO - Processing /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py took 0.067 seconds
+[2021-12-22 21:55:01,174] {processor.py:163} INFO - Started process (PID=52984) to work on /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2021-12-22 21:55:01,178] {processor.py:620} INFO - Processing file /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py for tasks to queue
+[2021-12-22 21:55:01,179] {logging_mixin.py:109} INFO - [2021-12-22 21:55:01,179] {dagbag.py:500} INFO - Filling up the DagBag from /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2021-12-22 21:55:01,200] {processor.py:632} INFO - DAG(s) dict_keys(['tutorial_etl_dag']) retrieved from /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2021-12-22 21:55:01,209] {logging_mixin.py:109} INFO - [2021-12-22 21:55:01,209] {dag.py:2389} INFO - Sync 1 DAGs
+[2021-12-22 21:55:01,216] {logging_mixin.py:109} INFO - [2021-12-22 21:55:01,216] {dag.py:2914} INFO - Setting next_dagrun for tutorial_etl_dag to None
+[2021-12-22 21:55:01,228] {processor.py:171} INFO - Processing /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py took 0.057 seconds
+[2021-12-22 21:55:37,493] {processor.py:163} INFO - Started process (PID=53022) to work on /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2021-12-22 21:55:37,500] {processor.py:620} INFO - Processing file /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py for tasks to queue
+[2021-12-22 21:55:37,501] {logging_mixin.py:109} INFO - [2021-12-22 21:55:37,501] {dagbag.py:500} INFO - Filling up the DagBag from /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2021-12-22 21:55:37,509] {processor.py:632} INFO - DAG(s) dict_keys(['tutorial_etl_dag']) retrieved from /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2021-12-22 21:55:37,514] {logging_mixin.py:109} INFO - [2021-12-22 21:55:37,514] {dag.py:2389} INFO - Sync 1 DAGs
+[2021-12-22 21:55:37,519] {logging_mixin.py:109} INFO - [2021-12-22 21:55:37,519] {dag.py:2914} INFO - Setting next_dagrun for tutorial_etl_dag to None
+[2021-12-22 21:55:37,532] {processor.py:171} INFO - Processing /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py took 0.041 seconds
+[2021-12-22 21:56:17,624] {processor.py:163} INFO - Started process (PID=53067) to work on /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2021-12-22 21:56:17,632] {processor.py:620} INFO - Processing file /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py for tasks to queue
+[2021-12-22 21:56:17,632] {logging_mixin.py:109} INFO - [2021-12-22 21:56:17,632] {dagbag.py:500} INFO - Filling up the DagBag from /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2021-12-22 21:56:17,641] {processor.py:632} INFO - DAG(s) dict_keys(['tutorial_etl_dag']) retrieved from /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2021-12-22 21:56:17,645] {logging_mixin.py:109} INFO - [2021-12-22 21:56:17,645] {dag.py:2389} INFO - Sync 1 DAGs
+[2021-12-22 21:56:17,649] {logging_mixin.py:109} INFO - [2021-12-22 21:56:17,649] {dag.py:2914} INFO - Setting next_dagrun for tutorial_etl_dag to None
+[2021-12-22 21:56:17,658] {processor.py:171} INFO - Processing /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py took 0.035 seconds
+[2021-12-22 21:56:52,478] {processor.py:163} INFO - Started process (PID=53102) to work on /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2021-12-22 21:56:52,487] {processor.py:620} INFO - Processing file /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py for tasks to queue
+[2021-12-22 21:56:52,488] {logging_mixin.py:109} INFO - [2021-12-22 21:56:52,488] {dagbag.py:500} INFO - Filling up the DagBag from /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2021-12-22 21:56:52,497] {processor.py:632} INFO - DAG(s) dict_keys(['tutorial_etl_dag']) retrieved from /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2021-12-22 21:56:52,502] {logging_mixin.py:109} INFO - [2021-12-22 21:56:52,501] {dag.py:2389} INFO - Sync 1 DAGs
+[2021-12-22 21:56:52,506] {logging_mixin.py:109} INFO - [2021-12-22 21:56:52,506] {dag.py:2914} INFO - Setting next_dagrun for tutorial_etl_dag to None
+[2021-12-22 21:56:52,520] {processor.py:171} INFO - Processing /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py took 0.044 seconds
+[2021-12-22 21:57:28,303] {processor.py:163} INFO - Started process (PID=53142) to work on /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2021-12-22 21:57:28,311] {processor.py:620} INFO - Processing file /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py for tasks to queue
+[2021-12-22 21:57:28,311] {logging_mixin.py:109} INFO - [2021-12-22 21:57:28,311] {dagbag.py:500} INFO - Filling up the DagBag from /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2021-12-22 21:57:28,320] {processor.py:632} INFO - DAG(s) dict_keys(['tutorial_etl_dag']) retrieved from /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2021-12-22 21:57:28,326] {logging_mixin.py:109} INFO - [2021-12-22 21:57:28,325] {dag.py:2389} INFO - Sync 1 DAGs
+[2021-12-22 21:57:28,331] {logging_mixin.py:109} INFO - [2021-12-22 21:57:28,331] {dag.py:2914} INFO - Setting next_dagrun for tutorial_etl_dag to None
+[2021-12-22 21:57:28,346] {processor.py:171} INFO - Processing /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py took 0.044 seconds
+[2021-12-22 21:58:06,129] {processor.py:163} INFO - Started process (PID=53181) to work on /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2021-12-22 21:58:06,138] {processor.py:620} INFO - Processing file /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py for tasks to queue
+[2021-12-22 21:58:06,139] {logging_mixin.py:109} INFO - [2021-12-22 21:58:06,139] {dagbag.py:500} INFO - Filling up the DagBag from /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2021-12-22 21:58:06,170] {processor.py:632} INFO - DAG(s) dict_keys(['tutorial_etl_dag']) retrieved from /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2021-12-22 21:58:06,179] {logging_mixin.py:109} INFO - [2021-12-22 21:58:06,179] {dag.py:2389} INFO - Sync 1 DAGs
+[2021-12-22 21:58:06,186] {logging_mixin.py:109} INFO - [2021-12-22 21:58:06,186] {dag.py:2914} INFO - Setting next_dagrun for tutorial_etl_dag to None
+[2021-12-22 21:58:06,195] {processor.py:171} INFO - Processing /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py took 0.067 seconds
+[2021-12-22 21:58:42,422] {processor.py:163} INFO - Started process (PID=53226) to work on /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2021-12-22 21:58:42,431] {processor.py:620} INFO - Processing file /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py for tasks to queue
+[2021-12-22 21:58:42,433] {logging_mixin.py:109} INFO - [2021-12-22 21:58:42,432] {dagbag.py:500} INFO - Filling up the DagBag from /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2021-12-22 21:58:42,464] {processor.py:632} INFO - DAG(s) dict_keys(['tutorial_etl_dag']) retrieved from /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2021-12-22 21:58:42,473] {logging_mixin.py:109} INFO - [2021-12-22 21:58:42,473] {dag.py:2389} INFO - Sync 1 DAGs
+[2021-12-22 21:58:42,481] {logging_mixin.py:109} INFO - [2021-12-22 21:58:42,481] {dag.py:2914} INFO - Setting next_dagrun for tutorial_etl_dag to None
+[2021-12-22 21:58:42,490] {processor.py:171} INFO - Processing /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py took 0.069 seconds
+[2021-12-22 21:59:17,752] {processor.py:163} INFO - Started process (PID=53270) to work on /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2021-12-22 21:59:17,761] {processor.py:620} INFO - Processing file /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py for tasks to queue
+[2021-12-22 21:59:17,762] {logging_mixin.py:109} INFO - [2021-12-22 21:59:17,762] {dagbag.py:500} INFO - Filling up the DagBag from /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2021-12-22 21:59:17,795] {processor.py:632} INFO - DAG(s) dict_keys(['tutorial_etl_dag']) retrieved from /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2021-12-22 21:59:17,804] {logging_mixin.py:109} INFO - [2021-12-22 21:59:17,804] {dag.py:2389} INFO - Sync 1 DAGs
+[2021-12-22 21:59:17,812] {logging_mixin.py:109} INFO - [2021-12-22 21:59:17,812] {dag.py:2914} INFO - Setting next_dagrun for tutorial_etl_dag to None
+[2021-12-22 21:59:17,824] {processor.py:171} INFO - Processing /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py took 0.073 seconds
+[2021-12-22 21:59:58,056] {processor.py:163} INFO - Started process (PID=53567) to work on /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2021-12-22 21:59:58,066] {processor.py:620} INFO - Processing file /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py for tasks to queue
+[2021-12-22 21:59:58,068] {logging_mixin.py:109} INFO - [2021-12-22 21:59:58,067] {dagbag.py:500} INFO - Filling up the DagBag from /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2021-12-22 21:59:58,090] {processor.py:632} INFO - DAG(s) dict_keys(['tutorial_etl_dag']) retrieved from /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2021-12-22 21:59:58,098] {logging_mixin.py:109} INFO - [2021-12-22 21:59:58,098] {dag.py:2389} INFO - Sync 1 DAGs
+[2021-12-22 21:59:58,105] {logging_mixin.py:109} INFO - [2021-12-22 21:59:58,105] {dag.py:2914} INFO - Setting next_dagrun for tutorial_etl_dag to None
+[2021-12-22 21:59:58,113] {processor.py:171} INFO - Processing /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py took 0.059 seconds
+[2021-12-22 22:00:36,723] {processor.py:163} INFO - Started process (PID=53652) to work on /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2021-12-22 22:00:36,732] {processor.py:620} INFO - Processing file /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py for tasks to queue
+[2021-12-22 22:00:36,734] {logging_mixin.py:109} INFO - [2021-12-22 22:00:36,733] {dagbag.py:500} INFO - Filling up the DagBag from /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2021-12-22 22:00:36,743] {processor.py:632} INFO - DAG(s) dict_keys(['tutorial_etl_dag']) retrieved from /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2021-12-22 22:00:36,747] {logging_mixin.py:109} INFO - [2021-12-22 22:00:36,747] {dag.py:2389} INFO - Sync 1 DAGs
+[2021-12-22 22:00:36,752] {logging_mixin.py:109} INFO - [2021-12-22 22:00:36,752] {dag.py:2914} INFO - Setting next_dagrun for tutorial_etl_dag to None
+[2021-12-22 22:00:36,765] {processor.py:171} INFO - Processing /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py took 0.044 seconds
+[2021-12-22 22:01:11,837] {processor.py:163} INFO - Started process (PID=53688) to work on /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2021-12-22 22:01:11,844] {processor.py:620} INFO - Processing file /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py for tasks to queue
+[2021-12-22 22:01:11,845] {logging_mixin.py:109} INFO - [2021-12-22 22:01:11,845] {dagbag.py:500} INFO - Filling up the DagBag from /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2021-12-22 22:01:11,852] {processor.py:632} INFO - DAG(s) dict_keys(['tutorial_etl_dag']) retrieved from /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2021-12-22 22:01:11,856] {logging_mixin.py:109} INFO - [2021-12-22 22:01:11,856] {dag.py:2389} INFO - Sync 1 DAGs
+[2021-12-22 22:01:11,861] {logging_mixin.py:109} INFO - [2021-12-22 22:01:11,861] {dag.py:2914} INFO - Setting next_dagrun for tutorial_etl_dag to None
+[2021-12-22 22:01:11,869] {processor.py:171} INFO - Processing /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py took 0.033 seconds
+[2021-12-22 22:01:46,952] {processor.py:163} INFO - Started process (PID=53725) to work on /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2021-12-22 22:01:46,955] {processor.py:620} INFO - Processing file /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py for tasks to queue
+[2021-12-22 22:01:46,956] {logging_mixin.py:109} INFO - [2021-12-22 22:01:46,956] {dagbag.py:500} INFO - Filling up the DagBag from /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2021-12-22 22:01:46,964] {processor.py:632} INFO - DAG(s) dict_keys(['tutorial_etl_dag']) retrieved from /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2021-12-22 22:01:46,969] {logging_mixin.py:109} INFO - [2021-12-22 22:01:46,969] {dag.py:2389} INFO - Sync 1 DAGs
+[2021-12-22 22:01:46,974] {logging_mixin.py:109} INFO - [2021-12-22 22:01:46,974] {dag.py:2914} INFO - Setting next_dagrun for tutorial_etl_dag to None
+[2021-12-22 22:01:46,983] {processor.py:171} INFO - Processing /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py took 0.032 seconds
+[2021-12-22 22:02:22,924] {processor.py:163} INFO - Started process (PID=53759) to work on /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2021-12-22 22:02:22,931] {processor.py:620} INFO - Processing file /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py for tasks to queue
+[2021-12-22 22:02:22,932] {logging_mixin.py:109} INFO - [2021-12-22 22:02:22,931] {dagbag.py:500} INFO - Filling up the DagBag from /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2021-12-22 22:02:22,940] {processor.py:632} INFO - DAG(s) dict_keys(['tutorial_etl_dag']) retrieved from /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2021-12-22 22:02:22,944] {logging_mixin.py:109} INFO - [2021-12-22 22:02:22,944] {dag.py:2389} INFO - Sync 1 DAGs
+[2021-12-22 22:02:22,949] {logging_mixin.py:109} INFO - [2021-12-22 22:02:22,949] {dag.py:2914} INFO - Setting next_dagrun for tutorial_etl_dag to None
+[2021-12-22 22:02:22,957] {processor.py:171} INFO - Processing /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py took 0.035 seconds
+[2021-12-22 22:02:57,993] {processor.py:163} INFO - Started process (PID=53795) to work on /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2021-12-22 22:02:58,000] {processor.py:620} INFO - Processing file /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py for tasks to queue
+[2021-12-22 22:02:58,000] {logging_mixin.py:109} INFO - [2021-12-22 22:02:58,000] {dagbag.py:500} INFO - Filling up the DagBag from /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2021-12-22 22:02:58,009] {processor.py:632} INFO - DAG(s) dict_keys(['tutorial_etl_dag']) retrieved from /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2021-12-22 22:02:58,013] {logging_mixin.py:109} INFO - [2021-12-22 22:02:58,013] {dag.py:2389} INFO - Sync 1 DAGs
+[2021-12-22 22:02:58,017] {logging_mixin.py:109} INFO - [2021-12-22 22:02:58,017] {dag.py:2914} INFO - Setting next_dagrun for tutorial_etl_dag to None
+[2021-12-22 22:02:58,031] {processor.py:171} INFO - Processing /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py took 0.040 seconds
+[2021-12-22 22:03:31,984] {processor.py:163} INFO - Started process (PID=53833) to work on /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2021-12-22 22:03:31,991] {processor.py:620} INFO - Processing file /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py for tasks to queue
+[2021-12-22 22:03:31,992] {logging_mixin.py:109} INFO - [2021-12-22 22:03:31,992] {dagbag.py:500} INFO - Filling up the DagBag from /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2021-12-22 22:03:32,000] {processor.py:632} INFO - DAG(s) dict_keys(['tutorial_etl_dag']) retrieved from /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2021-12-22 22:03:32,004] {logging_mixin.py:109} INFO - [2021-12-22 22:03:32,004] {dag.py:2389} INFO - Sync 1 DAGs
+[2021-12-22 22:03:32,009] {logging_mixin.py:109} INFO - [2021-12-22 22:03:32,009] {dag.py:2914} INFO - Setting next_dagrun for tutorial_etl_dag to None
+[2021-12-22 22:03:32,017] {processor.py:171} INFO - Processing /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py took 0.035 seconds
+[2021-12-22 22:04:11,791] {processor.py:163} INFO - Started process (PID=53874) to work on /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2021-12-22 22:04:11,800] {processor.py:620} INFO - Processing file /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py for tasks to queue
+[2021-12-22 22:04:11,801] {logging_mixin.py:109} INFO - [2021-12-22 22:04:11,801] {dagbag.py:500} INFO - Filling up the DagBag from /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2021-12-22 22:04:11,834] {processor.py:632} INFO - DAG(s) dict_keys(['tutorial_etl_dag']) retrieved from /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2021-12-22 22:04:11,843] {logging_mixin.py:109} INFO - [2021-12-22 22:04:11,843] {dag.py:2389} INFO - Sync 1 DAGs
+[2021-12-22 22:04:11,850] {logging_mixin.py:109} INFO - [2021-12-22 22:04:11,850] {dag.py:2914} INFO - Setting next_dagrun for tutorial_etl_dag to None
+[2021-12-22 22:04:11,859] {processor.py:171} INFO - Processing /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py took 0.071 seconds
+[2021-12-22 22:04:45,929] {processor.py:163} INFO - Started process (PID=53911) to work on /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2021-12-22 22:04:45,937] {processor.py:620} INFO - Processing file /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py for tasks to queue
+[2021-12-22 22:04:45,937] {logging_mixin.py:109} INFO - [2021-12-22 22:04:45,937] {dagbag.py:500} INFO - Filling up the DagBag from /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2021-12-22 22:04:45,946] {processor.py:632} INFO - DAG(s) dict_keys(['tutorial_etl_dag']) retrieved from /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2021-12-22 22:04:45,950] {logging_mixin.py:109} INFO - [2021-12-22 22:04:45,950] {dag.py:2389} INFO - Sync 1 DAGs
+[2021-12-22 22:04:45,956] {logging_mixin.py:109} INFO - [2021-12-22 22:04:45,956] {dag.py:2914} INFO - Setting next_dagrun for tutorial_etl_dag to None
+[2021-12-22 22:04:45,964] {processor.py:171} INFO - Processing /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py took 0.037 seconds
+[2021-12-22 22:06:34,107] {processor.py:163} INFO - Started process (PID=54428) to work on /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2021-12-22 22:06:34,110] {processor.py:620} INFO - Processing file /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py for tasks to queue
+[2021-12-22 22:06:34,111] {logging_mixin.py:109} INFO - [2021-12-22 22:06:34,111] {dagbag.py:500} INFO - Filling up the DagBag from /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2021-12-22 22:06:34,119] {processor.py:632} INFO - DAG(s) dict_keys(['tutorial_etl_dag']) retrieved from /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2021-12-22 22:06:34,123] {logging_mixin.py:109} INFO - [2021-12-22 22:06:34,123] {dag.py:2389} INFO - Sync 1 DAGs
+[2021-12-22 22:06:34,127] {logging_mixin.py:109} INFO - [2021-12-22 22:06:34,127] {dag.py:2914} INFO - Setting next_dagrun for tutorial_etl_dag to None
+[2021-12-22 22:06:34,136] {processor.py:171} INFO - Processing /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py took 0.030 seconds
+[2021-12-22 22:07:10,574] {processor.py:163} INFO - Started process (PID=54463) to work on /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2021-12-22 22:07:10,582] {processor.py:620} INFO - Processing file /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py for tasks to queue
+[2021-12-22 22:07:10,582] {logging_mixin.py:109} INFO - [2021-12-22 22:07:10,582] {dagbag.py:500} INFO - Filling up the DagBag from /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2021-12-22 22:07:10,590] {processor.py:632} INFO - DAG(s) dict_keys(['tutorial_etl_dag']) retrieved from /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2021-12-22 22:07:10,594] {logging_mixin.py:109} INFO - [2021-12-22 22:07:10,594] {dag.py:2389} INFO - Sync 1 DAGs
+[2021-12-22 22:07:10,599] {logging_mixin.py:109} INFO - [2021-12-22 22:07:10,599] {dag.py:2914} INFO - Setting next_dagrun for tutorial_etl_dag to None
+[2021-12-22 22:07:10,607] {processor.py:171} INFO - Processing /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py took 0.034 seconds
+[2021-12-22 22:07:49,797] {processor.py:163} INFO - Started process (PID=54503) to work on /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2021-12-22 22:07:49,806] {processor.py:620} INFO - Processing file /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py for tasks to queue
+[2021-12-22 22:07:49,807] {logging_mixin.py:109} INFO - [2021-12-22 22:07:49,807] {dagbag.py:500} INFO - Filling up the DagBag from /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2021-12-22 22:07:49,817] {processor.py:632} INFO - DAG(s) dict_keys(['tutorial_etl_dag']) retrieved from /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2021-12-22 22:07:49,821] {logging_mixin.py:109} INFO - [2021-12-22 22:07:49,821] {dag.py:2389} INFO - Sync 1 DAGs
+[2021-12-22 22:07:49,826] {logging_mixin.py:109} INFO - [2021-12-22 22:07:49,826] {dag.py:2914} INFO - Setting next_dagrun for tutorial_etl_dag to None
+[2021-12-22 22:07:49,839] {processor.py:171} INFO - Processing /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py took 0.043 seconds
+[2021-12-22 22:08:27,719] {processor.py:163} INFO - Started process (PID=54546) to work on /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2021-12-22 22:08:27,722] {processor.py:620} INFO - Processing file /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py for tasks to queue
+[2021-12-22 22:08:27,723] {logging_mixin.py:109} INFO - [2021-12-22 22:08:27,723] {dagbag.py:500} INFO - Filling up the DagBag from /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2021-12-22 22:08:27,730] {processor.py:632} INFO - DAG(s) dict_keys(['tutorial_etl_dag']) retrieved from /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2021-12-22 22:08:27,734] {logging_mixin.py:109} INFO - [2021-12-22 22:08:27,734] {dag.py:2389} INFO - Sync 1 DAGs
+[2021-12-22 22:08:27,739] {logging_mixin.py:109} INFO - [2021-12-22 22:08:27,739] {dag.py:2914} INFO - Setting next_dagrun for tutorial_etl_dag to None
+[2021-12-22 22:08:27,746] {processor.py:171} INFO - Processing /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py took 0.028 seconds
+[2021-12-22 22:09:06,127] {processor.py:163} INFO - Started process (PID=54587) to work on /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2021-12-22 22:09:06,134] {processor.py:620} INFO - Processing file /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py for tasks to queue
+[2021-12-22 22:09:06,135] {logging_mixin.py:109} INFO - [2021-12-22 22:09:06,135] {dagbag.py:500} INFO - Filling up the DagBag from /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2021-12-22 22:09:06,143] {processor.py:632} INFO - DAG(s) dict_keys(['tutorial_etl_dag']) retrieved from /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2021-12-22 22:09:06,147] {logging_mixin.py:109} INFO - [2021-12-22 22:09:06,147] {dag.py:2389} INFO - Sync 1 DAGs
+[2021-12-22 22:09:06,152] {logging_mixin.py:109} INFO - [2021-12-22 22:09:06,152] {dag.py:2914} INFO - Setting next_dagrun for tutorial_etl_dag to None
+[2021-12-22 22:09:06,165] {processor.py:171} INFO - Processing /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py took 0.040 seconds
+[2021-12-22 22:09:44,772] {processor.py:163} INFO - Started process (PID=54633) to work on /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2021-12-22 22:09:44,781] {processor.py:620} INFO - Processing file /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py for tasks to queue
+[2021-12-22 22:09:44,782] {logging_mixin.py:109} INFO - [2021-12-22 22:09:44,782] {dagbag.py:500} INFO - Filling up the DagBag from /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2021-12-22 22:09:44,812] {processor.py:632} INFO - DAG(s) dict_keys(['tutorial_etl_dag']) retrieved from /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2021-12-22 22:09:44,820] {logging_mixin.py:109} INFO - [2021-12-22 22:09:44,820] {dag.py:2389} INFO - Sync 1 DAGs
+[2021-12-22 22:09:44,828] {logging_mixin.py:109} INFO - [2021-12-22 22:09:44,827] {dag.py:2914} INFO - Setting next_dagrun for tutorial_etl_dag to None
+[2021-12-22 22:09:44,837] {processor.py:171} INFO - Processing /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py took 0.067 seconds
+[2021-12-22 22:10:24,028] {processor.py:163} INFO - Started process (PID=54675) to work on /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2021-12-22 22:10:24,036] {processor.py:620} INFO - Processing file /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py for tasks to queue
+[2021-12-22 22:10:24,036] {logging_mixin.py:109} INFO - [2021-12-22 22:10:24,036] {dagbag.py:500} INFO - Filling up the DagBag from /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2021-12-22 22:10:24,045] {processor.py:632} INFO - DAG(s) dict_keys(['tutorial_etl_dag']) retrieved from /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2021-12-22 22:10:24,049] {logging_mixin.py:109} INFO - [2021-12-22 22:10:24,049] {dag.py:2389} INFO - Sync 1 DAGs
+[2021-12-22 22:10:24,053] {logging_mixin.py:109} INFO - [2021-12-22 22:10:24,053] {dag.py:2914} INFO - Setting next_dagrun for tutorial_etl_dag to None
+[2021-12-22 22:10:24,062] {processor.py:171} INFO - Processing /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py took 0.035 seconds
+[2021-12-22 22:10:59,049] {processor.py:163} INFO - Started process (PID=54718) to work on /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2021-12-22 22:10:59,059] {processor.py:620} INFO - Processing file /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py for tasks to queue
+[2021-12-22 22:10:59,060] {logging_mixin.py:109} INFO - [2021-12-22 22:10:59,060] {dagbag.py:500} INFO - Filling up the DagBag from /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2021-12-22 22:10:59,069] {processor.py:632} INFO - DAG(s) dict_keys(['tutorial_etl_dag']) retrieved from /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2021-12-22 22:10:59,073] {logging_mixin.py:109} INFO - [2021-12-22 22:10:59,073] {dag.py:2389} INFO - Sync 1 DAGs
+[2021-12-22 22:10:59,078] {logging_mixin.py:109} INFO - [2021-12-22 22:10:59,078] {dag.py:2914} INFO - Setting next_dagrun for tutorial_etl_dag to None
+[2021-12-22 22:10:59,085] {processor.py:171} INFO - Processing /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py took 0.038 seconds
+[2021-12-22 22:11:35,685] {processor.py:163} INFO - Started process (PID=54858) to work on /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2021-12-22 22:11:35,694] {processor.py:620} INFO - Processing file /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py for tasks to queue
+[2021-12-22 22:11:35,695] {logging_mixin.py:109} INFO - [2021-12-22 22:11:35,695] {dagbag.py:500} INFO - Filling up the DagBag from /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2021-12-22 22:11:35,704] {processor.py:632} INFO - DAG(s) dict_keys(['tutorial_etl_dag']) retrieved from /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2021-12-22 22:11:35,708] {logging_mixin.py:109} INFO - [2021-12-22 22:11:35,708] {dag.py:2389} INFO - Sync 1 DAGs
+[2021-12-22 22:11:35,713] {logging_mixin.py:109} INFO - [2021-12-22 22:11:35,713] {dag.py:2914} INFO - Setting next_dagrun for tutorial_etl_dag to None
+[2021-12-22 22:11:35,720] {processor.py:171} INFO - Processing /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py took 0.037 seconds
+[2021-12-22 22:12:09,329] {processor.py:163} INFO - Started process (PID=54890) to work on /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2021-12-22 22:12:09,338] {processor.py:620} INFO - Processing file /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py for tasks to queue
+[2021-12-22 22:12:09,339] {logging_mixin.py:109} INFO - [2021-12-22 22:12:09,339] {dagbag.py:500} INFO - Filling up the DagBag from /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2021-12-22 22:12:09,347] {processor.py:632} INFO - DAG(s) dict_keys(['tutorial_etl_dag']) retrieved from /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2021-12-22 22:12:09,351] {logging_mixin.py:109} INFO - [2021-12-22 22:12:09,351] {dag.py:2389} INFO - Sync 1 DAGs
+[2021-12-22 22:12:09,356] {logging_mixin.py:109} INFO - [2021-12-22 22:12:09,356] {dag.py:2914} INFO - Setting next_dagrun for tutorial_etl_dag to None
+[2021-12-22 22:12:09,364] {processor.py:171} INFO - Processing /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py took 0.037 seconds
+[2021-12-22 22:12:43,148] {processor.py:163} INFO - Started process (PID=54925) to work on /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2021-12-22 22:12:43,155] {processor.py:620} INFO - Processing file /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py for tasks to queue
+[2021-12-22 22:12:43,156] {logging_mixin.py:109} INFO - [2021-12-22 22:12:43,156] {dagbag.py:500} INFO - Filling up the DagBag from /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2021-12-22 22:12:43,165] {processor.py:632} INFO - DAG(s) dict_keys(['tutorial_etl_dag']) retrieved from /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2021-12-22 22:12:43,171] {logging_mixin.py:109} INFO - [2021-12-22 22:12:43,171] {dag.py:2389} INFO - Sync 1 DAGs
+[2021-12-22 22:12:43,177] {logging_mixin.py:109} INFO - [2021-12-22 22:12:43,177] {dag.py:2914} INFO - Setting next_dagrun for tutorial_etl_dag to None
+[2021-12-22 22:12:43,187] {processor.py:171} INFO - Processing /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py took 0.040 seconds
+[2021-12-22 22:13:21,281] {processor.py:163} INFO - Started process (PID=54968) to work on /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2021-12-22 22:13:21,284] {processor.py:620} INFO - Processing file /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py for tasks to queue
+[2021-12-22 22:13:21,284] {logging_mixin.py:109} INFO - [2021-12-22 22:13:21,284] {dagbag.py:500} INFO - Filling up the DagBag from /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2021-12-22 22:13:21,292] {processor.py:632} INFO - DAG(s) dict_keys(['tutorial_etl_dag']) retrieved from /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2021-12-22 22:13:21,296] {logging_mixin.py:109} INFO - [2021-12-22 22:13:21,296] {dag.py:2389} INFO - Sync 1 DAGs
+[2021-12-22 22:13:21,301] {logging_mixin.py:109} INFO - [2021-12-22 22:13:21,301] {dag.py:2914} INFO - Setting next_dagrun for tutorial_etl_dag to None
+[2021-12-22 22:13:21,309] {processor.py:171} INFO - Processing /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py took 0.030 seconds
+[2021-12-22 22:13:57,697] {processor.py:163} INFO - Started process (PID=55013) to work on /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2021-12-22 22:13:57,702] {processor.py:620} INFO - Processing file /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py for tasks to queue
+[2021-12-22 22:13:57,703] {logging_mixin.py:109} INFO - [2021-12-22 22:13:57,703] {dagbag.py:500} INFO - Filling up the DagBag from /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2021-12-22 22:13:57,731] {processor.py:632} INFO - DAG(s) dict_keys(['tutorial_etl_dag']) retrieved from /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2021-12-22 22:13:57,738] {logging_mixin.py:109} INFO - [2021-12-22 22:13:57,738] {dag.py:2389} INFO - Sync 1 DAGs
+[2021-12-22 22:13:57,745] {logging_mixin.py:109} INFO - [2021-12-22 22:13:57,745] {dag.py:2914} INFO - Setting next_dagrun for tutorial_etl_dag to None
+[2021-12-22 22:13:57,754] {processor.py:171} INFO - Processing /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py took 0.064 seconds
+[2021-12-22 22:14:38,713] {processor.py:163} INFO - Started process (PID=55057) to work on /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2021-12-22 22:14:38,722] {processor.py:620} INFO - Processing file /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py for tasks to queue
+[2021-12-22 22:14:38,724] {logging_mixin.py:109} INFO - [2021-12-22 22:14:38,724] {dagbag.py:500} INFO - Filling up the DagBag from /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2021-12-22 22:14:38,751] {processor.py:632} INFO - DAG(s) dict_keys(['tutorial_etl_dag']) retrieved from /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2021-12-22 22:14:38,758] {logging_mixin.py:109} INFO - [2021-12-22 22:14:38,758] {dag.py:2389} INFO - Sync 1 DAGs
+[2021-12-22 22:14:38,765] {logging_mixin.py:109} INFO - [2021-12-22 22:14:38,765] {dag.py:2914} INFO - Setting next_dagrun for tutorial_etl_dag to None
+[2021-12-22 22:14:38,774] {processor.py:171} INFO - Processing /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py took 0.068 seconds
+[2021-12-22 22:15:12,635] {processor.py:163} INFO - Started process (PID=55091) to work on /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2021-12-22 22:15:12,636] {processor.py:620} INFO - Processing file /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py for tasks to queue
+[2021-12-22 22:15:12,636] {logging_mixin.py:109} INFO - [2021-12-22 22:15:12,636] {dagbag.py:500} INFO - Filling up the DagBag from /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2021-12-22 22:15:12,644] {processor.py:632} INFO - DAG(s) dict_keys(['tutorial_etl_dag']) retrieved from /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2021-12-22 22:15:12,648] {logging_mixin.py:109} INFO - [2021-12-22 22:15:12,648] {dag.py:2389} INFO - Sync 1 DAGs
+[2021-12-22 22:15:12,653] {logging_mixin.py:109} INFO - [2021-12-22 22:15:12,653] {dag.py:2914} INFO - Setting next_dagrun for tutorial_etl_dag to None
+[2021-12-22 22:15:12,660] {processor.py:171} INFO - Processing /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py took 0.026 seconds
+[2021-12-22 22:15:48,271] {processor.py:163} INFO - Started process (PID=55128) to work on /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2021-12-22 22:15:48,280] {processor.py:620} INFO - Processing file /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py for tasks to queue
+[2021-12-22 22:15:48,281] {logging_mixin.py:109} INFO - [2021-12-22 22:15:48,281] {dagbag.py:500} INFO - Filling up the DagBag from /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2021-12-22 22:15:48,312] {processor.py:632} INFO - DAG(s) dict_keys(['tutorial_etl_dag']) retrieved from /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2021-12-22 22:15:48,321] {logging_mixin.py:109} INFO - [2021-12-22 22:15:48,321] {dag.py:2389} INFO - Sync 1 DAGs
+[2021-12-22 22:15:48,328] {logging_mixin.py:109} INFO - [2021-12-22 22:15:48,328] {dag.py:2914} INFO - Setting next_dagrun for tutorial_etl_dag to None
+[2021-12-22 22:15:48,337] {processor.py:171} INFO - Processing /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py took 0.068 seconds
+[2021-12-22 22:16:26,806] {processor.py:163} INFO - Started process (PID=55171) to work on /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2021-12-22 22:16:26,809] {processor.py:620} INFO - Processing file /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py for tasks to queue
+[2021-12-22 22:16:26,809] {logging_mixin.py:109} INFO - [2021-12-22 22:16:26,809] {dagbag.py:500} INFO - Filling up the DagBag from /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2021-12-22 22:16:26,817] {processor.py:632} INFO - DAG(s) dict_keys(['tutorial_etl_dag']) retrieved from /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2021-12-22 22:16:26,821] {logging_mixin.py:109} INFO - [2021-12-22 22:16:26,821] {dag.py:2389} INFO - Sync 1 DAGs
+[2021-12-22 22:16:26,826] {logging_mixin.py:109} INFO - [2021-12-22 22:16:26,825] {dag.py:2914} INFO - Setting next_dagrun for tutorial_etl_dag to None
+[2021-12-22 22:16:26,840] {processor.py:171} INFO - Processing /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py took 0.035 seconds
+[2021-12-22 22:17:05,660] {processor.py:163} INFO - Started process (PID=55322) to work on /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2021-12-22 22:17:05,663] {processor.py:620} INFO - Processing file /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py for tasks to queue
+[2021-12-22 22:17:05,663] {logging_mixin.py:109} INFO - [2021-12-22 22:17:05,663] {dagbag.py:500} INFO - Filling up the DagBag from /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2021-12-22 22:17:05,672] {processor.py:632} INFO - DAG(s) dict_keys(['tutorial_etl_dag']) retrieved from /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2021-12-22 22:17:05,677] {logging_mixin.py:109} INFO - [2021-12-22 22:17:05,676] {dag.py:2389} INFO - Sync 1 DAGs
+[2021-12-22 22:17:05,682] {logging_mixin.py:109} INFO - [2021-12-22 22:17:05,682] {dag.py:2914} INFO - Setting next_dagrun for tutorial_etl_dag to None
+[2021-12-22 22:17:05,696] {processor.py:171} INFO - Processing /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py took 0.038 seconds
+[2021-12-22 22:17:41,453] {processor.py:163} INFO - Started process (PID=55356) to work on /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2021-12-22 22:17:41,457] {processor.py:620} INFO - Processing file /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py for tasks to queue
+[2021-12-22 22:17:41,457] {logging_mixin.py:109} INFO - [2021-12-22 22:17:41,457] {dagbag.py:500} INFO - Filling up the DagBag from /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2021-12-22 22:17:41,465] {processor.py:632} INFO - DAG(s) dict_keys(['tutorial_etl_dag']) retrieved from /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2021-12-22 22:17:41,470] {logging_mixin.py:109} INFO - [2021-12-22 22:17:41,469] {dag.py:2389} INFO - Sync 1 DAGs
+[2021-12-22 22:17:41,474] {logging_mixin.py:109} INFO - [2021-12-22 22:17:41,474] {dag.py:2914} INFO - Setting next_dagrun for tutorial_etl_dag to None
+[2021-12-22 22:17:41,483] {processor.py:171} INFO - Processing /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py took 0.031 seconds
+[2021-12-22 22:18:14,189] {processor.py:163} INFO - Started process (PID=55430) to work on /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2021-12-22 22:18:14,197] {processor.py:620} INFO - Processing file /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py for tasks to queue
+[2021-12-22 22:18:14,197] {logging_mixin.py:109} INFO - [2021-12-22 22:18:14,197] {dagbag.py:500} INFO - Filling up the DagBag from /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2021-12-22 22:18:14,207] {processor.py:632} INFO - DAG(s) dict_keys(['tutorial_etl_dag']) retrieved from /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2021-12-22 22:18:14,213] {logging_mixin.py:109} INFO - [2021-12-22 22:18:14,212] {dag.py:2389} INFO - Sync 1 DAGs
+[2021-12-22 22:18:14,219] {logging_mixin.py:109} INFO - [2021-12-22 22:18:14,219] {dag.py:2914} INFO - Setting next_dagrun for tutorial_etl_dag to None
+[2021-12-22 22:18:14,228] {processor.py:171} INFO - Processing /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py took 0.040 seconds
+[2021-12-22 22:18:49,609] {processor.py:163} INFO - Started process (PID=55467) to work on /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2021-12-22 22:18:49,617] {processor.py:620} INFO - Processing file /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py for tasks to queue
+[2021-12-22 22:18:49,618] {logging_mixin.py:109} INFO - [2021-12-22 22:18:49,617] {dagbag.py:500} INFO - Filling up the DagBag from /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2021-12-22 22:18:49,627] {processor.py:632} INFO - DAG(s) dict_keys(['tutorial_etl_dag']) retrieved from /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2021-12-22 22:18:49,633] {logging_mixin.py:109} INFO - [2021-12-22 22:18:49,633] {dag.py:2389} INFO - Sync 1 DAGs
+[2021-12-22 22:18:49,640] {logging_mixin.py:109} INFO - [2021-12-22 22:18:49,639] {dag.py:2914} INFO - Setting next_dagrun for tutorial_etl_dag to None
+[2021-12-22 22:18:49,649] {processor.py:171} INFO - Processing /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py took 0.041 seconds
+[2021-12-22 22:19:22,041] {processor.py:163} INFO - Started process (PID=55505) to work on /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2021-12-22 22:19:22,050] {processor.py:620} INFO - Processing file /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py for tasks to queue
+[2021-12-22 22:19:22,052] {logging_mixin.py:109} INFO - [2021-12-22 22:19:22,051] {dagbag.py:500} INFO - Filling up the DagBag from /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2021-12-22 22:19:22,084] {processor.py:632} INFO - DAG(s) dict_keys(['tutorial_etl_dag']) retrieved from /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2021-12-22 22:19:22,092] {logging_mixin.py:109} INFO - [2021-12-22 22:19:22,092] {dag.py:2389} INFO - Sync 1 DAGs
+[2021-12-22 22:19:22,099] {logging_mixin.py:109} INFO - [2021-12-22 22:19:22,099] {dag.py:2914} INFO - Setting next_dagrun for tutorial_etl_dag to None
+[2021-12-22 22:19:22,109] {processor.py:171} INFO - Processing /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py took 0.069 seconds
+[2021-12-22 22:20:00,709] {processor.py:163} INFO - Started process (PID=55546) to work on /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2021-12-22 22:20:00,718] {processor.py:620} INFO - Processing file /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py for tasks to queue
+[2021-12-22 22:20:00,720] {logging_mixin.py:109} INFO - [2021-12-22 22:20:00,720] {dagbag.py:500} INFO - Filling up the DagBag from /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2021-12-22 22:20:00,729] {processor.py:632} INFO - DAG(s) dict_keys(['tutorial_etl_dag']) retrieved from /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2021-12-22 22:20:00,733] {logging_mixin.py:109} INFO - [2021-12-22 22:20:00,733] {dag.py:2389} INFO - Sync 1 DAGs
+[2021-12-22 22:20:00,737] {logging_mixin.py:109} INFO - [2021-12-22 22:20:00,737] {dag.py:2914} INFO - Setting next_dagrun for tutorial_etl_dag to None
+[2021-12-22 22:20:00,749] {processor.py:171} INFO - Processing /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py took 0.042 seconds
+[2021-12-22 22:20:33,425] {processor.py:163} INFO - Started process (PID=55578) to work on /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2021-12-22 22:20:33,433] {processor.py:620} INFO - Processing file /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py for tasks to queue
+[2021-12-22 22:20:33,433] {logging_mixin.py:109} INFO - [2021-12-22 22:20:33,433] {dagbag.py:500} INFO - Filling up the DagBag from /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2021-12-22 22:20:33,442] {processor.py:632} INFO - DAG(s) dict_keys(['tutorial_etl_dag']) retrieved from /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2021-12-22 22:20:33,446] {logging_mixin.py:109} INFO - [2021-12-22 22:20:33,446] {dag.py:2389} INFO - Sync 1 DAGs
+[2021-12-22 22:20:33,451] {logging_mixin.py:109} INFO - [2021-12-22 22:20:33,451] {dag.py:2914} INFO - Setting next_dagrun for tutorial_etl_dag to None
+[2021-12-22 22:20:33,464] {processor.py:171} INFO - Processing /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py took 0.040 seconds
+[2021-12-22 22:21:06,947] {processor.py:163} INFO - Started process (PID=55611) to work on /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2021-12-22 22:21:06,947] {processor.py:620} INFO - Processing file /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py for tasks to queue
+[2021-12-22 22:21:06,948] {logging_mixin.py:109} INFO - [2021-12-22 22:21:06,947] {dagbag.py:500} INFO - Filling up the DagBag from /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2021-12-22 22:21:06,955] {processor.py:632} INFO - DAG(s) dict_keys(['tutorial_etl_dag']) retrieved from /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2021-12-22 22:21:06,960] {logging_mixin.py:109} INFO - [2021-12-22 22:21:06,959] {dag.py:2389} INFO - Sync 1 DAGs
+[2021-12-22 22:21:06,964] {logging_mixin.py:109} INFO - [2021-12-22 22:21:06,964] {dag.py:2914} INFO - Setting next_dagrun for tutorial_etl_dag to None
+[2021-12-22 22:21:06,972] {processor.py:171} INFO - Processing /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py took 0.027 seconds
+[2021-12-22 22:21:50,043] {processor.py:163} INFO - Started process (PID=55868) to work on /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2021-12-22 22:21:50,052] {processor.py:620} INFO - Processing file /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py for tasks to queue
+[2021-12-22 22:21:50,053] {logging_mixin.py:109} INFO - [2021-12-22 22:21:50,053] {dagbag.py:500} INFO - Filling up the DagBag from /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2021-12-22 22:21:50,086] {processor.py:632} INFO - DAG(s) dict_keys(['tutorial_etl_dag']) retrieved from /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2021-12-22 22:21:50,094] {logging_mixin.py:109} INFO - [2021-12-22 22:21:50,094] {dag.py:2389} INFO - Sync 1 DAGs
+[2021-12-22 22:21:50,102] {logging_mixin.py:109} INFO - [2021-12-22 22:21:50,102] {dag.py:2914} INFO - Setting next_dagrun for tutorial_etl_dag to None
+[2021-12-22 22:21:50,111] {processor.py:171} INFO - Processing /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py took 0.069 seconds
+[2021-12-22 22:22:29,227] {processor.py:163} INFO - Started process (PID=55909) to work on /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2021-12-22 22:22:29,236] {processor.py:620} INFO - Processing file /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py for tasks to queue
+[2021-12-22 22:22:29,237] {logging_mixin.py:109} INFO - [2021-12-22 22:22:29,237] {dagbag.py:500} INFO - Filling up the DagBag from /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2021-12-22 22:22:29,264] {processor.py:632} INFO - DAG(s) dict_keys(['tutorial_etl_dag']) retrieved from /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2021-12-22 22:22:29,272] {logging_mixin.py:109} INFO - [2021-12-22 22:22:29,272] {dag.py:2389} INFO - Sync 1 DAGs
+[2021-12-22 22:22:29,279] {logging_mixin.py:109} INFO - [2021-12-22 22:22:29,279] {dag.py:2914} INFO - Setting next_dagrun for tutorial_etl_dag to None
+[2021-12-22 22:22:29,288] {processor.py:171} INFO - Processing /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py took 0.067 seconds
+[2021-12-22 22:23:04,916] {processor.py:163} INFO - Started process (PID=55978) to work on /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2021-12-22 22:23:04,926] {processor.py:620} INFO - Processing file /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py for tasks to queue
+[2021-12-22 22:23:04,928] {logging_mixin.py:109} INFO - [2021-12-22 22:23:04,927] {dagbag.py:500} INFO - Filling up the DagBag from /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2021-12-22 22:23:04,950] {processor.py:632} INFO - DAG(s) dict_keys(['tutorial_etl_dag']) retrieved from /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2021-12-22 22:23:04,959] {logging_mixin.py:109} INFO - [2021-12-22 22:23:04,959] {dag.py:2389} INFO - Sync 1 DAGs
+[2021-12-22 22:23:04,965] {logging_mixin.py:109} INFO - [2021-12-22 22:23:04,965] {dag.py:2914} INFO - Setting next_dagrun for tutorial_etl_dag to None
+[2021-12-22 22:23:04,974] {processor.py:171} INFO - Processing /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py took 0.064 seconds
+[2021-12-22 22:23:38,740] {processor.py:163} INFO - Started process (PID=56020) to work on /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2021-12-22 22:23:38,749] {processor.py:620} INFO - Processing file /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py for tasks to queue
+[2021-12-22 22:23:38,750] {logging_mixin.py:109} INFO - [2021-12-22 22:23:38,750] {dagbag.py:500} INFO - Filling up the DagBag from /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2021-12-22 22:23:38,779] {processor.py:632} INFO - DAG(s) dict_keys(['tutorial_etl_dag']) retrieved from /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2021-12-22 22:23:38,787] {logging_mixin.py:109} INFO - [2021-12-22 22:23:38,787] {dag.py:2389} INFO - Sync 1 DAGs
+[2021-12-22 22:23:38,794] {logging_mixin.py:109} INFO - [2021-12-22 22:23:38,794] {dag.py:2914} INFO - Setting next_dagrun for tutorial_etl_dag to None
+[2021-12-22 22:23:38,806] {processor.py:171} INFO - Processing /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py took 0.073 seconds

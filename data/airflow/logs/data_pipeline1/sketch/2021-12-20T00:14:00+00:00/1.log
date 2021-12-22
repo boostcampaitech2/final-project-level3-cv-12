@@ -1,0 +1,26 @@
+[2021-12-22 17:25:00,569] {taskinstance.py:1035} INFO - Dependencies all met for <TaskInstance: data_pipeline1.sketch scheduled__2021-12-20T00:14:00+00:00 [queued]>
+[2021-12-22 17:25:00,573] {taskinstance.py:1035} INFO - Dependencies all met for <TaskInstance: data_pipeline1.sketch scheduled__2021-12-20T00:14:00+00:00 [queued]>
+[2021-12-22 17:25:00,573] {taskinstance.py:1241} INFO - 
+--------------------------------------------------------------------------------
+[2021-12-22 17:25:00,573] {taskinstance.py:1242} INFO - Starting attempt 1 of 4
+[2021-12-22 17:25:00,573] {taskinstance.py:1243} INFO - 
+--------------------------------------------------------------------------------
+[2021-12-22 17:25:00,582] {taskinstance.py:1262} INFO - Executing <Task(BashOperator): sketch> on 2021-12-20 00:14:00+00:00
+[2021-12-22 17:25:00,583] {standard_task_runner.py:52} INFO - Started process 22550 to run task
+[2021-12-22 17:25:00,585] {standard_task_runner.py:76} INFO - Running: ['airflow', 'tasks', 'run', 'data_pipeline1', 'sketch', 'scheduled__2021-12-20T00:14:00+00:00', '--job-id', '82', '--raw', '--subdir', '/home/myamya/project/dockers/airflow/dags/hello_world.py', '--cfg-path', '/tmp/tmpq70zobcn', '--error-file', '/tmp/tmp6hbeufos']
+[2021-12-22 17:25:00,585] {standard_task_runner.py:77} INFO - Job 82: Subtask sketch
+[2021-12-22 17:25:00,602] {logging_mixin.py:109} INFO - Running <TaskInstance: data_pipeline1.sketch scheduled__2021-12-20T00:14:00+00:00 [running]> on host myamya
+[2021-12-22 17:25:00,644] {taskinstance.py:1412} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=yangjae
+AIRFLOW_CTX_DAG_ID=data_pipeline1
+AIRFLOW_CTX_TASK_ID=sketch
+AIRFLOW_CTX_EXECUTION_DATE=2021-12-20T00:14:00+00:00
+AIRFLOW_CTX_DAG_RUN_ID=scheduled__2021-12-20T00:14:00+00:00
+[2021-12-22 17:25:00,645] {subprocess.py:62} INFO - Tmp dir root location: 
+ /tmp
+[2021-12-22 17:25:00,646] {subprocess.py:74} INFO - Running command: ['bash', '-c', 'docker run -it -v /home/myamya/project/image_files/:/home/myamya/project/image_files/ sketch:0.4 /bin/bash /home/myamya/project/init.sh ']
+[2021-12-22 17:25:00,652] {subprocess.py:85} INFO - Output:
+[2021-12-22 17:25:20,454] {subprocess.py:93} INFO - Command exited with return code 0
+[2021-12-22 17:25:20,491] {taskinstance.py:1270} INFO - Marking task as SUCCESS. dag_id=data_pipeline1, task_id=sketch, execution_date=20211220T001400, start_date=20211222T082500, end_date=20211222T082520
+[2021-12-22 17:25:20,527] {local_task_job.py:154} INFO - Task exited with return code 0
+[2021-12-22 17:25:20,545] {local_task_job.py:264} INFO - 1 downstream tasks scheduled from follow-on schedule check

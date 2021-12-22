@@ -1,0 +1,710 @@
+[2021-12-22 16:59:04,715] {processor.py:163} INFO - Started process (PID=8110) to work on /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/plugins/workday.py
+[2021-12-22 16:59:04,717] {processor.py:620} INFO - Processing file /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/plugins/workday.py for tasks to queue
+[2021-12-22 16:59:04,717] {logging_mixin.py:109} INFO - [2021-12-22 16:59:04,717] {dagbag.py:500} INFO - Filling up the DagBag from /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/plugins/workday.py
+[2021-12-22 16:59:04,726] {processor.py:634} WARNING - No viable dags retrieved from /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/plugins/workday.py
+[2021-12-22 16:59:04,727] {processor.py:171} INFO - Processing /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/plugins/workday.py took 0.015 seconds
+[2021-12-22 16:59:42,852] {processor.py:163} INFO - Started process (PID=8160) to work on /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/plugins/workday.py
+[2021-12-22 16:59:42,859] {processor.py:620} INFO - Processing file /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/plugins/workday.py for tasks to queue
+[2021-12-22 16:59:42,859] {logging_mixin.py:109} INFO - [2021-12-22 16:59:42,859] {dagbag.py:500} INFO - Filling up the DagBag from /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/plugins/workday.py
+[2021-12-22 16:59:42,866] {processor.py:634} WARNING - No viable dags retrieved from /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/plugins/workday.py
+[2021-12-22 16:59:42,867] {processor.py:171} INFO - Processing /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/plugins/workday.py took 0.017 seconds
+[2021-12-22 17:00:22,888] {processor.py:163} INFO - Started process (PID=8349) to work on /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/plugins/workday.py
+[2021-12-22 17:00:22,897] {processor.py:620} INFO - Processing file /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/plugins/workday.py for tasks to queue
+[2021-12-22 17:00:22,898] {logging_mixin.py:109} INFO - [2021-12-22 17:00:22,898] {dagbag.py:500} INFO - Filling up the DagBag from /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/plugins/workday.py
+[2021-12-22 17:00:22,914] {processor.py:634} WARNING - No viable dags retrieved from /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/plugins/workday.py
+[2021-12-22 17:00:22,917] {processor.py:171} INFO - Processing /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/plugins/workday.py took 0.033 seconds
+[2021-12-22 17:12:35,204] {processor.py:163} INFO - Started process (PID=18971) to work on /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/plugins/workday.py
+[2021-12-22 17:12:35,209] {processor.py:620} INFO - Processing file /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/plugins/workday.py for tasks to queue
+[2021-12-22 17:12:35,210] {logging_mixin.py:109} INFO - [2021-12-22 17:12:35,210] {dagbag.py:500} INFO - Filling up the DagBag from /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/plugins/workday.py
+[2021-12-22 17:12:35,225] {processor.py:634} WARNING - No viable dags retrieved from /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/plugins/workday.py
+[2021-12-22 17:12:35,227] {processor.py:171} INFO - Processing /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/plugins/workday.py took 0.030 seconds
+[2021-12-22 17:13:15,653] {processor.py:163} INFO - Started process (PID=19248) to work on /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/plugins/workday.py
+[2021-12-22 17:13:15,662] {processor.py:620} INFO - Processing file /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/plugins/workday.py for tasks to queue
+[2021-12-22 17:13:15,664] {logging_mixin.py:109} INFO - [2021-12-22 17:13:15,663] {dagbag.py:500} INFO - Filling up the DagBag from /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/plugins/workday.py
+[2021-12-22 17:13:15,686] {processor.py:634} WARNING - No viable dags retrieved from /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/plugins/workday.py
+[2021-12-22 17:13:15,688] {processor.py:171} INFO - Processing /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/plugins/workday.py took 0.042 seconds
+[2021-12-22 17:13:57,328] {processor.py:163} INFO - Started process (PID=19495) to work on /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/plugins/workday.py
+[2021-12-22 17:13:57,337] {processor.py:620} INFO - Processing file /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/plugins/workday.py for tasks to queue
+[2021-12-22 17:13:57,337] {logging_mixin.py:109} INFO - [2021-12-22 17:13:57,337] {dagbag.py:500} INFO - Filling up the DagBag from /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/plugins/workday.py
+[2021-12-22 17:13:57,345] {processor.py:634} WARNING - No viable dags retrieved from /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/plugins/workday.py
+[2021-12-22 17:13:57,347] {processor.py:171} INFO - Processing /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/plugins/workday.py took 0.022 seconds
+[2021-12-22 17:14:42,481] {processor.py:163} INFO - Started process (PID=19730) to work on /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/plugins/workday.py
+[2021-12-22 17:14:42,485] {processor.py:620} INFO - Processing file /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/plugins/workday.py for tasks to queue
+[2021-12-22 17:14:42,485] {logging_mixin.py:109} INFO - [2021-12-22 17:14:42,485] {dagbag.py:500} INFO - Filling up the DagBag from /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/plugins/workday.py
+[2021-12-22 17:14:42,535] {processor.py:634} WARNING - No viable dags retrieved from /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/plugins/workday.py
+[2021-12-22 17:14:42,537] {processor.py:171} INFO - Processing /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/plugins/workday.py took 0.057 seconds
+[2021-12-22 17:15:19,561] {processor.py:163} INFO - Started process (PID=19798) to work on /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/plugins/workday.py
+[2021-12-22 17:15:19,565] {processor.py:620} INFO - Processing file /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/plugins/workday.py for tasks to queue
+[2021-12-22 17:15:19,565] {logging_mixin.py:109} INFO - [2021-12-22 17:15:19,565] {dagbag.py:500} INFO - Filling up the DagBag from /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/plugins/workday.py
+[2021-12-22 17:15:19,570] {processor.py:634} WARNING - No viable dags retrieved from /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/plugins/workday.py
+[2021-12-22 17:15:19,571] {processor.py:171} INFO - Processing /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/plugins/workday.py took 0.011 seconds
+[2021-12-22 17:16:00,991] {processor.py:163} INFO - Started process (PID=19842) to work on /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/plugins/workday.py
+[2021-12-22 17:16:00,998] {processor.py:620} INFO - Processing file /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/plugins/workday.py for tasks to queue
+[2021-12-22 17:16:00,999] {logging_mixin.py:109} INFO - [2021-12-22 17:16:00,999] {dagbag.py:500} INFO - Filling up the DagBag from /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/plugins/workday.py
+[2021-12-22 17:16:01,004] {processor.py:634} WARNING - No viable dags retrieved from /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/plugins/workday.py
+[2021-12-22 17:16:01,006] {processor.py:171} INFO - Processing /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/plugins/workday.py took 0.016 seconds
+[2021-12-22 17:16:43,317] {processor.py:163} INFO - Started process (PID=20107) to work on /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/plugins/workday.py
+[2021-12-22 17:16:43,322] {processor.py:620} INFO - Processing file /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/plugins/workday.py for tasks to queue
+[2021-12-22 17:16:43,323] {logging_mixin.py:109} INFO - [2021-12-22 17:16:43,323] {dagbag.py:500} INFO - Filling up the DagBag from /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/plugins/workday.py
+[2021-12-22 17:16:43,344] {processor.py:634} WARNING - No viable dags retrieved from /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/plugins/workday.py
+[2021-12-22 17:16:43,347] {processor.py:171} INFO - Processing /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/plugins/workday.py took 0.036 seconds
+[2021-12-22 17:17:31,030] {processor.py:163} INFO - Started process (PID=20930) to work on /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/plugins/workday.py
+[2021-12-22 17:17:31,038] {processor.py:620} INFO - Processing file /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/plugins/workday.py for tasks to queue
+[2021-12-22 17:17:31,039] {logging_mixin.py:109} INFO - [2021-12-22 17:17:31,038] {dagbag.py:500} INFO - Filling up the DagBag from /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/plugins/workday.py
+[2021-12-22 17:17:31,047] {processor.py:634} WARNING - No viable dags retrieved from /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/plugins/workday.py
+[2021-12-22 17:17:31,049] {processor.py:171} INFO - Processing /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/plugins/workday.py took 0.021 seconds
+[2021-12-22 17:18:09,804] {processor.py:163} INFO - Started process (PID=20980) to work on /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/plugins/workday.py
+[2021-12-22 17:18:09,812] {processor.py:620} INFO - Processing file /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/plugins/workday.py for tasks to queue
+[2021-12-22 17:18:09,812] {logging_mixin.py:109} INFO - [2021-12-22 17:18:09,812] {dagbag.py:500} INFO - Filling up the DagBag from /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/plugins/workday.py
+[2021-12-22 17:18:09,818] {processor.py:634} WARNING - No viable dags retrieved from /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/plugins/workday.py
+[2021-12-22 17:18:09,819] {processor.py:171} INFO - Processing /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/plugins/workday.py took 0.017 seconds
+[2021-12-22 17:18:53,787] {processor.py:163} INFO - Started process (PID=21051) to work on /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/plugins/workday.py
+[2021-12-22 17:18:53,794] {processor.py:620} INFO - Processing file /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/plugins/workday.py for tasks to queue
+[2021-12-22 17:18:53,795] {logging_mixin.py:109} INFO - [2021-12-22 17:18:53,795] {dagbag.py:500} INFO - Filling up the DagBag from /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/plugins/workday.py
+[2021-12-22 17:18:53,800] {processor.py:634} WARNING - No viable dags retrieved from /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/plugins/workday.py
+[2021-12-22 17:18:53,801] {processor.py:171} INFO - Processing /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/plugins/workday.py took 0.015 seconds
+[2021-12-22 17:19:31,899] {processor.py:163} INFO - Started process (PID=21178) to work on /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/plugins/workday.py
+[2021-12-22 17:19:31,903] {processor.py:620} INFO - Processing file /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/plugins/workday.py for tasks to queue
+[2021-12-22 17:19:31,904] {logging_mixin.py:109} INFO - [2021-12-22 17:19:31,904] {dagbag.py:500} INFO - Filling up the DagBag from /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/plugins/workday.py
+[2021-12-22 17:19:31,920] {processor.py:634} WARNING - No viable dags retrieved from /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/plugins/workday.py
+[2021-12-22 17:19:31,923] {processor.py:171} INFO - Processing /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/plugins/workday.py took 0.028 seconds
+[2021-12-22 17:20:10,744] {processor.py:163} INFO - Started process (PID=21497) to work on /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/plugins/workday.py
+[2021-12-22 17:20:10,749] {processor.py:620} INFO - Processing file /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/plugins/workday.py for tasks to queue
+[2021-12-22 17:20:10,751] {logging_mixin.py:109} INFO - [2021-12-22 17:20:10,750] {dagbag.py:500} INFO - Filling up the DagBag from /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/plugins/workday.py
+[2021-12-22 17:20:10,769] {processor.py:634} WARNING - No viable dags retrieved from /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/plugins/workday.py
+[2021-12-22 17:20:10,772] {processor.py:171} INFO - Processing /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/plugins/workday.py took 0.034 seconds
+[2021-12-22 17:20:51,423] {processor.py:163} INFO - Started process (PID=21575) to work on /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/plugins/workday.py
+[2021-12-22 17:20:51,427] {processor.py:620} INFO - Processing file /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/plugins/workday.py for tasks to queue
+[2021-12-22 17:20:51,428] {logging_mixin.py:109} INFO - [2021-12-22 17:20:51,428] {dagbag.py:500} INFO - Filling up the DagBag from /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/plugins/workday.py
+[2021-12-22 17:20:51,443] {processor.py:634} WARNING - No viable dags retrieved from /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/plugins/workday.py
+[2021-12-22 17:20:51,446] {processor.py:171} INFO - Processing /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/plugins/workday.py took 0.027 seconds
+[2021-12-22 17:21:30,951] {processor.py:163} INFO - Started process (PID=21644) to work on /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/plugins/workday.py
+[2021-12-22 17:21:30,952] {processor.py:620} INFO - Processing file /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/plugins/workday.py for tasks to queue
+[2021-12-22 17:21:30,952] {logging_mixin.py:109} INFO - [2021-12-22 17:21:30,952] {dagbag.py:500} INFO - Filling up the DagBag from /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/plugins/workday.py
+[2021-12-22 17:21:30,959] {processor.py:634} WARNING - No viable dags retrieved from /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/plugins/workday.py
+[2021-12-22 17:21:30,960] {processor.py:171} INFO - Processing /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/plugins/workday.py took 0.010 seconds
+[2021-12-22 17:59:01,065] {processor.py:163} INFO - Started process (PID=38850) to work on /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/plugins/workday.py
+[2021-12-22 17:59:01,068] {processor.py:620} INFO - Processing file /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/plugins/workday.py for tasks to queue
+[2021-12-22 17:59:01,069] {logging_mixin.py:109} INFO - [2021-12-22 17:59:01,069] {dagbag.py:500} INFO - Filling up the DagBag from /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/plugins/workday.py
+[2021-12-22 17:59:01,074] {processor.py:634} WARNING - No viable dags retrieved from /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/plugins/workday.py
+[2021-12-22 17:59:01,075] {processor.py:171} INFO - Processing /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/plugins/workday.py took 0.011 seconds
+[2021-12-22 17:59:40,080] {processor.py:163} INFO - Started process (PID=38895) to work on /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/plugins/workday.py
+[2021-12-22 17:59:40,089] {processor.py:620} INFO - Processing file /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/plugins/workday.py for tasks to queue
+[2021-12-22 17:59:40,091] {logging_mixin.py:109} INFO - [2021-12-22 17:59:40,090] {dagbag.py:500} INFO - Filling up the DagBag from /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/plugins/workday.py
+[2021-12-22 17:59:40,109] {processor.py:634} WARNING - No viable dags retrieved from /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/plugins/workday.py
+[2021-12-22 17:59:40,111] {processor.py:171} INFO - Processing /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/plugins/workday.py took 0.037 seconds
+[2021-12-22 18:00:20,360] {processor.py:163} INFO - Started process (PID=38968) to work on /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/plugins/workday.py
+[2021-12-22 18:00:20,371] {processor.py:620} INFO - Processing file /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/plugins/workday.py for tasks to queue
+[2021-12-22 18:00:20,372] {logging_mixin.py:109} INFO - [2021-12-22 18:00:20,372] {dagbag.py:500} INFO - Filling up the DagBag from /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/plugins/workday.py
+[2021-12-22 18:00:20,391] {processor.py:634} WARNING - No viable dags retrieved from /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/plugins/workday.py
+[2021-12-22 18:00:20,394] {processor.py:171} INFO - Processing /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/plugins/workday.py took 0.040 seconds
+[2021-12-22 18:00:59,356] {processor.py:163} INFO - Started process (PID=39011) to work on /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/plugins/workday.py
+[2021-12-22 18:00:59,363] {processor.py:620} INFO - Processing file /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/plugins/workday.py for tasks to queue
+[2021-12-22 18:00:59,364] {logging_mixin.py:109} INFO - [2021-12-22 18:00:59,364] {dagbag.py:500} INFO - Filling up the DagBag from /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/plugins/workday.py
+[2021-12-22 18:00:59,370] {processor.py:634} WARNING - No viable dags retrieved from /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/plugins/workday.py
+[2021-12-22 18:00:59,371] {processor.py:171} INFO - Processing /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/plugins/workday.py took 0.016 seconds
+[2021-12-22 18:01:37,570] {processor.py:163} INFO - Started process (PID=39051) to work on /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/plugins/workday.py
+[2021-12-22 18:01:37,571] {processor.py:620} INFO - Processing file /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/plugins/workday.py for tasks to queue
+[2021-12-22 18:01:37,571] {logging_mixin.py:109} INFO - [2021-12-22 18:01:37,571] {dagbag.py:500} INFO - Filling up the DagBag from /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/plugins/workday.py
+[2021-12-22 18:01:37,576] {processor.py:634} WARNING - No viable dags retrieved from /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/plugins/workday.py
+[2021-12-22 18:01:37,577] {processor.py:171} INFO - Processing /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/plugins/workday.py took 0.009 seconds
+[2021-12-22 18:02:17,400] {processor.py:163} INFO - Started process (PID=39091) to work on /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/plugins/workday.py
+[2021-12-22 18:02:17,408] {processor.py:620} INFO - Processing file /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/plugins/workday.py for tasks to queue
+[2021-12-22 18:02:17,410] {logging_mixin.py:109} INFO - [2021-12-22 18:02:17,409] {dagbag.py:500} INFO - Filling up the DagBag from /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/plugins/workday.py
+[2021-12-22 18:02:17,417] {processor.py:634} WARNING - No viable dags retrieved from /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/plugins/workday.py
+[2021-12-22 18:02:17,418] {processor.py:171} INFO - Processing /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/plugins/workday.py took 0.020 seconds
+[2021-12-22 18:07:46,836] {processor.py:163} INFO - Started process (PID=41050) to work on /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/plugins/workday.py
+[2021-12-22 18:07:46,845] {processor.py:620} INFO - Processing file /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/plugins/workday.py for tasks to queue
+[2021-12-22 18:07:46,846] {logging_mixin.py:109} INFO - [2021-12-22 18:07:46,846] {dagbag.py:500} INFO - Filling up the DagBag from /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/plugins/workday.py
+[2021-12-22 18:07:46,863] {processor.py:634} WARNING - No viable dags retrieved from /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/plugins/workday.py
+[2021-12-22 18:07:46,865] {processor.py:171} INFO - Processing /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/plugins/workday.py took 0.036 seconds
+[2021-12-22 18:08:24,702] {processor.py:163} INFO - Started process (PID=41092) to work on /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/plugins/workday.py
+[2021-12-22 18:08:24,710] {processor.py:620} INFO - Processing file /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/plugins/workday.py for tasks to queue
+[2021-12-22 18:08:24,710] {logging_mixin.py:109} INFO - [2021-12-22 18:08:24,710] {dagbag.py:500} INFO - Filling up the DagBag from /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/plugins/workday.py
+[2021-12-22 18:08:24,716] {processor.py:634} WARNING - No viable dags retrieved from /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/plugins/workday.py
+[2021-12-22 18:08:24,717] {processor.py:171} INFO - Processing /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/plugins/workday.py took 0.016 seconds
+[2021-12-22 18:09:04,964] {processor.py:163} INFO - Started process (PID=41131) to work on /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/plugins/workday.py
+[2021-12-22 18:09:04,974] {processor.py:620} INFO - Processing file /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/plugins/workday.py for tasks to queue
+[2021-12-22 18:09:04,975] {logging_mixin.py:109} INFO - [2021-12-22 18:09:04,975] {dagbag.py:500} INFO - Filling up the DagBag from /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/plugins/workday.py
+[2021-12-22 18:09:04,996] {processor.py:634} WARNING - No viable dags retrieved from /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/plugins/workday.py
+[2021-12-22 18:09:04,998] {processor.py:171} INFO - Processing /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/plugins/workday.py took 0.040 seconds
+[2021-12-22 18:09:42,936] {processor.py:163} INFO - Started process (PID=41170) to work on /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/plugins/workday.py
+[2021-12-22 18:09:42,944] {processor.py:620} INFO - Processing file /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/plugins/workday.py for tasks to queue
+[2021-12-22 18:09:42,944] {logging_mixin.py:109} INFO - [2021-12-22 18:09:42,944] {dagbag.py:500} INFO - Filling up the DagBag from /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/plugins/workday.py
+[2021-12-22 18:09:42,952] {processor.py:634} WARNING - No viable dags retrieved from /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/plugins/workday.py
+[2021-12-22 18:09:42,954] {processor.py:171} INFO - Processing /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/plugins/workday.py took 0.020 seconds
+[2021-12-22 18:10:23,297] {processor.py:163} INFO - Started process (PID=41209) to work on /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/plugins/workday.py
+[2021-12-22 18:10:23,305] {processor.py:620} INFO - Processing file /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/plugins/workday.py for tasks to queue
+[2021-12-22 18:10:23,305] {logging_mixin.py:109} INFO - [2021-12-22 18:10:23,305] {dagbag.py:500} INFO - Filling up the DagBag from /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/plugins/workday.py
+[2021-12-22 18:10:23,314] {processor.py:634} WARNING - No viable dags retrieved from /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/plugins/workday.py
+[2021-12-22 18:10:23,316] {processor.py:171} INFO - Processing /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/plugins/workday.py took 0.021 seconds
+[2021-12-22 18:11:01,456] {processor.py:163} INFO - Started process (PID=41259) to work on /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/plugins/workday.py
+[2021-12-22 18:11:01,461] {processor.py:620} INFO - Processing file /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/plugins/workday.py for tasks to queue
+[2021-12-22 18:11:01,463] {logging_mixin.py:109} INFO - [2021-12-22 18:11:01,462] {dagbag.py:500} INFO - Filling up the DagBag from /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/plugins/workday.py
+[2021-12-22 18:11:01,483] {processor.py:634} WARNING - No viable dags retrieved from /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/plugins/workday.py
+[2021-12-22 18:11:01,485] {processor.py:171} INFO - Processing /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/plugins/workday.py took 0.036 seconds
+[2021-12-22 18:11:41,735] {processor.py:163} INFO - Started process (PID=41297) to work on /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/plugins/workday.py
+[2021-12-22 18:11:41,740] {processor.py:620} INFO - Processing file /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/plugins/workday.py for tasks to queue
+[2021-12-22 18:11:41,742] {logging_mixin.py:109} INFO - [2021-12-22 18:11:41,741] {dagbag.py:500} INFO - Filling up the DagBag from /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/plugins/workday.py
+[2021-12-22 18:11:41,761] {processor.py:634} WARNING - No viable dags retrieved from /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/plugins/workday.py
+[2021-12-22 18:11:41,763] {processor.py:171} INFO - Processing /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/plugins/workday.py took 0.035 seconds
+[2021-12-22 18:19:15,436] {processor.py:163} INFO - Started process (PID=43794) to work on /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/plugins/workday.py
+[2021-12-22 18:19:15,445] {processor.py:620} INFO - Processing file /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/plugins/workday.py for tasks to queue
+[2021-12-22 18:19:15,447] {logging_mixin.py:109} INFO - [2021-12-22 18:19:15,447] {dagbag.py:500} INFO - Filling up the DagBag from /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/plugins/workday.py
+[2021-12-22 18:19:15,471] {processor.py:634} WARNING - No viable dags retrieved from /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/plugins/workday.py
+[2021-12-22 18:19:15,474] {processor.py:171} INFO - Processing /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/plugins/workday.py took 0.041 seconds
+[2021-12-22 18:19:53,757] {processor.py:163} INFO - Started process (PID=43833) to work on /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/plugins/workday.py
+[2021-12-22 18:19:53,761] {processor.py:620} INFO - Processing file /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/plugins/workday.py for tasks to queue
+[2021-12-22 18:19:53,762] {logging_mixin.py:109} INFO - [2021-12-22 18:19:53,762] {dagbag.py:500} INFO - Filling up the DagBag from /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/plugins/workday.py
+[2021-12-22 18:19:53,783] {processor.py:634} WARNING - No viable dags retrieved from /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/plugins/workday.py
+[2021-12-22 18:19:53,786] {processor.py:171} INFO - Processing /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/plugins/workday.py took 0.035 seconds
+[2021-12-22 18:20:34,000] {processor.py:163} INFO - Started process (PID=43902) to work on /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/plugins/workday.py
+[2021-12-22 18:20:34,010] {processor.py:620} INFO - Processing file /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/plugins/workday.py for tasks to queue
+[2021-12-22 18:20:34,011] {logging_mixin.py:109} INFO - [2021-12-22 18:20:34,011] {dagbag.py:500} INFO - Filling up the DagBag from /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/plugins/workday.py
+[2021-12-22 18:20:34,031] {processor.py:634} WARNING - No viable dags retrieved from /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/plugins/workday.py
+[2021-12-22 18:20:34,034] {processor.py:171} INFO - Processing /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/plugins/workday.py took 0.040 seconds
+[2021-12-22 18:21:11,862] {processor.py:163} INFO - Started process (PID=43942) to work on /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/plugins/workday.py
+[2021-12-22 18:21:11,867] {processor.py:620} INFO - Processing file /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/plugins/workday.py for tasks to queue
+[2021-12-22 18:21:11,868] {logging_mixin.py:109} INFO - [2021-12-22 18:21:11,868] {dagbag.py:500} INFO - Filling up the DagBag from /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/plugins/workday.py
+[2021-12-22 18:21:11,889] {processor.py:634} WARNING - No viable dags retrieved from /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/plugins/workday.py
+[2021-12-22 18:21:11,891] {processor.py:171} INFO - Processing /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/plugins/workday.py took 0.036 seconds
+[2021-12-22 18:21:54,710] {processor.py:163} INFO - Started process (PID=43983) to work on /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/plugins/workday.py
+[2021-12-22 18:21:54,719] {processor.py:620} INFO - Processing file /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/plugins/workday.py for tasks to queue
+[2021-12-22 18:21:54,721] {logging_mixin.py:109} INFO - [2021-12-22 18:21:54,721] {dagbag.py:500} INFO - Filling up the DagBag from /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/plugins/workday.py
+[2021-12-22 18:21:54,742] {processor.py:634} WARNING - No viable dags retrieved from /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/plugins/workday.py
+[2021-12-22 18:21:54,744] {processor.py:171} INFO - Processing /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/plugins/workday.py took 0.041 seconds
+[2021-12-22 18:22:32,726] {processor.py:163} INFO - Started process (PID=44024) to work on /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/plugins/workday.py
+[2021-12-22 18:22:32,735] {processor.py:620} INFO - Processing file /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/plugins/workday.py for tasks to queue
+[2021-12-22 18:22:32,737] {logging_mixin.py:109} INFO - [2021-12-22 18:22:32,736] {dagbag.py:500} INFO - Filling up the DagBag from /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/plugins/workday.py
+[2021-12-22 18:22:32,758] {processor.py:634} WARNING - No viable dags retrieved from /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/plugins/workday.py
+[2021-12-22 18:22:32,760] {processor.py:171} INFO - Processing /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/plugins/workday.py took 0.040 seconds
+[2021-12-22 18:23:15,085] {processor.py:163} INFO - Started process (PID=44070) to work on /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/plugins/workday.py
+[2021-12-22 18:23:15,094] {processor.py:620} INFO - Processing file /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/plugins/workday.py for tasks to queue
+[2021-12-22 18:23:15,095] {logging_mixin.py:109} INFO - [2021-12-22 18:23:15,095] {dagbag.py:500} INFO - Filling up the DagBag from /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/plugins/workday.py
+[2021-12-22 18:23:15,116] {processor.py:634} WARNING - No viable dags retrieved from /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/plugins/workday.py
+[2021-12-22 18:23:15,119] {processor.py:171} INFO - Processing /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/plugins/workday.py took 0.041 seconds
+[2021-12-22 18:24:06,300] {processor.py:163} INFO - Started process (PID=44459) to work on /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/plugins/workday.py
+[2021-12-22 18:24:06,309] {processor.py:620} INFO - Processing file /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/plugins/workday.py for tasks to queue
+[2021-12-22 18:24:06,311] {logging_mixin.py:109} INFO - [2021-12-22 18:24:06,310] {dagbag.py:500} INFO - Filling up the DagBag from /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/plugins/workday.py
+[2021-12-22 18:24:06,332] {processor.py:634} WARNING - No viable dags retrieved from /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/plugins/workday.py
+[2021-12-22 18:24:06,336] {processor.py:171} INFO - Processing /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/plugins/workday.py took 0.042 seconds
+[2021-12-22 18:24:43,386] {processor.py:163} INFO - Started process (PID=44497) to work on /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/plugins/workday.py
+[2021-12-22 18:24:43,391] {processor.py:620} INFO - Processing file /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/plugins/workday.py for tasks to queue
+[2021-12-22 18:24:43,392] {logging_mixin.py:109} INFO - [2021-12-22 18:24:43,392] {dagbag.py:500} INFO - Filling up the DagBag from /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/plugins/workday.py
+[2021-12-22 18:24:43,412] {processor.py:634} WARNING - No viable dags retrieved from /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/plugins/workday.py
+[2021-12-22 18:24:43,415] {processor.py:171} INFO - Processing /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/plugins/workday.py took 0.032 seconds
+[2021-12-22 18:25:26,323] {processor.py:163} INFO - Started process (PID=44542) to work on /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/plugins/workday.py
+[2021-12-22 18:25:26,332] {processor.py:620} INFO - Processing file /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/plugins/workday.py for tasks to queue
+[2021-12-22 18:25:26,333] {logging_mixin.py:109} INFO - [2021-12-22 18:25:26,333] {dagbag.py:500} INFO - Filling up the DagBag from /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/plugins/workday.py
+[2021-12-22 18:25:26,358] {processor.py:634} WARNING - No viable dags retrieved from /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/plugins/workday.py
+[2021-12-22 18:25:26,361] {processor.py:171} INFO - Processing /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/plugins/workday.py took 0.039 seconds
+[2021-12-22 18:26:11,717] {processor.py:163} INFO - Started process (PID=44597) to work on /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/plugins/workday.py
+[2021-12-22 18:26:11,726] {processor.py:620} INFO - Processing file /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/plugins/workday.py for tasks to queue
+[2021-12-22 18:26:11,728] {logging_mixin.py:109} INFO - [2021-12-22 18:26:11,727] {dagbag.py:500} INFO - Filling up the DagBag from /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/plugins/workday.py
+[2021-12-22 18:26:11,746] {processor.py:634} WARNING - No viable dags retrieved from /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/plugins/workday.py
+[2021-12-22 18:26:11,749] {processor.py:171} INFO - Processing /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/plugins/workday.py took 0.039 seconds
+[2021-12-22 18:26:56,119] {processor.py:163} INFO - Started process (PID=44641) to work on /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/plugins/workday.py
+[2021-12-22 18:26:56,128] {processor.py:620} INFO - Processing file /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/plugins/workday.py for tasks to queue
+[2021-12-22 18:26:56,129] {logging_mixin.py:109} INFO - [2021-12-22 18:26:56,129] {dagbag.py:500} INFO - Filling up the DagBag from /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/plugins/workday.py
+[2021-12-22 18:26:56,152] {processor.py:634} WARNING - No viable dags retrieved from /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/plugins/workday.py
+[2021-12-22 18:26:56,155] {processor.py:171} INFO - Processing /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/plugins/workday.py took 0.042 seconds
+[2021-12-22 18:27:38,994] {processor.py:163} INFO - Started process (PID=44683) to work on /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/plugins/workday.py
+[2021-12-22 18:27:39,003] {processor.py:620} INFO - Processing file /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/plugins/workday.py for tasks to queue
+[2021-12-22 18:27:39,005] {logging_mixin.py:109} INFO - [2021-12-22 18:27:39,004] {dagbag.py:500} INFO - Filling up the DagBag from /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/plugins/workday.py
+[2021-12-22 18:27:39,025] {processor.py:634} WARNING - No viable dags retrieved from /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/plugins/workday.py
+[2021-12-22 18:27:39,028] {processor.py:171} INFO - Processing /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/plugins/workday.py took 0.040 seconds
+[2021-12-22 18:28:20,599] {processor.py:163} INFO - Started process (PID=44745) to work on /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/plugins/workday.py
+[2021-12-22 18:28:20,604] {processor.py:620} INFO - Processing file /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/plugins/workday.py for tasks to queue
+[2021-12-22 18:28:20,605] {logging_mixin.py:109} INFO - [2021-12-22 18:28:20,605] {dagbag.py:500} INFO - Filling up the DagBag from /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/plugins/workday.py
+[2021-12-22 18:28:20,625] {processor.py:634} WARNING - No viable dags retrieved from /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/plugins/workday.py
+[2021-12-22 18:28:20,628] {processor.py:171} INFO - Processing /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/plugins/workday.py took 0.036 seconds
+[2021-12-22 18:29:10,479] {processor.py:163} INFO - Started process (PID=45498) to work on /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/plugins/workday.py
+[2021-12-22 18:29:10,484] {processor.py:620} INFO - Processing file /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/plugins/workday.py for tasks to queue
+[2021-12-22 18:29:10,484] {logging_mixin.py:109} INFO - [2021-12-22 18:29:10,484] {dagbag.py:500} INFO - Filling up the DagBag from /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/plugins/workday.py
+[2021-12-22 18:29:10,496] {processor.py:634} WARNING - No viable dags retrieved from /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/plugins/workday.py
+[2021-12-22 18:29:10,499] {processor.py:171} INFO - Processing /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/plugins/workday.py took 0.023 seconds
+[2021-12-22 21:10:52,711] {processor.py:163} INFO - Started process (PID=46892) to work on /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/plugins/workday.py
+[2021-12-22 21:10:52,714] {processor.py:620} INFO - Processing file /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/plugins/workday.py for tasks to queue
+[2021-12-22 21:10:52,715] {logging_mixin.py:109} INFO - [2021-12-22 21:10:52,714] {dagbag.py:500} INFO - Filling up the DagBag from /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/plugins/workday.py
+[2021-12-22 21:10:52,720] {processor.py:634} WARNING - No viable dags retrieved from /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/plugins/workday.py
+[2021-12-22 21:10:52,721] {processor.py:171} INFO - Processing /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/plugins/workday.py took 0.011 seconds
+[2021-12-22 21:11:31,674] {processor.py:163} INFO - Started process (PID=46944) to work on /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/plugins/workday.py
+[2021-12-22 21:11:31,682] {processor.py:620} INFO - Processing file /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/plugins/workday.py for tasks to queue
+[2021-12-22 21:11:31,682] {logging_mixin.py:109} INFO - [2021-12-22 21:11:31,682] {dagbag.py:500} INFO - Filling up the DagBag from /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/plugins/workday.py
+[2021-12-22 21:11:31,688] {processor.py:634} WARNING - No viable dags retrieved from /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/plugins/workday.py
+[2021-12-22 21:11:31,689] {processor.py:171} INFO - Processing /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/plugins/workday.py took 0.016 seconds
+[2021-12-22 21:12:11,136] {processor.py:163} INFO - Started process (PID=46997) to work on /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/plugins/workday.py
+[2021-12-22 21:12:11,139] {processor.py:620} INFO - Processing file /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/plugins/workday.py for tasks to queue
+[2021-12-22 21:12:11,140] {logging_mixin.py:109} INFO - [2021-12-22 21:12:11,140] {dagbag.py:500} INFO - Filling up the DagBag from /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/plugins/workday.py
+[2021-12-22 21:12:11,148] {processor.py:634} WARNING - No viable dags retrieved from /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/plugins/workday.py
+[2021-12-22 21:12:11,150] {processor.py:171} INFO - Processing /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/plugins/workday.py took 0.017 seconds
+[2021-12-22 21:12:50,030] {processor.py:163} INFO - Started process (PID=47230) to work on /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/plugins/workday.py
+[2021-12-22 21:12:50,038] {processor.py:620} INFO - Processing file /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/plugins/workday.py for tasks to queue
+[2021-12-22 21:12:50,038] {logging_mixin.py:109} INFO - [2021-12-22 21:12:50,038] {dagbag.py:500} INFO - Filling up the DagBag from /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/plugins/workday.py
+[2021-12-22 21:12:50,044] {processor.py:634} WARNING - No viable dags retrieved from /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/plugins/workday.py
+[2021-12-22 21:12:50,045] {processor.py:171} INFO - Processing /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/plugins/workday.py took 0.016 seconds
+[2021-12-22 21:13:30,232] {processor.py:163} INFO - Started process (PID=47271) to work on /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/plugins/workday.py
+[2021-12-22 21:13:30,240] {processor.py:620} INFO - Processing file /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/plugins/workday.py for tasks to queue
+[2021-12-22 21:13:30,241] {logging_mixin.py:109} INFO - [2021-12-22 21:13:30,241] {dagbag.py:500} INFO - Filling up the DagBag from /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/plugins/workday.py
+[2021-12-22 21:13:30,255] {processor.py:634} WARNING - No viable dags retrieved from /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/plugins/workday.py
+[2021-12-22 21:13:30,257] {processor.py:171} INFO - Processing /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/plugins/workday.py took 0.029 seconds
+[2021-12-22 21:14:07,956] {processor.py:163} INFO - Started process (PID=47325) to work on /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/plugins/workday.py
+[2021-12-22 21:14:07,965] {processor.py:620} INFO - Processing file /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/plugins/workday.py for tasks to queue
+[2021-12-22 21:14:07,966] {logging_mixin.py:109} INFO - [2021-12-22 21:14:07,966] {dagbag.py:500} INFO - Filling up the DagBag from /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/plugins/workday.py
+[2021-12-22 21:14:07,973] {processor.py:634} WARNING - No viable dags retrieved from /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/plugins/workday.py
+[2021-12-22 21:14:07,974] {processor.py:171} INFO - Processing /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/plugins/workday.py took 0.020 seconds
+[2021-12-22 21:14:47,073] {processor.py:163} INFO - Started process (PID=47363) to work on /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/plugins/workday.py
+[2021-12-22 21:14:47,080] {processor.py:620} INFO - Processing file /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/plugins/workday.py for tasks to queue
+[2021-12-22 21:14:47,081] {logging_mixin.py:109} INFO - [2021-12-22 21:14:47,081] {dagbag.py:500} INFO - Filling up the DagBag from /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/plugins/workday.py
+[2021-12-22 21:14:47,087] {processor.py:634} WARNING - No viable dags retrieved from /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/plugins/workday.py
+[2021-12-22 21:14:47,087] {processor.py:171} INFO - Processing /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/plugins/workday.py took 0.016 seconds
+[2021-12-22 21:15:29,264] {processor.py:163} INFO - Started process (PID=47515) to work on /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/plugins/workday.py
+[2021-12-22 21:15:29,265] {processor.py:620} INFO - Processing file /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/plugins/workday.py for tasks to queue
+[2021-12-22 21:15:29,265] {logging_mixin.py:109} INFO - [2021-12-22 21:15:29,265] {dagbag.py:500} INFO - Filling up the DagBag from /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/plugins/workday.py
+[2021-12-22 21:15:29,270] {processor.py:634} WARNING - No viable dags retrieved from /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/plugins/workday.py
+[2021-12-22 21:15:29,271] {processor.py:171} INFO - Processing /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/plugins/workday.py took 0.008 seconds
+[2021-12-22 21:21:34,711] {processor.py:163} INFO - Started process (PID=49563) to work on /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/plugins/workday.py
+[2021-12-22 21:21:34,715] {processor.py:620} INFO - Processing file /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/plugins/workday.py for tasks to queue
+[2021-12-22 21:21:34,715] {logging_mixin.py:109} INFO - [2021-12-22 21:21:34,715] {dagbag.py:500} INFO - Filling up the DagBag from /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/plugins/workday.py
+[2021-12-22 21:21:34,720] {processor.py:634} WARNING - No viable dags retrieved from /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/plugins/workday.py
+[2021-12-22 21:21:34,721] {processor.py:171} INFO - Processing /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/plugins/workday.py took 0.011 seconds
+[2021-12-22 21:22:14,769] {processor.py:163} INFO - Started process (PID=49720) to work on /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/plugins/workday.py
+[2021-12-22 21:22:14,774] {processor.py:620} INFO - Processing file /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/plugins/workday.py for tasks to queue
+[2021-12-22 21:22:14,775] {logging_mixin.py:109} INFO - [2021-12-22 21:22:14,775] {dagbag.py:500} INFO - Filling up the DagBag from /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/plugins/workday.py
+[2021-12-22 21:22:14,796] {processor.py:634} WARNING - No viable dags retrieved from /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/plugins/workday.py
+[2021-12-22 21:22:14,799] {processor.py:171} INFO - Processing /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/plugins/workday.py took 0.036 seconds
+[2021-12-22 21:22:53,005] {processor.py:163} INFO - Started process (PID=49760) to work on /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/plugins/workday.py
+[2021-12-22 21:22:53,013] {processor.py:620} INFO - Processing file /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/plugins/workday.py for tasks to queue
+[2021-12-22 21:22:53,015] {logging_mixin.py:109} INFO - [2021-12-22 21:22:53,015] {dagbag.py:500} INFO - Filling up the DagBag from /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/plugins/workday.py
+[2021-12-22 21:22:53,022] {processor.py:634} WARNING - No viable dags retrieved from /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/plugins/workday.py
+[2021-12-22 21:22:53,023] {processor.py:171} INFO - Processing /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/plugins/workday.py took 0.020 seconds
+[2021-12-22 21:23:31,292] {processor.py:163} INFO - Started process (PID=49801) to work on /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/plugins/workday.py
+[2021-12-22 21:23:31,296] {processor.py:620} INFO - Processing file /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/plugins/workday.py for tasks to queue
+[2021-12-22 21:23:31,296] {logging_mixin.py:109} INFO - [2021-12-22 21:23:31,296] {dagbag.py:500} INFO - Filling up the DagBag from /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/plugins/workday.py
+[2021-12-22 21:23:31,301] {processor.py:634} WARNING - No viable dags retrieved from /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/plugins/workday.py
+[2021-12-22 21:23:31,302] {processor.py:171} INFO - Processing /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/plugins/workday.py took 0.011 seconds
+[2021-12-22 21:24:10,194] {processor.py:163} INFO - Started process (PID=49841) to work on /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/plugins/workday.py
+[2021-12-22 21:24:10,203] {processor.py:620} INFO - Processing file /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/plugins/workday.py for tasks to queue
+[2021-12-22 21:24:10,205] {logging_mixin.py:109} INFO - [2021-12-22 21:24:10,204] {dagbag.py:500} INFO - Filling up the DagBag from /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/plugins/workday.py
+[2021-12-22 21:24:10,211] {processor.py:634} WARNING - No viable dags retrieved from /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/plugins/workday.py
+[2021-12-22 21:24:10,212] {processor.py:171} INFO - Processing /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/plugins/workday.py took 0.020 seconds
+[2021-12-22 21:24:48,792] {processor.py:163} INFO - Started process (PID=49880) to work on /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/plugins/workday.py
+[2021-12-22 21:24:48,800] {processor.py:620} INFO - Processing file /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/plugins/workday.py for tasks to queue
+[2021-12-22 21:24:48,800] {logging_mixin.py:109} INFO - [2021-12-22 21:24:48,800] {dagbag.py:500} INFO - Filling up the DagBag from /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/plugins/workday.py
+[2021-12-22 21:24:48,805] {processor.py:634} WARNING - No viable dags retrieved from /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/plugins/workday.py
+[2021-12-22 21:24:48,806] {processor.py:171} INFO - Processing /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/plugins/workday.py took 0.016 seconds
+[2021-12-22 21:25:27,843] {processor.py:163} INFO - Started process (PID=49923) to work on /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/plugins/workday.py
+[2021-12-22 21:25:27,851] {processor.py:620} INFO - Processing file /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/plugins/workday.py for tasks to queue
+[2021-12-22 21:25:27,851] {logging_mixin.py:109} INFO - [2021-12-22 21:25:27,851] {dagbag.py:500} INFO - Filling up the DagBag from /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/plugins/workday.py
+[2021-12-22 21:25:27,857] {processor.py:634} WARNING - No viable dags retrieved from /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/plugins/workday.py
+[2021-12-22 21:25:27,858] {processor.py:171} INFO - Processing /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/plugins/workday.py took 0.016 seconds
+[2021-12-22 21:26:08,204] {processor.py:163} INFO - Started process (PID=49968) to work on /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/plugins/workday.py
+[2021-12-22 21:26:08,211] {processor.py:620} INFO - Processing file /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/plugins/workday.py for tasks to queue
+[2021-12-22 21:26:08,211] {logging_mixin.py:109} INFO - [2021-12-22 21:26:08,211] {dagbag.py:500} INFO - Filling up the DagBag from /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/plugins/workday.py
+[2021-12-22 21:26:08,217] {processor.py:634} WARNING - No viable dags retrieved from /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/plugins/workday.py
+[2021-12-22 21:26:08,218] {processor.py:171} INFO - Processing /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/plugins/workday.py took 0.016 seconds
+[2021-12-22 21:26:49,122] {processor.py:163} INFO - Started process (PID=50121) to work on /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/plugins/workday.py
+[2021-12-22 21:26:49,130] {processor.py:620} INFO - Processing file /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/plugins/workday.py for tasks to queue
+[2021-12-22 21:26:49,130] {logging_mixin.py:109} INFO - [2021-12-22 21:26:49,130] {dagbag.py:500} INFO - Filling up the DagBag from /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/plugins/workday.py
+[2021-12-22 21:26:49,136] {processor.py:634} WARNING - No viable dags retrieved from /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/plugins/workday.py
+[2021-12-22 21:26:49,137] {processor.py:171} INFO - Processing /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/plugins/workday.py took 0.017 seconds
+[2021-12-22 21:27:27,079] {processor.py:163} INFO - Started process (PID=50158) to work on /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/plugins/workday.py
+[2021-12-22 21:27:27,086] {processor.py:620} INFO - Processing file /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/plugins/workday.py for tasks to queue
+[2021-12-22 21:27:27,087] {logging_mixin.py:109} INFO - [2021-12-22 21:27:27,087] {dagbag.py:500} INFO - Filling up the DagBag from /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/plugins/workday.py
+[2021-12-22 21:27:27,092] {processor.py:634} WARNING - No viable dags retrieved from /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/plugins/workday.py
+[2021-12-22 21:27:27,093] {processor.py:171} INFO - Processing /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/plugins/workday.py took 0.016 seconds
+[2021-12-22 21:28:05,904] {processor.py:163} INFO - Started process (PID=50207) to work on /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/plugins/workday.py
+[2021-12-22 21:28:05,913] {processor.py:620} INFO - Processing file /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/plugins/workday.py for tasks to queue
+[2021-12-22 21:28:05,914] {logging_mixin.py:109} INFO - [2021-12-22 21:28:05,914] {dagbag.py:500} INFO - Filling up the DagBag from /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/plugins/workday.py
+[2021-12-22 21:28:05,934] {processor.py:634} WARNING - No viable dags retrieved from /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/plugins/workday.py
+[2021-12-22 21:28:05,937] {processor.py:171} INFO - Processing /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/plugins/workday.py took 0.040 seconds
+[2021-12-22 21:28:48,503] {processor.py:163} INFO - Started process (PID=50249) to work on /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/plugins/workday.py
+[2021-12-22 21:28:48,511] {processor.py:620} INFO - Processing file /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/plugins/workday.py for tasks to queue
+[2021-12-22 21:28:48,511] {logging_mixin.py:109} INFO - [2021-12-22 21:28:48,511] {dagbag.py:500} INFO - Filling up the DagBag from /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/plugins/workday.py
+[2021-12-22 21:28:48,516] {processor.py:634} WARNING - No viable dags retrieved from /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/plugins/workday.py
+[2021-12-22 21:28:48,517] {processor.py:171} INFO - Processing /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/plugins/workday.py took 0.015 seconds
+[2021-12-22 21:29:30,549] {processor.py:163} INFO - Started process (PID=50292) to work on /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/plugins/workday.py
+[2021-12-22 21:29:30,549] {processor.py:620} INFO - Processing file /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/plugins/workday.py for tasks to queue
+[2021-12-22 21:29:30,550] {logging_mixin.py:109} INFO - [2021-12-22 21:29:30,549] {dagbag.py:500} INFO - Filling up the DagBag from /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/plugins/workday.py
+[2021-12-22 21:29:30,555] {processor.py:634} WARNING - No viable dags retrieved from /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/plugins/workday.py
+[2021-12-22 21:29:30,556] {processor.py:171} INFO - Processing /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/plugins/workday.py took 0.008 seconds
+[2021-12-22 21:30:11,653] {processor.py:163} INFO - Started process (PID=50335) to work on /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/plugins/workday.py
+[2021-12-22 21:30:11,658] {processor.py:620} INFO - Processing file /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/plugins/workday.py for tasks to queue
+[2021-12-22 21:30:11,659] {logging_mixin.py:109} INFO - [2021-12-22 21:30:11,659] {dagbag.py:500} INFO - Filling up the DagBag from /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/plugins/workday.py
+[2021-12-22 21:30:11,679] {processor.py:634} WARNING - No viable dags retrieved from /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/plugins/workday.py
+[2021-12-22 21:30:11,682] {processor.py:171} INFO - Processing /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/plugins/workday.py took 0.035 seconds
+[2021-12-22 21:30:49,580] {processor.py:163} INFO - Started process (PID=50375) to work on /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/plugins/workday.py
+[2021-12-22 21:30:49,587] {processor.py:620} INFO - Processing file /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/plugins/workday.py for tasks to queue
+[2021-12-22 21:30:49,587] {logging_mixin.py:109} INFO - [2021-12-22 21:30:49,587] {dagbag.py:500} INFO - Filling up the DagBag from /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/plugins/workday.py
+[2021-12-22 21:30:49,593] {processor.py:634} WARNING - No viable dags retrieved from /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/plugins/workday.py
+[2021-12-22 21:30:49,595] {processor.py:171} INFO - Processing /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/plugins/workday.py took 0.017 seconds
+[2021-12-22 21:31:31,042] {processor.py:163} INFO - Started process (PID=50418) to work on /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/plugins/workday.py
+[2021-12-22 21:31:31,050] {processor.py:620} INFO - Processing file /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/plugins/workday.py for tasks to queue
+[2021-12-22 21:31:31,050] {logging_mixin.py:109} INFO - [2021-12-22 21:31:31,050] {dagbag.py:500} INFO - Filling up the DagBag from /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/plugins/workday.py
+[2021-12-22 21:31:31,056] {processor.py:634} WARNING - No viable dags retrieved from /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/plugins/workday.py
+[2021-12-22 21:31:31,058] {processor.py:171} INFO - Processing /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/plugins/workday.py took 0.017 seconds
+[2021-12-22 21:32:10,434] {processor.py:163} INFO - Started process (PID=50565) to work on /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/plugins/workday.py
+[2021-12-22 21:32:10,442] {processor.py:620} INFO - Processing file /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/plugins/workday.py for tasks to queue
+[2021-12-22 21:32:10,442] {logging_mixin.py:109} INFO - [2021-12-22 21:32:10,442] {dagbag.py:500} INFO - Filling up the DagBag from /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/plugins/workday.py
+[2021-12-22 21:32:10,448] {processor.py:634} WARNING - No viable dags retrieved from /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/plugins/workday.py
+[2021-12-22 21:32:10,449] {processor.py:171} INFO - Processing /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/plugins/workday.py took 0.016 seconds
+[2021-12-22 21:32:54,348] {processor.py:163} INFO - Started process (PID=50607) to work on /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/plugins/workday.py
+[2021-12-22 21:32:54,355] {processor.py:620} INFO - Processing file /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/plugins/workday.py for tasks to queue
+[2021-12-22 21:32:54,355] {logging_mixin.py:109} INFO - [2021-12-22 21:32:54,355] {dagbag.py:500} INFO - Filling up the DagBag from /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/plugins/workday.py
+[2021-12-22 21:32:54,361] {processor.py:634} WARNING - No viable dags retrieved from /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/plugins/workday.py
+[2021-12-22 21:32:54,362] {processor.py:171} INFO - Processing /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/plugins/workday.py took 0.016 seconds
+[2021-12-22 21:33:29,856] {processor.py:163} INFO - Started process (PID=50646) to work on /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/plugins/workday.py
+[2021-12-22 21:33:29,861] {processor.py:620} INFO - Processing file /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/plugins/workday.py for tasks to queue
+[2021-12-22 21:33:29,862] {logging_mixin.py:109} INFO - [2021-12-22 21:33:29,862] {dagbag.py:500} INFO - Filling up the DagBag from /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/plugins/workday.py
+[2021-12-22 21:33:29,882] {processor.py:634} WARNING - No viable dags retrieved from /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/plugins/workday.py
+[2021-12-22 21:33:29,885] {processor.py:171} INFO - Processing /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/plugins/workday.py took 0.035 seconds
+[2021-12-22 21:34:08,864] {processor.py:163} INFO - Started process (PID=50684) to work on /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/plugins/workday.py
+[2021-12-22 21:34:08,869] {processor.py:620} INFO - Processing file /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/plugins/workday.py for tasks to queue
+[2021-12-22 21:34:08,871] {logging_mixin.py:109} INFO - [2021-12-22 21:34:08,870] {dagbag.py:500} INFO - Filling up the DagBag from /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/plugins/workday.py
+[2021-12-22 21:34:08,889] {processor.py:634} WARNING - No viable dags retrieved from /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/plugins/workday.py
+[2021-12-22 21:34:08,891] {processor.py:171} INFO - Processing /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/plugins/workday.py took 0.033 seconds
+[2021-12-22 21:34:44,236] {processor.py:163} INFO - Started process (PID=50721) to work on /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/plugins/workday.py
+[2021-12-22 21:34:44,239] {processor.py:620} INFO - Processing file /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/plugins/workday.py for tasks to queue
+[2021-12-22 21:34:44,240] {logging_mixin.py:109} INFO - [2021-12-22 21:34:44,240] {dagbag.py:500} INFO - Filling up the DagBag from /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/plugins/workday.py
+[2021-12-22 21:34:44,245] {processor.py:634} WARNING - No viable dags retrieved from /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/plugins/workday.py
+[2021-12-22 21:34:44,246] {processor.py:171} INFO - Processing /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/plugins/workday.py took 0.011 seconds
+[2021-12-22 21:35:25,766] {processor.py:163} INFO - Started process (PID=50761) to work on /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/plugins/workday.py
+[2021-12-22 21:35:25,774] {processor.py:620} INFO - Processing file /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/plugins/workday.py for tasks to queue
+[2021-12-22 21:35:25,774] {logging_mixin.py:109} INFO - [2021-12-22 21:35:25,774] {dagbag.py:500} INFO - Filling up the DagBag from /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/plugins/workday.py
+[2021-12-22 21:35:25,779] {processor.py:634} WARNING - No viable dags retrieved from /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/plugins/workday.py
+[2021-12-22 21:35:25,781] {processor.py:171} INFO - Processing /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/plugins/workday.py took 0.016 seconds
+[2021-12-22 21:36:02,343] {processor.py:163} INFO - Started process (PID=50802) to work on /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/plugins/workday.py
+[2021-12-22 21:36:02,347] {processor.py:620} INFO - Processing file /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/plugins/workday.py for tasks to queue
+[2021-12-22 21:36:02,347] {logging_mixin.py:109} INFO - [2021-12-22 21:36:02,347] {dagbag.py:500} INFO - Filling up the DagBag from /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/plugins/workday.py
+[2021-12-22 21:36:02,357] {processor.py:634} WARNING - No viable dags retrieved from /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/plugins/workday.py
+[2021-12-22 21:36:02,363] {processor.py:171} INFO - Processing /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/plugins/workday.py took 0.022 seconds
+[2021-12-22 21:36:45,036] {processor.py:163} INFO - Started process (PID=50843) to work on /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/plugins/workday.py
+[2021-12-22 21:36:45,046] {processor.py:620} INFO - Processing file /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/plugins/workday.py for tasks to queue
+[2021-12-22 21:36:45,047] {logging_mixin.py:109} INFO - [2021-12-22 21:36:45,047] {dagbag.py:500} INFO - Filling up the DagBag from /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/plugins/workday.py
+[2021-12-22 21:36:45,068] {processor.py:634} WARNING - No viable dags retrieved from /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/plugins/workday.py
+[2021-12-22 21:36:45,071] {processor.py:171} INFO - Processing /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/plugins/workday.py took 0.041 seconds
+[2021-12-22 21:37:31,373] {processor.py:163} INFO - Started process (PID=51100) to work on /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/plugins/workday.py
+[2021-12-22 21:37:31,381] {processor.py:620} INFO - Processing file /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/plugins/workday.py for tasks to queue
+[2021-12-22 21:37:31,381] {logging_mixin.py:109} INFO - [2021-12-22 21:37:31,381] {dagbag.py:500} INFO - Filling up the DagBag from /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/plugins/workday.py
+[2021-12-22 21:37:31,386] {processor.py:634} WARNING - No viable dags retrieved from /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/plugins/workday.py
+[2021-12-22 21:37:31,387] {processor.py:171} INFO - Processing /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/plugins/workday.py took 0.016 seconds
+[2021-12-22 21:38:13,124] {processor.py:163} INFO - Started process (PID=51149) to work on /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/plugins/workday.py
+[2021-12-22 21:38:13,133] {processor.py:620} INFO - Processing file /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/plugins/workday.py for tasks to queue
+[2021-12-22 21:38:13,134] {logging_mixin.py:109} INFO - [2021-12-22 21:38:13,134] {dagbag.py:500} INFO - Filling up the DagBag from /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/plugins/workday.py
+[2021-12-22 21:38:13,155] {processor.py:634} WARNING - No viable dags retrieved from /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/plugins/workday.py
+[2021-12-22 21:38:13,160] {processor.py:171} INFO - Processing /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/plugins/workday.py took 0.037 seconds
+[2021-12-22 21:38:55,623] {processor.py:163} INFO - Started process (PID=51196) to work on /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/plugins/workday.py
+[2021-12-22 21:38:55,631] {processor.py:620} INFO - Processing file /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/plugins/workday.py for tasks to queue
+[2021-12-22 21:38:55,631] {logging_mixin.py:109} INFO - [2021-12-22 21:38:55,631] {dagbag.py:500} INFO - Filling up the DagBag from /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/plugins/workday.py
+[2021-12-22 21:38:55,636] {processor.py:634} WARNING - No viable dags retrieved from /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/plugins/workday.py
+[2021-12-22 21:38:55,637] {processor.py:171} INFO - Processing /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/plugins/workday.py took 0.015 seconds
+[2021-12-22 21:39:36,049] {processor.py:163} INFO - Started process (PID=51236) to work on /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/plugins/workday.py
+[2021-12-22 21:39:36,058] {processor.py:620} INFO - Processing file /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/plugins/workday.py for tasks to queue
+[2021-12-22 21:39:36,060] {logging_mixin.py:109} INFO - [2021-12-22 21:39:36,059] {dagbag.py:500} INFO - Filling up the DagBag from /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/plugins/workday.py
+[2021-12-22 21:39:36,082] {processor.py:634} WARNING - No viable dags retrieved from /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/plugins/workday.py
+[2021-12-22 21:39:36,084] {processor.py:171} INFO - Processing /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/plugins/workday.py took 0.042 seconds
+[2021-12-22 21:40:19,047] {processor.py:163} INFO - Started process (PID=51278) to work on /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/plugins/workday.py
+[2021-12-22 21:40:19,050] {processor.py:620} INFO - Processing file /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/plugins/workday.py for tasks to queue
+[2021-12-22 21:40:19,050] {logging_mixin.py:109} INFO - [2021-12-22 21:40:19,050] {dagbag.py:500} INFO - Filling up the DagBag from /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/plugins/workday.py
+[2021-12-22 21:40:19,054] {processor.py:634} WARNING - No viable dags retrieved from /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/plugins/workday.py
+[2021-12-22 21:40:19,055] {processor.py:171} INFO - Processing /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/plugins/workday.py took 0.010 seconds
+[2021-12-22 21:41:03,073] {processor.py:163} INFO - Started process (PID=51325) to work on /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/plugins/workday.py
+[2021-12-22 21:41:03,083] {processor.py:620} INFO - Processing file /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/plugins/workday.py for tasks to queue
+[2021-12-22 21:41:03,084] {logging_mixin.py:109} INFO - [2021-12-22 21:41:03,084] {dagbag.py:500} INFO - Filling up the DagBag from /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/plugins/workday.py
+[2021-12-22 21:41:03,106] {processor.py:634} WARNING - No viable dags retrieved from /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/plugins/workday.py
+[2021-12-22 21:41:03,109] {processor.py:171} INFO - Processing /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/plugins/workday.py took 0.042 seconds
+[2021-12-22 21:41:44,636] {processor.py:163} INFO - Started process (PID=51366) to work on /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/plugins/workday.py
+[2021-12-22 21:41:44,640] {processor.py:620} INFO - Processing file /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/plugins/workday.py for tasks to queue
+[2021-12-22 21:41:44,641] {logging_mixin.py:109} INFO - [2021-12-22 21:41:44,641] {dagbag.py:500} INFO - Filling up the DagBag from /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/plugins/workday.py
+[2021-12-22 21:41:44,653] {processor.py:634} WARNING - No viable dags retrieved from /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/plugins/workday.py
+[2021-12-22 21:41:44,656] {processor.py:171} INFO - Processing /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/plugins/workday.py took 0.023 seconds
+[2021-12-22 21:42:22,713] {processor.py:163} INFO - Started process (PID=51516) to work on /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/plugins/workday.py
+[2021-12-22 21:42:22,721] {processor.py:620} INFO - Processing file /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/plugins/workday.py for tasks to queue
+[2021-12-22 21:42:22,721] {logging_mixin.py:109} INFO - [2021-12-22 21:42:22,721] {dagbag.py:500} INFO - Filling up the DagBag from /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/plugins/workday.py
+[2021-12-22 21:42:22,727] {processor.py:634} WARNING - No viable dags retrieved from /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/plugins/workday.py
+[2021-12-22 21:42:22,728] {processor.py:171} INFO - Processing /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/plugins/workday.py took 0.017 seconds
+[2021-12-22 21:43:04,221] {processor.py:163} INFO - Started process (PID=51558) to work on /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/plugins/workday.py
+[2021-12-22 21:43:04,228] {processor.py:620} INFO - Processing file /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/plugins/workday.py for tasks to queue
+[2021-12-22 21:43:04,229] {logging_mixin.py:109} INFO - [2021-12-22 21:43:04,229] {dagbag.py:500} INFO - Filling up the DagBag from /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/plugins/workday.py
+[2021-12-22 21:43:04,235] {processor.py:634} WARNING - No viable dags retrieved from /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/plugins/workday.py
+[2021-12-22 21:43:04,236] {processor.py:171} INFO - Processing /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/plugins/workday.py took 0.017 seconds
+[2021-12-22 21:43:42,774] {processor.py:163} INFO - Started process (PID=51596) to work on /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/plugins/workday.py
+[2021-12-22 21:43:42,782] {processor.py:620} INFO - Processing file /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/plugins/workday.py for tasks to queue
+[2021-12-22 21:43:42,782] {logging_mixin.py:109} INFO - [2021-12-22 21:43:42,782] {dagbag.py:500} INFO - Filling up the DagBag from /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/plugins/workday.py
+[2021-12-22 21:43:42,787] {processor.py:634} WARNING - No viable dags retrieved from /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/plugins/workday.py
+[2021-12-22 21:43:42,789] {processor.py:171} INFO - Processing /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/plugins/workday.py took 0.016 seconds
+[2021-12-22 21:44:23,627] {processor.py:163} INFO - Started process (PID=51647) to work on /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/plugins/workday.py
+[2021-12-22 21:44:23,632] {processor.py:620} INFO - Processing file /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/plugins/workday.py for tasks to queue
+[2021-12-22 21:44:23,633] {logging_mixin.py:109} INFO - [2021-12-22 21:44:23,633] {dagbag.py:500} INFO - Filling up the DagBag from /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/plugins/workday.py
+[2021-12-22 21:44:23,654] {processor.py:634} WARNING - No viable dags retrieved from /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/plugins/workday.py
+[2021-12-22 21:44:23,657] {processor.py:171} INFO - Processing /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/plugins/workday.py took 0.037 seconds
+[2021-12-22 21:45:00,336] {processor.py:163} INFO - Started process (PID=51683) to work on /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/plugins/workday.py
+[2021-12-22 21:45:00,345] {processor.py:620} INFO - Processing file /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/plugins/workday.py for tasks to queue
+[2021-12-22 21:45:00,346] {logging_mixin.py:109} INFO - [2021-12-22 21:45:00,346] {dagbag.py:500} INFO - Filling up the DagBag from /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/plugins/workday.py
+[2021-12-22 21:45:00,352] {processor.py:634} WARNING - No viable dags retrieved from /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/plugins/workday.py
+[2021-12-22 21:45:00,353] {processor.py:171} INFO - Processing /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/plugins/workday.py took 0.019 seconds
+[2021-12-22 21:45:37,090] {processor.py:163} INFO - Started process (PID=51721) to work on /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/plugins/workday.py
+[2021-12-22 21:45:37,098] {processor.py:620} INFO - Processing file /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/plugins/workday.py for tasks to queue
+[2021-12-22 21:45:37,098] {logging_mixin.py:109} INFO - [2021-12-22 21:45:37,098] {dagbag.py:500} INFO - Filling up the DagBag from /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/plugins/workday.py
+[2021-12-22 21:45:37,104] {processor.py:634} WARNING - No viable dags retrieved from /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/plugins/workday.py
+[2021-12-22 21:45:37,106] {processor.py:171} INFO - Processing /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/plugins/workday.py took 0.017 seconds
+[2021-12-22 21:46:19,917] {processor.py:163} INFO - Started process (PID=51763) to work on /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/plugins/workday.py
+[2021-12-22 21:46:19,924] {processor.py:620} INFO - Processing file /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/plugins/workday.py for tasks to queue
+[2021-12-22 21:46:19,925] {logging_mixin.py:109} INFO - [2021-12-22 21:46:19,924] {dagbag.py:500} INFO - Filling up the DagBag from /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/plugins/workday.py
+[2021-12-22 21:46:19,931] {processor.py:634} WARNING - No viable dags retrieved from /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/plugins/workday.py
+[2021-12-22 21:46:19,932] {processor.py:171} INFO - Processing /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/plugins/workday.py took 0.017 seconds
+[2021-12-22 21:47:04,576] {processor.py:163} INFO - Started process (PID=51916) to work on /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/plugins/workday.py
+[2021-12-22 21:47:04,586] {processor.py:620} INFO - Processing file /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/plugins/workday.py for tasks to queue
+[2021-12-22 21:47:04,587] {logging_mixin.py:109} INFO - [2021-12-22 21:47:04,587] {dagbag.py:500} INFO - Filling up the DagBag from /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/plugins/workday.py
+[2021-12-22 21:47:04,594] {processor.py:634} WARNING - No viable dags retrieved from /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/plugins/workday.py
+[2021-12-22 21:47:04,595] {processor.py:171} INFO - Processing /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/plugins/workday.py took 0.020 seconds
+[2021-12-22 21:47:43,556] {processor.py:163} INFO - Started process (PID=51954) to work on /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/plugins/workday.py
+[2021-12-22 21:47:43,559] {processor.py:620} INFO - Processing file /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/plugins/workday.py for tasks to queue
+[2021-12-22 21:47:43,559] {logging_mixin.py:109} INFO - [2021-12-22 21:47:43,559] {dagbag.py:500} INFO - Filling up the DagBag from /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/plugins/workday.py
+[2021-12-22 21:47:43,565] {processor.py:634} WARNING - No viable dags retrieved from /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/plugins/workday.py
+[2021-12-22 21:47:43,566] {processor.py:171} INFO - Processing /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/plugins/workday.py took 0.012 seconds
+[2021-12-22 21:48:26,021] {processor.py:163} INFO - Started process (PID=52001) to work on /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/plugins/workday.py
+[2021-12-22 21:48:26,029] {processor.py:620} INFO - Processing file /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/plugins/workday.py for tasks to queue
+[2021-12-22 21:48:26,029] {logging_mixin.py:109} INFO - [2021-12-22 21:48:26,029] {dagbag.py:500} INFO - Filling up the DagBag from /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/plugins/workday.py
+[2021-12-22 21:48:26,036] {processor.py:634} WARNING - No viable dags retrieved from /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/plugins/workday.py
+[2021-12-22 21:48:26,037] {processor.py:171} INFO - Processing /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/plugins/workday.py took 0.018 seconds
+[2021-12-22 21:49:09,364] {processor.py:163} INFO - Started process (PID=52044) to work on /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/plugins/workday.py
+[2021-12-22 21:49:09,373] {processor.py:620} INFO - Processing file /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/plugins/workday.py for tasks to queue
+[2021-12-22 21:49:09,375] {logging_mixin.py:109} INFO - [2021-12-22 21:49:09,374] {dagbag.py:500} INFO - Filling up the DagBag from /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/plugins/workday.py
+[2021-12-22 21:49:09,381] {processor.py:634} WARNING - No viable dags retrieved from /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/plugins/workday.py
+[2021-12-22 21:49:09,382] {processor.py:171} INFO - Processing /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/plugins/workday.py took 0.020 seconds
+[2021-12-22 21:49:53,027] {processor.py:163} INFO - Started process (PID=52087) to work on /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/plugins/workday.py
+[2021-12-22 21:49:53,031] {processor.py:620} INFO - Processing file /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/plugins/workday.py for tasks to queue
+[2021-12-22 21:49:53,031] {logging_mixin.py:109} INFO - [2021-12-22 21:49:53,031] {dagbag.py:500} INFO - Filling up the DagBag from /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/plugins/workday.py
+[2021-12-22 21:49:53,036] {processor.py:634} WARNING - No viable dags retrieved from /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/plugins/workday.py
+[2021-12-22 21:49:53,037] {processor.py:171} INFO - Processing /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/plugins/workday.py took 0.011 seconds
+[2021-12-22 21:50:31,043] {processor.py:163} INFO - Started process (PID=52125) to work on /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/plugins/workday.py
+[2021-12-22 21:50:31,052] {processor.py:620} INFO - Processing file /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/plugins/workday.py for tasks to queue
+[2021-12-22 21:50:31,054] {logging_mixin.py:109} INFO - [2021-12-22 21:50:31,053] {dagbag.py:500} INFO - Filling up the DagBag from /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/plugins/workday.py
+[2021-12-22 21:50:31,077] {processor.py:634} WARNING - No viable dags retrieved from /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/plugins/workday.py
+[2021-12-22 21:50:31,081] {processor.py:171} INFO - Processing /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/plugins/workday.py took 0.039 seconds
+[2021-12-22 21:51:11,486] {processor.py:163} INFO - Started process (PID=52165) to work on /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/plugins/workday.py
+[2021-12-22 21:51:11,486] {processor.py:620} INFO - Processing file /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/plugins/workday.py for tasks to queue
+[2021-12-22 21:51:11,487] {logging_mixin.py:109} INFO - [2021-12-22 21:51:11,487] {dagbag.py:500} INFO - Filling up the DagBag from /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/plugins/workday.py
+[2021-12-22 21:51:11,496] {processor.py:634} WARNING - No viable dags retrieved from /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/plugins/workday.py
+[2021-12-22 21:51:11,497] {processor.py:171} INFO - Processing /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/plugins/workday.py took 0.014 seconds
+[2021-12-22 21:51:50,124] {processor.py:163} INFO - Started process (PID=52205) to work on /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/plugins/workday.py
+[2021-12-22 21:51:50,133] {processor.py:620} INFO - Processing file /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/plugins/workday.py for tasks to queue
+[2021-12-22 21:51:50,134] {logging_mixin.py:109} INFO - [2021-12-22 21:51:50,134] {dagbag.py:500} INFO - Filling up the DagBag from /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/plugins/workday.py
+[2021-12-22 21:51:50,157] {processor.py:634} WARNING - No viable dags retrieved from /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/plugins/workday.py
+[2021-12-22 21:51:50,161] {processor.py:171} INFO - Processing /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/plugins/workday.py took 0.039 seconds
+[2021-12-22 21:52:32,566] {processor.py:163} INFO - Started process (PID=52466) to work on /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/plugins/workday.py
+[2021-12-22 21:52:32,569] {processor.py:620} INFO - Processing file /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/plugins/workday.py for tasks to queue
+[2021-12-22 21:52:32,569] {logging_mixin.py:109} INFO - [2021-12-22 21:52:32,569] {dagbag.py:500} INFO - Filling up the DagBag from /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/plugins/workday.py
+[2021-12-22 21:52:32,577] {processor.py:634} WARNING - No viable dags retrieved from /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/plugins/workday.py
+[2021-12-22 21:52:32,579] {processor.py:171} INFO - Processing /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/plugins/workday.py took 0.015 seconds
+[2021-12-22 21:53:12,920] {processor.py:163} INFO - Started process (PID=52540) to work on /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/plugins/workday.py
+[2021-12-22 21:53:12,928] {processor.py:620} INFO - Processing file /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/plugins/workday.py for tasks to queue
+[2021-12-22 21:53:12,928] {logging_mixin.py:109} INFO - [2021-12-22 21:53:12,928] {dagbag.py:500} INFO - Filling up the DagBag from /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/plugins/workday.py
+[2021-12-22 21:53:12,934] {processor.py:634} WARNING - No viable dags retrieved from /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/plugins/workday.py
+[2021-12-22 21:53:12,935] {processor.py:171} INFO - Processing /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/plugins/workday.py took 0.016 seconds
+[2021-12-22 21:55:14,029] {processor.py:163} INFO - Started process (PID=52996) to work on /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/plugins/workday.py
+[2021-12-22 21:55:14,037] {processor.py:620} INFO - Processing file /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/plugins/workday.py for tasks to queue
+[2021-12-22 21:55:14,037] {logging_mixin.py:109} INFO - [2021-12-22 21:55:14,037] {dagbag.py:500} INFO - Filling up the DagBag from /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/plugins/workday.py
+[2021-12-22 21:55:14,043] {processor.py:634} WARNING - No viable dags retrieved from /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/plugins/workday.py
+[2021-12-22 21:55:14,044] {processor.py:171} INFO - Processing /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/plugins/workday.py took 0.016 seconds
+[2021-12-22 21:55:52,764] {processor.py:163} INFO - Started process (PID=53036) to work on /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/plugins/workday.py
+[2021-12-22 21:55:52,771] {processor.py:620} INFO - Processing file /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/plugins/workday.py for tasks to queue
+[2021-12-22 21:55:52,772] {logging_mixin.py:109} INFO - [2021-12-22 21:55:52,772] {dagbag.py:500} INFO - Filling up the DagBag from /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/plugins/workday.py
+[2021-12-22 21:55:52,777] {processor.py:634} WARNING - No viable dags retrieved from /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/plugins/workday.py
+[2021-12-22 21:55:52,778] {processor.py:171} INFO - Processing /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/plugins/workday.py took 0.016 seconds
+[2021-12-22 21:56:32,005] {processor.py:163} INFO - Started process (PID=53082) to work on /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/plugins/workday.py
+[2021-12-22 21:56:32,012] {processor.py:620} INFO - Processing file /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/plugins/workday.py for tasks to queue
+[2021-12-22 21:56:32,012] {logging_mixin.py:109} INFO - [2021-12-22 21:56:32,012] {dagbag.py:500} INFO - Filling up the DagBag from /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/plugins/workday.py
+[2021-12-22 21:56:32,018] {processor.py:634} WARNING - No viable dags retrieved from /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/plugins/workday.py
+[2021-12-22 21:56:32,019] {processor.py:171} INFO - Processing /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/plugins/workday.py took 0.016 seconds
+[2021-12-22 21:57:10,165] {processor.py:163} INFO - Started process (PID=53122) to work on /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/plugins/workday.py
+[2021-12-22 21:57:10,173] {processor.py:620} INFO - Processing file /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/plugins/workday.py for tasks to queue
+[2021-12-22 21:57:10,173] {logging_mixin.py:109} INFO - [2021-12-22 21:57:10,173] {dagbag.py:500} INFO - Filling up the DagBag from /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/plugins/workday.py
+[2021-12-22 21:57:10,180] {processor.py:634} WARNING - No viable dags retrieved from /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/plugins/workday.py
+[2021-12-22 21:57:10,181] {processor.py:171} INFO - Processing /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/plugins/workday.py took 0.018 seconds
+[2021-12-22 21:57:49,308] {processor.py:163} INFO - Started process (PID=53162) to work on /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/plugins/workday.py
+[2021-12-22 21:57:49,315] {processor.py:620} INFO - Processing file /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/plugins/workday.py for tasks to queue
+[2021-12-22 21:57:49,316] {logging_mixin.py:109} INFO - [2021-12-22 21:57:49,315] {dagbag.py:500} INFO - Filling up the DagBag from /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/plugins/workday.py
+[2021-12-22 21:57:49,322] {processor.py:634} WARNING - No viable dags retrieved from /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/plugins/workday.py
+[2021-12-22 21:57:49,323] {processor.py:171} INFO - Processing /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/plugins/workday.py took 0.017 seconds
+[2021-12-22 21:58:26,989] {processor.py:163} INFO - Started process (PID=53207) to work on /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/plugins/workday.py
+[2021-12-22 21:58:26,994] {processor.py:620} INFO - Processing file /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/plugins/workday.py for tasks to queue
+[2021-12-22 21:58:26,995] {logging_mixin.py:109} INFO - [2021-12-22 21:58:26,995] {dagbag.py:500} INFO - Filling up the DagBag from /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/plugins/workday.py
+[2021-12-22 21:58:27,014] {processor.py:634} WARNING - No viable dags retrieved from /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/plugins/workday.py
+[2021-12-22 21:58:27,017] {processor.py:171} INFO - Processing /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/plugins/workday.py took 0.035 seconds
+[2021-12-22 21:59:10,519] {processor.py:163} INFO - Started process (PID=53260) to work on /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/plugins/workday.py
+[2021-12-22 21:59:10,528] {processor.py:620} INFO - Processing file /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/plugins/workday.py for tasks to queue
+[2021-12-22 21:59:10,530] {logging_mixin.py:109} INFO - [2021-12-22 21:59:10,529] {dagbag.py:500} INFO - Filling up the DagBag from /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/plugins/workday.py
+[2021-12-22 21:59:10,553] {processor.py:634} WARNING - No viable dags retrieved from /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/plugins/workday.py
+[2021-12-22 21:59:10,555] {processor.py:171} INFO - Processing /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/plugins/workday.py took 0.040 seconds
+[2021-12-22 21:59:54,970] {processor.py:163} INFO - Started process (PID=53562) to work on /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/plugins/workday.py
+[2021-12-22 21:59:54,978] {processor.py:620} INFO - Processing file /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/plugins/workday.py for tasks to queue
+[2021-12-22 21:59:54,979] {logging_mixin.py:109} INFO - [2021-12-22 21:59:54,979] {dagbag.py:500} INFO - Filling up the DagBag from /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/plugins/workday.py
+[2021-12-22 21:59:54,987] {processor.py:634} WARNING - No viable dags retrieved from /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/plugins/workday.py
+[2021-12-22 21:59:54,989] {processor.py:171} INFO - Processing /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/plugins/workday.py took 0.022 seconds
+[2021-12-22 22:00:33,752] {processor.py:163} INFO - Started process (PID=53648) to work on /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/plugins/workday.py
+[2021-12-22 22:00:33,760] {processor.py:620} INFO - Processing file /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/plugins/workday.py for tasks to queue
+[2021-12-22 22:00:33,760] {logging_mixin.py:109} INFO - [2021-12-22 22:00:33,760] {dagbag.py:500} INFO - Filling up the DagBag from /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/plugins/workday.py
+[2021-12-22 22:00:33,766] {processor.py:634} WARNING - No viable dags retrieved from /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/plugins/workday.py
+[2021-12-22 22:00:33,767] {processor.py:171} INFO - Processing /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/plugins/workday.py took 0.016 seconds
+[2021-12-22 22:01:17,101] {processor.py:163} INFO - Started process (PID=53693) to work on /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/plugins/workday.py
+[2021-12-22 22:01:17,110] {processor.py:620} INFO - Processing file /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/plugins/workday.py for tasks to queue
+[2021-12-22 22:01:17,112] {logging_mixin.py:109} INFO - [2021-12-22 22:01:17,111] {dagbag.py:500} INFO - Filling up the DagBag from /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/plugins/workday.py
+[2021-12-22 22:01:17,135] {processor.py:634} WARNING - No viable dags retrieved from /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/plugins/workday.py
+[2021-12-22 22:01:17,139] {processor.py:171} INFO - Processing /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/plugins/workday.py took 0.039 seconds
+[2021-12-22 22:01:59,741] {processor.py:163} INFO - Started process (PID=53737) to work on /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/plugins/workday.py
+[2021-12-22 22:01:59,746] {processor.py:620} INFO - Processing file /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/plugins/workday.py for tasks to queue
+[2021-12-22 22:01:59,747] {logging_mixin.py:109} INFO - [2021-12-22 22:01:59,747] {dagbag.py:500} INFO - Filling up the DagBag from /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/plugins/workday.py
+[2021-12-22 22:01:59,755] {processor.py:634} WARNING - No viable dags retrieved from /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/plugins/workday.py
+[2021-12-22 22:01:59,756] {processor.py:171} INFO - Processing /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/plugins/workday.py took 0.016 seconds
+[2021-12-22 22:02:45,352] {processor.py:163} INFO - Started process (PID=53783) to work on /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/plugins/workday.py
+[2021-12-22 22:02:45,360] {processor.py:620} INFO - Processing file /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/plugins/workday.py for tasks to queue
+[2021-12-22 22:02:45,360] {logging_mixin.py:109} INFO - [2021-12-22 22:02:45,360] {dagbag.py:500} INFO - Filling up the DagBag from /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/plugins/workday.py
+[2021-12-22 22:02:45,365] {processor.py:634} WARNING - No viable dags retrieved from /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/plugins/workday.py
+[2021-12-22 22:02:45,366] {processor.py:171} INFO - Processing /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/plugins/workday.py took 0.015 seconds
+[2021-12-22 22:03:28,317] {processor.py:163} INFO - Started process (PID=53829) to work on /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/plugins/workday.py
+[2021-12-22 22:03:28,326] {processor.py:620} INFO - Processing file /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/plugins/workday.py for tasks to queue
+[2021-12-22 22:03:28,328] {logging_mixin.py:109} INFO - [2021-12-22 22:03:28,328] {dagbag.py:500} INFO - Filling up the DagBag from /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/plugins/workday.py
+[2021-12-22 22:03:28,348] {processor.py:634} WARNING - No viable dags retrieved from /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/plugins/workday.py
+[2021-12-22 22:03:28,351] {processor.py:171} INFO - Processing /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/plugins/workday.py took 0.040 seconds
+[2021-12-22 22:04:08,295] {processor.py:163} INFO - Started process (PID=53870) to work on /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/plugins/workday.py
+[2021-12-22 22:04:08,302] {processor.py:620} INFO - Processing file /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/plugins/workday.py for tasks to queue
+[2021-12-22 22:04:08,303] {logging_mixin.py:109} INFO - [2021-12-22 22:04:08,302] {dagbag.py:500} INFO - Filling up the DagBag from /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/plugins/workday.py
+[2021-12-22 22:04:08,309] {processor.py:634} WARNING - No viable dags retrieved from /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/plugins/workday.py
+[2021-12-22 22:04:08,310] {processor.py:171} INFO - Processing /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/plugins/workday.py took 0.016 seconds
+[2021-12-22 22:04:55,880] {processor.py:163} INFO - Started process (PID=54039) to work on /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/plugins/workday.py
+[2021-12-22 22:04:55,880] {processor.py:620} INFO - Processing file /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/plugins/workday.py for tasks to queue
+[2021-12-22 22:04:55,881] {logging_mixin.py:109} INFO - [2021-12-22 22:04:55,881] {dagbag.py:500} INFO - Filling up the DagBag from /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/plugins/workday.py
+[2021-12-22 22:04:55,885] {processor.py:634} WARNING - No viable dags retrieved from /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/plugins/workday.py
+[2021-12-22 22:04:55,886] {processor.py:171} INFO - Processing /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/plugins/workday.py took 0.008 seconds
+[2021-12-22 22:06:46,199] {processor.py:163} INFO - Started process (PID=54440) to work on /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/plugins/workday.py
+[2021-12-22 22:06:46,207] {processor.py:620} INFO - Processing file /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/plugins/workday.py for tasks to queue
+[2021-12-22 22:06:46,207] {logging_mixin.py:109} INFO - [2021-12-22 22:06:46,207] {dagbag.py:500} INFO - Filling up the DagBag from /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/plugins/workday.py
+[2021-12-22 22:06:46,213] {processor.py:634} WARNING - No viable dags retrieved from /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/plugins/workday.py
+[2021-12-22 22:06:46,214] {processor.py:171} INFO - Processing /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/plugins/workday.py took 0.016 seconds
+[2021-12-22 22:07:24,742] {processor.py:163} INFO - Started process (PID=54479) to work on /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/plugins/workday.py
+[2021-12-22 22:07:24,749] {processor.py:620} INFO - Processing file /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/plugins/workday.py for tasks to queue
+[2021-12-22 22:07:24,749] {logging_mixin.py:109} INFO - [2021-12-22 22:07:24,749] {dagbag.py:500} INFO - Filling up the DagBag from /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/plugins/workday.py
+[2021-12-22 22:07:24,754] {processor.py:634} WARNING - No viable dags retrieved from /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/plugins/workday.py
+[2021-12-22 22:07:24,755] {processor.py:171} INFO - Processing /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/plugins/workday.py took 0.015 seconds
+[2021-12-22 22:08:02,977] {processor.py:163} INFO - Started process (PID=54518) to work on /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/plugins/workday.py
+[2021-12-22 22:08:02,982] {processor.py:620} INFO - Processing file /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/plugins/workday.py for tasks to queue
+[2021-12-22 22:08:02,983] {logging_mixin.py:109} INFO - [2021-12-22 22:08:02,983] {dagbag.py:500} INFO - Filling up the DagBag from /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/plugins/workday.py
+[2021-12-22 22:08:03,006] {processor.py:634} WARNING - No viable dags retrieved from /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/plugins/workday.py
+[2021-12-22 22:08:03,010] {processor.py:171} INFO - Processing /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/plugins/workday.py took 0.034 seconds
+[2021-12-22 22:08:41,813] {processor.py:163} INFO - Started process (PID=54561) to work on /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/plugins/workday.py
+[2021-12-22 22:08:41,821] {processor.py:620} INFO - Processing file /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/plugins/workday.py for tasks to queue
+[2021-12-22 22:08:41,821] {logging_mixin.py:109} INFO - [2021-12-22 22:08:41,821] {dagbag.py:500} INFO - Filling up the DagBag from /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/plugins/workday.py
+[2021-12-22 22:08:41,827] {processor.py:634} WARNING - No viable dags retrieved from /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/plugins/workday.py
+[2021-12-22 22:08:41,829] {processor.py:171} INFO - Processing /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/plugins/workday.py took 0.017 seconds
+[2021-12-22 22:09:20,124] {processor.py:163} INFO - Started process (PID=54608) to work on /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/plugins/workday.py
+[2021-12-22 22:09:20,131] {processor.py:620} INFO - Processing file /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/plugins/workday.py for tasks to queue
+[2021-12-22 22:09:20,131] {logging_mixin.py:109} INFO - [2021-12-22 22:09:20,131] {dagbag.py:500} INFO - Filling up the DagBag from /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/plugins/workday.py
+[2021-12-22 22:09:20,137] {processor.py:634} WARNING - No viable dags retrieved from /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/plugins/workday.py
+[2021-12-22 22:09:20,138] {processor.py:171} INFO - Processing /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/plugins/workday.py took 0.016 seconds
+[2021-12-22 22:10:00,513] {processor.py:163} INFO - Started process (PID=54652) to work on /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/plugins/workday.py
+[2021-12-22 22:10:00,521] {processor.py:620} INFO - Processing file /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/plugins/workday.py for tasks to queue
+[2021-12-22 22:10:00,521] {logging_mixin.py:109} INFO - [2021-12-22 22:10:00,521] {dagbag.py:500} INFO - Filling up the DagBag from /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/plugins/workday.py
+[2021-12-22 22:10:00,527] {processor.py:634} WARNING - No viable dags retrieved from /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/plugins/workday.py
+[2021-12-22 22:10:00,528] {processor.py:171} INFO - Processing /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/plugins/workday.py took 0.016 seconds
+[2021-12-22 22:10:38,277] {processor.py:163} INFO - Started process (PID=54698) to work on /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/plugins/workday.py
+[2021-12-22 22:10:38,278] {processor.py:620} INFO - Processing file /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/plugins/workday.py for tasks to queue
+[2021-12-22 22:10:38,278] {logging_mixin.py:109} INFO - [2021-12-22 22:10:38,278] {dagbag.py:500} INFO - Filling up the DagBag from /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/plugins/workday.py
+[2021-12-22 22:10:38,284] {processor.py:634} WARNING - No viable dags retrieved from /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/plugins/workday.py
+[2021-12-22 22:10:38,285] {processor.py:171} INFO - Processing /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/plugins/workday.py took 0.010 seconds
+[2021-12-22 22:11:20,973] {processor.py:163} INFO - Started process (PID=54739) to work on /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/plugins/workday.py
+[2021-12-22 22:11:20,981] {processor.py:620} INFO - Processing file /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/plugins/workday.py for tasks to queue
+[2021-12-22 22:11:20,981] {logging_mixin.py:109} INFO - [2021-12-22 22:11:20,981] {dagbag.py:500} INFO - Filling up the DagBag from /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/plugins/workday.py
+[2021-12-22 22:11:20,988] {processor.py:634} WARNING - No viable dags retrieved from /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/plugins/workday.py
+[2021-12-22 22:11:20,989] {processor.py:171} INFO - Processing /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/plugins/workday.py took 0.017 seconds
+[2021-12-22 22:12:04,176] {processor.py:163} INFO - Started process (PID=54885) to work on /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/plugins/workday.py
+[2021-12-22 22:12:04,184] {processor.py:620} INFO - Processing file /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/plugins/workday.py for tasks to queue
+[2021-12-22 22:12:04,185] {logging_mixin.py:109} INFO - [2021-12-22 22:12:04,184] {dagbag.py:500} INFO - Filling up the DagBag from /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/plugins/workday.py
+[2021-12-22 22:12:04,190] {processor.py:634} WARNING - No viable dags retrieved from /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/plugins/workday.py
+[2021-12-22 22:12:04,191] {processor.py:171} INFO - Processing /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/plugins/workday.py took 0.016 seconds
+[2021-12-22 22:12:45,897] {processor.py:163} INFO - Started process (PID=54928) to work on /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/plugins/workday.py
+[2021-12-22 22:12:45,905] {processor.py:620} INFO - Processing file /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/plugins/workday.py for tasks to queue
+[2021-12-22 22:12:45,905] {logging_mixin.py:109} INFO - [2021-12-22 22:12:45,905] {dagbag.py:500} INFO - Filling up the DagBag from /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/plugins/workday.py
+[2021-12-22 22:12:45,911] {processor.py:634} WARNING - No viable dags retrieved from /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/plugins/workday.py
+[2021-12-22 22:12:45,913] {processor.py:171} INFO - Processing /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/plugins/workday.py took 0.016 seconds
+[2021-12-22 22:13:26,482] {processor.py:163} INFO - Started process (PID=54973) to work on /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/plugins/workday.py
+[2021-12-22 22:13:26,486] {processor.py:620} INFO - Processing file /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/plugins/workday.py for tasks to queue
+[2021-12-22 22:13:26,488] {logging_mixin.py:109} INFO - [2021-12-22 22:13:26,487] {dagbag.py:500} INFO - Filling up the DagBag from /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/plugins/workday.py
+[2021-12-22 22:13:26,507] {processor.py:634} WARNING - No viable dags retrieved from /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/plugins/workday.py
+[2021-12-22 22:13:26,510] {processor.py:171} INFO - Processing /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/plugins/workday.py took 0.034 seconds
+[2021-12-22 22:14:07,908] {processor.py:163} INFO - Started process (PID=55023) to work on /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/plugins/workday.py
+[2021-12-22 22:14:07,913] {processor.py:620} INFO - Processing file /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/plugins/workday.py for tasks to queue
+[2021-12-22 22:14:07,914] {logging_mixin.py:109} INFO - [2021-12-22 22:14:07,914] {dagbag.py:500} INFO - Filling up the DagBag from /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/plugins/workday.py
+[2021-12-22 22:14:07,921] {processor.py:634} WARNING - No viable dags retrieved from /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/plugins/workday.py
+[2021-12-22 22:14:07,922] {processor.py:171} INFO - Processing /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/plugins/workday.py took 0.016 seconds
+[2021-12-22 22:14:50,777] {processor.py:163} INFO - Started process (PID=55070) to work on /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/plugins/workday.py
+[2021-12-22 22:14:50,785] {processor.py:620} INFO - Processing file /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/plugins/workday.py for tasks to queue
+[2021-12-22 22:14:50,785] {logging_mixin.py:109} INFO - [2021-12-22 22:14:50,785] {dagbag.py:500} INFO - Filling up the DagBag from /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/plugins/workday.py
+[2021-12-22 22:14:50,791] {processor.py:634} WARNING - No viable dags retrieved from /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/plugins/workday.py
+[2021-12-22 22:14:50,792] {processor.py:171} INFO - Processing /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/plugins/workday.py took 0.016 seconds
+[2021-12-22 22:15:32,621] {processor.py:163} INFO - Started process (PID=55110) to work on /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/plugins/workday.py
+[2021-12-22 22:15:32,629] {processor.py:620} INFO - Processing file /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/plugins/workday.py for tasks to queue
+[2021-12-22 22:15:32,629] {logging_mixin.py:109} INFO - [2021-12-22 22:15:32,629] {dagbag.py:500} INFO - Filling up the DagBag from /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/plugins/workday.py
+[2021-12-22 22:15:32,635] {processor.py:634} WARNING - No viable dags retrieved from /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/plugins/workday.py
+[2021-12-22 22:15:32,637] {processor.py:171} INFO - Processing /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/plugins/workday.py took 0.017 seconds
+[2021-12-22 22:16:14,169] {processor.py:163} INFO - Started process (PID=55159) to work on /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/plugins/workday.py
+[2021-12-22 22:16:14,179] {processor.py:620} INFO - Processing file /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/plugins/workday.py for tasks to queue
+[2021-12-22 22:16:14,180] {logging_mixin.py:109} INFO - [2021-12-22 22:16:14,180] {dagbag.py:500} INFO - Filling up the DagBag from /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/plugins/workday.py
+[2021-12-22 22:16:14,205] {processor.py:634} WARNING - No viable dags retrieved from /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/plugins/workday.py
+[2021-12-22 22:16:14,208] {processor.py:171} INFO - Processing /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/plugins/workday.py took 0.040 seconds
+[2021-12-22 22:16:51,140] {processor.py:163} INFO - Started process (PID=55305) to work on /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/plugins/workday.py
+[2021-12-22 22:16:51,149] {processor.py:620} INFO - Processing file /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/plugins/workday.py for tasks to queue
+[2021-12-22 22:16:51,150] {logging_mixin.py:109} INFO - [2021-12-22 22:16:51,150] {dagbag.py:500} INFO - Filling up the DagBag from /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/plugins/workday.py
+[2021-12-22 22:16:51,157] {processor.py:634} WARNING - No viable dags retrieved from /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/plugins/workday.py
+[2021-12-22 22:16:51,158] {processor.py:171} INFO - Processing /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/plugins/workday.py took 0.019 seconds
+[2021-12-22 22:17:31,577] {processor.py:163} INFO - Started process (PID=55347) to work on /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/plugins/workday.py
+[2021-12-22 22:17:31,584] {processor.py:620} INFO - Processing file /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/plugins/workday.py for tasks to queue
+[2021-12-22 22:17:31,585] {logging_mixin.py:109} INFO - [2021-12-22 22:17:31,585] {dagbag.py:500} INFO - Filling up the DagBag from /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/plugins/workday.py
+[2021-12-22 22:17:31,590] {processor.py:634} WARNING - No viable dags retrieved from /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/plugins/workday.py
+[2021-12-22 22:17:31,591] {processor.py:171} INFO - Processing /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/plugins/workday.py took 0.016 seconds
+[2021-12-22 22:18:10,309] {processor.py:163} INFO - Started process (PID=55392) to work on /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/plugins/workday.py
+[2021-12-22 22:18:10,318] {processor.py:620} INFO - Processing file /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/plugins/workday.py for tasks to queue
+[2021-12-22 22:18:10,319] {logging_mixin.py:109} INFO - [2021-12-22 22:18:10,319] {dagbag.py:500} INFO - Filling up the DagBag from /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/plugins/workday.py
+[2021-12-22 22:18:10,339] {processor.py:634} WARNING - No viable dags retrieved from /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/plugins/workday.py
+[2021-12-22 22:18:10,342] {processor.py:171} INFO - Processing /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/plugins/workday.py took 0.040 seconds
+[2021-12-22 22:18:53,181] {processor.py:163} INFO - Started process (PID=55471) to work on /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/plugins/workday.py
+[2021-12-22 22:18:53,191] {processor.py:620} INFO - Processing file /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/plugins/workday.py for tasks to queue
+[2021-12-22 22:18:53,192] {logging_mixin.py:109} INFO - [2021-12-22 22:18:53,192] {dagbag.py:500} INFO - Filling up the DagBag from /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/plugins/workday.py
+[2021-12-22 22:18:53,213] {processor.py:634} WARNING - No viable dags retrieved from /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/plugins/workday.py
+[2021-12-22 22:18:53,215] {processor.py:171} INFO - Processing /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/plugins/workday.py took 0.040 seconds
+[2021-12-22 22:19:31,217] {processor.py:163} INFO - Started process (PID=55515) to work on /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/plugins/workday.py
+[2021-12-22 22:19:31,220] {processor.py:620} INFO - Processing file /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/plugins/workday.py for tasks to queue
+[2021-12-22 22:19:31,220] {logging_mixin.py:109} INFO - [2021-12-22 22:19:31,220] {dagbag.py:500} INFO - Filling up the DagBag from /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/plugins/workday.py
+[2021-12-22 22:19:31,226] {processor.py:634} WARNING - No viable dags retrieved from /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/plugins/workday.py
+[2021-12-22 22:19:31,227] {processor.py:171} INFO - Processing /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/plugins/workday.py took 0.012 seconds
+[2021-12-22 22:20:11,129] {processor.py:163} INFO - Started process (PID=55556) to work on /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/plugins/workday.py
+[2021-12-22 22:20:11,137] {processor.py:620} INFO - Processing file /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/plugins/workday.py for tasks to queue
+[2021-12-22 22:20:11,137] {logging_mixin.py:109} INFO - [2021-12-22 22:20:11,137] {dagbag.py:500} INFO - Filling up the DagBag from /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/plugins/workday.py
+[2021-12-22 22:20:11,143] {processor.py:634} WARNING - No viable dags retrieved from /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/plugins/workday.py
+[2021-12-22 22:20:11,144] {processor.py:171} INFO - Processing /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/plugins/workday.py took 0.017 seconds
+[2021-12-22 22:20:53,811] {processor.py:163} INFO - Started process (PID=55597) to work on /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/plugins/workday.py
+[2021-12-22 22:20:53,818] {processor.py:620} INFO - Processing file /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/plugins/workday.py for tasks to queue
+[2021-12-22 22:20:53,818] {logging_mixin.py:109} INFO - [2021-12-22 22:20:53,818] {dagbag.py:500} INFO - Filling up the DagBag from /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/plugins/workday.py
+[2021-12-22 22:20:53,825] {processor.py:634} WARNING - No viable dags retrieved from /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/plugins/workday.py
+[2021-12-22 22:20:53,826] {processor.py:171} INFO - Processing /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/plugins/workday.py took 0.017 seconds
+[2021-12-22 22:21:30,767] {processor.py:163} INFO - Started process (PID=55636) to work on /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/plugins/workday.py
+[2021-12-22 22:21:30,772] {processor.py:620} INFO - Processing file /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/plugins/workday.py for tasks to queue
+[2021-12-22 22:21:30,774] {logging_mixin.py:109} INFO - [2021-12-22 22:21:30,773] {dagbag.py:500} INFO - Filling up the DagBag from /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/plugins/workday.py
+[2021-12-22 22:21:30,793] {processor.py:634} WARNING - No viable dags retrieved from /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/plugins/workday.py
+[2021-12-22 22:21:30,796] {processor.py:171} INFO - Processing /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/plugins/workday.py took 0.034 seconds
+[2021-12-22 22:22:16,560] {processor.py:163} INFO - Started process (PID=55894) to work on /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/plugins/workday.py
+[2021-12-22 22:22:16,567] {processor.py:620} INFO - Processing file /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/plugins/workday.py for tasks to queue
+[2021-12-22 22:22:16,567] {logging_mixin.py:109} INFO - [2021-12-22 22:22:16,567] {dagbag.py:500} INFO - Filling up the DagBag from /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/plugins/workday.py
+[2021-12-22 22:22:16,573] {processor.py:634} WARNING - No viable dags retrieved from /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/plugins/workday.py
+[2021-12-22 22:22:16,574] {processor.py:171} INFO - Processing /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/plugins/workday.py took 0.016 seconds
+[2021-12-22 22:22:59,560] {processor.py:163} INFO - Started process (PID=55970) to work on /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/plugins/workday.py
+[2021-12-22 22:22:59,562] {processor.py:620} INFO - Processing file /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/plugins/workday.py for tasks to queue
+[2021-12-22 22:22:59,564] {logging_mixin.py:109} INFO - [2021-12-22 22:22:59,564] {dagbag.py:500} INFO - Filling up the DagBag from /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/plugins/workday.py
+[2021-12-22 22:22:59,584] {processor.py:634} WARNING - No viable dags retrieved from /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/plugins/workday.py
+[2021-12-22 22:22:59,587] {processor.py:171} INFO - Processing /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/plugins/workday.py took 0.033 seconds
+[2021-12-22 22:23:34,081] {processor.py:163} INFO - Started process (PID=56014) to work on /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/plugins/workday.py
+[2021-12-22 22:23:34,086] {processor.py:620} INFO - Processing file /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/plugins/workday.py for tasks to queue
+[2021-12-22 22:23:34,088] {logging_mixin.py:109} INFO - [2021-12-22 22:23:34,087] {dagbag.py:500} INFO - Filling up the DagBag from /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/plugins/workday.py
+[2021-12-22 22:23:34,109] {processor.py:634} WARNING - No viable dags retrieved from /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/plugins/workday.py
+[2021-12-22 22:23:34,112] {processor.py:171} INFO - Processing /home/myamya/anaconda3/lib/python3.9/site-packages/airflow/example_dags/plugins/workday.py took 0.037 seconds
