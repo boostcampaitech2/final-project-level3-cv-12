@@ -1,0 +1,1 @@
+{"Train/d_x_loss": 0.24993354082107544, "_runtime": 1031, "_timestamp": 1640080307, "_step": 7172, "Train/d_y_loss": 3.688976526260376, "Train/g_total_loss": 5.22936487197876, "_wandb": {"runtime": 1032}}

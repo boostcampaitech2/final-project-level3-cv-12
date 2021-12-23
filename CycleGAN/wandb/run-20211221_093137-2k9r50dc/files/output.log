@@ -1,0 +1,31 @@
+Models moved to GPU.
+Using pretrained model..
+Start Training...
+09:31:51 - Iter [   10/ 5000] | d_X_loss: 2.2891 | d_Y_loss: 12.8458 | g_total_loss: 16.7864
+09:31:55 - Iter [   20/ 5000] | d_X_loss: 2.5153 | d_Y_loss: 12.8845 | g_total_loss: 16.7601
+09:32:00 - Iter [   30/ 5000] | d_X_loss: 2.4496 | d_Y_loss: 12.9554 | g_total_loss: 16.6632
+09:32:04 - Iter [   40/ 5000] | d_X_loss: 2.5645 | d_Y_loss: 12.8830 | g_total_loss: 17.1813
+Traceback (most recent call last):
+  File "train.py", line 259, in <module>
+    train(args)
+  File "train.py", line 108, in train
+    images_Y, _ = iter_Y.next()
+  File "/opt/conda/envs/lightweight/lib/python3.7/site-packages/torch/utils/data/dataloader.py", line 363, in __next__
+    data = self._next_data()
+  File "/opt/conda/envs/lightweight/lib/python3.7/site-packages/torch/utils/data/dataloader.py", line 403, in _next_data
+    data = self._dataset_fetcher.fetch(index)  # may raise StopIteration
+  File "/opt/conda/envs/lightweight/lib/python3.7/site-packages/torch/utils/data/_utils/fetch.py", line 44, in fetch
+    data = [self.dataset[idx] for idx in possibly_batched_index]
+  File "/opt/conda/envs/lightweight/lib/python3.7/site-packages/torch/utils/data/_utils/fetch.py", line 44, in <listcomp>
+    data = [self.dataset[idx] for idx in possibly_batched_index]
+  File "/opt/conda/envs/lightweight/lib/python3.7/site-packages/torchvision/datasets/folder.py", line 137, in __getitem__
+    sample = self.loader(path)
+  File "/opt/conda/envs/lightweight/lib/python3.7/site-packages/torchvision/datasets/folder.py", line 173, in default_loader
+    return pil_loader(path)
+  File "/opt/conda/envs/lightweight/lib/python3.7/site-packages/torchvision/datasets/folder.py", line 156, in pil_loader
+    return img.convert('RGB')
+  File "/opt/conda/envs/lightweight/lib/python3.7/site-packages/PIL/Image.py", line 915, in convert
+    self.load()
+  File "/opt/conda/envs/lightweight/lib/python3.7/site-packages/PIL/ImageFile.py", line 255, in load
+    n, err_code = decoder.decode(b)
+KeyboardInterrupt
