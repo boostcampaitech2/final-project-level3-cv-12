@@ -22,7 +22,7 @@
 
 ![project_pipeline](https://github.com/boostcampaitech2/final-project-level3-cv-12/blob/main/sample_image/pipeline.png?raw=true)
 
-딥러닝 모델의 전체적인 파이프라인은 1)AutoEncoder를 이용해 512*512 크기의 스케치를 512차원의 feature vector로 encoding한 뒤 2)데이터셋의 스케치들의 feature vector와 가중 평균을 낸 뒤 decoding해서 실제 사진과 유사한 스케치를 얻고, 3)이렇게 얻은 스케치를 Pix2Pix를 이용해 실제 사진으로 변환하는 구조로 이루어져있습니다.﻿
+딥러닝 모델의 전체적인 파이프라인은 <sup>1)</sup>AutoEncoder를 이용해 512*512 크기의 스케치를 512차원의 feature vector로 encoding한 뒤 <sup>2)</sup>데이터셋의 스케치들의 feature vector와 가중 평균을 낸 뒤 decoding해서 실제 사진과 유사한 스케치를 얻고, <sup>3)</sup>이렇게 얻은 스케치를 Pix2Pix를 이용해 실제 사진으로 변환하는 구조로 이루어져있습니다.
 
 ## Folder structure
 
