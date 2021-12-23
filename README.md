@@ -4,16 +4,34 @@
 
 본 프로젝트는 GAN를 이용해 손으로 그린 스케치를 아이돌 이미지로 변환하는 Image To Image Translation을 주제로 합니다.
 
+![project_pipeline](https://github.com/boostcampaitech2/final-project-level3-cv-12/blob/main/sample_image/pipeline.png?raw=true)
+
 ## Dataset
 
+|Data|데이터 수|Train 데이터 수|Val 데이터 수|세부사항|
+|:-:|:-:|:-:|:-:|:-:|
+|1|2449|2429|20|web crawling, 여자 아이돌|
+|2|1669|1669|0|aihub, 일반인|
 
+#### Info
+
+- 한국 여성 얼굴 이미지
+- 이미지-스케치 pair
+- face alignment 적용
+- (512, 512) 해상도
 
 ## Model
 
-![project_pipeline](https://github.com/boostcampaitech2/final-project-level3-cv-12/blob/main/sample_image/pipeline.png?raw=true)
-## Results
+- Encoder : (1, 512, 512) -> (512)
+- Decoder : (512) -> (1, 512, 512)
+- Pix2Pix : (1, 512, 512) -> (3, 512, 512)
 
 ## Folder structure
+
+```
+
+```
+
 ## Authors
 
 |박진한|유형진|이양재|임채영|최태종|한재현|
