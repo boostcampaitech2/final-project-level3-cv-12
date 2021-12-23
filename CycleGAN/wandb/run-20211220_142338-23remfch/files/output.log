@@ -1,0 +1,442 @@
+Models moved to GPU.
+Using pretrained model..
+Start Training...
+14:23:52 - Iter [   10/ 5000] | d_X_loss: 2.2522 | d_Y_loss: 13.9696 | g_total_loss: 13.8951
+14:23:56 - Iter [   20/ 5000] | d_X_loss: 2.0728 | d_Y_loss: 13.8758 | g_total_loss: 13.6785
+14:24:00 - Iter [   30/ 5000] | d_X_loss: 1.8727 | d_Y_loss: 13.8698 | g_total_loss: 13.7855
+14:24:05 - Iter [   40/ 5000] | d_X_loss: 2.0590 | d_Y_loss: 13.6834 | g_total_loss: 13.9008
+14:24:09 - Iter [   50/ 5000] | d_X_loss: 2.0688 | d_Y_loss: 13.5217 | g_total_loss: 13.7562
+14:24:13 - Iter [   60/ 5000] | d_X_loss: 1.8845 | d_Y_loss: 13.8504 | g_total_loss: 13.4799
+14:24:17 - Iter [   70/ 5000] | d_X_loss: 1.9290 | d_Y_loss: 13.6215 | g_total_loss: 13.1439
+14:24:22 - Iter [   80/ 5000] | d_X_loss: 1.9712 | d_Y_loss: 13.6752 | g_total_loss: 13.7260
+14:24:26 - Iter [   90/ 5000] | d_X_loss: 2.1903 | d_Y_loss: 13.9536 | g_total_loss: 13.7035
+Lossy conversion from float64 to uint8. Range [0.0, 255.0]. Convert image to uint8 prior to saving to suppress this warning.
+Lossy conversion from float64 to uint8. Range [2.0, 255.0]. Convert image to uint8 prior to saving to suppress this warning.
+14:24:30 - Iter [  100/ 5000] | d_X_loss: 2.1900 | d_Y_loss: 13.5626 | g_total_loss: 13.2788
+Saved /opt/ml/CycleGAN/samples/thesis_1/sample-000100-X-Y.png
+Saved /opt/ml/CycleGAN/samples/thesis_1/sample-000100-Y-X.png
+14:24:35 - Iter [  110/ 5000] | d_X_loss: 1.9718 | d_Y_loss: 13.7401 | g_total_loss: 13.4492
+14:24:39 - Iter [  120/ 5000] | d_X_loss: 1.8089 | d_Y_loss: 13.7797 | g_total_loss: 13.5077
+14:24:43 - Iter [  130/ 5000] | d_X_loss: 2.0584 | d_Y_loss: 13.6603 | g_total_loss: 13.7045
+14:24:48 - Iter [  140/ 5000] | d_X_loss: 1.9648 | d_Y_loss: 13.4343 | g_total_loss: 13.5876
+14:24:52 - Iter [  150/ 5000] | d_X_loss: 1.9445 | d_Y_loss: 13.7577 | g_total_loss: 13.5963
+14:24:56 - Iter [  160/ 5000] | d_X_loss: 2.1062 | d_Y_loss: 13.5033 | g_total_loss: 13.4775
+14:25:00 - Iter [  170/ 5000] | d_X_loss: 2.1058 | d_Y_loss: 13.1009 | g_total_loss: 13.3483
+14:25:04 - Iter [  180/ 5000] | d_X_loss: 2.0897 | d_Y_loss: 13.6131 | g_total_loss: 13.2925
+14:25:08 - Iter [  190/ 5000] | d_X_loss: 1.7922 | d_Y_loss: 13.5682 | g_total_loss: 13.5162
+Lossy conversion from float64 to uint8. Range [0.0, 255.0]. Convert image to uint8 prior to saving to suppress this warning.
+Lossy conversion from float64 to uint8. Range [2.0, 255.0]. Convert image to uint8 prior to saving to suppress this warning.
+14:25:13 - Iter [  200/ 5000] | d_X_loss: 2.1190 | d_Y_loss: 13.8618 | g_total_loss: 13.5730
+Saved /opt/ml/CycleGAN/samples/thesis_1/sample-000200-X-Y.png
+Saved /opt/ml/CycleGAN/samples/thesis_1/sample-000200-Y-X.png
+14:25:17 - Iter [  210/ 5000] | d_X_loss: 1.9909 | d_Y_loss: 13.6477 | g_total_loss: 13.7079
+14:25:22 - Iter [  220/ 5000] | d_X_loss: 1.8830 | d_Y_loss: 13.8261 | g_total_loss: 13.6457
+14:25:26 - Iter [  230/ 5000] | d_X_loss: 2.0564 | d_Y_loss: 13.6154 | g_total_loss: 13.2628
+14:25:30 - Iter [  240/ 5000] | d_X_loss: 2.0168 | d_Y_loss: 13.3832 | g_total_loss: 13.3849
+14:25:34 - Iter [  250/ 5000] | d_X_loss: 2.0546 | d_Y_loss: 13.6779 | g_total_loss: 13.4187
+14:25:38 - Iter [  260/ 5000] | d_X_loss: 2.3276 | d_Y_loss: 13.5487 | g_total_loss: 13.5353
+14:25:42 - Iter [  270/ 5000] | d_X_loss: 1.8529 | d_Y_loss: 13.7405 | g_total_loss: 13.2387
+14:25:46 - Iter [  280/ 5000] | d_X_loss: 2.1230 | d_Y_loss: 13.3171 | g_total_loss: 13.3392
+14:25:51 - Iter [  290/ 5000] | d_X_loss: 1.9228 | d_Y_loss: 13.6017 | g_total_loss: 13.6130
+Lossy conversion from float64 to uint8. Range [0.0, 255.0]. Convert image to uint8 prior to saving to suppress this warning.
+Lossy conversion from float64 to uint8. Range [2.0, 255.0]. Convert image to uint8 prior to saving to suppress this warning.
+14:25:55 - Iter [  300/ 5000] | d_X_loss: 1.9403 | d_Y_loss: 13.4995 | g_total_loss: 13.5206
+Saved /opt/ml/CycleGAN/samples/thesis_1/sample-000300-X-Y.png
+Saved /opt/ml/CycleGAN/samples/thesis_1/sample-000300-Y-X.png
+14:25:59 - Iter [  310/ 5000] | d_X_loss: 2.0761 | d_Y_loss: 13.3793 | g_total_loss: 13.3982
+14:26:04 - Iter [  320/ 5000] | d_X_loss: 2.0242 | d_Y_loss: 13.5939 | g_total_loss: 13.5688
+14:26:08 - Iter [  330/ 5000] | d_X_loss: 1.9570 | d_Y_loss: 13.3048 | g_total_loss: 13.4156
+14:26:12 - Iter [  340/ 5000] | d_X_loss: 2.0687 | d_Y_loss: 13.2757 | g_total_loss: 13.1129
+14:26:16 - Iter [  350/ 5000] | d_X_loss: 1.9528 | d_Y_loss: 13.1358 | g_total_loss: 13.1702
+14:26:20 - Iter [  360/ 5000] | d_X_loss: 2.1074 | d_Y_loss: 13.6113 | g_total_loss: 13.5093
+14:26:24 - Iter [  370/ 5000] | d_X_loss: 1.9701 | d_Y_loss: 13.4962 | g_total_loss: 13.5303
+14:26:28 - Iter [  380/ 5000] | d_X_loss: 1.8730 | d_Y_loss: 13.5717 | g_total_loss: 13.3557
+14:26:33 - Iter [  390/ 5000] | d_X_loss: 2.1164 | d_Y_loss: 13.4800 | g_total_loss: 13.5342
+Lossy conversion from float64 to uint8. Range [0.0, 255.0]. Convert image to uint8 prior to saving to suppress this warning.
+Lossy conversion from float64 to uint8. Range [2.0, 255.0]. Convert image to uint8 prior to saving to suppress this warning.
+14:26:37 - Iter [  400/ 5000] | d_X_loss: 1.8750 | d_Y_loss: 13.2749 | g_total_loss: 13.1381
+Saved /opt/ml/CycleGAN/samples/thesis_1/sample-000400-X-Y.png
+Saved /opt/ml/CycleGAN/samples/thesis_1/sample-000400-Y-X.png
+14:26:41 - Iter [  410/ 5000] | d_X_loss: 2.1072 | d_Y_loss: 13.4352 | g_total_loss: 13.2766
+14:26:46 - Iter [  420/ 5000] | d_X_loss: 1.8701 | d_Y_loss: 13.4680 | g_total_loss: 13.3506
+14:26:50 - Iter [  430/ 5000] | d_X_loss: 2.0491 | d_Y_loss: 13.7170 | g_total_loss: 13.3957
+14:26:54 - Iter [  440/ 5000] | d_X_loss: 2.0057 | d_Y_loss: 13.3558 | g_total_loss: 13.1735
+14:26:58 - Iter [  450/ 5000] | d_X_loss: 1.7541 | d_Y_loss: 13.6026 | g_total_loss: 13.2973
+14:27:02 - Iter [  460/ 5000] | d_X_loss: 1.9896 | d_Y_loss: 13.2053 | g_total_loss: 13.1346
+14:27:06 - Iter [  470/ 5000] | d_X_loss: 2.0780 | d_Y_loss: 13.2615 | g_total_loss: 13.3676
+14:27:11 - Iter [  480/ 5000] | d_X_loss: 1.9904 | d_Y_loss: 13.1682 | g_total_loss: 13.1226
+14:27:15 - Iter [  490/ 5000] | d_X_loss: 1.8520 | d_Y_loss: 13.5129 | g_total_loss: 13.3708
+Lossy conversion from float64 to uint8. Range [0.0, 255.0]. Convert image to uint8 prior to saving to suppress this warning.
+Lossy conversion from float64 to uint8. Range [2.0, 255.0]. Convert image to uint8 prior to saving to suppress this warning.
+14:27:19 - Iter [  500/ 5000] | d_X_loss: 1.8874 | d_Y_loss: 13.3847 | g_total_loss: 13.6101
+Saved /opt/ml/CycleGAN/samples/thesis_1/sample-000500-X-Y.png
+Saved /opt/ml/CycleGAN/samples/thesis_1/sample-000500-Y-X.png
+14:27:24 - Iter [  510/ 5000] | d_X_loss: 1.9622 | d_Y_loss: 13.5006 | g_total_loss: 13.1677
+14:27:27 - Iter [  520/ 5000] | d_X_loss: 2.0908 | d_Y_loss: 13.6971 | g_total_loss: 13.4067
+14:27:32 - Iter [  530/ 5000] | d_X_loss: 1.9920 | d_Y_loss: 13.6382 | g_total_loss: 13.6115
+14:27:36 - Iter [  540/ 5000] | d_X_loss: 1.8288 | d_Y_loss: 13.0125 | g_total_loss: 13.0777
+14:27:40 - Iter [  550/ 5000] | d_X_loss: 1.7677 | d_Y_loss: 13.4284 | g_total_loss: 13.2638
+14:27:44 - Iter [  560/ 5000] | d_X_loss: 1.7641 | d_Y_loss: 13.5000 | g_total_loss: 13.4129
+14:27:48 - Iter [  570/ 5000] | d_X_loss: 2.0752 | d_Y_loss: 13.2550 | g_total_loss: 13.1373
+14:27:52 - Iter [  580/ 5000] | d_X_loss: 1.9382 | d_Y_loss: 13.5035 | g_total_loss: 13.2370
+14:27:56 - Iter [  590/ 5000] | d_X_loss: 1.9334 | d_Y_loss: 12.9156 | g_total_loss: 12.7990
+Lossy conversion from float64 to uint8. Range [0.0, 255.0]. Convert image to uint8 prior to saving to suppress this warning.
+Lossy conversion from float64 to uint8. Range [2.0, 255.0]. Convert image to uint8 prior to saving to suppress this warning.
+14:28:01 - Iter [  600/ 5000] | d_X_loss: 1.7382 | d_Y_loss: 13.1232 | g_total_loss: 12.9550
+Saved /opt/ml/CycleGAN/samples/thesis_1/sample-000600-X-Y.png
+Saved /opt/ml/CycleGAN/samples/thesis_1/sample-000600-Y-X.png
+14:28:05 - Iter [  610/ 5000] | d_X_loss: 1.8465 | d_Y_loss: 13.5743 | g_total_loss: 13.4136
+14:28:09 - Iter [  620/ 5000] | d_X_loss: 1.9608 | d_Y_loss: 13.1933 | g_total_loss: 13.3168
+14:28:14 - Iter [  630/ 5000] | d_X_loss: 1.8957 | d_Y_loss: 13.1526 | g_total_loss: 13.1628
+14:28:18 - Iter [  640/ 5000] | d_X_loss: 1.9285 | d_Y_loss: 13.2810 | g_total_loss: 12.8452
+14:28:22 - Iter [  650/ 5000] | d_X_loss: 1.9085 | d_Y_loss: 13.3673 | g_total_loss: 12.9282
+14:28:26 - Iter [  660/ 5000] | d_X_loss: 1.8364 | d_Y_loss: 12.9229 | g_total_loss: 13.3163
+14:28:30 - Iter [  670/ 5000] | d_X_loss: 1.9101 | d_Y_loss: 13.3549 | g_total_loss: 13.4851
+14:28:34 - Iter [  680/ 5000] | d_X_loss: 1.6527 | d_Y_loss: 13.0591 | g_total_loss: 13.1670
+14:28:38 - Iter [  690/ 5000] | d_X_loss: 1.8624 | d_Y_loss: 13.1164 | g_total_loss: 12.8812
+Lossy conversion from float64 to uint8. Range [0.0, 255.0]. Convert image to uint8 prior to saving to suppress this warning.
+Lossy conversion from float64 to uint8. Range [2.0, 255.0]. Convert image to uint8 prior to saving to suppress this warning.
+14:28:43 - Iter [  700/ 5000] | d_X_loss: 2.1270 | d_Y_loss: 13.3005 | g_total_loss: 13.2004
+Saved /opt/ml/CycleGAN/samples/thesis_1/sample-000700-X-Y.png
+Saved /opt/ml/CycleGAN/samples/thesis_1/sample-000700-Y-X.png
+14:28:47 - Iter [  710/ 5000] | d_X_loss: 1.5943 | d_Y_loss: 13.1732 | g_total_loss: 13.4216
+14:28:52 - Iter [  720/ 5000] | d_X_loss: 1.9352 | d_Y_loss: 13.3438 | g_total_loss: 13.1325
+14:28:56 - Iter [  730/ 5000] | d_X_loss: 1.5724 | d_Y_loss: 13.0738 | g_total_loss: 13.0634
+14:29:00 - Iter [  740/ 5000] | d_X_loss: 1.8088 | d_Y_loss: 13.0693 | g_total_loss: 13.0417
+14:29:04 - Iter [  750/ 5000] | d_X_loss: 1.9078 | d_Y_loss: 13.0295 | g_total_loss: 13.1549
+14:29:08 - Iter [  760/ 5000] | d_X_loss: 1.9412 | d_Y_loss: 13.3700 | g_total_loss: 12.9865
+14:29:12 - Iter [  770/ 5000] | d_X_loss: 1.8776 | d_Y_loss: 13.2871 | g_total_loss: 13.3775
+14:29:16 - Iter [  780/ 5000] | d_X_loss: 1.8882 | d_Y_loss: 13.3747 | g_total_loss: 13.0805
+14:29:20 - Iter [  790/ 5000] | d_X_loss: 1.8905 | d_Y_loss: 13.4860 | g_total_loss: 13.5326
+Lossy conversion from float64 to uint8. Range [0.0, 255.0]. Convert image to uint8 prior to saving to suppress this warning.
+Lossy conversion from float64 to uint8. Range [1.0, 255.0]. Convert image to uint8 prior to saving to suppress this warning.
+14:29:24 - Iter [  800/ 5000] | d_X_loss: 1.8206 | d_Y_loss: 13.1747 | g_total_loss: 12.8082
+Saved /opt/ml/CycleGAN/samples/thesis_1/sample-000800-X-Y.png
+Saved /opt/ml/CycleGAN/samples/thesis_1/sample-000800-Y-X.png
+14:29:29 - Iter [  810/ 5000] | d_X_loss: 1.9923 | d_Y_loss: 12.8558 | g_total_loss: 12.8596
+14:29:33 - Iter [  820/ 5000] | d_X_loss: 1.9272 | d_Y_loss: 13.3881 | g_total_loss: 13.2440
+14:29:38 - Iter [  830/ 5000] | d_X_loss: 1.8300 | d_Y_loss: 13.0107 | g_total_loss: 13.1202
+14:29:42 - Iter [  840/ 5000] | d_X_loss: 1.7977 | d_Y_loss: 13.3803 | g_total_loss: 13.0986
+14:29:46 - Iter [  850/ 5000] | d_X_loss: 1.9755 | d_Y_loss: 12.9569 | g_total_loss: 12.8689
+14:29:50 - Iter [  860/ 5000] | d_X_loss: 1.8478 | d_Y_loss: 12.9485 | g_total_loss: 12.9771
+14:29:54 - Iter [  870/ 5000] | d_X_loss: 1.9884 | d_Y_loss: 12.7431 | g_total_loss: 13.0901
+14:29:58 - Iter [  880/ 5000] | d_X_loss: 2.0449 | d_Y_loss: 13.1450 | g_total_loss: 13.1831
+14:30:03 - Iter [  890/ 5000] | d_X_loss: 1.8583 | d_Y_loss: 12.9353 | g_total_loss: 12.7424
+Lossy conversion from float64 to uint8. Range [0.0, 255.0]. Convert image to uint8 prior to saving to suppress this warning.
+Lossy conversion from float64 to uint8. Range [2.0, 255.0]. Convert image to uint8 prior to saving to suppress this warning.
+14:30:07 - Iter [  900/ 5000] | d_X_loss: 1.8798 | d_Y_loss: 13.2581 | g_total_loss: 13.3405
+Saved /opt/ml/CycleGAN/samples/thesis_1/sample-000900-X-Y.png
+Saved /opt/ml/CycleGAN/samples/thesis_1/sample-000900-Y-X.png
+14:30:12 - Iter [  910/ 5000] | d_X_loss: 1.8814 | d_Y_loss: 12.9356 | g_total_loss: 13.1135
+14:30:16 - Iter [  920/ 5000] | d_X_loss: 2.0217 | d_Y_loss: 13.3963 | g_total_loss: 13.2508
+14:30:20 - Iter [  930/ 5000] | d_X_loss: 1.8407 | d_Y_loss: 13.3468 | g_total_loss: 13.3767
+14:30:24 - Iter [  940/ 5000] | d_X_loss: 1.8626 | d_Y_loss: 12.7949 | g_total_loss: 12.9631
+14:30:28 - Iter [  950/ 5000] | d_X_loss: 2.0520 | d_Y_loss: 13.0729 | g_total_loss: 12.8977
+14:30:32 - Iter [  960/ 5000] | d_X_loss: 1.8795 | d_Y_loss: 12.9000 | g_total_loss: 12.8699
+14:30:36 - Iter [  970/ 5000] | d_X_loss: 1.9443 | d_Y_loss: 13.1969 | g_total_loss: 12.8531
+14:30:41 - Iter [  980/ 5000] | d_X_loss: 1.9264 | d_Y_loss: 13.1302 | g_total_loss: 13.2920
+14:30:45 - Iter [  990/ 5000] | d_X_loss: 1.8118 | d_Y_loss: 12.7896 | g_total_loss: 12.8685
+14:30:49 - Iter [ 1000/ 5000] | d_X_loss: 1.9685 | d_Y_loss: 12.8833 | g_total_loss: 12.8941
+Saved /opt/ml/CycleGAN/samples/thesis_1/sample-001000-X-Y.png
+Saved /opt/ml/CycleGAN/samples/thesis_1/sample-001000-Y-X.png
+Lossy conversion from float64 to uint8. Range [0.0, 255.0]. Convert image to uint8 prior to saving to suppress this warning.
+Lossy conversion from float64 to uint8. Range [1.0, 255.0]. Convert image to uint8 prior to saving to suppress this warning.
+14:30:54 - Iter [ 1010/ 5000] | d_X_loss: 1.9571 | d_Y_loss: 13.1940 | g_total_loss: 13.0260
+14:30:59 - Iter [ 1020/ 5000] | d_X_loss: 2.0990 | d_Y_loss: 13.0261 | g_total_loss: 13.0628
+14:31:03 - Iter [ 1030/ 5000] | d_X_loss: 1.8681 | d_Y_loss: 13.1363 | g_total_loss: 12.9581
+14:31:07 - Iter [ 1040/ 5000] | d_X_loss: 1.7742 | d_Y_loss: 13.2276 | g_total_loss: 13.1565
+14:31:11 - Iter [ 1050/ 5000] | d_X_loss: 1.8896 | d_Y_loss: 12.8575 | g_total_loss: 12.8381
+14:31:15 - Iter [ 1060/ 5000] | d_X_loss: 1.7938 | d_Y_loss: 12.8152 | g_total_loss: 12.8316
+14:31:19 - Iter [ 1070/ 5000] | d_X_loss: 1.9301 | d_Y_loss: 13.0963 | g_total_loss: 12.9932
+14:31:23 - Iter [ 1080/ 5000] | d_X_loss: 1.9309 | d_Y_loss: 13.1714 | g_total_loss: 13.1004
+14:31:28 - Iter [ 1090/ 5000] | d_X_loss: 1.6593 | d_Y_loss: 12.7108 | g_total_loss: 12.8729
+14:31:32 - Iter [ 1100/ 5000] | d_X_loss: 1.8017 | d_Y_loss: 13.0892 | g_total_loss: 12.8967
+Lossy conversion from float64 to uint8. Range [0.0, 255.0]. Convert image to uint8 prior to saving to suppress this warning.
+Saved /opt/ml/CycleGAN/samples/thesis_1/sample-001100-X-Y.png
+Saved /opt/ml/CycleGAN/samples/thesis_1/sample-001100-Y-X.png
+Lossy conversion from float64 to uint8. Range [2.0, 255.0]. Convert image to uint8 prior to saving to suppress this warning.
+14:31:37 - Iter [ 1110/ 5000] | d_X_loss: 1.8477 | d_Y_loss: 12.9952 | g_total_loss: 12.9603
+14:31:41 - Iter [ 1120/ 5000] | d_X_loss: 1.6655 | d_Y_loss: 13.2490 | g_total_loss: 12.7096
+14:31:45 - Iter [ 1130/ 5000] | d_X_loss: 1.8697 | d_Y_loss: 12.9192 | g_total_loss: 12.9635
+14:31:49 - Iter [ 1140/ 5000] | d_X_loss: 1.8386 | d_Y_loss: 12.7217 | g_total_loss: 12.8521
+14:31:53 - Iter [ 1150/ 5000] | d_X_loss: 1.9264 | d_Y_loss: 12.9822 | g_total_loss: 13.2348
+14:31:57 - Iter [ 1160/ 5000] | d_X_loss: 1.9352 | d_Y_loss: 12.7592 | g_total_loss: 12.7621
+14:32:01 - Iter [ 1170/ 5000] | d_X_loss: 1.9796 | d_Y_loss: 12.8832 | g_total_loss: 12.9696
+14:32:06 - Iter [ 1180/ 5000] | d_X_loss: 2.0453 | d_Y_loss: 12.7443 | g_total_loss: 13.1322
+14:32:10 - Iter [ 1190/ 5000] | d_X_loss: 1.7407 | d_Y_loss: 13.2168 | g_total_loss: 12.7205
+14:32:14 - Iter [ 1200/ 5000] | d_X_loss: 1.7361 | d_Y_loss: 12.8510 | g_total_loss: 12.6600
+Saved /opt/ml/CycleGAN/samples/thesis_1/sample-001200-X-Y.png
+Saved /opt/ml/CycleGAN/samples/thesis_1/sample-001200-Y-X.png
+Lossy conversion from float64 to uint8. Range [0.0, 255.0]. Convert image to uint8 prior to saving to suppress this warning.
+Lossy conversion from float64 to uint8. Range [2.0, 255.0]. Convert image to uint8 prior to saving to suppress this warning.
+14:32:19 - Iter [ 1210/ 5000] | d_X_loss: 1.8988 | d_Y_loss: 13.0204 | g_total_loss: 12.8516
+14:32:23 - Iter [ 1220/ 5000] | d_X_loss: 1.8954 | d_Y_loss: 12.8595 | g_total_loss: 12.6772
+14:32:27 - Iter [ 1230/ 5000] | d_X_loss: 1.9488 | d_Y_loss: 12.6768 | g_total_loss: 12.6667
+14:32:31 - Iter [ 1240/ 5000] | d_X_loss: 1.7114 | d_Y_loss: 12.9663 | g_total_loss: 12.6995
+14:32:35 - Iter [ 1250/ 5000] | d_X_loss: 1.7012 | d_Y_loss: 12.8342 | g_total_loss: 12.5845
+14:32:39 - Iter [ 1260/ 5000] | d_X_loss: 1.8103 | d_Y_loss: 12.6522 | g_total_loss: 12.7973
+14:32:44 - Iter [ 1270/ 5000] | d_X_loss: 1.7255 | d_Y_loss: 12.7687 | g_total_loss: 13.0606
+14:32:48 - Iter [ 1280/ 5000] | d_X_loss: 1.8547 | d_Y_loss: 12.8769 | g_total_loss: 12.9336
+14:32:52 - Iter [ 1290/ 5000] | d_X_loss: 1.6412 | d_Y_loss: 12.7169 | g_total_loss: 13.0333
+14:32:56 - Iter [ 1300/ 5000] | d_X_loss: 1.8177 | d_Y_loss: 12.6511 | g_total_loss: 12.8292
+Lossy conversion from float64 to uint8. Range [0.0, 255.0]. Convert image to uint8 prior to saving to suppress this warning.
+Saved /opt/ml/CycleGAN/samples/thesis_1/sample-001300-X-Y.png
+Saved /opt/ml/CycleGAN/samples/thesis_1/sample-001300-Y-X.png
+Lossy conversion from float64 to uint8. Range [2.0, 255.0]. Convert image to uint8 prior to saving to suppress this warning.
+14:33:00 - Iter [ 1310/ 5000] | d_X_loss: 1.8713 | d_Y_loss: 12.4123 | g_total_loss: 12.6831
+14:33:05 - Iter [ 1320/ 5000] | d_X_loss: 1.7561 | d_Y_loss: 12.5067 | g_total_loss: 12.6201
+14:33:09 - Iter [ 1330/ 5000] | d_X_loss: 1.7764 | d_Y_loss: 12.7627 | g_total_loss: 12.6249
+14:33:13 - Iter [ 1340/ 5000] | d_X_loss: 2.0027 | d_Y_loss: 12.9012 | g_total_loss: 12.8439
+14:33:17 - Iter [ 1350/ 5000] | d_X_loss: 1.7074 | d_Y_loss: 12.7285 | g_total_loss: 12.7284
+14:33:21 - Iter [ 1360/ 5000] | d_X_loss: 1.8045 | d_Y_loss: 12.6374 | g_total_loss: 12.7860
+14:33:25 - Iter [ 1370/ 5000] | d_X_loss: 1.8192 | d_Y_loss: 13.0535 | g_total_loss: 12.8342
+14:33:29 - Iter [ 1380/ 5000] | d_X_loss: 1.9768 | d_Y_loss: 12.7251 | g_total_loss: 12.7490
+14:33:34 - Iter [ 1390/ 5000] | d_X_loss: 1.6919 | d_Y_loss: 12.9168 | g_total_loss: 12.9419
+14:33:38 - Iter [ 1400/ 5000] | d_X_loss: 1.6921 | d_Y_loss: 12.7230 | g_total_loss: 13.0316
+Saved /opt/ml/CycleGAN/samples/thesis_1/sample-001400-X-Y.png
+Lossy conversion from float64 to uint8. Range [0.0, 255.0]. Convert image to uint8 prior to saving to suppress this warning.
+Lossy conversion from float64 to uint8. Range [2.0, 255.0]. Convert image to uint8 prior to saving to suppress this warning.
+Saved /opt/ml/CycleGAN/samples/thesis_1/sample-001400-Y-X.png
+14:33:43 - Iter [ 1410/ 5000] | d_X_loss: 1.8436 | d_Y_loss: 12.9920 | g_total_loss: 12.6366
+14:33:47 - Iter [ 1420/ 5000] | d_X_loss: 1.6325 | d_Y_loss: 12.7959 | g_total_loss: 12.6167
+14:33:51 - Iter [ 1430/ 5000] | d_X_loss: 1.5609 | d_Y_loss: 12.8120 | g_total_loss: 12.7407
+14:33:55 - Iter [ 1440/ 5000] | d_X_loss: 1.7943 | d_Y_loss: 12.7886 | g_total_loss: 12.8061
+14:33:59 - Iter [ 1450/ 5000] | d_X_loss: 1.7080 | d_Y_loss: 12.6401 | g_total_loss: 12.8430
+14:34:03 - Iter [ 1460/ 5000] | d_X_loss: 1.8250 | d_Y_loss: 12.5575 | g_total_loss: 12.4530
+14:34:07 - Iter [ 1470/ 5000] | d_X_loss: 1.8673 | d_Y_loss: 12.7537 | g_total_loss: 12.6849
+14:34:12 - Iter [ 1480/ 5000] | d_X_loss: 1.6714 | d_Y_loss: 12.7791 | g_total_loss: 12.6558
+14:34:16 - Iter [ 1490/ 5000] | d_X_loss: 1.8925 | d_Y_loss: 12.4862 | g_total_loss: 12.5462
+14:34:20 - Iter [ 1500/ 5000] | d_X_loss: 1.7656 | d_Y_loss: 12.3766 | g_total_loss: 12.2824
+Saved /opt/ml/CycleGAN/samples/thesis_1/sample-001500-X-Y.png
+Lossy conversion from float64 to uint8. Range [0.0, 255.0]. Convert image to uint8 prior to saving to suppress this warning.
+Lossy conversion from float64 to uint8. Range [2.0, 255.0]. Convert image to uint8 prior to saving to suppress this warning.
+Saved /opt/ml/CycleGAN/samples/thesis_1/sample-001500-Y-X.png
+14:34:25 - Iter [ 1510/ 5000] | d_X_loss: 1.8706 | d_Y_loss: 12.8058 | g_total_loss: 12.7105
+14:34:29 - Iter [ 1520/ 5000] | d_X_loss: 1.7989 | d_Y_loss: 12.8973 | g_total_loss: 12.8673
+14:34:33 - Iter [ 1530/ 5000] | d_X_loss: 1.9350 | d_Y_loss: 12.7937 | g_total_loss: 12.7312
+14:34:37 - Iter [ 1540/ 5000] | d_X_loss: 1.7747 | d_Y_loss: 12.9302 | g_total_loss: 12.7355
+14:34:41 - Iter [ 1550/ 5000] | d_X_loss: 1.8164 | d_Y_loss: 12.6931 | g_total_loss: 12.7631
+14:34:45 - Iter [ 1560/ 5000] | d_X_loss: 1.7471 | d_Y_loss: 12.6929 | g_total_loss: 12.6310
+14:34:49 - Iter [ 1570/ 5000] | d_X_loss: 1.6948 | d_Y_loss: 12.1642 | g_total_loss: 12.3087
+14:34:53 - Iter [ 1580/ 5000] | d_X_loss: 1.7344 | d_Y_loss: 12.4375 | g_total_loss: 12.5639
+14:34:57 - Iter [ 1590/ 5000] | d_X_loss: 1.6705 | d_Y_loss: 12.4581 | g_total_loss: 12.5991
+14:35:02 - Iter [ 1600/ 5000] | d_X_loss: 1.8633 | d_Y_loss: 12.8526 | g_total_loss: 12.6831
+Saved /opt/ml/CycleGAN/samples/thesis_1/sample-001600-X-Y.png
+Saved /opt/ml/CycleGAN/samples/thesis_1/sample-001600-Y-X.png
+Lossy conversion from float64 to uint8. Range [0.0, 255.0]. Convert image to uint8 prior to saving to suppress this warning.
+Lossy conversion from float64 to uint8. Range [2.0, 255.0]. Convert image to uint8 prior to saving to suppress this warning.
+14:35:06 - Iter [ 1610/ 5000] | d_X_loss: 1.8280 | d_Y_loss: 12.8120 | g_total_loss: 13.0439
+14:35:10 - Iter [ 1620/ 5000] | d_X_loss: 1.7476 | d_Y_loss: 13.1382 | g_total_loss: 12.6677
+14:35:15 - Iter [ 1630/ 5000] | d_X_loss: 1.7696 | d_Y_loss: 12.6592 | g_total_loss: 12.7148
+14:35:19 - Iter [ 1640/ 5000] | d_X_loss: 1.9275 | d_Y_loss: 12.8968 | g_total_loss: 12.8059
+14:35:23 - Iter [ 1650/ 5000] | d_X_loss: 1.5427 | d_Y_loss: 12.5511 | g_total_loss: 12.5262
+14:35:27 - Iter [ 1660/ 5000] | d_X_loss: 1.6906 | d_Y_loss: 12.4421 | g_total_loss: 12.4974
+14:35:31 - Iter [ 1670/ 5000] | d_X_loss: 1.9542 | d_Y_loss: 12.7047 | g_total_loss: 12.5502
+14:35:35 - Iter [ 1680/ 5000] | d_X_loss: 1.8622 | d_Y_loss: 12.4800 | g_total_loss: 12.4918
+14:35:39 - Iter [ 1690/ 5000] | d_X_loss: 1.6623 | d_Y_loss: 12.3018 | g_total_loss: 12.6169
+14:35:44 - Iter [ 1700/ 5000] | d_X_loss: 1.5807 | d_Y_loss: 12.1509 | g_total_loss: 12.6226
+Saved /opt/ml/CycleGAN/samples/thesis_1/sample-001700-X-Y.png
+Saved /opt/ml/CycleGAN/samples/thesis_1/sample-001700-Y-X.png
+Lossy conversion from float64 to uint8. Range [0.0, 255.0]. Convert image to uint8 prior to saving to suppress this warning.
+Lossy conversion from float64 to uint8. Range [2.0, 255.0]. Convert image to uint8 prior to saving to suppress this warning.
+14:35:48 - Iter [ 1710/ 5000] | d_X_loss: 1.6155 | d_Y_loss: 13.0778 | g_total_loss: 12.7133
+14:35:53 - Iter [ 1720/ 5000] | d_X_loss: 1.7358 | d_Y_loss: 12.4379 | g_total_loss: 12.4815
+14:35:57 - Iter [ 1730/ 5000] | d_X_loss: 1.8736 | d_Y_loss: 12.3974 | g_total_loss: 12.3900
+14:36:01 - Iter [ 1740/ 5000] | d_X_loss: 2.0027 | d_Y_loss: 12.7569 | g_total_loss: 12.7646
+14:36:05 - Iter [ 1750/ 5000] | d_X_loss: 1.6940 | d_Y_loss: 12.3246 | g_total_loss: 12.1538
+14:36:09 - Iter [ 1760/ 5000] | d_X_loss: 1.8228 | d_Y_loss: 12.5125 | g_total_loss: 12.3587
+14:36:13 - Iter [ 1770/ 5000] | d_X_loss: 1.9110 | d_Y_loss: 12.6128 | g_total_loss: 12.5045
+14:36:18 - Iter [ 1780/ 5000] | d_X_loss: 1.7042 | d_Y_loss: 12.5593 | g_total_loss: 12.5821
+14:36:22 - Iter [ 1790/ 5000] | d_X_loss: 1.7153 | d_Y_loss: 12.7901 | g_total_loss: 12.4003
+14:36:26 - Iter [ 1800/ 5000] | d_X_loss: 1.8146 | d_Y_loss: 12.7815 | g_total_loss: 12.6723
+Saved /opt/ml/CycleGAN/samples/thesis_1/sample-001800-X-Y.png
+Saved /opt/ml/CycleGAN/samples/thesis_1/sample-001800-Y-X.png
+Lossy conversion from float64 to uint8. Range [0.0, 255.0]. Convert image to uint8 prior to saving to suppress this warning.
+Lossy conversion from float64 to uint8. Range [2.0, 255.0]. Convert image to uint8 prior to saving to suppress this warning.
+14:36:30 - Iter [ 1810/ 5000] | d_X_loss: 1.9133 | d_Y_loss: 12.7500 | g_total_loss: 12.6423
+14:36:35 - Iter [ 1820/ 5000] | d_X_loss: 1.7049 | d_Y_loss: 12.6545 | g_total_loss: 12.4239
+14:36:39 - Iter [ 1830/ 5000] | d_X_loss: 1.3688 | d_Y_loss: 12.3761 | g_total_loss: 12.1934
+14:36:43 - Iter [ 1840/ 5000] | d_X_loss: 1.8016 | d_Y_loss: 12.5771 | g_total_loss: 12.4739
+14:36:47 - Iter [ 1850/ 5000] | d_X_loss: 1.7804 | d_Y_loss: 12.9685 | g_total_loss: 12.4158
+14:36:51 - Iter [ 1860/ 5000] | d_X_loss: 1.7350 | d_Y_loss: 12.5750 | g_total_loss: 12.6860
+14:36:55 - Iter [ 1870/ 5000] | d_X_loss: 1.7107 | d_Y_loss: 12.5745 | g_total_loss: 12.3681
+14:36:59 - Iter [ 1880/ 5000] | d_X_loss: 1.8701 | d_Y_loss: 12.8016 | g_total_loss: 12.6972
+14:37:04 - Iter [ 1890/ 5000] | d_X_loss: 1.6615 | d_Y_loss: 12.7215 | g_total_loss: 12.5629
+14:37:08 - Iter [ 1900/ 5000] | d_X_loss: 1.8549 | d_Y_loss: 12.4062 | g_total_loss: 12.4848
+Saved /opt/ml/CycleGAN/samples/thesis_1/sample-001900-X-Y.png
+Lossy conversion from float64 to uint8. Range [0.0, 255.0]. Convert image to uint8 prior to saving to suppress this warning.
+Lossy conversion from float64 to uint8. Range [2.0, 255.0]. Convert image to uint8 prior to saving to suppress this warning.
+Saved /opt/ml/CycleGAN/samples/thesis_1/sample-001900-Y-X.png
+14:37:13 - Iter [ 1910/ 5000] | d_X_loss: 1.7986 | d_Y_loss: 12.4518 | g_total_loss: 12.5658
+14:37:17 - Iter [ 1920/ 5000] | d_X_loss: 1.7033 | d_Y_loss: 12.2216 | g_total_loss: 12.3073
+14:37:21 - Iter [ 1930/ 5000] | d_X_loss: 1.7778 | d_Y_loss: 12.5731 | g_total_loss: 12.5382
+14:37:25 - Iter [ 1940/ 5000] | d_X_loss: 1.4138 | d_Y_loss: 12.6202 | g_total_loss: 12.5601
+14:37:29 - Iter [ 1950/ 5000] | d_X_loss: 1.6965 | d_Y_loss: 12.4345 | g_total_loss: 12.3859
+14:37:33 - Iter [ 1960/ 5000] | d_X_loss: 1.9315 | d_Y_loss: 12.2119 | g_total_loss: 12.2792
+14:37:38 - Iter [ 1970/ 5000] | d_X_loss: 1.8518 | d_Y_loss: 12.4649 | g_total_loss: 12.3346
+14:37:42 - Iter [ 1980/ 5000] | d_X_loss: 1.6520 | d_Y_loss: 12.8613 | g_total_loss: 12.5250
+14:37:46 - Iter [ 1990/ 5000] | d_X_loss: 1.7040 | d_Y_loss: 12.6450 | g_total_loss: 12.3191
+14:37:50 - Iter [ 2000/ 5000] | d_X_loss: 1.4799 | d_Y_loss: 12.2138 | g_total_loss: 12.3274
+Lossy conversion from float64 to uint8. Range [0.0, 255.0]. Convert image to uint8 prior to saving to suppress this warning.
+Saved /opt/ml/CycleGAN/samples/thesis_1/sample-002000-X-Y.png
+Saved /opt/ml/CycleGAN/samples/thesis_1/sample-002000-Y-X.png
+Lossy conversion from float64 to uint8. Range [2.0, 255.0]. Convert image to uint8 prior to saving to suppress this warning.
+14:37:56 - Iter [ 2010/ 5000] | d_X_loss: 1.5806 | d_Y_loss: 12.6928 | g_total_loss: 12.3490
+14:38:00 - Iter [ 2020/ 5000] | d_X_loss: 1.6461 | d_Y_loss: 12.1393 | g_total_loss: 12.3960
+14:38:04 - Iter [ 2030/ 5000] | d_X_loss: 1.5748 | d_Y_loss: 12.2208 | g_total_loss: 12.4149
+14:38:08 - Iter [ 2040/ 5000] | d_X_loss: 1.6167 | d_Y_loss: 12.6204 | g_total_loss: 12.2179
+14:38:12 - Iter [ 2050/ 5000] | d_X_loss: 1.4872 | d_Y_loss: 12.5315 | g_total_loss: 12.4433
+14:38:16 - Iter [ 2060/ 5000] | d_X_loss: 1.7605 | d_Y_loss: 12.4977 | g_total_loss: 12.5396
+14:38:20 - Iter [ 2070/ 5000] | d_X_loss: 1.5828 | d_Y_loss: 12.6748 | g_total_loss: 12.3891
+14:38:24 - Iter [ 2080/ 5000] | d_X_loss: 1.7712 | d_Y_loss: 12.7701 | g_total_loss: 12.5656
+14:38:29 - Iter [ 2090/ 5000] | d_X_loss: 1.5565 | d_Y_loss: 12.3016 | g_total_loss: 12.2043
+14:38:33 - Iter [ 2100/ 5000] | d_X_loss: 1.5691 | d_Y_loss: 12.4551 | g_total_loss: 12.3473
+Saved /opt/ml/CycleGAN/samples/thesis_1/sample-002100-X-Y.png
+Saved /opt/ml/CycleGAN/samples/thesis_1/sample-002100-Y-X.png
+Lossy conversion from float64 to uint8. Range [0.0, 255.0]. Convert image to uint8 prior to saving to suppress this warning.
+Lossy conversion from float64 to uint8. Range [1.0, 255.0]. Convert image to uint8 prior to saving to suppress this warning.
+14:38:38 - Iter [ 2110/ 5000] | d_X_loss: 1.6755 | d_Y_loss: 12.3128 | g_total_loss: 12.3170
+14:38:42 - Iter [ 2120/ 5000] | d_X_loss: 1.6736 | d_Y_loss: 12.0086 | g_total_loss: 11.9330
+14:38:46 - Iter [ 2130/ 5000] | d_X_loss: 1.8820 | d_Y_loss: 12.4248 | g_total_loss: 12.4949
+14:38:50 - Iter [ 2140/ 5000] | d_X_loss: 1.9185 | d_Y_loss: 12.0447 | g_total_loss: 12.3127
+14:38:54 - Iter [ 2150/ 5000] | d_X_loss: 1.6410 | d_Y_loss: 12.4834 | g_total_loss: 12.5412
+14:38:58 - Iter [ 2160/ 5000] | d_X_loss: 1.6294 | d_Y_loss: 12.4556 | g_total_loss: 12.3395
+14:39:02 - Iter [ 2170/ 5000] | d_X_loss: 1.5962 | d_Y_loss: 12.0884 | g_total_loss: 12.4282
+14:39:07 - Iter [ 2180/ 5000] | d_X_loss: 1.5860 | d_Y_loss: 12.3208 | g_total_loss: 12.3501
+14:39:11 - Iter [ 2190/ 5000] | d_X_loss: 1.5432 | d_Y_loss: 12.2088 | g_total_loss: 12.5174
+14:39:15 - Iter [ 2200/ 5000] | d_X_loss: 1.6585 | d_Y_loss: 12.3418 | g_total_loss: 12.0376
+Saved /opt/ml/CycleGAN/samples/thesis_1/sample-002200-X-Y.png
+Saved /opt/ml/CycleGAN/samples/thesis_1/sample-002200-Y-X.png
+Lossy conversion from float64 to uint8. Range [0.0, 255.0]. Convert image to uint8 prior to saving to suppress this warning.
+Lossy conversion from float64 to uint8. Range [2.0, 255.0]. Convert image to uint8 prior to saving to suppress this warning.
+14:39:20 - Iter [ 2210/ 5000] | d_X_loss: 1.6978 | d_Y_loss: 11.9107 | g_total_loss: 12.2367
+14:39:24 - Iter [ 2220/ 5000] | d_X_loss: 1.5572 | d_Y_loss: 12.3037 | g_total_loss: 12.3898
+14:39:28 - Iter [ 2230/ 5000] | d_X_loss: 1.5612 | d_Y_loss: 12.3696 | g_total_loss: 12.2619
+14:39:32 - Iter [ 2240/ 5000] | d_X_loss: 1.6860 | d_Y_loss: 12.1049 | g_total_loss: 12.3432
+14:39:36 - Iter [ 2250/ 5000] | d_X_loss: 1.6563 | d_Y_loss: 12.3846 | g_total_loss: 12.1699
+14:39:40 - Iter [ 2260/ 5000] | d_X_loss: 1.7756 | d_Y_loss: 12.3240 | g_total_loss: 12.2139
+14:39:44 - Iter [ 2270/ 5000] | d_X_loss: 1.5973 | d_Y_loss: 11.9854 | g_total_loss: 12.3487
+14:39:49 - Iter [ 2280/ 5000] | d_X_loss: 1.9084 | d_Y_loss: 12.4812 | g_total_loss: 12.4779
+14:39:53 - Iter [ 2290/ 5000] | d_X_loss: 1.5249 | d_Y_loss: 12.6172 | g_total_loss: 12.3603
+14:39:57 - Iter [ 2300/ 5000] | d_X_loss: 1.6802 | d_Y_loss: 11.9280 | g_total_loss: 12.1323
+Saved /opt/ml/CycleGAN/samples/thesis_1/sample-002300-X-Y.png
+Saved /opt/ml/CycleGAN/samples/thesis_1/sample-002300-Y-X.png
+Lossy conversion from float64 to uint8. Range [0.0, 255.0]. Convert image to uint8 prior to saving to suppress this warning.
+Lossy conversion from float64 to uint8. Range [2.0, 255.0]. Convert image to uint8 prior to saving to suppress this warning.
+14:40:02 - Iter [ 2310/ 5000] | d_X_loss: 1.7572 | d_Y_loss: 12.3103 | g_total_loss: 12.4621
+14:40:05 - Iter [ 2320/ 5000] | d_X_loss: 1.7130 | d_Y_loss: 11.9243 | g_total_loss: 12.2493
+14:40:10 - Iter [ 2330/ 5000] | d_X_loss: 1.6471 | d_Y_loss: 12.6937 | g_total_loss: 12.1914
+14:40:14 - Iter [ 2340/ 5000] | d_X_loss: 1.6726 | d_Y_loss: 12.2989 | g_total_loss: 12.3758
+14:40:18 - Iter [ 2350/ 5000] | d_X_loss: 1.6602 | d_Y_loss: 12.3452 | g_total_loss: 12.0655
+14:40:22 - Iter [ 2360/ 5000] | d_X_loss: 1.6476 | d_Y_loss: 12.2002 | g_total_loss: 12.1463
+14:40:26 - Iter [ 2370/ 5000] | d_X_loss: 1.4805 | d_Y_loss: 12.2213 | g_total_loss: 12.2688
+14:40:30 - Iter [ 2380/ 5000] | d_X_loss: 1.6090 | d_Y_loss: 11.8810 | g_total_loss: 12.0545
+14:40:34 - Iter [ 2390/ 5000] | d_X_loss: 1.5951 | d_Y_loss: 12.1394 | g_total_loss: 12.0582
+14:40:39 - Iter [ 2400/ 5000] | d_X_loss: 1.6550 | d_Y_loss: 11.8838 | g_total_loss: 11.9633
+Saved /opt/ml/CycleGAN/samples/thesis_1/sample-002400-X-Y.png
+Saved /opt/ml/CycleGAN/samples/thesis_1/sample-002400-Y-X.png
+Lossy conversion from float64 to uint8. Range [0.0, 255.0]. Convert image to uint8 prior to saving to suppress this warning.
+Lossy conversion from float64 to uint8. Range [2.0, 255.0]. Convert image to uint8 prior to saving to suppress this warning.
+14:40:43 - Iter [ 2410/ 5000] | d_X_loss: 1.7582 | d_Y_loss: 12.4250 | g_total_loss: 12.2488
+14:40:48 - Iter [ 2420/ 5000] | d_X_loss: 1.5481 | d_Y_loss: 12.1861 | g_total_loss: 12.3748
+14:40:52 - Iter [ 2430/ 5000] | d_X_loss: 1.5879 | d_Y_loss: 11.9009 | g_total_loss: 12.0930
+14:40:56 - Iter [ 2440/ 5000] | d_X_loss: 1.5673 | d_Y_loss: 12.4300 | g_total_loss: 12.3045
+14:41:00 - Iter [ 2450/ 5000] | d_X_loss: 1.6390 | d_Y_loss: 11.9096 | g_total_loss: 12.2607
+14:41:04 - Iter [ 2460/ 5000] | d_X_loss: 1.7188 | d_Y_loss: 12.2412 | g_total_loss: 12.1946
+14:41:08 - Iter [ 2470/ 5000] | d_X_loss: 1.5642 | d_Y_loss: 12.3896 | g_total_loss: 12.1710
+14:41:12 - Iter [ 2480/ 5000] | d_X_loss: 1.7899 | d_Y_loss: 12.0849 | g_total_loss: 12.1565
+14:41:17 - Iter [ 2490/ 5000] | d_X_loss: 1.6287 | d_Y_loss: 12.3808 | g_total_loss: 12.2010
+14:41:21 - Iter [ 2500/ 5000] | d_X_loss: 1.5370 | d_Y_loss: 12.1307 | g_total_loss: 12.1723
+Saved /opt/ml/CycleGAN/samples/thesis_1/sample-002500-X-Y.png
+Saved /opt/ml/CycleGAN/samples/thesis_1/sample-002500-Y-X.png
+Lossy conversion from float64 to uint8. Range [0.0, 255.0]. Convert image to uint8 prior to saving to suppress this warning.
+Lossy conversion from float64 to uint8. Range [2.0, 255.0]. Convert image to uint8 prior to saving to suppress this warning.
+14:41:26 - Iter [ 2510/ 5000] | d_X_loss: 1.5354 | d_Y_loss: 12.1257 | g_total_loss: 12.0230
+14:41:30 - Iter [ 2520/ 5000] | d_X_loss: 1.6329 | d_Y_loss: 12.1027 | g_total_loss: 12.2046
+14:41:34 - Iter [ 2530/ 5000] | d_X_loss: 1.5550 | d_Y_loss: 12.1464 | g_total_loss: 12.0259
+14:41:38 - Iter [ 2540/ 5000] | d_X_loss: 1.5634 | d_Y_loss: 12.0961 | g_total_loss: 11.9548
+14:41:42 - Iter [ 2550/ 5000] | d_X_loss: 1.4730 | d_Y_loss: 11.9508 | g_total_loss: 12.1842
+14:41:46 - Iter [ 2560/ 5000] | d_X_loss: 1.5803 | d_Y_loss: 11.5573 | g_total_loss: 12.0306
+14:41:50 - Iter [ 2570/ 5000] | d_X_loss: 1.6151 | d_Y_loss: 12.0670 | g_total_loss: 12.2568
+14:41:54 - Iter [ 2580/ 5000] | d_X_loss: 1.5094 | d_Y_loss: 11.8851 | g_total_loss: 12.0373
+14:41:59 - Iter [ 2590/ 5000] | d_X_loss: 1.7211 | d_Y_loss: 12.0617 | g_total_loss: 11.8720
+14:42:03 - Iter [ 2600/ 5000] | d_X_loss: 1.5255 | d_Y_loss: 12.0601 | g_total_loss: 12.3563
+Lossy conversion from float64 to uint8. Range [0.0, 255.0]. Convert image to uint8 prior to saving to suppress this warning.
+Lossy conversion from float64 to uint8. Range [2.0, 255.0]. Convert image to uint8 prior to saving to suppress this warning.
+Saved /opt/ml/CycleGAN/samples/thesis_1/sample-002600-X-Y.png
+Saved /opt/ml/CycleGAN/samples/thesis_1/sample-002600-Y-X.png
+14:42:07 - Iter [ 2610/ 5000] | d_X_loss: 1.4705 | d_Y_loss: 11.9268 | g_total_loss: 12.3196
+14:42:12 - Iter [ 2620/ 5000] | d_X_loss: 1.5810 | d_Y_loss: 12.1941 | g_total_loss: 12.3094
+14:42:16 - Iter [ 2630/ 5000] | d_X_loss: 1.4731 | d_Y_loss: 12.2290 | g_total_loss: 12.1559
+14:42:20 - Iter [ 2640/ 5000] | d_X_loss: 1.4505 | d_Y_loss: 11.9372 | g_total_loss: 12.1903
+14:42:24 - Iter [ 2650/ 5000] | d_X_loss: 1.7241 | d_Y_loss: 12.1763 | g_total_loss: 12.0734
+14:42:28 - Iter [ 2660/ 5000] | d_X_loss: 1.6264 | d_Y_loss: 12.0018 | g_total_loss: 12.1363
+14:42:32 - Iter [ 2670/ 5000] | d_X_loss: 1.5092 | d_Y_loss: 12.0575 | g_total_loss: 12.0230
+14:42:37 - Iter [ 2680/ 5000] | d_X_loss: 1.5073 | d_Y_loss: 12.0885 | g_total_loss: 12.0036
+14:42:41 - Iter [ 2690/ 5000] | d_X_loss: 1.5896 | d_Y_loss: 11.6832 | g_total_loss: 12.1556
+Lossy conversion from float64 to uint8. Range [0.0, 255.0]. Convert image to uint8 prior to saving to suppress this warning.
+Lossy conversion from float64 to uint8. Range [1.0, 255.0]. Convert image to uint8 prior to saving to suppress this warning.
+14:42:45 - Iter [ 2700/ 5000] | d_X_loss: 1.5447 | d_Y_loss: 11.9883 | g_total_loss: 11.9320
+Saved /opt/ml/CycleGAN/samples/thesis_1/sample-002700-X-Y.png
+Saved /opt/ml/CycleGAN/samples/thesis_1/sample-002700-Y-X.png
+14:42:50 - Iter [ 2710/ 5000] | d_X_loss: 1.5062 | d_Y_loss: 12.0042 | g_total_loss: 12.0700
+14:42:54 - Iter [ 2720/ 5000] | d_X_loss: 1.6838 | d_Y_loss: 12.2126 | g_total_loss: 12.2146
+14:42:58 - Iter [ 2730/ 5000] | d_X_loss: 1.6361 | d_Y_loss: 12.1304 | g_total_loss: 11.8921
+14:43:02 - Iter [ 2740/ 5000] | d_X_loss: 1.5592 | d_Y_loss: 11.7738 | g_total_loss: 12.0962
+14:43:06 - Iter [ 2750/ 5000] | d_X_loss: 1.5630 | d_Y_loss: 12.0116 | g_total_loss: 12.0569
+14:43:10 - Iter [ 2760/ 5000] | d_X_loss: 1.6453 | d_Y_loss: 11.8793 | g_total_loss: 11.9452
+14:43:15 - Iter [ 2770/ 5000] | d_X_loss: 1.4311 | d_Y_loss: 11.7688 | g_total_loss: 11.8179
+14:43:19 - Iter [ 2780/ 5000] | d_X_loss: 1.7278 | d_Y_loss: 11.8251 | g_total_loss: 11.7322
+14:43:23 - Iter [ 2790/ 5000] | d_X_loss: 1.5739 | d_Y_loss: 12.0038 | g_total_loss: 11.7709
+Lossy conversion from float64 to uint8. Range [0.0, 255.0]. Convert image to uint8 prior to saving to suppress this warning.
+Lossy conversion from float64 to uint8. Range [2.0, 255.0]. Convert image to uint8 prior to saving to suppress this warning.
+14:43:27 - Iter [ 2800/ 5000] | d_X_loss: 1.5844 | d_Y_loss: 11.9293 | g_total_loss: 11.7212
+Saved /opt/ml/CycleGAN/samples/thesis_1/sample-002800-X-Y.png
+Saved /opt/ml/CycleGAN/samples/thesis_1/sample-002800-Y-X.png
+14:43:32 - Iter [ 2810/ 5000] | d_X_loss: 1.6999 | d_Y_loss: 11.9561 | g_total_loss: 12.1699
+14:43:36 - Iter [ 2820/ 5000] | d_X_loss: 1.6617 | d_Y_loss: 12.1649 | g_total_loss: 12.1734
+14:43:40 - Iter [ 2830/ 5000] | d_X_loss: 1.6275 | d_Y_loss: 12.1352 | g_total_loss: 11.8877
+14:43:44 - Iter [ 2840/ 5000] | d_X_loss: 1.5907 | d_Y_loss: 11.8391 | g_total_loss: 11.8686
+14:43:48 - Iter [ 2850/ 5000] | d_X_loss: 1.6904 | d_Y_loss: 11.7297 | g_total_loss: 12.0377
+14:43:52 - Iter [ 2860/ 5000] | d_X_loss: 1.5907 | d_Y_loss: 11.9805 | g_total_loss: 11.7092
+14:43:57 - Iter [ 2870/ 5000] | d_X_loss: 1.5073 | d_Y_loss: 11.9382 | g_total_loss: 11.7808
+14:44:01 - Iter [ 2880/ 5000] | d_X_loss: 1.4751 | d_Y_loss: 11.8925 | g_total_loss: 12.1950
+14:44:05 - Iter [ 2890/ 5000] | d_X_loss: 1.6480 | d_Y_loss: 11.9995 | g_total_loss: 11.9276
+Lossy conversion from float64 to uint8. Range [0.0, 255.0]. Convert image to uint8 prior to saving to suppress this warning.
+Lossy conversion from float64 to uint8. Range [2.0, 255.0]. Convert image to uint8 prior to saving to suppress this warning.
+14:44:09 - Iter [ 2900/ 5000] | d_X_loss: 1.7308 | d_Y_loss: 11.8227 | g_total_loss: 12.0153
+Saved /opt/ml/CycleGAN/samples/thesis_1/sample-002900-X-Y.png
+Saved /opt/ml/CycleGAN/samples/thesis_1/sample-002900-Y-X.png
+14:44:14 - Iter [ 2910/ 5000] | d_X_loss: 1.5396 | d_Y_loss: 11.9353 | g_total_loss: 11.7433
+14:44:18 - Iter [ 2920/ 5000] | d_X_loss: 1.4212 | d_Y_loss: 11.7745 | g_total_loss: 11.7802
+14:44:22 - Iter [ 2930/ 5000] | d_X_loss: 1.6667 | d_Y_loss: 11.9176 | g_total_loss: 11.8079
+14:44:27 - Iter [ 2940/ 5000] | d_X_loss: 1.3668 | d_Y_loss: 11.6097 | g_total_loss: 11.7869
+14:44:31 - Iter [ 2950/ 5000] | d_X_loss: 1.6333 | d_Y_loss: 11.8248 | g_total_loss: 12.0364
+14:44:35 - Iter [ 2960/ 5000] | d_X_loss: 1.4823 | d_Y_loss: 11.8298 | g_total_loss: 11.8770
+14:44:39 - Iter [ 2970/ 5000] | d_X_loss: 1.5464 | d_Y_loss: 11.7314 | g_total_loss: 12.0290
+14:44:43 - Iter [ 2980/ 5000] | d_X_loss: 1.5442 | d_Y_loss: 11.8461 | g_total_loss: 12.0344
+14:44:47 - Iter [ 2990/ 5000] | d_X_loss: 1.5877 | d_Y_loss: 11.7400 | g_total_loss: 11.9753
+Lossy conversion from float64 to uint8. Range [0.0, 255.0]. Convert image to uint8 prior to saving to suppress this warning.
+Lossy conversion from float64 to uint8. Range [2.0, 255.0]. Convert image to uint8 prior to saving to suppress this warning.
+Traceback (most recent call last):
+  File "/opt/conda/envs/lightweight/lib/python3.7/site-packages/torch/serialization.py", line 364, in save
+    _save(obj, opened_zipfile, pickle_module, pickle_protocol)
+  File "/opt/conda/envs/lightweight/lib/python3.7/site-packages/torch/serialization.py", line 483, in _save
+    zip_file.write_record(name, buf_value, len(buf_value))
+OSError: [Errno 28] No space left on device
+During handling of the above exception, another exception occurred:
+Traceback (most recent call last):
+  File "train.py", line 259, in <module>
+    train(args)
+  File "train.py", line 233, in train
+    save_weights(D_X, G_XtoY, D_Y, G_YtoX,iters,save_weights_dir=save_weights_dir)
+  File "/opt/ml/CycleGAN/utils.py", line 99, in save_weights
+    torch.save(D_Y.state_dict(),os.path.join(save_weights_dir,'D_Y')+str(iters)+'.pth')
+  File "/opt/conda/envs/lightweight/lib/python3.7/site-packages/torch/serialization.py", line 365, in save
+    return
+  File "/opt/conda/envs/lightweight/lib/python3.7/site-packages/torch/serialization.py", line 258, in __exit__
+    self.file_like.write_end_of_file()
+RuntimeError: [enforce fail at inline_container.cc:262] . unexpected pos 8917056 vs 8916944
+14:44:51 - Iter [ 3000/ 5000] | d_X_loss: 1.5858 | d_Y_loss: 11.8237 | g_total_loss: 11.6989
+Saved /opt/ml/CycleGAN/samples/thesis_1/sample-003000-X-Y.png
+Saved /opt/ml/CycleGAN/samples/thesis_1/sample-003000-Y-X.png

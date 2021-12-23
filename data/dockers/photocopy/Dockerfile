@@ -5,6 +5,7 @@ WORKDIR /home/myamya/project/
 COPY ./requirements.txt .
 COPY ./sketch.py . 
 COPY ./init.sh .
+COPY ./alignment.py .
 run pip install --upgrade pip
 run apt-get update
 run apt-get install -y libgl1-mesa-glx

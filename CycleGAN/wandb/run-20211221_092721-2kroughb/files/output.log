@@ -1,0 +1,59 @@
+Models moved to GPU.
+Using pretrained model..
+Start Training...
+09:27:36 - Iter [   10/ 5000] | d_X_loss: 2.2891 | d_Y_loss: 12.8458 | g_total_loss: 16.7864
+09:27:40 - Iter [   20/ 5000] | d_X_loss: 2.5153 | d_Y_loss: 12.8845 | g_total_loss: 16.7601
+09:27:44 - Iter [   30/ 5000] | d_X_loss: 2.4496 | d_Y_loss: 12.9554 | g_total_loss: 16.6632
+09:27:48 - Iter [   40/ 5000] | d_X_loss: 2.5645 | d_Y_loss: 12.8830 | g_total_loss: 17.1813
+09:27:52 - Iter [   50/ 5000] | d_X_loss: 2.4590 | d_Y_loss: 12.2763 | g_total_loss: 16.5125
+09:27:57 - Iter [   60/ 5000] | d_X_loss: 2.5219 | d_Y_loss: 12.3047 | g_total_loss: 16.5205
+09:28:01 - Iter [   70/ 5000] | d_X_loss: 2.5577 | d_Y_loss: 12.9405 | g_total_loss: 16.4190
+09:28:05 - Iter [   80/ 5000] | d_X_loss: 2.3520 | d_Y_loss: 12.6563 | g_total_loss: 17.3482
+09:28:09 - Iter [   90/ 5000] | d_X_loss: 2.2523 | d_Y_loss: 12.4796 | g_total_loss: 16.6598
+Lossy conversion from float64 to uint8. Range [0.0, 255.0]. Convert image to uint8 prior to saving to suppress this warning.
+Lossy conversion from float64 to uint8. Range [2.0, 255.0]. Convert image to uint8 prior to saving to suppress this warning.
+09:28:13 - Iter [  100/ 5000] | d_X_loss: 2.1911 | d_Y_loss: 12.0904 | g_total_loss: 16.0551
+Saved /opt/ml/CycleGAN/samples/thesis_1/sample-000100-X-Y.png
+Saved /opt/ml/CycleGAN/samples/thesis_1/sample-000100-Y-X.png
+09:28:18 - Iter [  110/ 5000] | d_X_loss: 2.5413 | d_Y_loss: 11.7348 | g_total_loss: 15.9278
+09:28:22 - Iter [  120/ 5000] | d_X_loss: 2.3593 | d_Y_loss: 12.3803 | g_total_loss: 16.2372
+09:28:26 - Iter [  130/ 5000] | d_X_loss: 2.1780 | d_Y_loss: 12.1953 | g_total_loss: 15.7889
+09:28:31 - Iter [  140/ 5000] | d_X_loss: 2.2741 | d_Y_loss: 11.8808 | g_total_loss: 16.4597
+09:28:35 - Iter [  150/ 5000] | d_X_loss: 2.2239 | d_Y_loss: 11.7760 | g_total_loss: 16.4232
+09:28:39 - Iter [  160/ 5000] | d_X_loss: 2.0296 | d_Y_loss: 11.5841 | g_total_loss: 16.2102
+09:28:43 - Iter [  170/ 5000] | d_X_loss: 1.9481 | d_Y_loss: 11.7292 | g_total_loss: 16.3039
+09:28:47 - Iter [  180/ 5000] | d_X_loss: 2.1242 | d_Y_loss: 11.6272 | g_total_loss: 15.5108
+09:28:51 - Iter [  190/ 5000] | d_X_loss: 2.2979 | d_Y_loss: 11.3846 | g_total_loss: 15.3364
+Lossy conversion from float64 to uint8. Range [0.0, 255.0]. Convert image to uint8 prior to saving to suppress this warning.
+Lossy conversion from float64 to uint8. Range [2.0, 255.0]. Convert image to uint8 prior to saving to suppress this warning.
+09:28:55 - Iter [  200/ 5000] | d_X_loss: 2.0355 | d_Y_loss: 11.7233 | g_total_loss: 16.1002
+Saved /opt/ml/CycleGAN/samples/thesis_1/sample-000200-X-Y.png
+Saved /opt/ml/CycleGAN/samples/thesis_1/sample-000200-Y-X.png
+09:29:00 - Iter [  210/ 5000] | d_X_loss: 1.9623 | d_Y_loss: 11.2060 | g_total_loss: 15.7234
+09:29:04 - Iter [  220/ 5000] | d_X_loss: 2.1596 | d_Y_loss: 11.2054 | g_total_loss: 16.1075
+09:29:09 - Iter [  230/ 5000] | d_X_loss: 2.0336 | d_Y_loss: 11.0253 | g_total_loss: 15.7066
+Traceback (most recent call last):
+  File "train.py", line 259, in <module>
+    train(args)
+  File "train.py", line 105, in train
+    images_X, _ = iter_X.next()
+  File "/opt/conda/envs/lightweight/lib/python3.7/site-packages/torch/utils/data/dataloader.py", line 363, in __next__
+    data = self._next_data()
+  File "/opt/conda/envs/lightweight/lib/python3.7/site-packages/torch/utils/data/dataloader.py", line 403, in _next_data
+    data = self._dataset_fetcher.fetch(index)  # may raise StopIteration
+  File "/opt/conda/envs/lightweight/lib/python3.7/site-packages/torch/utils/data/_utils/fetch.py", line 44, in fetch
+    data = [self.dataset[idx] for idx in possibly_batched_index]
+  File "/opt/conda/envs/lightweight/lib/python3.7/site-packages/torch/utils/data/_utils/fetch.py", line 44, in <listcomp>
+    data = [self.dataset[idx] for idx in possibly_batched_index]
+  File "/opt/conda/envs/lightweight/lib/python3.7/site-packages/torchvision/datasets/folder.py", line 139, in __getitem__
+    sample = self.transform(sample)
+  File "/opt/conda/envs/lightweight/lib/python3.7/site-packages/torchvision/transforms/transforms.py", line 61, in __call__
+    img = t(img)
+  File "/opt/conda/envs/lightweight/lib/python3.7/site-packages/torchvision/transforms/transforms.py", line 244, in __call__
+    return F.resize(img, self.size, self.interpolation)
+  File "/opt/conda/envs/lightweight/lib/python3.7/site-packages/torchvision/transforms/functional.py", line 336, in resize
+    return img.resize(size[::-1], interpolation)
+  File "/opt/conda/envs/lightweight/lib/python3.7/site-packages/PIL/Image.py", line 2008, in resize
+    return self._new(self.im.resize(size, resample, box))
+KeyboardInterrupt
+09:29:13 - Iter [  240/ 5000] | d_X_loss: 1.9077 | d_Y_loss: 11.1633 | g_total_loss: 16.0413

@@ -1,0 +1,70 @@
+Models moved to GPU.
+Using pretrained model..
+Start Training...
+09:05:22 - Iter [   10/ 5000] | d_X_loss: 0.2781 | d_Y_loss: 0.1256 | g_total_loss: 3.0980
+09:05:26 - Iter [   20/ 5000] | d_X_loss: 0.2534 | d_Y_loss: 0.1416 | g_total_loss: 3.2481
+09:05:30 - Iter [   30/ 5000] | d_X_loss: 0.2348 | d_Y_loss: 0.1913 | g_total_loss: 3.1354
+09:05:35 - Iter [   40/ 5000] | d_X_loss: 0.3053 | d_Y_loss: 0.1098 | g_total_loss: 3.1414
+09:05:39 - Iter [   50/ 5000] | d_X_loss: 0.2449 | d_Y_loss: 0.1277 | g_total_loss: 3.0650
+09:05:43 - Iter [   60/ 5000] | d_X_loss: 0.2465 | d_Y_loss: 0.1180 | g_total_loss: 3.1284
+09:05:47 - Iter [   70/ 5000] | d_X_loss: 0.3030 | d_Y_loss: 0.1260 | g_total_loss: 2.9709
+09:05:52 - Iter [   80/ 5000] | d_X_loss: 0.2453 | d_Y_loss: 0.1380 | g_total_loss: 3.0262
+09:05:56 - Iter [   90/ 5000] | d_X_loss: 0.3295 | d_Y_loss: 0.1287 | g_total_loss: 3.1814
+Lossy conversion from float64 to uint8. Range [0.0, 255.0]. Convert image to uint8 prior to saving to suppress this warning.
+Lossy conversion from float64 to uint8. Range [2.0, 255.0]. Convert image to uint8 prior to saving to suppress this warning.
+09:06:00 - Iter [  100/ 5000] | d_X_loss: 0.2879 | d_Y_loss: 0.1576 | g_total_loss: 3.0447
+Saved /opt/ml/CycleGAN/samples/thesis_2/sample-000100-X-Y.png
+Saved /opt/ml/CycleGAN/samples/thesis_2/sample-000100-Y-X.png
+09:06:05 - Iter [  110/ 5000] | d_X_loss: 0.2682 | d_Y_loss: 0.1197 | g_total_loss: 3.1303
+09:06:09 - Iter [  120/ 5000] | d_X_loss: 0.2073 | d_Y_loss: 0.1543 | g_total_loss: 3.0626
+09:06:13 - Iter [  130/ 5000] | d_X_loss: 0.2482 | d_Y_loss: 0.1132 | g_total_loss: 3.2346
+09:06:17 - Iter [  140/ 5000] | d_X_loss: 0.2214 | d_Y_loss: 0.1282 | g_total_loss: 2.9041
+09:06:22 - Iter [  150/ 5000] | d_X_loss: 0.2324 | d_Y_loss: 0.1073 | g_total_loss: 3.2131
+09:06:26 - Iter [  160/ 5000] | d_X_loss: 0.3235 | d_Y_loss: 0.1159 | g_total_loss: 3.1156
+09:06:30 - Iter [  170/ 5000] | d_X_loss: 0.2404 | d_Y_loss: 0.1158 | g_total_loss: 3.0552
+09:06:34 - Iter [  180/ 5000] | d_X_loss: 0.2661 | d_Y_loss: 0.1393 | g_total_loss: 3.1035
+09:06:38 - Iter [  190/ 5000] | d_X_loss: 0.2466 | d_Y_loss: 0.1129 | g_total_loss: 3.1492
+09:06:43 - Iter [  200/ 5000] | d_X_loss: 0.3148 | d_Y_loss: 0.1206 | g_total_loss: 3.1082
+Saved /opt/ml/CycleGAN/samples/thesis_2/sample-000200-X-Y.png
+Saved /opt/ml/CycleGAN/samples/thesis_2/sample-000200-Y-X.png
+Lossy conversion from float64 to uint8. Range [0.0, 255.0]. Convert image to uint8 prior to saving to suppress this warning.
+Lossy conversion from float64 to uint8. Range [2.0, 255.0]. Convert image to uint8 prior to saving to suppress this warning.
+09:06:47 - Iter [  210/ 5000] | d_X_loss: 0.2552 | d_Y_loss: 0.1054 | g_total_loss: 3.2596
+09:06:51 - Iter [  220/ 5000] | d_X_loss: 0.2621 | d_Y_loss: 0.1173 | g_total_loss: 3.2611
+09:06:56 - Iter [  230/ 5000] | d_X_loss: 0.2809 | d_Y_loss: 0.1355 | g_total_loss: 3.0718
+09:07:00 - Iter [  240/ 5000] | d_X_loss: 0.2596 | d_Y_loss: 0.0958 | g_total_loss: 3.1024
+09:07:04 - Iter [  250/ 5000] | d_X_loss: 0.2981 | d_Y_loss: 0.1670 | g_total_loss: 3.1685
+09:07:08 - Iter [  260/ 5000] | d_X_loss: 0.3458 | d_Y_loss: 0.1275 | g_total_loss: 3.2490
+09:07:13 - Iter [  270/ 5000] | d_X_loss: 0.3012 | d_Y_loss: 0.1444 | g_total_loss: 3.1214
+09:07:17 - Iter [  280/ 5000] | d_X_loss: 0.3299 | d_Y_loss: 0.0940 | g_total_loss: 3.2641
+09:07:21 - Iter [  290/ 5000] | d_X_loss: 0.2908 | d_Y_loss: 0.1004 | g_total_loss: 3.0370
+09:07:25 - Iter [  300/ 5000] | d_X_loss: 0.3226 | d_Y_loss: 0.0944 | g_total_loss: 3.1282
+Saved /opt/ml/CycleGAN/samples/thesis_2/sample-000300-X-Y.png
+Saved /opt/ml/CycleGAN/samples/thesis_2/sample-000300-Y-X.png
+Lossy conversion from float64 to uint8. Range [0.0, 255.0]. Convert image to uint8 prior to saving to suppress this warning.
+Lossy conversion from float64 to uint8. Range [2.0, 255.0]. Convert image to uint8 prior to saving to suppress this warning.
+09:07:30 - Iter [  310/ 5000] | d_X_loss: 0.2633 | d_Y_loss: 0.0998 | g_total_loss: 3.1174
+Traceback (most recent call last):
+  File "train.py", line 259, in <module>
+    train(args)
+  File "train.py", line 105, in train
+    images_X, _ = iter_X.next()
+  File "/opt/conda/envs/lightweight/lib/python3.7/site-packages/torch/utils/data/dataloader.py", line 363, in __next__
+    data = self._next_data()
+  File "/opt/conda/envs/lightweight/lib/python3.7/site-packages/torch/utils/data/dataloader.py", line 403, in _next_data
+    data = self._dataset_fetcher.fetch(index)  # may raise StopIteration
+  File "/opt/conda/envs/lightweight/lib/python3.7/site-packages/torch/utils/data/_utils/fetch.py", line 44, in fetch
+    data = [self.dataset[idx] for idx in possibly_batched_index]
+  File "/opt/conda/envs/lightweight/lib/python3.7/site-packages/torch/utils/data/_utils/fetch.py", line 44, in <listcomp>
+    data = [self.dataset[idx] for idx in possibly_batched_index]
+  File "/opt/conda/envs/lightweight/lib/python3.7/site-packages/torchvision/datasets/folder.py", line 139, in __getitem__
+    sample = self.transform(sample)
+  File "/opt/conda/envs/lightweight/lib/python3.7/site-packages/torchvision/transforms/transforms.py", line 61, in __call__
+    img = t(img)
+  File "/opt/conda/envs/lightweight/lib/python3.7/site-packages/torchvision/transforms/transforms.py", line 244, in __call__
+    return F.resize(img, self.size, self.interpolation)
+  File "/opt/conda/envs/lightweight/lib/python3.7/site-packages/torchvision/transforms/functional.py", line 336, in resize
+    return img.resize(size[::-1], interpolation)
+  File "/opt/conda/envs/lightweight/lib/python3.7/site-packages/PIL/Image.py", line 2008, in resize
+    return self._new(self.im.resize(size, resample, box))
+KeyboardInterrupt

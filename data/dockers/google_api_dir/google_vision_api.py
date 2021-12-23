@@ -16,9 +16,9 @@ NUM_THREADS = 10
 MAX_FACE = 2
 MAX_LABEL = 50
 IMAGE_SIZE = 128,128
-MAX_ROLL = 10
-MAX_TILT = 10
-MAX_PAN = 10
+MAX_ROLL = 30
+MAX_TILT = 30
+MAX_PAN = 30
 
 def pil_draw_rect(image, lt, rb):
     point1 = (lt['x'], lt['y'] )
@@ -112,7 +112,7 @@ class FaceDetector():
         #credentials = GoogleCredentials.get_application_default()
         scopes = ['https://www.googleapis.com/auth/cloud-platform']
         credentials = ServiceAccountCredentials.from_json_keyfile_name(
-                        './savvy-motif-332014-d411f0be90ed.json', scopes=scopes)
+                './savvy-motif-332014-60fbd7f4593b.json', scopes=scopes)
         self.service = discovery.build('vision', 'v1', credentials=credentials)
         #print ("Getting vision API client : %s" ,self.service)
 
@@ -182,7 +182,10 @@ class FaceDetector():
             
             box = face[0]['boundingPoly']['vertices']
             left = box[0]['x']
-            top = box[1]['y']
+            try:
+                top = box[1]['y']
+            except:
+                top = 0
                 
             right = box[2]['x']
             bottom = box[2]['y']
