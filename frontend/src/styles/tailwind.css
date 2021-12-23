@@ -1,0 +1,167 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.h-screen {
+	display : flex;
+	justify-content: center;
+	align-items: center;
+}
+body {
+	width: 100%;
+	height: 100%;
+	align-items : center;
+	justify-content: center;
+	z-index: -1;
+}
+
+.App {
+	width : 1050px;
+	display : flex;
+	flex-direction : column;
+	align-items : center;
+}
+
+.upside {
+	width: 1050px;
+	height: 200px;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+}
+
+.downside {
+	width: 1050px;
+	height: 550px;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+}
+
+img,
+canvas {
+	border-radius: 15px;
+	width: 512px;
+	height: 512px;
+	background: rgb(255, 255, 255);
+};
+
+/*
+.Block {
+	width: 530px;
+	height: 800px;
+	display : flex;
+	flex-direction: column;
+	align-items: space-around;
+	justify-content : center;
+} */
+
+.imgresult {
+	width: 512px;
+	height: 512px;
+}
+
+button:focus {
+	outline: 1px dotted;
+	outline: 5px auto -webkit-focus-ring-color;
+}
+
+button {
+	width : 170px;
+	height : 40px;
+	text-size-adjust: 20px;
+	display : flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: space-around;
+	text-align: center;
+}
+
+.Buttons1 {
+	width : 540px;
+	display : flex;
+	flex-direction: column;
+	align-items: space-around;
+	justify-content : space-around;
+}
+
+.Buttons2 {
+	width : 230px;
+	display : flex;
+	flex-direction: column;
+	align-items: space-around;
+	justify-content : space-around;
+}
+
+.cvcoin {
+	width : 280px;
+	height: 200px;
+	background-image: url("../buttons/cvcoin.png");
+	background-size: contain;
+}
+
+.Buttonblocks {
+	display : flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content : space-around;
+}
+
+.Parameters {
+	display : flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content : space-around;
+}
+
+.background {
+	border-radius: 15px;
+	width: 512px;
+	height: 512px;
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	z-index: 3;
+	opacity: 0.2;
+	background-image: url("../canvas/background.png");
+	pointer-events: none;
+}
+
+/* canvas {
+	position: absolute;
+	top: 0;
+	bottom: 0;
+} */
+
+.canvasBlock {
+	border-radius: 15px;
+	width: 512px;
+	height: 512px;
+	position : relative;
+}
+
+.loading {
+	border-radius: 15px;
+	width: 512px;
+	height: 512px;
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	z-index: 3;
+	opacity: 0.5;
+	background-image: url("https://hackernoon.com/images/0*3IFEy-hfoIpgFjBl.gif");
+	background-size: 512px 512px;
+	pointer-events: none;
+}
+
+/*
+input[type=range] {
+	margin-top: 1px;
+	box-shadow: 1px 1px 2px #000000;
+	border: 5px solid #F27B7F;
+	height: 30px;
+	width: 100px;
+	border-radius: 0px;
+	background: #FF96AB;
+	cursor: pointer;
+  } */
