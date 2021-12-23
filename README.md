@@ -13,8 +13,6 @@
 |1|2449|2429|20|web crawling, 여자 아이돌|
 |2|1669|1669|0|aihub, 일반인|
 
-#### Info
-
 - 한국 여성 얼굴 이미지
 - 이미지-스케치 pair
 - face alignment 적용
@@ -24,9 +22,7 @@
 
 ![project_pipeline](https://github.com/boostcampaitech2/final-project-level3-cv-12/blob/main/sample_image/pipeline.png?raw=true)
 
-- Encoder : (1, 512, 512) -> (512)
-- Decoder : (512) -> (1, 512, 512)
-- Pix2Pix : (1, 512, 512) -> (3, 512, 512)
+딥러닝 모델의 전체적인 파이프라인은 1)AutoEncoder를 이용해 512*512 크기의 스케치를 512차원의 feature vector로 encoding한 뒤 2)데이터셋의 스케치들의 feature vector와 가중 평균을 낸 뒤 decoding해서 실제 사진과 유사한 스케치를 얻고, 3)이렇게 얻은 스케치를 Pix2Pix를 이용해 실제 사진으로 변환하는 구조로 이루어져있습니다.﻿
 
 ## Folder structure
 
