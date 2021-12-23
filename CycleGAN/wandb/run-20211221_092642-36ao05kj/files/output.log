@@ -1,0 +1,17 @@
+Models moved to GPU.
+Using pretrained model..
+Start Training...
+09:26:56 - Iter [   10/ 5000] | d_X_loss: 2.1412 | d_Y_loss: 12.2235 | g_total_loss: 16.2139
+09:27:00 - Iter [   20/ 5000] | d_X_loss: 2.2093 | d_Y_loss: 11.6055 | g_total_loss: 15.6771
+Traceback (most recent call last):
+  File "train.py", line 259, in <module>
+    train(args)
+  File "train.py", line 126, in train
+    out_x = D_X(images_X)
+  File "/opt/conda/envs/lightweight/lib/python3.7/site-packages/torch/nn/modules/module.py", line 722, in _call_impl
+    result = self.forward(*input, **kwargs)
+  File "/opt/ml/CycleGAN/model.py", line 51, in forward
+    out = F.relu(self.conv4(out))
+  File "/opt/conda/envs/lightweight/lib/python3.7/site-packages/torch/nn/functional.py", line 1119, in relu
+    result = torch.relu(input)
+KeyboardInterrupt

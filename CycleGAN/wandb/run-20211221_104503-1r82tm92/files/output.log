@@ -1,0 +1,15 @@
+Models moved to GPU.
+Using pretrained model..
+Start Training...
+10:45:18 - Iter [   10/10000] | d_X_loss: 0.1388 | d_Y_loss: 2.5673 | g_total_loss: 2.7871
+10:45:22 - Iter [   20/10000] | d_X_loss: 0.1454 | d_Y_loss: 2.3776 | g_total_loss: 2.7334
+Traceback (most recent call last):
+  File "train.py", line 259, in <module>
+    train(args)
+  File "train.py", line 206, in train
+    g_optimizer.step()
+  File "/opt/conda/envs/lightweight/lib/python3.7/site-packages/torch/autograd/grad_mode.py", line 15, in decorate_context
+    return func(*args, **kwargs)
+  File "/opt/conda/envs/lightweight/lib/python3.7/site-packages/torch/optim/adam.py", line 111, in step
+    p.addcdiv_(exp_avg, denom, value=-step_size)
+KeyboardInterrupt
