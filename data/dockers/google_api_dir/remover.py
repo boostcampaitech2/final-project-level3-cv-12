@@ -22,7 +22,7 @@ def rotate(path, filename):
                exif_bytes = piexif.dump(exif_dict)
             except:
                 print('wrong file delete')
-                os.remove(os.path.join(path,filename))
+                #os.remove(os.path.join(path,filename))
                 return 0
             print('{} orientation value is {}'.format(filename,str(orientation)))
             
