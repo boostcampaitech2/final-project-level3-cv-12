@@ -2,7 +2,7 @@
 
 Sketch2Idol implementation using PyTorch
 
-![project_figure]()
+![project_figure](https://github.com/boostcampaitech2/final-project-level3-cv-12/blob/main/sample_image/main.png?raw=true)
 
 ## Data
 
