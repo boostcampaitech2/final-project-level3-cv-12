@@ -30,7 +30,7 @@ with DAG(
     
     t3 = BashOperator(
         task_id="sketch",
-        bash_command="docker run -it -v /home/myamya/project/image_files/:/home/myamya/project/image_files/ sketch:0.4 /bin/bash /home/myamya/project/init.sh ",
+        bash_command="docker run -it -v /home/myamya/project/image_files/:/home/myamya/project/image_files/ sketch:0.5 /bin/bash /home/myamya/project/init.sh ",
         owner="yangjae", 
         retries=3, 
         retry_delay=timedelta(minutes=5), 
@@ -38,7 +38,7 @@ with DAG(
     
     t4 = BashOperator(
         task_id="move_file",
-        bash_command="cp /home/myamya/project/image_files/cropped_512_image/* /home/myamya/project/images/real/ | cp /home/myamya/project/image_files/sketched2/* /home/myamya/project/images/sketch/",
+        bash_command="cp /home/myamya/project/image_files/alignment_real/* /home/myamya/project/images/real/ | cp /home/myamya/project/image_files/alignment_sketch/* /home/myamya/project/images/sketch/",
         owner="yangjae", 
         retries=3, 
         retry_delay=timedelta(minutes=5), 
@@ -46,7 +46,7 @@ with DAG(
     
     t5 = BashOperator(
         task_id="delete_past_images",
-        bash_command="rm -rf /home/myamya/project/image_files/images/* | rm -rf /home/myamya/project/image_files/cropped_512_image/* | rm -rf /home/myamya/project/image_files/cropped_image/* | rm -rf /home/myamya/project/image_files/sketched1/* | rm -rf /home/myamya/project/image_files/sketched2/*",
+        bash_command="rm -rf /home/myamya/project/image_files/images/* | rm -rf /home/myamya/project/image_files/cropped_512_image/* | rm -rf /home/myamya/project/image_files/cropped_image/* | rm -rf /home/myamya/project/image_files/sketched1/* | rm -rf /home/myamya/project/image_files/sketched2/* | rm -rf /home/myamya/project/image_files/annotationsx4/* | touch /home/myamya/project/image_files/annotationsx4/annotationsx4_file.json",
         owner="yangjae", 
         retries=3,
         retry_delay=timedelta(minutes=5), 
