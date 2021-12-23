@@ -4,7 +4,7 @@
 
 본 프로젝트는 GAN를 이용해 손으로 그린 스케치를 아이돌 이미지로 변환하는 Image To Image Translation을 주제로 합니다.
 
-![project_pipeline](https://github.com/boostcampaitech2/final-project-level3-cv-12/blob/main/sample_image/pipeline.png?raw=true)
+![project_pipeline](https://github.com/boostcampaitech2/final-project-level3-cv-12/blob/main/sample_image/main.png?raw=true)
 
 ## Dataset
 
@@ -22,6 +22,8 @@
 
 ## Model
 
+![project_pipeline](https://github.com/boostcampaitech2/final-project-level3-cv-12/blob/main/sample_image/pipeline.png?raw=true)
+
 - Encoder : (1, 512, 512) -> (512)
 - Decoder : (512) -> (1, 512, 512)
 - Pix2Pix : (1, 512, 512) -> (3, 512, 512)
@@ -29,7 +31,7 @@
 ## Folder structure
 
 ```
-
+WIP
 ```
 
 ## Authors
