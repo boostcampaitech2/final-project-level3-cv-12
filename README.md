@@ -25,10 +25,61 @@
 
 전체적인 파이프라인은 <sup>1)</sup>AutoEncoder를 이용해 512*512 크기의 스케치를 512차원의 feature vector로 encoding한 뒤 <sup>2)</sup>데이터셋의 스케치들의 feature vector와 가중 평균을 낸 뒤 decoding해서 실제 사진과 유사한 스케치를 얻고, <sup>3)</sup>이렇게 얻은 스케치를 Pix2Pix를 이용해 실제 사진으로 변환하는 구조로 이루어져있습니다.
 
-## Folder structure
+## Folder Structure
 
 ```
-WIP
+Sketch2Idol/
+│
+├── frontend
+├── backend - Pix2Pix
+├── backendU - U-GAT-IT
+│
+├── data/ - Data Preprocessing
+│   ├── airflow - 데이터 파이프라인 자동화
+│   ├── dockers
+│   ├── image_files - 이미지 관리 및 저장 폴더
+│   └── upload_server
+│
+├── data_loader/
+│   └── dataset.py
+│
+├── manifold/ - KNN, weighted average
+│   └── manifold.py
+│
+├── module_fold/ - AutoEncoder, Pix2Pix
+│   ├── Block.py
+│   ├── CEModule.py
+│   ├── ISModule.py
+│   └── utils.py
+│
+├── CycleGAN
+├── UGATIT-pytorch
+│
+├── train_stage_1.py
+├── train_stage_2.py
+└── inference.py
+```
+
+## Requirements
+
+```Data
+pillow
+numpy
+google-api-python-client
+oauth2client
+pyGenericPath
+piexif
+opencv-python
+basicsr
+facexlib
+gfpgan
+gunicorn 
+uvicorn
+apache-airflow
+```
+
+```
+
 ```
 
 ## Authors
