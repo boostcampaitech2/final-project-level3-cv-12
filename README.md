@@ -11,14 +11,13 @@
 |Data|데이터 수|Train 데이터 수|Val 데이터 수|세부사항|
 |:-:|:-:|:-:|:-:|:-:|
 |1|2449|2429|20|web crawling, 여자 아이돌|
-|2|1669|1669|0|aihub, 일반인|
+|2|1669|1669|0|[aihub](https://aihub.or.kr/aidata/27716), 일반인|
 
-- 한국 여성 얼굴 이미지
-- (512, 512) 해상도, 이미지-스케치 pair
-- face alignment 적용 (눈, 입 위치 고정)
-- 정면에서 고개가 10도 이상 돌아간 사진은 제거
-- 마이크, 손 등으로 얼굴 일부를 가린 사진은 제거
-- 얼굴에 그림자가 있거나 조명이 너무 강한 사진은 제거
+학습에는 크롤링으로 모은 2449장의 여자 아이돌 이미지와 AIHub 한국인 감정인식을 위한 복합 영상 데이터셋의 1669장의 이미지를 활용했습니다.
+
+각 이미지는 resize, super resolution를 거쳐 (512, 512) 해상도로 변환한 뒤, OpenCV, Learning to Simplify 코드를 이용해 스케치로 변환됩니다. 이후 이미지-스케치 pair는 google API를 이용해 눈, 입의 좌표를 정규화하는 face alignment를 적용해 저장됩니다.
+
+데이터 중 정면에서 고개가 10도 이상 돌아간 사진, 마이크, 손 등으로 얼굴 일부를 가린 사진, 얼굴에 그림자가 있거나 조명이 너무 강한 사진은 제거했습니다.
 
 ## Model
 
@@ -42,6 +41,7 @@ WIP
 ## reference
 
 - [DeepFaceDrawing: Deep Generation of Face Images from Sketches](http://geometrylearning.com/paper/DeepFaceDrawing.pdf)
+- [Learning to simplify: fully convolutional networks for rough sketch cleanup](http://www.f.waseda.jp/hfs/SimoSerraSIGGRAPH2016.pdf)
 - [Nonlinear Dimensionality Reduction by Locally Linear Embedding](https://www.robots.ox.ac.uk/~az/lectures/ml/lle.pdf)
 - [Image-to-Image Translation with Conditional Adversarial Networks](https://arxiv.org/abs/1611.07004)
 - [Unpaired Image-to-Image Translation using Cycle-Consistent Adversarial Networks](https://arxiv.org/abs/1703.10593)
