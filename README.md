@@ -61,7 +61,7 @@ Sketch2Idol/
 
 ## Requirements
 
-```Data Preprocessing
+```Data Preprocessing, Model, Frontend, Backend
 pillow
 numpy
 google-api-python-client
@@ -75,14 +75,6 @@ gfpgan
 gunicorn 
 uvicorn
 apache-airflow
-```
-
-```Model
-
-```
-
-```Frontend, Backend
-
 ```
 
 ## Authors
