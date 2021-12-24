@@ -30,6 +30,8 @@
 ```
 Sketch2Idol/
 │
+├── CycleGAN
+├── UGATIT-pytorch
 ├── frontend
 ├── backend - Pix2Pix
 ├── backendU - U-GAT-IT
@@ -51,9 +53,6 @@ Sketch2Idol/
 │   ├── CEModule.py
 │   ├── ISModule.py
 │   └── utils.py
-│
-├── CycleGAN
-├── UGATIT-pytorch
 │
 ├── train_stage_1.py
 ├── train_stage_2.py
