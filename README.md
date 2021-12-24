@@ -75,6 +75,11 @@ gfpgan
 gunicorn 
 uvicorn
 apache-airflow
+tqdm
+pydantic
+pytorch
+torchvision
+fastapi
 ```
 
 ## Authors
