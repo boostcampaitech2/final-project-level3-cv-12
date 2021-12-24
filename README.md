@@ -35,9 +35,9 @@ Sketch2Idol/
 ├── backendU - U-GAT-IT
 │
 ├── data/ - Data Preprocessing
-│   ├── airflow - 데이터 파이프라인 자동화
+│   ├── airflow
 │   ├── dockers
-│   ├── image_files - 이미지 관리 및 저장 폴더
+│   ├── image_files
 │   └── upload_server
 │
 ├── data_loader/
@@ -62,7 +62,7 @@ Sketch2Idol/
 
 ## Requirements
 
-```Data
+```Data Preprocessing
 pillow
 numpy
 google-api-python-client
@@ -78,7 +78,11 @@ uvicorn
 apache-airflow
 ```
 
+```Model
+
 ```
+
+```Frontend, Backend
 
 ```
 
