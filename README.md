@@ -2,7 +2,7 @@
 
 ## Introduction
 
-본 프로젝트는 GAN를 이용해 손으로 그린 스케치를 아이돌 이미지로 변환하는 Image To Image Translation을 주제로 합니다.
+본 프로젝트는 GAN를 이용해 손으로 그린 스케치를 아이돌 이미지로 변환하는 Image To Image Translation을 다룹니다.
 
 ![project_pipeline](https://github.com/boostcampaitech2/final-project-level3-cv-12/blob/main/sample_image/main.png?raw=true)
 
@@ -14,9 +14,11 @@
 |2|1669|1669|0|aihub, 일반인|
 
 - 한국 여성 얼굴 이미지
-- 이미지-스케치 pair
-- face alignment 적용
-- (512, 512) 해상도
+- (512, 512) 해상도, 이미지-스케치 pair
+- face alignment 적용 (눈, 입 위치 고정)
+- 정면에서 고개가 10도 이상 돌아간 사진은 제거
+- 마이크, 손 등으로 얼굴 일부를 가린 사진은 제거
+- 얼굴에 그림자가 있거나 조명이 너무 강한 사진은 제거
 
 ## Model
 
@@ -34,8 +36,8 @@ WIP
 
 |박진한|유형진|이양재|임채영|최태종|한재현|
 |:-:|:-:|:-:|:-:|:-:|:-:|
-|<img src='https://github.com/boostcampaitech2/final-project-level3-cv-12/blob/main/sample_image/member/1.png?raw=true' height=80 width=80px></img>|<img src='https://github.com/boostcampaitech2/final-project-level3-cv-12/blob/main/sample_image/member/2.png?raw=true' height=80 width=80px></img>|<img src='https://github.com/boostcampaitech2/final-project-level3-cv-12/blob/main/sample_image/member/3.png?raw=true' height=80 width=80px></img>|<img src='https://github.com/boostcampaitech2/final-project-level3-cv-12/blob/main/sample_image/member/1.png?raw=true' height=80 width=80px></img>|<img src='https://github.com/boostcampaitech2/final-project-level3-cv-12/blob/main/sample_image/member/2.png?raw=true' height=80 width=80px></img>|<img src='https://github.com/boostcampaitech2/final-project-level3-cv-12/blob/main/sample_image/member/3.png?raw=true' height=80 width=80px></img>|
-|[Github](https://github.com/jinhan814)|[Github](https://github.com/jinhan814)|[Github](https://github.com/jinhan814)|[Github](https://github.com/jinhan814)|[Github](https://github.com/jinhan814)|[Github](https://github.com/jinhan814)|
+|<img src='https://avatars.githubusercontent.com/u/77492810?v=4' height=80 width=80px></img>|<img src='https://avatars.githubusercontent.com/u/84146296?v=4' height=80 width=80px></img>|<img src='https://avatars.githubusercontent.com/u/19571027?v=4?raw=true' height=80 width=80px></img>|<img src='https://avatars.githubusercontent.com/u/63492979?v=4' height=80 width=80px></img>|<img src='https://avatars.githubusercontent.com/u/87696070?v=4' height=80 width=80px></img>|<img src='https://avatars.githubusercontent.com/u/53294402?v=4' height=80 width=80px></img>|
+|[Github](https://github.com/jinhan814)|[Github](https://github.com/tkdlqh2)|[Github](https://github.com/yayaja11)|[Github](https://github.com/chay116)|[Github](https://github.com/ssail09)|[Github](https://github.com/eric9687)|
 
 ## reference
 
